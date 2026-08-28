@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "expected_record_count": 278,
+  "known_missing_coordinate_ids": ["2340.1", "3645.1"],
+  "policy": {
+    "verified_requires": "Current coordinate agrees within tolerance with a reviewed coordinate supported by at least two publisher groups.",
+    "official_site_group": "The fair's directions, GeoJSON, mapRef, PDF map, and official app are one publisher group, not independent confirmations.",
+    "compass_rule": "Only verified coordinates are eligible for compass guidance. Approximate, unverified, missing, or conflicted coordinates are not."
+  },
+  "vendors": {
+    "616.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1700734, 44.9803924],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Reviewed permanent venue location against the written street segment and independent published venue coverage.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/616.1/"
+        },
+        {
+          "publisher_group": "startribune",
+          "kind": "independent_venue_location",
+          "url": "https://www.startribune.com/ball-park-cafe-a-family-restaurant/101733818"
+        }
+      ]
+    },
+    "10093.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1688586, 44.9856224],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Vendor-published 1520 Cooper St address and place coordinate agree with the fair's southeast Lee/Cooper description.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/location/giggles-campfire-grill/"
+        },
+        {
+          "publisher_group": "gigglescampfiregrill",
+          "kind": "vendor_address",
+          "url": "https://www.gigglescampfiregrill.com/"
+        }
+      ]
+    },
+    "154.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.171927, 44.9800383],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Independent place pin agrees with the fair's northeast Carnes/Nelson description.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/154.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9800383,-93.171927"
+        }
+      ]
+    },
+    "1872.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1743171, 44.979745],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Vendor-published 1774 Carnes Ave address and independent place pin agree with the fair's written block.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/1872.1/"
+        },
+        {
+          "publisher_group": "andysgrillemn",
+          "kind": "vendor_address",
+          "url": "https://www.andysgrillemn.com/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.979745,-93.1743171"
+        }
+      ]
+    },
+    "215.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1745529, 44.9781951],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Venue-center fallback for a listing inside the Coliseum; not booth-level accuracy.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/215.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "venue_center",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9781951,-93.1745529"
+        }
+      ]
+    }
+  }
+}

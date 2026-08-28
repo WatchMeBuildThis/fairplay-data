@@ -10,6 +10,10 @@
   - 5 are confirmed co-located booths with the same written location and map reference
   - 1 is an unresolved generic Mighty Midway placement
 - Empty menu arrays: **16**; the scraper fix is committed, but these records still need a controlled content refresh
+- Independently verified booth pins: **4**
+- Approximate venue-center pins: **1**
+- Not yet independently verified: **271**
+- Compass-eligible under the new fail-closed policy: **4**
 
 The app reads the live file at:
 `https://raw.githubusercontent.com/WatchMeBuildThis/fairplay-data/main/vendors.json`
@@ -28,18 +32,24 @@ Both are immutable copies committed before their corresponding correction batche
 3. The fair site's GeoJSON coordinates are not consistently registered to the fair map. Several features sharing one `mapRef` publish points separated by roughly a block.
 4. The food site changed its menu markup from `ul.textcolumns` to `div.item-details > ul`; the previous selector produces false empty-menu records.
 5. One current listing, `5754.3` Funnel Cakes & Elephant Ears, was absent from the feed.
+6. A single affine conversion from printed-map pixels to latitude/longitude is not safe across the whole sheet. The printed map is visually compressed in the north, so a transform that fits the center can drift by a block near Murphy/Lee.
 
 ## Corrections published
 
 ### Independently verified pins
 
 - `616.1` Ball Park Cafe / Garlic Fries
-- `6449.2` About a Foot Long Hot Dog
 - `10093.1` Giggles' Campfire Grill
 - `154.1` Mike's Hamburgers
+- `1872.1` Andy's Grille
+
+Approximate, not booth-level verified:
+
 - `215.1` Simply Nuts & More (Lee & Rose Warner Coliseum venue center)
 
 ### Multi-location/map-reference corrections
+
+These changes are **provisional**. They repaired demonstrably mismatched sibling records, but most are based on the fair's `mapRef` and an affine calibration rather than independent booth-level evidence. They must not be counted as independently verified or used as control points for a new transform.
 
 - `9642.1`, `9642.2`
 - `5733.1`, `5733.2`
@@ -56,7 +66,30 @@ Added missing record:
 
 - `5754.3` Funnel Cakes & Elephant Ears
 
-Mike's Hamburgers was additionally confirmed against its Google Maps place pin; the prior source coordinate was approximately 458 feet away from the written Carnes/Nelson location.\n\nMap-reference-derived coordinates were calibrated against independently located permanent fair vendors/venues. Anchor residuals were generally within about 20 meters; corrections were only applied to audited groups where the previous point was inconsistent with the written location or a shared `mapRef`.
+Mike's Hamburgers was confirmed against its Google Maps place pin; the prior source coordinate was approximately 458 feet away from the written Carnes/Nelson location. Andy's Grille was confirmed against its vendor-published 1774 Carnes Ave address and independent place pin; its prior source coordinate was approximately 249 feet away.
+
+The map-reference transform's small residuals at selected anchors do not prove global accuracy. The northern map distortion and `mapRef`/written-direction conflicts make the batch a review queue, not a verified set.
+
+## Automated forensic audit
+
+`Scripts/audit_vendor_geography.py` now produces a full 278-row audit without editing the live feed. It checks:
+
+- missing, malformed, duplicate, or out-of-bounds coordinates;
+- name/location popup mismatches;
+- exact coordinates shared by different written locations;
+- tight written-location groups whose pins are separated by more than 55 m;
+- coordinate changes greater than 40 m from the pre-fix snapshot;
+- medium-priority street-corridor conflicts learned from repeated written directions;
+- explicit evidence provenance and compass eligibility.
+
+Current queue:
+
+- **2 critical** missing-coordinate records;
+- **23 high-priority** internal location conflicts;
+- **113 medium-priority** reviews, including provisional map-reference changes and heuristic street-corridor conflicts;
+- **140 low-priority** rows with no automated conflict but no independent verification yet.
+
+The 115 street-corridor flags are heuristic leads, not 115 proven bad pins. The source feed is contaminated, so its learned road model cannot serve as independent evidence.
 
 ## Scraper safeguards
 
@@ -83,3 +116,5 @@ A blind full scrape must **not** replace the live feed: it would re-import the f
 3. reject ambiguous or empty source geometry;
 4. merge only records that pass count, id, coordinate, popup/name/location, and duplicate-group checks;
 5. preserve independently verified coordinate overrides.
+
+No further bulk coordinate change should be promoted until it appears in `location_verifications.json` with two publisher groups and passes the generated audit. The fair's directions, GeoJSON, `mapRef`, printed map, and official app collectively count as one publisher group.

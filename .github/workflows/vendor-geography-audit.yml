@@ -1,0 +1,30 @@
+name: Vendor geography audit
+
+on:
+  pull_request:
+    paths:
+      - vendors.json
+      - location_verifications.json
+      - Scripts/audit_vendor_geography.py
+      - Tests/test_audit_vendor_geography.py
+  push:
+    branches: [main]
+    paths:
+      - vendors.json
+      - location_verifications.json
+      - Scripts/audit_vendor_geography.py
+      - Tests/test_audit_vendor_geography.py
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s Tests -p 'test_*.py'
+      - run: >-
+          python Scripts/audit_vendor_geography.py vendors.json
+          --baseline archive/vendors-2026-08-28-before-location-fix.json
+          --strict-integrity
