@@ -110,7 +110,9 @@
       "Prize Drawings": [
         "Yukon Outfitters 1919 Hatchie Backpack Cooler, Carhartt 1919 Canvas Packable Duffle with Pouch (Two prize drawings daily)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2114.1",
@@ -218,7 +220,9 @@
     "hours": "Open 8:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (lemonades, limeade, sweet tea; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "6135.1",
@@ -273,10 +277,7 @@
       }
     ],
     "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
-    "coordinates": [
-      "-93.172362059615",
-      "44.97977494964"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Southwest corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
@@ -306,7 +307,14 @@
     "hours": "Open 7:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (hot dog excluding bun; please confirm with vendor)"
-    ]
+    ],
+    "quarantined_coordinates": [
+      "-93.172362059615",
+      "44.97977494964"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "6449.1",
@@ -374,7 +382,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6449.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6449.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9642.1",
@@ -443,7 +453,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9642.1/featured.1695x953.jpg",
-    "map_ref": "2551-2787"
+    "map_ref": "2551-2787",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9642.2",
@@ -511,7 +523,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "map_ref": "1908-2548"
+    "map_ref": "1908-2548",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "6449.2",
@@ -585,7 +599,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "7388.1",
@@ -705,7 +721,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one sambusa (Regularly $7) OR buy one sambusa, get one FREE"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "210.1",
@@ -935,8 +953,8 @@
     ],
     "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",
     "coordinates": [
-      "-93.171090976923",
-      "44.979673648078"
+      "-93.1718193",
+      "44.9803951"
     ],
     "popupHtml": "<b>Al's Subs & Malt Shop</b>\n\t\t<br>East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide\n",
     "categories": [
@@ -990,7 +1008,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one chocolate or vanilla malt (Regularly $10) OR buy one soft serve cone, get one FREE (Regularly $7 cake cone or $8 waffle cone)"
       ]
-    }
+    },
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "792.3",
@@ -1299,7 +1319,9 @@
       "Blue Ribbon Bargain Book": [
         "$5 off one Concha Bacon Burger (Reg. $15)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2770.1",
@@ -1358,7 +1380,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Value Item (white and chocolate milk)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1328.1",
@@ -1499,7 +1523,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1328.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1328.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1872.1",
@@ -1933,7 +1959,9 @@
     ],
     "notes": [
       "Breakfast (8 to 10:30 a.m.)"
-    ]
+    ],
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "5937.1",
@@ -2071,7 +2099,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5937.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5937.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5177.1",
@@ -2131,7 +2161,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5177.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5177.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1899.1",
@@ -2215,7 +2247,9 @@
       "Blue Ribbon Bargain Book": [
         "$3.50 off one order of Australian battered potatoes (Regularly $17)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5146.1",
@@ -2360,7 +2394,9 @@
     "dietary": [
       "Vegan, Vegetarian (falafelicous, falafel drizzled with tahini; please confirm with vendor)",
       "Gluten-free (falafel drizzled with tahini; falafelicous, hummus bi lahme & al elotay bowls excluding pita puffs; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "616.1",
@@ -2817,7 +2853,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of garlic fries (Regularly $11)"
       ]
-    }
+    },
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "6041.1",
@@ -3146,7 +3184,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6041.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6041.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1932.1",
@@ -3244,8 +3284,8 @@
     ],
     "booth_location": "Southeast corner of Dan Patch Ave. & Nelson St.",
     "coordinates": [
-      "-93.170869569058",
-      "44.981504357749"
+      "-93.171734",
+      "44.9807911"
     ],
     "popupHtml": "<b>Bayou Bob's Gator Shack</b>\n\t\t<br>Southeast corner of Dan Patch Ave. & Nelson St.\n",
     "categories": [
@@ -3298,7 +3338,9 @@
       "Vegan (frozen grapes, tater tots; please confirm with vendor)",
       "Vegetarian (frozen grapes, tater tots, hush puppies; please confirm with vendor)",
       "Gluten-free (frozen grapes, gator on-a-stick, sautéed alligator with tater tots; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "11830.1",
@@ -3477,7 +3519,9 @@
     ],
     "notes": [
       "Breakfast (all day)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1509.4",
@@ -3511,7 +3555,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1783.1",
@@ -3607,7 +3653,9 @@
       "Blue Ribbon Bargain Book": [
         "$4 off one 15\" all-beef corndog (Regularly $18) OR $2 off one 12\" all-beef corndog (Regularly $11)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1783.2",
@@ -3703,7 +3751,9 @@
       "Blue Ribbon Bargain Book": [
         "$4 off one 15\" all-beef corndog (Regularly $18) OR $2 off one 12\" all-beef corndog (Regularly $11)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1952.1",
@@ -3757,7 +3807,9 @@
     ],
     "notes": [
       "Breakfast (all day)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1968.1",
@@ -4074,7 +4126,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of Chicken in the Waffle (Regularly $14.50) OR buy one Orange Whip, get one FREE (Regularly $7.50 - $9.50)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "212.1",
@@ -4428,7 +4482,9 @@
     ],
     "notes": [
       "Breakfast (all day)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1974.1",
@@ -4543,7 +4599,9 @@
     "hours": "Open 7:30 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian, gluten-free (french fries; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1509.3",
@@ -4578,7 +4636,9 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
-    "map_ref": "1539-1982"
+    "map_ref": "1539-1982",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5733.5",
@@ -4664,7 +4724,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5733.3",
@@ -4750,7 +4812,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5733.2",
@@ -4837,7 +4901,9 @@
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
     },
-    "map_ref": "1539-2304"
+    "map_ref": "1539-2304",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5733.4",
@@ -4923,7 +4989,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5733.6",
@@ -5009,7 +5077,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5733.1",
@@ -5096,7 +5166,9 @@
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
     },
-    "map_ref": "1893-2198"
+    "map_ref": "1893-2198",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1996.1",
@@ -5256,7 +5328,9 @@
       "Blue Ribbon Bargain Book": [
         "$3.50 off one brownie sundae (Regularly $10.50)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2005.1",
@@ -5338,7 +5412,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2005.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2005.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "227.1",
@@ -5427,7 +5503,9 @@
     "dietary": [
       "Vegetarian (veggies sandwich; please confirm with vendor)",
       "Gluten-free (sliced London Broil steak sandwiches (excluding bread); please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10014.1",
@@ -5559,7 +5637,9 @@
     "dietary": [
       "Vegetarian (veggies sandwich; please confirm with vendor)",
       "Gluten-free (sliced London Broil steak sandwiches (excluding bread); please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2021.1",
@@ -6056,7 +6136,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of jerk chicken wings (Regularly $9)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2029.1",
@@ -6197,7 +6279,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2029.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2029.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2031.1",
@@ -6306,7 +6390,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one serving of caramel apples in-a-dish with vanilla or cinnamon ice cream (Regularly $9) OR $1 off any jumbo ice cream soda float (excludes cider float) (Regularly $8)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1887.1",
@@ -6418,7 +6504,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1887.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1887.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2037.1",
@@ -6474,7 +6562,9 @@
     "hours": "Open 7 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegan, Vegetarian, Gluten-free (please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "12335.1",
@@ -6602,7 +6692,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "7099.1",
@@ -6669,7 +6761,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (turkey legs, pork chops; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2065.1",
@@ -6835,7 +6929,9 @@
     ],
     "notes": [
       "Value Item (egg rolls)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9238.1",
@@ -7044,7 +7140,9 @@
       "Deals: Opening Day (Aug. 27)": [
         "$2 off original Korean corn dog (Reg. $13)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2067.1",
@@ -7297,7 +7395,9 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2075.1",
@@ -7610,7 +7710,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2075.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2075.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "11505.1",
@@ -7651,10 +7753,7 @@
       }
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
-    "coordinates": [
-      "-93.168669400626",
-      "44.981838912141"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Chocolate Strawberry Cup</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -7664,7 +7763,14 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/11505.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/11505.1/featured.1695x953.jpg",
+    "quarantined_coordinates": [
+      "-93.168669400626",
+      "44.981838912141"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2084.1",
@@ -7774,7 +7880,9 @@
         "$2 off one regular-size order of CinnieSmiths mini cinnamon rolls (Regularly $9.50) OR $1 off one CinnieSundae (Regularly $12)"
       ]
     },
-    "map_ref": "3284-2458"
+    "map_ref": "3284-2458",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "216.1",
@@ -8208,8 +8316,8 @@
     ],
     "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
     "coordinates": [
-      "-93.173641223397",
-      "44.980005019245"
+      "-93.1750531",
+      "44.9797389"
     ],
     "popupHtml": "<b>Coasters</b>\n\t\t<br>Southeast corner of Carnes Ave. & Liggett St.\n",
     "categories": [
@@ -8244,7 +8352,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/216.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/216.1/featured.1695x953.jpg",
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2112.1",
@@ -8300,8 +8410,8 @@
     ],
     "booth_location": "Southeast corner of Dan Patch Ave. & Nelson St.",
     "coordinates": [
-      "-93.172615607692",
-      "44.981575107766"
+      "-93.1716163",
+      "44.9808717"
     ],
     "popupHtml": "<b>Corn Roast</b>\n\t\t<br>Southeast corner of Dan Patch Ave. & Nelson St.\n",
     "categories": [
@@ -8352,7 +8462,9 @@
     "notes": [
       "Cash only",
       "Value Item (roasted corn)"
-    ]
+    ],
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3505.1",
@@ -8417,7 +8529,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off any single-flavor bag of cotton candy (Regularly $8) OR buy three flavor tubs, get a fourth tub FREE (Regularly 3 for $10)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2142.1",
@@ -8471,8 +8585,8 @@
     ],
     "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
     "coordinates": [
-      "-93.176959426923",
-      "44.981571583989"
+      "-93.1760149",
+      "44.9805332"
     ],
     "popupHtml": "<b>Cream Puffs</b>\n\t\t<br>Southwest corner of West Dan Patch Ave. & Liggett St.\n",
     "categories": [
@@ -8483,7 +8597,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2142.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2142.1/featured.1695x953.jpg",
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2069.2",
@@ -8513,7 +8629,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.2/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2069.1",
@@ -8524,10 +8642,7 @@
     "items": [],
     "item_details": [],
     "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
-    "coordinates": [
-      "-93.172811082121",
-      "44.979675006557"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Crutchees Cheese on a Stick</b>\n\t\t<br>Northeast corner of Judson Ave. & Nelson St.\n",
     "categories": [
       {
@@ -8543,7 +8658,14 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.1/featured.1695x953.jpg",
+    "quarantined_coordinates": [
+      "-93.172811082121",
+      "44.979675006557"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "244.1",
@@ -8801,7 +8923,9 @@
         "$2.50 off one-flavor 16 oz. milk shake (Regularly $7.50)"
       ]
     },
-    "map_ref": "1585-2438"
+    "map_ref": "1585-2438",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2770.2",
@@ -8980,7 +9104,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Value Item (cheese sticks, yogurt)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3745.1",
@@ -8991,10 +9117,7 @@
     "items": [],
     "item_details": [],
     "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
-    "coordinates": [
-      "-93.169038239665",
-      "44.980416825569"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Danielson's & Daughters Onion Rings</b>\n\t\t<br>Between Underwood & Cooper streets, outside south side of the Food Building\n",
     "categories": [
       {
@@ -9023,7 +9146,14 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one order of onion rings (Regularly $9)"
       ]
-    }
+    },
+    "quarantined_coordinates": [
+      "-93.169038239665",
+      "44.980416825569"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2182.1",
@@ -9095,7 +9225,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegan, Vegetarian (vegan corn dog, lemonade; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3340.2",
@@ -9129,10 +9261,7 @@
       }
     ],
     "booth_location": "East side of Cooper St. outside the Merch Market",
-    "coordinates": [
-      "-93.168243092308",
-      "44.98129663426"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Deep Fried Batter Dipped Twinkies & Buckeyes</b>\n\t\t<br>East side of Cooper St. outside the Merch Market\n",
     "categories": [
       {
@@ -9148,7 +9277,14 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3340.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3340.2/featured.1695x953.jpg",
+    "quarantined_coordinates": [
+      "-93.168243092308",
+      "44.98129663426"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2192.1",
@@ -9251,7 +9387,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2198.1",
@@ -9419,7 +9557,9 @@
     ],
     "notes": [
       "Value Item (Baklava)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1457.1",
@@ -9761,7 +9901,9 @@
       "Vegan (falafel without tzatziki sauce, Greek seasoned fries; please confirm with vendor)",
       "Vegetarian (falafel, Greek seasoned fries, Athena's whipped feta; please confirm with vendor)",
       "Gluten-free (chicken gyros (remove flatbread), Greek seasoned french fries, falafel; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2208.1",
@@ -9822,7 +9964,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2208.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2208.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "12663.1",
@@ -9947,7 +10091,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "225.1",
@@ -10064,8 +10210,8 @@
     ],
     "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
     "coordinates": [
-      "-93.176128414024",
-      "44.978879925943"
+      "-93.1755381",
+      "44.9784136"
     ],
     "popupHtml": "<b>Donna's Bar-B-Q</b>\n\t\t<br>Southwest corner of Judson Ave. & Liggett St.\n",
     "categories": [
@@ -10076,7 +10222,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/225.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/225.1/featured.1695x953.jpg",
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3448.1",
@@ -10302,7 +10450,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one super-size bag of mini donuts (Regularly $9) OR $2 off one bucket of mini donuts (Regularly $19)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "265.1",
@@ -10385,7 +10535,9 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10312.2",
@@ -10514,7 +10666,9 @@
     "dietary": [
       "Vegetarian (esquite; please confirm with vendor)",
       "Gluten-friendly (quesabirria taquitos, chicken flautas, esquite; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "226.1",
@@ -10671,7 +10825,9 @@
       "Blue Ribbon Bargain Book": [
         "$4 off one bean & beef burrito (Regularly $13)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3280.1",
@@ -10726,10 +10882,7 @@
       }
     ],
     "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
-    "coordinates": [
-      "-93.174915817949",
-      "44.97934577134"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Elm's Shaved Ice</b>\n\t\t<br>Southwest corner of Judson Ave. & Liggett St.\n",
     "categories": [
       {
@@ -10773,7 +10926,14 @@
     "dietary": [
       "Vegan, Vegetarian (shaved ice; please confirm with vendor)",
       "Gluten-friendly (shaved ice; please confirm with vendor)"
-    ]
+    ],
+    "quarantined_coordinates": [
+      "-93.174915817949",
+      "44.97934577134"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2279.1",
@@ -10947,7 +11107,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one falafel on-a-stick (Regularly $8) OR $3 off one veggie pocket (Regularly $12)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2305.1",
@@ -11238,7 +11400,9 @@
       "Deals: Kids Day (Sept. 2 & 7)": [
         "For $1 each, add up to three crunchy butterfly shrimp to select orders (Reg. $2.50 each)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "228.1",
@@ -11342,7 +11506,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "4752.1",
@@ -11484,7 +11650,9 @@
     ],
     "notes": [
       "Breakfast (all day)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2332.1",
@@ -11873,7 +12041,9 @@
     "hours": "Open 7 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Breakfast"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2336.1",
@@ -12239,13 +12409,15 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one fruit-filled buttermilk scone (Regularly $12)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2340.1",
     "name": "Fresh French Fries",
     "summary": "Diet Coke, Dasani bottled water, french fries made from fresh-cut potatoes, Sprite, Cherry Coke, Coca-Cola.",
-    "directions": "Diet Coke, Dasani bottled water, french fries made from fresh-cut potatoes, Sprite, Cherry Coke, Coca-Cola.",
+    "directions": "At Mighty Midway",
     "detail_url": "https://www.mnstatefair.org/vendor/2340.1",
     "items": [
       "Diet Coke",
@@ -12286,7 +12458,7 @@
         "components": []
       }
     ],
-    "booth_location": "",
+    "booth_location": "At Mighty Midway",
     "coordinates": null,
     "popupHtml": null,
     "categories": [
@@ -12297,7 +12469,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2340.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2340.1/featured.1695x953.jpg",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2340.2",
@@ -12358,7 +12532,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2340.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2340.2/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2387.1",
@@ -12438,7 +12614,9 @@
     "dietary": [
       "Vegan, Gluten-friendly (fresh squeezed lemonade; please confirm with vendor)",
       "Vegetarian (entire menu; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "217.1",
@@ -12509,7 +12687,9 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (salted nut rolls, chocolate dipped salted nut rolls; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "244.2",
@@ -12627,7 +12807,9 @@
         "$1.50 off one 16 oz. or 32 oz. fresh-squeezed lemonade, Orange or Strawberry Treet (Regularly $5 & $7)"
       ]
     },
-    "map_ref": "1552-2435"
+    "map_ref": "1552-2435",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2342.1",
@@ -12839,7 +13021,9 @@
     ],
     "notes": [
       "Breakfast (all day)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2348.1",
@@ -13270,7 +13454,9 @@
     "hours": "Open 9 a.m. to 9 p.m.  (8 p.m. Labor Day)",
     "notes": [
       "Value Item (peanuts, hot dog, chili dog)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2359.1",
@@ -13341,7 +13527,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one regular-size funnel cake with your choice of powdered sugar or cinnamon sugar (Regularly $8)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2247.1",
@@ -13472,7 +13660,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2247.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2247.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2029.2",
@@ -13595,7 +13785,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2029.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2029.2/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2196.1",
@@ -13797,7 +13989,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2196.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2196.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2375.1",
@@ -13995,7 +14189,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3255.1",
@@ -14278,7 +14474,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one large buttered popcorn (Regularly $7)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10093.1",
@@ -14728,7 +14926,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of Giggles' world-famous walleye cakes served with Giggles' special sauce (two walleye cakes per order) (Regularly $10.25)"
       ]
-    }
+    },
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2527.1",
@@ -14895,7 +15095,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2527.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2527.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10990.1",
@@ -14963,7 +15165,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/10990.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/10990.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2415.1",
@@ -14987,7 +15191,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2415.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2415.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "11704.1",
@@ -15084,7 +15290,9 @@
     ],
     "notes": [
       "Value Item (Caramel Apple Sundae with apples & caramel)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2417.1",
@@ -15251,7 +15459,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2417.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2417.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10347.1",
@@ -15422,7 +15632,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of Cheese Bomb Tater Kegs (Regularly $10)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2437.1",
@@ -15532,7 +15744,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one slice of Green Mill pizza (Regularly $5)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2447.1",
@@ -15638,7 +15852,9 @@
       "Blue Ribbon Bargain Book": [
         "$4.25 off one mega-size Greek gyro sandwich (Regularly $17)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3684.1",
@@ -16010,7 +16226,9 @@
       "Blue Ribbon Bargain Book": [
         "$4 off one grilled cheese meal (Regularly $8) OR $3 off one PBJ meal (Regularly $7)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3450.1",
@@ -16696,7 +16914,9 @@
       "Blue Ribbon Bargain Book": [
         "$4 off one turkey leg (Regularly $20) OR $2 off any kid's meal (Regularly $9)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2477.1",
@@ -16720,7 +16940,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2477.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2477.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2493.1",
@@ -16813,7 +17035,9 @@
     "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegan, Vegetarian, Gluten-free (kettle corn; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5836.1",
@@ -16879,7 +17103,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5836.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5836.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3790.1",
@@ -17272,7 +17498,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3689.1",
@@ -17524,7 +17752,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one gyro on-a-stick (Regularly $8) OR buy two gyros on-a-stick for $12 (Regularly $16)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2196.2",
@@ -17634,7 +17864,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2196.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2196.2/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "13242.1",
@@ -17722,7 +17954,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (tanghulu; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2569.1",
@@ -17818,7 +18052,9 @@
       "Blue Ribbon Bargain Book": [
         "$4 off one kielbasa and sauerkraut sandwich (Regularly $12) OR buy one regular-price kielbasa and sauerkraut sandwich, get one 50% off"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2561.1",
@@ -17829,10 +18065,7 @@
     "items": [],
     "item_details": [],
     "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
-    "coordinates": [
-      "-93.168946127564",
-      "44.979166683648"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Isabel Burke's Taffy</b>\n\t\t<br>Between Underwood & Cooper streets, outside south side of the Food Building\n",
     "categories": [
       {
@@ -17861,7 +18094,14 @@
     "hours": "Open 8 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Value Item (sample bag of salt water taffy)"
-    ]
+    ],
+    "quarantined_coordinates": [
+      "-93.168946127564",
+      "44.979166683648"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2565.1",
@@ -17971,7 +18211,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2565.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2565.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2582.1",
@@ -18125,7 +18367,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 7 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 7 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "239.1",
@@ -18221,7 +18465,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/239.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/239.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "7741.1",
@@ -18364,7 +18610,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "4847.1",
@@ -18488,7 +18736,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4847.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4847.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3695.1",
@@ -18657,7 +18907,9 @@
     ],
     "notes": [
       "Value Item (select popsicles)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2604.1",
@@ -18862,7 +19114,9 @@
     ],
     "notes": [
       "Breakfast (7 to 11 a.m.)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2122.1",
@@ -18934,7 +19188,9 @@
     "notes": [
       "Cash only",
       "Value Item (cotton candy on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2122.2",
@@ -19006,7 +19262,9 @@
     "notes": [
       "Cash only",
       "Value Item (cotton candy on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2122.3",
@@ -19078,7 +19336,9 @@
     "notes": [
       "Cash only",
       "Value Item (cotton candy on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2607.1",
@@ -19198,7 +19458,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3986.1",
@@ -19289,7 +19551,9 @@
     "notes": [
       "Cash only",
       "Value Item (sorbet and fruit bars)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "11408.1",
@@ -19345,7 +19609,9 @@
       "credit cards",
       "cash"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3699.1",
@@ -19458,7 +19724,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one cookie dough on-a-stick (Regularly $8-$10)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10432.1",
@@ -19557,7 +19825,9 @@
     "dietary": [
       "Vegan, Vegetarian (veggie koshari; please confirm with vendor)",
       "Gluten-free (beed koshari, chicken koshari, veggie koshari; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2120.2",
@@ -19622,7 +19892,9 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2120.3",
@@ -19656,10 +19928,7 @@
       }
     ],
     "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
-    "coordinates": [
-      "-93.173305503862",
-      "44.979180010169"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>L & B Cotton Candy</b>\n\t\t<br>Southwest corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
@@ -19687,7 +19956,14 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "quarantined_coordinates": [
+      "-93.173305503862",
+      "44.979180010169"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "2120.1",
@@ -19752,7 +20028,9 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "241.1",
@@ -19882,7 +20160,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one slice of pizza (Regularly $6) OR buy two slices of pizza for $8 (Regularly $12)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5171.1",
@@ -20046,7 +20326,9 @@
     "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-friendly (ice cream in a cup; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2681.1",
@@ -20225,7 +20507,9 @@
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-friendly (ice cream in a cup; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3477.1",
@@ -20249,7 +20533,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3477.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3477.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3386.2",
@@ -20373,7 +20659,9 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2708.1",
@@ -20543,7 +20831,9 @@
     "dietary": [
       "Vegan (Luigi's italian ice; please confirm with vendor)",
       "Vegetarian (Luigi's fries, deep-fried italian pepperoncini, Luigi's italian ice, Luigi's italian motzza fries; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1416.1",
@@ -21029,7 +21319,9 @@
     ],
     "notes": [
       "Breakfast (7 to 10:30 a.m.)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9067.1",
@@ -21101,7 +21393,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9067.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9067.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2710.1",
@@ -21349,7 +21643,9 @@
     "hours": "Open 7 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Breakfast (7 to 11 a.m.)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2673.1",
@@ -21494,7 +21790,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 10:15 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 10:15 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2719.1",
@@ -21580,7 +21878,9 @@
     ],
     "notes": [
       "Breakfast"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2727.1",
@@ -21736,7 +22036,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2727.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2727.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10914.1",
@@ -21825,7 +22127,9 @@
     "hours": "Open 7 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (entire menu)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "198.1",
@@ -22233,7 +22537,9 @@
     ],
     "notes": [
       "Breakfast (7 to 10 a.m.)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2737.1",
@@ -22417,7 +22723,9 @@
     ],
     "notes": [
       "Value Item (tacos al pastor, pineapple pieces)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2743.1",
@@ -22540,7 +22848,9 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2758.1",
@@ -22779,7 +23089,9 @@
     ],
     "notes": [
       "Breakfast (8 to 11 a.m.)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2764.2",
@@ -22858,7 +23170,9 @@
     ],
     "notes": [
       "Aug. 27 to Sept. 1 only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2764.1",
@@ -22933,7 +23247,9 @@
     ],
     "notes": [
       "Aug. 21-26 only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10877.1",
@@ -23279,7 +23595,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/10877.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/10877.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "154.1",
@@ -23419,7 +23737,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of pickle fries (Regularly $10) OR $2 off one jumbo-size soft drink (Regularly $4)"
       ]
-    }
+    },
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2776.1",
@@ -23496,8 +23816,8 @@
     ],
     "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",
     "coordinates": [
-      "-93.172645433974",
-      "44.97967416281"
+      "-93.1719291",
+      "44.9801338"
     ],
     "popupHtml": "<b>Miller's Flavored Cheese Curds</b>\n\t\t<br>East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide\n",
     "categories": [
@@ -23518,7 +23838,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 8 a.m. to 10 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 8 a.m. to 10 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2780.1",
@@ -23748,7 +24070,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one ice cream bar (Regularly $7)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1548.1",
@@ -23871,7 +24195,9 @@
     "dietary": [
       "Vegan (apple and blueberry pie exclude ice cream; please confirm with vendor)",
       "Vegetarian (apple pie, blueberry pie; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3718.1",
@@ -23952,7 +24278,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3718.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3718.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2784.1",
@@ -24012,7 +24340,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2784.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2784.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2838.1",
@@ -24120,7 +24450,9 @@
     "notes": [
       "Cash only",
       "Value Item (apple, apple roll over)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2649.1",
@@ -24216,7 +24548,9 @@
       "Free Giveaways": [
         "Minnesota craft brewery & brewpub statewide map"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2878.1",
@@ -24444,7 +24778,9 @@
       "Blue Ribbon Bargain Book": [
         "$1.75 off one 20 oz. Minnesota Farmers Union mocha frappé (Regularly $8)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2886.1",
@@ -24630,7 +24966,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one 16 oz. honey beverage - lemonade or cream soda (Regularly $6.50) OR get $3 off one jar of select MN honey (12-16 oz.) (Regularly $14-$19)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "4072.1",
@@ -24860,7 +25198,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4072.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4072.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "11206.1",
@@ -24950,13 +25290,15 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian, Gluten-friendly (apple fries, apple cider; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3645.1",
     "name": "The Mouth Trap Cheese Curds",
     "summary": "battered deep-fried cheese curds, Coca-Cola, Sprite, bottled water, Diet Coke, Mello Yello.",
-    "directions": "battered deep-fried cheese curds, Coca-Cola, Sprite, bottled water, Diet Coke, Mello Yello.",
+    "directions": "In the Food Building",
     "detail_url": "https://www.mnstatefair.org/vendor/3645.1",
     "items": [
       "Coca-Cola",
@@ -24997,9 +25339,12 @@
         "components": []
       }
     ],
-    "booth_location": "",
-    "coordinates": null,
-    "popupHtml": null,
+    "booth_location": "In the Food Building",
+    "coordinates": [
+      "-93.1699704",
+      "44.9802432"
+    ],
+    "popupHtml": "<b>The Mouth Trap Cheese Curds</b>\n\t\t<br>In the Food Building\n",
     "categories": [
       {
         "id_cat": 2,
@@ -25008,7 +25353,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3645.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3645.1/featured.1695x953.jpg",
+    "coordinate_status": "approximate",
+    "compass_eligible": false
   },
   {
     "id": "4057.1",
@@ -25091,7 +25438,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5827.1",
@@ -25188,7 +25537,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5827.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5827.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2941.1",
@@ -25408,7 +25759,9 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Value Item (hot dog)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2941.2",
@@ -25531,7 +25884,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2941.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2941.2/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2953.1",
@@ -25555,7 +25910,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2953.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2953.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "256.1",
@@ -25981,7 +26338,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of Reuben bites (Regularly $11)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2987.1",
@@ -26075,7 +26434,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2987.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2987.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3759.2",
@@ -26157,7 +26518,9 @@
         "$3 off one order of crab fritters (Regularly $13)"
       ]
     },
-    "map_ref": "2501-2287"
+    "map_ref": "2501-2287",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2991.1",
@@ -26323,7 +26686,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one order of classic mac 'n' cheese (Regularly $8) OR $2 off one 32 oz fresh-squeezed lemonade (Regularly $7)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3008.1",
@@ -26396,10 +26761,7 @@
       }
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
-    "coordinates": [
-      "-93.170647888462",
-      "44.981432429011"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Oven Fresh Brownies</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -26417,7 +26779,14 @@
     "hours": "Open 8:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Cash only"
-    ]
+    ],
+    "quarantined_coordinates": [
+      "-93.170647888462",
+      "44.981432429011"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "6268.1",
@@ -26528,7 +26897,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (chicken chorizo paella, chorizo manchego croquette; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3020.1",
@@ -26680,7 +27051,9 @@
     "dietary": [
       "Vegan (spring rolls; please confirm with vendor)",
       "Vegetarian (lo mein, fried rice, spring rolls, cream cheese wontons; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3030.1",
@@ -26810,7 +27183,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3030.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3030.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "8386.1",
@@ -26840,7 +27215,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8386.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8386.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "252.1",
@@ -27241,7 +27618,9 @@
       "Deals: Kids Day (Sept. 2 & 7)": [
         "$4 off Mr. Peg sandwich (Reg. $14), $3 off Peg Muffin (Reg. $8)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3089.2",
@@ -27389,7 +27768,9 @@
     ],
     "notes": [
       "Value Item (pickle on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3089.1",
@@ -27483,8 +27864,8 @@
     ],
     "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
     "coordinates": [
-      "-93.176561437821",
-      "44.979607175277"
+      "-93.1755182",
+      "44.9806751"
     ],
     "popupHtml": "<b>The Perfect Pickle</b>\n\t\t<br>Southwest corner of West Dan Patch Ave. & Liggett St.\n",
     "categories": [
@@ -27537,7 +27918,9 @@
     ],
     "notes": [
       "Value Item (pickle on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "246.1",
@@ -27664,7 +28047,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/246.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/246.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3052.1",
@@ -27806,7 +28191,9 @@
     "payment": [
       "credit cards"
     ],
-    "hours": "Open 8 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 8 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "8924.1",
@@ -27942,7 +28329,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (pork chop on-a-stick, chicken breast on-a-stick; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5910.1",
@@ -28032,10 +28421,7 @@
       }
     ],
     "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
-    "coordinates": [
-      "-93.171132108333",
-      "44.977706046665"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Pickle Barrel Sirloin Tips</b>\n\t\t<br>Northeast corner of Judson Ave. & Nelson St.\n",
     "categories": [
       {
@@ -28059,7 +28445,14 @@
     "dietary": [
       "Vegetarian (red potatoes, mushrooms; please confirm with vendor)",
       "Gluten-friendly (entire menu excluding pita bread; please confirm with vendor)"
-    ]
+    ],
+    "quarantined_coordinates": [
+      "-93.171132108333",
+      "44.977706046665"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "3060.1",
@@ -28193,7 +28586,9 @@
     ],
     "notes": [
       "Value Item (pickle on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3066.1",
@@ -28322,7 +28717,9 @@
       "Deals: Kids Day (Sept. 2 & 7)": [
         "Two slices of pizza for $4 (Reg. $6)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3077.1",
@@ -28409,7 +28806,9 @@
       "credit cards",
       "cash"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3079.2",
@@ -28496,7 +28895,9 @@
       "credit cards",
       "cash"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3079.3",
@@ -28583,7 +28984,9 @@
       "credit cards",
       "cash"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3079.1",
@@ -28670,7 +29073,9 @@
       "credit cards",
       "cash"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3095.1",
@@ -28785,7 +29190,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3095.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3095.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3093.1",
@@ -28866,7 +29273,9 @@
     "hours": "Open 8 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3101.1",
@@ -29053,7 +29462,9 @@
     ],
     "notes": [
       "Value Item (grilled peaches)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3107.1",
@@ -29131,7 +29542,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3107.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3107.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3109.1",
@@ -29209,7 +29622,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3109.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3109.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3111.1",
@@ -29295,7 +29710,9 @@
     "payment": [
       "credit cards"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3115.1",
@@ -29354,10 +29771,7 @@
       }
     ],
     "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
-    "coordinates": [
-      "-93.17391865641",
-      "44.97898113695"
-    ],
+    "coordinates": null,
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>Southeast corner of Carnes Ave. & Liggett St.\n",
     "categories": [
       {
@@ -29382,7 +29796,14 @@
       "credit cards",
       "cash"
     ],
-    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
+    "quarantined_coordinates": [
+      "-93.17391865641",
+      "44.97898113695"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
+    "coordinate_status": "missing",
+    "compass_eligible": false
   },
   {
     "id": "1023.1",
@@ -29467,7 +29888,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1023.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1023.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5028.1",
@@ -29545,7 +29968,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5028.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5028.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5687.1",
@@ -29623,7 +30048,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5687.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5687.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "7805.1",
@@ -29701,7 +30128,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/7805.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/7805.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1416.2",
@@ -29809,7 +30238,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1416.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1416.2/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3127.1",
@@ -29837,8 +30268,8 @@
     ],
     "booth_location": "East side of Cooper St. outside the Merch Market",
     "coordinates": [
-      "-93.1680523",
-      "44.979881345648"
+      "-93.1688966",
+      "44.9807643"
     ],
     "popupHtml": "<b>Que Viet Concessions</b>\n\t\t<br>East side of Cooper St. outside the Merch Market\n",
     "categories": [
@@ -29883,7 +30314,9 @@
     "dietary": [
       "Vegetarian (garlic cream cheese wontons, Vietnamese iced coffee; please confirm with vendor)",
       "Gluten-friendly (giant egg roll on-a-stick, Vietnamese iced coffee; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "4150.1",
@@ -30011,7 +30444,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one lemonade float (Reg. $8) OR buy one jumbo-size 32 oz. fresh-squeezed lemonade, get one bottle of water FREE (Reg. $3)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3759.1",
@@ -30184,7 +30619,9 @@
         "$1 off one quesadilla (Regularly $14)"
       ]
     },
-    "map_ref": "2501-2287"
+    "map_ref": "2501-2287",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2529.1",
@@ -30293,7 +30730,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 6:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 6:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3131.1",
@@ -30625,7 +31064,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3131.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3131.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1856.1",
@@ -30735,7 +31176,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one large 20 oz. soft drink (Regularly $3)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3217.1",
@@ -31066,7 +31509,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one pulled chicken sandwich (Regularly $12)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3173.1",
@@ -31192,7 +31637,9 @@
     "notes": [
       "Cash only",
       "Value Item (itty bitty rice kristie bar)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5275.1",
@@ -31312,7 +31759,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5275.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5275.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5754.1",
@@ -31429,7 +31878,9 @@
     "dietary": [
       "Vegetarian (pickle pizza; please confirm with vendor)"
     ],
-    "map_ref": "2120-2759"
+    "map_ref": "2120-2759",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5754.2",
@@ -31552,7 +32003,9 @@
     "dietary": [
       "Vegetarian (pickle pizza; please confirm with vendor)"
     ],
-    "map_ref": "3214-2482"
+    "map_ref": "3214-2482",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5754.3",
@@ -31656,7 +32109,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "11056.1",
@@ -31725,7 +32180,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3404.1",
@@ -31800,7 +32257,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3404.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3404.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "792.1",
@@ -32150,7 +32609,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off a Zoodle Bowl with tofu noodles (Reg. $12)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3766.1",
@@ -32328,7 +32789,9 @@
     ],
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "792.2",
@@ -32632,7 +33095,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one Fried Bee-Nana Pie with ice cream (Reg. $10)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10369.1",
@@ -32881,7 +33346,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3231.1",
@@ -33119,7 +33586,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3231.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3231.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3235.1",
@@ -33317,7 +33786,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3235.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3235.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3239.1",
@@ -33551,7 +34022,9 @@
       "Deals: Kids Day (Sept. 2 & 7)": [
         "$6 off deep-fried Monte Cristo sandwich (Reg. $14)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1288.1",
@@ -33734,7 +34207,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one regular-price sweet or savory hand pie (Regularly $10) OR $5 off four sweet or savory hand pies (Regularly $40)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9531.1",
@@ -33803,7 +34278,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3247.1",
@@ -33982,7 +34459,9 @@
     "hours": "Open 8 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-friendly (sausage, creole chaurice, chicken fiesta; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3249.1",
@@ -34109,7 +34588,9 @@
     "hours": "Open 9 a.m. to 11 p.m. (9 p.m. Labor Day)",
     "dietary": [
       "Vegan, vegetarian (pretzels; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "12916.1",
@@ -34266,7 +34747,9 @@
     "notes": [
       "Value Item (bisquit and rhubarb jam)",
       "Breakfast"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3769.1",
@@ -34379,7 +34862,9 @@
     "hours": "Open 8 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Breakfast (all-day)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3276.1",
@@ -34717,7 +35202,9 @@
     "dietary": [
       "Vegetarian (pimento cheese puffs, nacho bites, deep fried strawberry cheesecake; please confirm with vendor)"
     ],
-    "map_ref": "1086-2637"
+    "map_ref": "1086-2637",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1573.1",
@@ -34861,7 +35348,9 @@
     "hours": "Open 8 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (mild shrimp skwers; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "215.1",
@@ -35021,7 +35510,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off a half-pound of cinnamon almonds (Regularly $10) OR $3 off one pound of butter toffee peanuts (Regularly $15)"
       ]
-    }
+    },
+    "coordinate_status": "approximate",
+    "compass_eligible": false
   },
   {
     "id": "2084.2",
@@ -35178,7 +35669,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2084.2/featured.1695x953.jpg",
-    "map_ref": "3284-2458"
+    "map_ref": "3284-2458",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5581.1",
@@ -35226,7 +35719,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5581.1/featured.1695x953.jpg",
-    "map_ref": "3244-2327"
+    "map_ref": "3244-2327",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5052.1",
@@ -35356,7 +35851,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5052.1/featured.1695x953.jpg",
-    "map_ref": "3131-2330"
+    "map_ref": "3131-2330",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5052.3",
@@ -35494,7 +35991,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "map_ref": "3131-2330"
+    "map_ref": "3131-2330",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5052.2",
@@ -35639,7 +36138,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "map_ref": "3131-2330"
+    "map_ref": "3131-2330",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3332.1",
@@ -35767,7 +36268,9 @@
     "dietary": [
       "Vegan, Vegetarian (spiral cut chips; please confirm with vendor)",
       "Gluten-free (gluten-free beer batter brat on-a-stick; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5799.1",
@@ -35842,7 +36345,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5799.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5799.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3340.1",
@@ -35961,8 +36466,8 @@
     ],
     "booth_location": "East side of Cooper St. outside the Merch Market",
     "coordinates": [
-      "-93.169089246154",
-      "44.980647985612"
+      "-93.168897",
+      "44.9807323"
     ],
     "popupHtml": "<b>Spaghetti Eddies</b>\n\t\t<br>East side of Cooper St. outside the Merch Market\n",
     "categories": [
@@ -35989,7 +36494,9 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 7:30 a.m. to 11 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 7:30 a.m. to 11 p.m. (8 p.m. Labor Day)",
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "8073.1",
@@ -36050,7 +36557,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8073.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8073.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5175.1",
@@ -36124,7 +36633,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5175.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5175.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "257.1",
@@ -36340,7 +36851,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one ham, egg, cheese breakfast wrap sandwich (7-10:30 a.m.) (Regularly $7) OR $8 off one fresh, made-to-order meal deal: “original” deli sandwich, chips, potato salad, pickle and one 12 oz. soda (all day) (Regularly $23)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3386.1",
@@ -36415,7 +36928,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one large strawberries & creme parfait (Regularly $12) OR buy one strawberry iced tea, get one FREE (Regularly $6)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9260.1",
@@ -36619,7 +37134,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one strawberry shortcake (Reg. $9) or buy two strawberry shortcakes for $12 OR $1 off one strawberry cheesecake or one chocolate-dipped cheesecake on-a-stick (Reg. $10)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3394.1",
@@ -36774,7 +37291,9 @@
     "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegan, Vegetarian, Gluten-free (caramel apple, popcorn, caramel corn, sno cones, cotton candy; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3398.1",
@@ -37306,7 +37825,9 @@
     ],
     "notes": [
       "Value Item (hand-cut chips and dips)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3276.2",
@@ -37419,7 +37940,9 @@
     "notes": [
       "Proud sponsor of the Summit Stage at the Bazaar"
     ],
-    "map_ref": "1086-2637"
+    "map_ref": "1086-2637",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3408.1",
@@ -37507,7 +38030,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3408.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3408.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3412.1",
@@ -37588,7 +38113,9 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one long piece of sweet or sour licorice (Regularly $5)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2079.1",
@@ -37654,7 +38181,9 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (cookies; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3983.1",
@@ -37720,7 +38249,9 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (cookies; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3981.1",
@@ -37786,7 +38317,9 @@
     "hours": "Open 8 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (cookies; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1509.1",
@@ -37937,7 +38470,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one snow cone (Regularly $6)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1509.2",
@@ -38075,7 +38610,9 @@
         "$2 off one snow cone (Regularly $6)"
       ]
     },
-    "map_ref": "2231-2399"
+    "map_ref": "2231-2399",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "792.4",
@@ -38334,7 +38871,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one family-size basket of curly fries (Reg. $9)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "8535.1",
@@ -38414,7 +38953,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8535.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8535.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5581.2",
@@ -38583,7 +39124,9 @@
         "$3 off one order of schnitzel strips or one giant pork tenderloin sandwich (Regularly $13) OR $2 off any smoothie or hand-dipped corn dog (Regularly $8–$10)"
       ]
     },
-    "map_ref": "3244-2327"
+    "map_ref": "3244-2327",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3436.1",
@@ -38914,7 +39457,9 @@
     "dietary": [
       "Vegetarian (nachos, guacamole and chips; please confirm with vendor)",
       "Gluten-friendly (guacamole and chips; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "6137.1",
@@ -39158,7 +39703,9 @@
     "notes": [
       "Value Item (hashbrown, bacon)",
       "Breakfast (7 to 11 a.m.)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1948.1",
@@ -39269,7 +39816,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1948.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1948.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3792.1",
@@ -39301,7 +39850,9 @@
     "hours": "Open 7 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "notes": [
       "Cash only"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1511.2",
@@ -39388,7 +39939,9 @@
     "hours": "Open 7:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (mini donuts)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1511.1",
@@ -39468,7 +40021,9 @@
     "hours": "Open 7:30 a.m. to 11 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (mini donuts)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "266.1",
@@ -39676,7 +40231,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one \"best value\"-size dill pickle tater tots (Regularly $12)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2924.1",
@@ -39803,7 +40360,9 @@
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Gluten-free (turkey leg; please confirm with vendor)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9613.1",
@@ -39941,7 +40500,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9613.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9613.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5659.1",
@@ -40002,7 +40563,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5659.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5659.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "11221.1",
@@ -40201,7 +40764,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one mocktail (Regularly $8) OR $2 off one order of Cheweenies (Regularly $9)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "5609.1",
@@ -40296,7 +40861,9 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5609.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5609.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3549.1",
@@ -40428,7 +40995,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one ice cream cone (Regularly $9)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3553.1",
@@ -40582,7 +41151,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one regular-size catfish on-a-stick (Regularly $8) OR 50% off one 20 oz. or 32 oz. birch beer soda (Regularly $4 and $6)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3567.1",
@@ -40826,7 +41397,9 @@
     ],
     "notes": [
       "Value Item (prepackaged ice cream bar on-a-stick)"
-    ]
+    ],
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "1286.1",
@@ -40967,7 +41540,9 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one turmeric ginger lemonade (Regularly $10) OR $3.50 off one jerk pork chop on-a-stick (Regularly $17)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "4872.1",
@@ -41184,7 +41759,9 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one jumbo corndog (Regularly $10) OR two jumbo corndogs for $10 (Regularly $20)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "10572.1",
@@ -41302,7 +41879,9 @@
       "Blue Ribbon Bargain Book": [
         "$5 off one bucket of hand-cut french fries (Regularly $16) OR $2 off one wild rice cheeseburger (Regularly $13)"
       ]
-    }
+    },
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "6202.1",
@@ -41326,6 +41905,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6202.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6202.1/featured.1695x953.jpg",
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   }
 ]

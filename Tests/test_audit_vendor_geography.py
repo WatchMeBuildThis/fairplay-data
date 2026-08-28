@@ -35,6 +35,11 @@ class GeographyAuditTests(unittest.TestCase):
         self.assertEqual(AUDIT.integrity_failures(report, {"known_missing_coordinate_ids": ["known"]}), [])
         self.assertEqual(AUDIT.integrity_failures(report, {"known_missing_coordinate_ids": []}), [("known", "missing_coordinate")])
 
+    def test_strict_mode_allows_explicitly_quarantined_coordinates(self):
+        report = AUDIT.build_audit([vendor("quarantined", "Unsafe", "Somewhere", None)], [], {"vendors": {}})
+        config = {"known_missing_coordinate_ids": [], "quarantined_coordinate_ids": ["quarantined"]}
+        self.assertEqual(AUDIT.integrity_failures(report, config), [])
+
     def test_verified_requires_two_publishers_and_coordinate_agreement(self):
         record = vendor("1", "Good", "Northeast corner of A & B", [-93.17, 44.98])
         config = {"vendors": {"1": {
@@ -49,6 +54,26 @@ class GeographyAuditTests(unittest.TestCase):
         self.assertEqual(row["coordinate_status"], "verified")
         self.assertTrue(row["compass_eligible"])
 
+    def test_verified_pin_is_not_blocked_by_unverified_peer_spread(self):
+        records = [
+            vendor("verified", "Good", "Southeast corner of A & B", [-93.17, 44.98]),
+            vendor("peer", "Bad", "Southeast corner of A & B", [-93.18, 44.99]),
+        ]
+        config = {"vendors": {"verified": {
+            "status": "verified",
+            "coordinates": [-93.17, 44.98],
+            "sources": [
+                {"publisher_group": "official"},
+                {"publisher_group": "independent"},
+            ],
+        }}}
+        report = AUDIT.build_audit(records, [], config)
+        good = next(row for row in report["vendors"] if row["id"] == "verified")
+        bad = next(row for row in report["vendors"] if row["id"] == "peer")
+        self.assertTrue(good["compass_eligible"])
+        self.assertNotIn("same_written_location_spread", {issue["code"] for issue in good["issues"]})
+        self.assertIn("same_written_location_spread", {issue["code"] for issue in bad["issues"]})
+
     def test_duplicate_coordinate_with_conflicting_directions_is_high_risk(self):
         records = [
             vendor("1", "One", "Northwest corner of Carnes & Nelson", [-93.17, 44.98]),
@@ -57,6 +82,15 @@ class GeographyAuditTests(unittest.TestCase):
         report = AUDIT.build_audit(records, [], {"vendors": {}})
         for row in report["vendors"]:
             self.assertIn("duplicate_coordinate_location_conflict", {issue["code"] for issue in row["issues"]})
+
+    def test_equivalent_location_articles_do_not_create_duplicate_conflict(self):
+        records = [
+            vendor("1", "One", "At Mighty Midway", [-93.17, 44.98]),
+            vendor("2", "Two", "At the Mighty Midway", [-93.17, 44.98]),
+        ]
+        report = AUDIT.build_audit(records, [], {"vendors": {}})
+        for row in report["vendors"]:
+            self.assertNotIn("duplicate_coordinate_location_conflict", {issue["code"] for issue in row["issues"]})
 
     def test_large_baseline_move_is_reviewed_not_auto_rejected(self):
         current = vendor("1", "Moved", "Location", [-93.17, 44.98])
