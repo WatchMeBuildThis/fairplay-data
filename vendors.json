@@ -278,6 +278,11 @@
     ],
     "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.172362059615",
+      "44.97977494964"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Southwest corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
@@ -308,11 +313,6 @@
     "dietary": [
       "Gluten-free (hot dog excluding bun; please confirm with vendor)"
     ],
-    "quarantined_coordinates": [
-      "-93.172362059615",
-      "44.97977494964"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -1349,8 +1349,8 @@
     ],
     "booth_location": "Northeast corner of Judson Ave. & Clough St.",
     "coordinates": [
-      "-93.173971454487",
-      "44.979107166116"
+      -93.1733688,
+      44.9786946
     ],
     "popupHtml": "<b>All You Can Drink Milk</b>\n\t\t<br>Northeast corner of Judson Ave. & Clough St.\n",
     "categories": [
@@ -1381,8 +1381,8 @@
     "notes": [
       "Value Item (white and chocolate milk)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1328.1",
@@ -6049,8 +6049,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Chambers & Clough streets",
     "coordinates": [
-      "-93.172895758013",
-      "44.979089804023"
+      -93.1738652,
+      44.9797356
     ],
     "popupHtml": "<b>Cafe Caribe</b>\n\t\t<br>South side of Carnes Ave. between Chambers & Clough streets\n",
     "categories": [
@@ -6137,8 +6137,8 @@
         "$3 off one order of jerk chicken wings (Regularly $9)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2029.1",
@@ -7754,6 +7754,11 @@
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.168669400626",
+      "44.981838912141"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Chocolate Strawberry Cup</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -7764,11 +7769,6 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/11505.1/featured.1695x953.jpg",
-    "quarantined_coordinates": [
-      "-93.168669400626",
-      "44.981838912141"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -8643,6 +8643,11 @@
     "item_details": [],
     "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.172811082121",
+      "44.979675006557"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Crutchees Cheese on a Stick</b>\n\t\t<br>Northeast corner of Judson Ave. & Nelson St.\n",
     "categories": [
       {
@@ -8659,11 +8664,6 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.1/featured.1695x953.jpg",
-    "quarantined_coordinates": [
-      "-93.172811082121",
-      "44.979675006557"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -9118,6 +9118,11 @@
     "item_details": [],
     "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.169038239665",
+      "44.980416825569"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Danielson's & Daughters Onion Rings</b>\n\t\t<br>Between Underwood & Cooper streets, outside south side of the Food Building\n",
     "categories": [
       {
@@ -9147,11 +9152,6 @@
         "$2 off one order of onion rings (Regularly $9)"
       ]
     },
-    "quarantined_coordinates": [
-      "-93.169038239665",
-      "44.980416825569"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -9262,6 +9262,11 @@
     ],
     "booth_location": "East side of Cooper St. outside the Merch Market",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.168243092308",
+      "44.98129663426"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Deep Fried Batter Dipped Twinkies & Buckeyes</b>\n\t\t<br>East side of Cooper St. outside the Merch Market\n",
     "categories": [
       {
@@ -9278,11 +9283,6 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3340.2/featured.1695x953.jpg",
-    "quarantined_coordinates": [
-      "-93.168243092308",
-      "44.98129663426"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -10883,6 +10883,11 @@
     ],
     "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.174915817949",
+      "44.97934577134"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Elm's Shaved Ice</b>\n\t\t<br>Southwest corner of Judson Ave. & Liggett St.\n",
     "categories": [
       {
@@ -10927,11 +10932,6 @@
       "Vegan, Vegetarian (shaved ice; please confirm with vendor)",
       "Gluten-friendly (shaved ice; please confirm with vendor)"
     ],
-    "quarantined_coordinates": [
-      "-93.174915817949",
-      "44.97934577134"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -12340,8 +12340,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.171785124281",
-      "44.979084798263"
+      -93.1712263,
+      44.9801274
     ],
     "popupHtml": "<b>French Meadow Bakery & Cafe</b>\n\t\t<br>North side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -12410,8 +12410,8 @@
         "$3 off one fruit-filled buttermilk scone (Regularly $12)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2340.1",
@@ -18066,6 +18066,11 @@
     "item_details": [],
     "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.168946127564",
+      "44.979166683648"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Isabel Burke's Taffy</b>\n\t\t<br>Between Underwood & Cooper streets, outside south side of the Food Building\n",
     "categories": [
       {
@@ -18095,11 +18100,6 @@
     "notes": [
       "Value Item (sample bag of salt water taffy)"
     ],
-    "quarantined_coordinates": [
-      "-93.168946127564",
-      "44.979166683648"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -19929,6 +19929,11 @@
     ],
     "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.173305503862",
+      "44.979180010169"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>L & B Cotton Candy</b>\n\t\t<br>Southwest corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
@@ -19957,11 +19962,6 @@
     "notes": [
       "Cash only"
     ],
-    "quarantined_coordinates": [
-      "-93.173305503862",
-      "44.979180010169"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -26762,6 +26762,11 @@
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.170647888462",
+      "44.981432429011"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Oven Fresh Brownies</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -26780,11 +26785,6 @@
     "notes": [
       "Cash only"
     ],
-    "quarantined_coordinates": [
-      "-93.170647888462",
-      "44.981432429011"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -28422,6 +28422,11 @@
     ],
     "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.171132108333",
+      "44.977706046665"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Pickle Barrel Sirloin Tips</b>\n\t\t<br>Northeast corner of Judson Ave. & Nelson St.\n",
     "categories": [
       {
@@ -28446,11 +28451,6 @@
       "Vegetarian (red potatoes, mushrooms; please confirm with vendor)",
       "Gluten-friendly (entire menu excluding pita bread; please confirm with vendor)"
     ],
-    "quarantined_coordinates": [
-      "-93.171132108333",
-      "44.977706046665"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
@@ -29772,6 +29772,11 @@
     ],
     "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
     "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.17391865641",
+      "44.97898113695"
+    ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>Southeast corner of Carnes Ave. & Liggett St.\n",
     "categories": [
       {
@@ -29797,11 +29802,6 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "quarantined_coordinates": [
-      "-93.17391865641",
-      "44.97898113695"
-    ],
-    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "coordinate_status": "missing",
     "compass_eligible": false
   },
