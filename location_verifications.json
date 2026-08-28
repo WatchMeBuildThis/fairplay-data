@@ -328,6 +328,110 @@
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9807323,-93.168897"}
       ]
     },
+    "1968.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1760875, 44.9811063],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact West End Market place pin and shared 1839 W Dan Patch venue address agree with the fair's Blue Barn directions and the operator's permanent venue listing.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/1968.1/"},
+        {"publisher_group": "blue_barn", "kind": "operator_location", "url": "https://bluebarnmn.com/location"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9811063,-93.1760875"}
+      ]
+    },
+    "212.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1740994, 44.9800146],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1777 Carnes Ave place pin and independent venue coverage agree with the fair's northeast Carnes/Chambers corner directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/212.1/"},
+        {"publisher_group": "kare11", "kind": "independent_venue_location", "url": "https://www.kare11.com/article/news/local/news-at-noon/foodiefinds/foodie-finds-blue-moon-dine-in-theater-state-fair/89-02c87c3b-1f81-4ed2-b065-7baa6c02ae5c"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800146,-93.1740994"}
+      ]
+    },
+    "3684.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1698412, 44.9814379],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1667 Dan Patch Ave place pin agrees with the church's 1665 Dan Patch venue history and the fair's north-Dan Patch, Underwood-to-Cooper directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3684.1/"},
+        {"publisher_group": "hamline_church", "kind": "operator_venue_history", "url": "https://www.hamlinechurch.org/wordpress/serve/dining-hall/dining-hall-history/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9814379,-93.1698412"}
+      ]
+    },
+    "1416.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1776071, 44.9812286],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1839 W Dan Patch place pin agrees with the fair's West End Market directions and independent architecture documentation for LuLu's permanent venue.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/1416.1/"},
+        {"publisher_group": "cuningham", "kind": "independent_venue_documentation", "url": "https://cuningham.com/portfolio/lulus-public-house-blue-barn"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9812286,-93.1776071"}
+      ]
+    },
+    "198.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1716697, 44.9801006],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1715 Carnes Ave place pin and operator State Fair venue page agree with the fair's north-Carnes, Nelson-to-Underwood directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/198.1/"},
+        {"publisher_group": "mancinis", "kind": "operator_venue", "url": "https://mancinis.com/state-fair/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9801006,-93.1716697"}
+      ]
+    },
+    "2878.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1685723, 44.9814844],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1635 Dan Patch Ave place pin and operator-published address agree with the fair's north-Dan Patch, Cooper-to-Cosgrove directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2878.1/"},
+        {"publisher_group": "minnesota_farmers_union", "kind": "operator_address", "url": "https://mfu.org/mfu-coffee-shop/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9814844,-93.1685723"}
+      ]
+    },
+    "3231.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1678234, 44.9845954],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1615 Randall Ave place pin and independent venue coverage agree with the fair's north-Randall, Progress Center directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3231.1/"},
+        {"publisher_group": "mpr_news", "kind": "independent_venue_location", "url": "https://www.mprnews.org/story/2024/08/23/salem-dining-hall-minnesota-state-fair-family-affair-iconic-stop-75-years"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9845954,-93.1678234"}
+      ]
+    },
+    "2924.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1733812, 44.9789745],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1256 Clough St place pin and operator-group address agree with the fair's east-Clough, Carnes-to-Judson directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2924.1/"},
+        {"publisher_group": "minnesota_turkey", "kind": "operator_address", "url": "https://www.minnesotaturkey.com/mtga/turkey-to-go"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9789745,-93.1733812"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",
