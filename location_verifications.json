@@ -432,6 +432,45 @@
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9789745,-93.1733812"}
       ]
     },
+    "1457.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1710869, 44.980113],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1701 Carnes Ave place pin and vendor-published Carnes/Underwood corner agree with the fair's north-Carnes, Nelson-to-Underwood directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/1457.1/"},
+        {"publisher_group": "dinos_gyros", "kind": "vendor_location", "url": "https://www.dinosfresh.com/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.980113,-93.1710869"}
+      ]
+    },
+    "252.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1693102, 44.9790698],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1675 Judson Ave place pin and independent venue coverage agree with the fair's southeast Agriculture Horticulture Building directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/252.1/"},
+        {"publisher_group": "cbs_minnesota", "kind": "independent_venue_location", "url": "https://www.cbsnews.com/minnesota/news/the-peg-celebrating-40-years-of-service-at-minnesota-state-fair/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9790698,-93.1693102"}
+      ]
+    },
+    "3101.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.170757, 44.9800641],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1691 Carnes Ave place pin and independent venue coverage agree with the fair's northwest Carnes/Underwood corner directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3101.1/"},
+        {"publisher_group": "msp_magazine", "kind": "independent_venue_location", "url": "https://mspmag.com/eat-and-drink/foodie/sneak-peek-produce-exchange-patio-at-the-state-fair/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800641,-93.170757"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",
