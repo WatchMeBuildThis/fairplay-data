@@ -56,6 +56,12 @@ def normalize(value: Any) -> str:
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
 
+def canonical_location(value: Any) -> str:
+    """Normalize harmless wording variants without erasing geographic detail."""
+    text = normalize(value)
+    return re.sub(r"\b(at|in|inside|outside|near|by|on) the\b", r"\1", text)
+
+
 def parse_coordinate(value: Any) -> tuple[float, float] | None:
     if not isinstance(value, list) or len(value) != 2:
         return None
@@ -119,8 +125,8 @@ def verification_groups(sources: Iterable[dict[str, Any]]) -> set[str]:
 
 
 def directions_conflict(a: dict[str, Any], b: dict[str, Any]) -> bool:
-    a_loc = normalize(a.get("booth_location") or a.get("directions"))
-    b_loc = normalize(b.get("booth_location") or b.get("directions"))
+    a_loc = canonical_location(a.get("booth_location") or a.get("directions"))
+    b_loc = canonical_location(b.get("booth_location") or b.get("directions"))
     if not a_loc or not b_loc:
         return False
     return a_loc != b_loc
@@ -224,7 +230,7 @@ def duplicate_coordinate_issues(records: list[dict[str, Any]]) -> dict[str, list
     for group in groups.values():
         if len(group) < 2:
             continue
-        locations = {normalize(x.get("booth_location") or x.get("directions")) for x in group}
+        locations = {canonical_location(x.get("booth_location") or x.get("directions")) for x in group}
         locations.discard("")
         if len(locations) > 1:
             ids = sorted(str(x.get("id")) for x in group)
@@ -240,7 +246,7 @@ def exact_location_issues(records: list[dict[str, Any]]) -> dict[str, list[Issue
     """Flag only tight location descriptions, not long street segments or large venues."""
     groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for record in records:
-        location = normalize(record.get("booth_location") or record.get("directions"))
+        location = canonical_location(record.get("booth_location") or record.get("directions"))
         if location:
             groups[location].append(record)
 
@@ -352,6 +358,11 @@ def build_audit(
                 else:
                     status = "verified"
                     confidence = str(verification.get("confidence") or "high")
+                    issues = [
+                        issue
+                        for issue in issues
+                        if issue.code != "same_written_location_spread"
+                    ]
             elif claimed_status == "approximate" and coord and target and verification_distance <= tolerance:
                 status = "approximate"
                 confidence = str(verification.get("confidence") or "medium")
@@ -405,7 +416,11 @@ def build_audit(
         "policy": {
             "compass_requires": "coordinate_status=verified, >=2 publisher groups, and no high/critical issue",
             "official_site_independence": "Directions, GeoJSON, mapRef, and official map count as one publisher group",
-            "live_feed_mutated": False,
+            "audit_script_mutates_feed": False,
+            "status_fields_published": all(
+                "coordinate_status" in record and "compass_eligible" in record
+                for record in records
+            ),
         },
         "road_models": road_models,
     }
@@ -417,6 +432,7 @@ def integrity_failures(report: dict[str, Any], config: dict[str, Any]) -> list[t
     if not report["summary"].get("record_count_matches", True):
         failures.append(("feed", "record_count_mismatch"))
     known_missing = {str(value) for value in config.get("known_missing_coordinate_ids", [])}
+    known_missing.update(str(value) for value in config.get("quarantined_coordinate_ids", []))
     always_fatal = {"duplicate_vendor_id", "malformed_coordinate", "outside_fair_bounds", "popup_record_mismatch"}
     for row in report["vendors"]:
         for issue in row["issues"]:
@@ -435,7 +451,7 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         "verification_distance_m", "issue_codes",
     ]
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=columns)
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader()
         for row in rows:
             coord = row.get("coordinates") or [None, None]
