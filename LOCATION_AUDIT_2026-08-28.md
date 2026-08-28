@@ -36,6 +36,7 @@ Both are immutable copies committed before their corresponding correction batche
 - `616.1` Ball Park Cafe / Garlic Fries
 - `6449.2` About a Foot Long Hot Dog
 - `10093.1` Giggles' Campfire Grill
+- `154.1` Mike's Hamburgers
 - `215.1` Simply Nuts & More (Lee & Rose Warner Coliseum venue center)
 
 ### Multi-location/map-reference corrections
@@ -55,7 +56,7 @@ Added missing record:
 
 - `5754.3` Funnel Cakes & Elephant Ears
 
-Map-reference-derived coordinates were calibrated against independently located permanent fair vendors/venues. Anchor residuals were generally within about 20 meters; corrections were only applied to audited groups where the previous point was inconsistent with the written location or a shared `mapRef`.
+Mike's Hamburgers was additionally confirmed against its Google Maps place pin; the prior source coordinate was approximately 458 feet away from the written Carnes/Nelson location.\n\nMap-reference-derived coordinates were calibrated against independently located permanent fair vendors/venues. Anchor residuals were generally within about 20 meters; corrections were only applied to audited groups where the previous point was inconsistent with the written location or a shared `mapRef`.
 
 ## Scraper safeguards
 
