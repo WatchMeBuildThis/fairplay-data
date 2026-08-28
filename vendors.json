@@ -23394,9 +23394,10 @@
     ],
     "booth_location": "Northeast corner of Carnes Ave. & Nelson St.",
     "coordinates": [
-      "-93.173128428205",
-      "44.980958709089"
+      "-93.171927",
+      "44.9800383"
     ],
+    "map_ref": "1535-2077",
     "popupHtml": "<b>Mike's Hamburgers</b>\n\t\t<br>Northeast corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
