@@ -430,10 +430,10 @@
     ],
     "booth_location": "East side of Cosgrove St. between the Fine Arts Center & 4-H Building",
     "coordinates": [
-      "-93.167321757458",
-      "44.982965553193"
+      "-93.1680360",
+      "44.9839827"
     ],
-    "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>East side of Cosgrove St. between the Fine Arts Center & 4-H Building\n",
+    "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>East side of Cosgrove St. between the Fine Arts Center &amp; 4-H Building\n",
     "categories": [
       {
         "id_cat": 2,
@@ -442,7 +442,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9642.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9642.1/featured.1695x953.jpg",
+    "map_ref": "2551-2787"
   },
   {
     "id": "9642.2",
@@ -491,10 +492,10 @@
     ],
     "booth_location": "Northwest corner of Dan Patch Ave. & Cooper St.",
     "coordinates": [
-      "-93.167321757458",
-      "44.982965553193"
+      "-93.1693751",
+      "44.9814141"
     ],
-    "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>East side of Cosgrove St. between the Fine Arts Center & 4-H Building\n",
+    "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Northwest corner of Dan Patch Ave. &amp; Cooper St.\n",
     "categories": [
       {
         "id_cat": 2,
@@ -509,7 +510,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "map_ref": "1908-2548"
   },
   {
     "id": "6449.2",
@@ -4552,10 +4554,10 @@
     "item_details": [],
     "booth_location": "Northwest corner of Carnes Ave. & Nelson St.",
     "coordinates": [
-      "-93.171028726282",
-      "44.979414795645"
+      "-93.1722972",
+      "44.9800237"
     ],
-    "popupHtml": "<b>Bratwurst</b>\n\t\t<br>Northwest corner of Carnes Ave. & Nelson St.\n",
+    "popupHtml": "<b>Bratwurst</b>\n\t\t<br>Northwest corner of Carnes Ave. &amp; Nelson St.\n",
     "categories": [
       {
         "id_cat": 2,
@@ -4574,7 +4576,8 @@
       "cash",
       "Apple Pay"
     ],
-    "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)"
+    "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
+    "map_ref": "1539-1982"
   },
   {
     "id": "5733.5",
@@ -4809,10 +4812,10 @@
     ],
     "booth_location": "Northwest corner of Carnes Ave. & Underwood St.",
     "coordinates": [
-      "-93.171669247436",
-      "44.97900038123"
+      "-93.1706802",
+      "44.9799609"
     ],
-    "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northwest corner of Carnes Ave. & Underwood St.\n",
+    "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northwest corner of Carnes Ave. &amp; Underwood St.\n",
     "categories": [
       {
         "id_cat": 2,
@@ -4832,7 +4835,8 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
-    }
+    },
+    "map_ref": "1539-2304"
   },
   {
     "id": "5733.4",
@@ -5067,10 +5071,10 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.171669247436",
-      "44.97900038123"
+      "-93.1711360",
+      "44.9814214"
     ],
-    "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northwest corner of Carnes Ave. & Underwood St.\n",
+    "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>North side of Dan Patch Ave. between Nelson &amp; Underwood streets\n",
     "categories": [
       {
         "id_cat": 2,
@@ -5090,7 +5094,8 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
-    }
+    },
+    "map_ref": "1893-2198"
   },
   {
     "id": "1996.1",
@@ -7744,10 +7749,10 @@
     ],
     "booth_location": "South side of Murphy Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1707772",
-      "44.988002832718"
+      "-93.1695298",
+      "44.9870282"
     ],
-    "popupHtml": "<b>CinnieSmiths</b>\n\t\t<br>South side of Murphy Ave. between Underwood & Cooper streets\n",
+    "popupHtml": "<b>CinnieSmiths</b>\n\t\t<br>South side of Murphy Ave. between Underwood &amp; Cooper streets\n",
     "categories": [
       {
         "id_cat": 2,
@@ -7767,7 +7772,8 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one regular-size order of CinnieSmiths mini cinnamon rolls (Regularly $9.50) OR $1 off one CinnieSundae (Regularly $12)"
       ]
-    }
+    },
+    "map_ref": "3284-2458"
   },
   {
     "id": "216.1",
@@ -8728,10 +8734,10 @@
     ],
     "booth_location": "In the Food Building, south wall",
     "coordinates": [
-      "-93.171078060897",
-      "44.980819472552"
+      "-93.1699973",
+      "44.9801218"
     ],
-    "popupHtml": "<b>Fresh Squeezed Lemonade, Fruit Smoothies, Fresh Squeezed Orange Treet & Strawberry Treet</b>\n\t\t<br>Outside the Food Building, southwest side\n",
+    "popupHtml": "<b>The Dairy Bar</b>\n\t\t<br>In the Food Building, south wall\n",
     "categories": [
       {
         "id_cat": 2,
@@ -8793,7 +8799,8 @@
       "Blue Ribbon Bargain Book": [
         "$2.50 off one-flavor 16 oz. milk shake (Regularly $7.50)"
       ]
-    }
+    },
+    "map_ref": "1585-2438"
   },
   {
     "id": "2770.2",
@@ -12565,10 +12572,10 @@
     ],
     "booth_location": "Outside the Food Building, southwest side",
     "coordinates": [
-      "-93.171078060897",
-      "44.980819472552"
+      "-93.1700195",
+      "44.9799882"
     ],
-    "popupHtml": "<b>Fresh Squeezed Lemonade, Fruit Smoothies, Fresh Squeezed Orange Treet & Strawberry Treet</b>\n\t\t<br>Outside the Food Building, southwest side\n",
+    "popupHtml": "<b>Fresh Squeezed Lemonade, Fruit Smoothies, Fresh Squeezed Orange Treet &amp; Strawberry Treet</b>\n\t\t<br>Outside the Food Building, southwest side\n",
     "categories": [
       {
         "id_cat": 2,
@@ -12618,7 +12625,8 @@
       "Blue Ribbon Bargain Book": [
         "$1.50 off one 16 oz. or 32 oz. fresh-squeezed lemonade, Orange or Strawberry Treet (Regularly $5 & $7)"
       ]
-    }
+    },
+    "map_ref": "1552-2435"
   },
   {
     "id": "2342.1",
@@ -26107,10 +26115,10 @@
     ],
     "booth_location": "On the east side of Underwood St. between Murphy and Lee avenues",
     "coordinates": [
-      "-93.170637905769",
-      "44.983692532374"
+      "-93.1705577",
+      "44.9838769"
     ],
-    "popupHtml": "<b>Quesadilla Junction</b>\n\t\t<br>On the east side of Underwood St. between Murphy and Lee avenues\n",
+    "popupHtml": "<b>Ollie's Crab Fritters</b>\n\t\t<br>On the east side of Underwood St. between Murphy and Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -26146,7 +26154,8 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of crab fritters (Regularly $13)"
       ]
-    }
+    },
+    "map_ref": "2501-2287"
   },
   {
     "id": "2991.1",
@@ -30111,8 +30120,8 @@
     ],
     "booth_location": "On the east side of Underwood St. between Murphy and Lee avenues",
     "coordinates": [
-      "-93.170637905769",
-      "44.983692532374"
+      "-93.1705577",
+      "44.9838769"
     ],
     "popupHtml": "<b>Quesadilla Junction</b>\n\t\t<br>On the east side of Underwood St. between Murphy and Lee avenues\n",
     "categories": [
@@ -30172,7 +30181,8 @@
       "Blue Ribbon Bargain Book": [
         "$1 off one quesadilla (Regularly $14)"
       ]
-    }
+    },
+    "map_ref": "2501-2287"
   },
   {
     "id": "2529.1",
@@ -31384,10 +31394,10 @@
     ],
     "booth_location": "West side of Cosgrove St. between Wright & Dan Patch avenues",
     "coordinates": [
-      "-93.169098458974",
-      "44.982874886124"
+      "-93.1682697",
+      "44.9822351"
     ],
-    "popupHtml": "<b>Rick's Pizza</b>\n\t\t<br>West side of Cosgrove St. between Wright & Dan Patch avenues\n",
+    "popupHtml": "<b>Rick's Pizza</b>\n\t\t<br>West side of Cosgrove St. between Wright &amp; Dan Patch avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -31416,7 +31426,8 @@
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (pickle pizza; please confirm with vendor)"
-    ]
+    ],
+    "map_ref": "2120-2759"
   },
   {
     "id": "5754.2",
@@ -31500,10 +31511,10 @@
     ],
     "booth_location": "West side of Cooper St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.169098458974",
-      "44.982874886124"
+      "-93.1694244",
+      "44.9867388"
     ],
-    "popupHtml": "<b>Rick's Pizza</b>\n\t\t<br>West side of Cosgrove St. between Wright & Dan Patch avenues\n",
+    "popupHtml": "<b>Rick's Pizza</b>\n\t\t<br>West side of Cooper St. between Murphy &amp; Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -31538,7 +31549,112 @@
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (pickle pizza; please confirm with vendor)"
-    ]
+    ],
+    "map_ref": "3214-2482"
+  },
+  {
+    "id": "5754.3",
+    "name": "Funnel Cakes & Elephant Ears",
+    "summary": "funnel cakes, elephant ears, deep-fried Oreos, fruit toppings, fresh-squeezed lemonade, bottled water, Coca-Cola, Sprite, Diet Coke, Mr. Pibb, fruit punch.",
+    "directions": "South side of Randall Ave. between Underwood & Cooper streets",
+    "detail_url": "https://www.mnstatefair.org/vendor/5754.3",
+    "items": [
+      "funnel cakes",
+      "elephant ears",
+      "deep-fried Oreos",
+      "fruit toppings",
+      "fresh-squeezed lemonade",
+      "bottled water",
+      "Coca-Cola",
+      "Sprite",
+      "Diet Coke",
+      "Mr. Pibb",
+      "fruit punch"
+    ],
+    "item_details": [
+      {
+        "name": "funnel cakes",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "elephant ears",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "deep-fried Oreos",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "fruit toppings",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "fresh-squeezed lemonade",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "bottled water",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "Coca-Cola",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "Sprite",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "Diet Coke",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "Mr. Pibb",
+        "is_new": false,
+        "group": null,
+        "components": []
+      },
+      {
+        "name": "fruit punch",
+        "is_new": false,
+        "group": null,
+        "components": []
+      }
+    ],
+    "booth_location": "South side of Randall Ave. between Underwood & Cooper streets",
+    "coordinates": [
+      "-93.1695930",
+      "44.9844182"
+    ],
+    "map_ref": "2643-2473",
+    "popupHtml": "<b>Funnel Cakes &amp; Elephant Ears</b>\n\t\t<br>South side of Randall Ave. between Underwood &amp; Cooper streets\n",
+    "categories": [
+      {
+        "id_cat": 2,
+        "category": "Food",
+        "group_label": null,
+        "type": null
+      }
+    ],
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
   },
   {
     "id": "11056.1",
@@ -34548,8 +34664,8 @@
     ],
     "booth_location": "At the International Bazaar, north section",
     "coordinates": [
-      "-93.170184169481",
-      "44.979464802413"
+      "-93.1691058",
+      "44.9780534"
     ],
     "popupHtml": "<b>Shanghai Henri's</b>\n\t\t<br>At the International Bazaar, north section\n",
     "categories": [
@@ -34598,7 +34714,8 @@
     "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "dietary": [
       "Vegetarian (pimento cheese puffs, nacho bites, deep fried strawberry cheesecake; please confirm with vendor)"
-    ]
+    ],
+    "map_ref": "1086-2637"
   },
   {
     "id": "1573.1",
@@ -35043,10 +35160,10 @@
     ],
     "booth_location": "South side of Murphy Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1707772",
-      "44.988002832718"
+      "-93.1695298",
+      "44.9870282"
     ],
-    "popupHtml": "<b>CinnieSmiths</b>\n\t\t<br>South side of Murphy Ave. between Underwood & Cooper streets\n",
+    "popupHtml": "<b>Smokey's Grill</b>\n\t\t<br>South side of Murphy Ave. between Underwood &amp; Cooper streets\n",
     "categories": [
       {
         "id_cat": 2,
@@ -35055,7 +35172,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2084.2/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2084.2/featured.1695x953.jpg",
+    "map_ref": "3284-2458"
   },
   {
     "id": "5581.1",
@@ -35090,10 +35208,10 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.170258965051",
-      "44.986833712075"
+      "-93.1701963",
+      "44.9868911"
     ],
-    "popupHtml": "<b>Smoothies</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
+    "popupHtml": "<b>Smoothies</b>\n\t\t<br>East side of Underwood St. between Murphy &amp; Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -35102,7 +35220,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5581.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5581.1/featured.1695x953.jpg",
+    "map_ref": "3244-2327"
   },
   {
     "id": "5052.1",
@@ -35219,10 +35338,10 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.170796876313",
-      "44.987199759698"
+      "-93.1702056",
+      "44.9864309"
     ],
-    "popupHtml": "<b>Solem's Cheese Curds</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
+    "popupHtml": "<b>Solem's Cheese Curds</b>\n\t\t<br>East side of Underwood St. between Murphy &amp; Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -35231,7 +35350,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5052.1/featured.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5052.1/featured.1695x953.jpg",
+    "map_ref": "3131-2330"
   },
   {
     "id": "5052.3",
@@ -35350,10 +35470,10 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.170796876313",
-      "44.987199759698"
+      "-93.1702056",
+      "44.9864309"
     ],
-    "popupHtml": "<b>Solem's Cheese Curds</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
+    "popupHtml": "<b>Solem's French Fries</b>\n\t\t<br>East side of Underwood St. between Murphy &amp; Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -35368,7 +35488,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "map_ref": "3131-2330"
   },
   {
     "id": "5052.2",
@@ -35494,10 +35615,10 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.170796876313",
-      "44.987199759698"
+      "-93.1702056",
+      "44.9864309"
     ],
-    "popupHtml": "<b>Solem's Cheese Curds</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
+    "popupHtml": "<b>Solem's Mini Donuts</b>\n\t\t<br>East side of Underwood St. between Murphy &amp; Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -35512,7 +35633,8 @@
         "type": null
       }
     ],
-    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg"
+    "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
+    "map_ref": "3131-2330"
   },
   {
     "id": "3332.1",
@@ -37249,10 +37371,10 @@
     ],
     "booth_location": "At the International Bazaar, north section",
     "coordinates": [
-      "-93.170184169481",
-      "44.979464802413"
+      "-93.1691058",
+      "44.9780534"
     ],
-    "popupHtml": "<b>Shanghai Henri's</b>\n\t\t<br>At the International Bazaar, north section\n",
+    "popupHtml": "<b>Summit On A Stick</b>\n\t\t<br>At the International Bazaar, north section\n",
     "categories": [
       {
         "id_cat": 2,
@@ -37291,7 +37413,8 @@
     ],
     "notes": [
       "Proud sponsor of the Summit Stage at the Bazaar"
-    ]
+    ],
+    "map_ref": "1086-2637"
   },
   {
     "id": "3408.1",
@@ -37907,10 +38030,10 @@
     ],
     "booth_location": "At Kidway",
     "coordinates": [
-      "-93.171028726282",
-      "44.979414795645"
+      "-93.1700536",
+      "44.9827569"
     ],
-    "popupHtml": "<b>Bratwurst</b>\n\t\t<br>Northwest corner of Carnes Ave. & Nelson St.\n",
+    "popupHtml": "<b>Sweets &amp; Treats</b>\n\t\t<br>At Kidway\n",
     "categories": [
       {
         "id_cat": 2,
@@ -37946,7 +38069,8 @@
       "Blue Ribbon Bargain Book": [
         "$2 off one snow cone (Regularly $6)"
       ]
-    }
+    },
+    "map_ref": "2231-2399"
   },
   {
     "id": "792.4",
@@ -38418,10 +38542,10 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.170258965051",
-      "44.986833712075"
+      "-93.1701963",
+      "44.9868911"
     ],
-    "popupHtml": "<b>Smoothies</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
+    "popupHtml": "<b>Taulelle's Jurassic Corn Dogs</b>\n\t\t<br>East side of Underwood St. between Murphy &amp; Lee avenues\n",
     "categories": [
       {
         "id_cat": 2,
@@ -38453,7 +38577,8 @@
       "Blue Ribbon Bargain Book": [
         "$3 off one order of schnitzel strips or one giant pork tenderloin sandwich (Regularly $13) OR $2 off any smoothie or hand-dipped corn dog (Regularly $8–$10)"
       ]
-    }
+    },
+    "map_ref": "3244-2327"
   },
   {
     "id": "3436.1",
