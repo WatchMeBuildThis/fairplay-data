@@ -31,6 +31,14 @@ remain present.
 | 2770.1 | All You Can Drink Milk | -93.1733688, 44.9786946 | Fair directions + operator location + Google place pin |
 | 256.1 | O'Gara's at the Fair | -93.1684059, 44.9809198 | Fair directions + independent venue coverage + Google place/address |
 | 3450.1 | The Hangar | -93.1702407, 44.9873662 | Fair directions + operator venue page + Google place/address |
+| 1968.1 | The Blue Barn | -93.1760875, 44.9811063 | Fair directions + operator location + Google place/address |
+| 212.1 | Blue Moon Dine-In Theater | -93.1740994, 44.9800146 | Fair directions + independent venue coverage + Google place/address |
+| 3684.1 | Hamline Church Dining Hall | -93.1698412, 44.9814379 | Fair directions + church venue history + Google place/address |
+| 1416.1 | LuLu's Public House | -93.1776071, 44.9812286 | Fair directions + independent venue documentation + Google place/address |
+| 198.1 | Mancini's al Fresco | -93.1716697, 44.9801006 | Fair directions + operator venue page + Google place/address |
+| 2878.1 | Minnesota Farmers Union Coffee Shop | -93.1685723, 44.9814844 | Fair directions + operator address + Google place/address |
+| 3231.1 | Salem Lutheran Church Dining Hall | -93.1678234, 44.9845954 | Fair directions + independent venue coverage + Google place/address |
+| 2924.1 | Turkey to Go | -93.1733812, 44.9789745 | Fair directions + operator-group address + Google place/address |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -61,11 +69,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 19 verified and compass-eligible
+- 27 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 245 present but not independently verified and compass-ineligible
-- 99 medium-priority street-corridor heuristic leads remain; these are review
+- 237 present but not independently verified and compass-ineligible
+- 95 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 
