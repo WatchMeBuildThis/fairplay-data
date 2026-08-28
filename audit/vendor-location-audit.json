@@ -8,20 +8,20 @@
     "coordinate_status_counts": {
       "approximate": 2,
       "missing": 12,
-      "unverified": 237,
-      "verified": 27
+      "unverified": 234,
+      "verified": 30
     },
-    "compass_eligible_count": 27,
+    "compass_eligible_count": 30,
     "review_priority_counts": {
       "critical": 12,
-      "low": 139,
-      "medium": 127
+      "low": 143,
+      "medium": 123
     },
     "issue_counts": {
-      "large_change_from_baseline": 42,
+      "large_change_from_baseline": 43,
       "missing_coordinate": 12,
-      "no_independent_verification": 249,
-      "written_street_corridor_conflict": 95
+      "no_independent_verification": 246,
+      "written_street_corridor_conflict": 90
     },
     "policy": {
       "compass_requires": "coordinate_status=verified, >=2 publisher groups, and no high/critical issue",
@@ -40,18 +40,18 @@
       },
       "underwood": {
         "axis": "lon",
-        "center": -93.1700467429042,
+        "center": -93.17005287087424,
         "sample_count": 83,
-        "inlier_count": 29,
-        "inlier_ratio": 0.349,
+        "inlier_count": 28,
+        "inlier_ratio": 0.337,
         "reliable_for_screening": true
       },
       "carnes": {
         "axis": "lat",
-        "center": 44.97995432567635,
+        "center": 44.98027029093063,
         "sample_count": 62,
-        "inlier_count": 20,
-        "inlier_ratio": 0.323,
+        "inlier_count": 22,
+        "inlier_ratio": 0.355,
         "reliable_for_screening": true
       },
       "judson": {
@@ -498,8 +498,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 92.6 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 92.6
+          "detail": "Heuristic: pin is 93.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 93.0
         },
         {
           "code": "large_change_from_baseline",
@@ -615,8 +615,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 65.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 65.7
+          "detail": "Heuristic: pin is 66.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 66.2
         },
         {
           "code": "no_independent_verification",
@@ -726,8 +726,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 144.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 144.9
+          "detail": "Heuristic: pin is 144.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 144.4
         },
         {
           "code": "no_independent_verification",
@@ -864,8 +864,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 84.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 84.7
+          "detail": "Heuristic: pin is 85.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 85.2
         },
         {
           "code": "no_independent_verification",
@@ -1174,8 +1174,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 106.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 106.1
+          "detail": "Heuristic: pin is 105.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 105.7
         },
         {
           "code": "no_independent_verification",
@@ -1391,8 +1391,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 80.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 80.8
+          "detail": "Heuristic: pin is 81.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 81.2
         },
         {
           "code": "no_independent_verification",
@@ -1453,8 +1453,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 109.2 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 109.2
+          "detail": "Heuristic: pin is 74.2 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 74.2
         },
         {
           "code": "no_independent_verification",
@@ -1486,37 +1486,6 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 110.9 m perpendicular to the feed-learned Nelson corridor; manual review required",
           "distance_m": 110.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1457.1",
-      "name": "Dino's Gyros",
-      "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
-      "coordinates": [
-        -93.169875159743,
-        44.979280658417
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 74.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 74.8
         },
         {
           "code": "no_independent_verification",
@@ -1577,8 +1546,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 138.9 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 138.9
+          "detail": "Heuristic: pin is 103.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 103.8
         },
         {
           "code": "no_independent_verification",
@@ -1639,8 +1608,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 91.1 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 91.1
+          "detail": "Heuristic: pin is 126.1 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 126.1
         },
         {
           "code": "no_independent_verification",
@@ -2135,8 +2104,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 146.6 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 146.6
+          "detail": "Heuristic: pin is 146.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 146.1
         },
         {
           "code": "no_independent_verification",
@@ -2199,37 +2168,6 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 178.8 m perpendicular to the feed-learned Judson corridor; manual review required",
           "distance_m": 178.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "10877.1",
-      "name": "Midway Mens Club",
-      "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, next to Visitors Plaza",
-      "coordinates": [
-        -93.170812558333,
-        44.981096432562
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 60.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 60.1
         },
         {
           "code": "no_independent_verification",
@@ -2321,8 +2259,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 142.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 142.1
+          "detail": "Heuristic: pin is 141.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 141.7
         },
         {
           "code": "no_independent_verification",
@@ -2538,39 +2476,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 100.7
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3077.1",
-      "name": "Poncho Dogs",
-      "booth_location": "South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building",
-      "coordinates": [
-        -93.171631410577,
-        44.980579265168
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 69.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 69.4
+          "detail": "Heuristic: pin is 135.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 135.7
         },
         {
           "code": "no_independent_verification",
@@ -2693,8 +2600,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 132.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 132.2
+          "detail": "Heuristic: pin is 131.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 131.7
         },
         {
           "code": "no_independent_verification",
@@ -2766,37 +2673,6 @@
       ]
     },
     {
-      "id": "5687.1",
-      "name": "Pronto Pups",
-      "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
-      "coordinates": [
-        -93.172529664103,
-        44.980542087368
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 65.2 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 65.2
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "7805.1",
       "name": "Pronto Pups",
       "booth_location": "Northwest corner of Randall Ave. & Cooper St.",
@@ -2848,39 +2724,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 135.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 135.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3173.1",
-      "name": "Rice Kristie Bars",
-      "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
-      "coordinates": [
-        -93.170140046154,
-        44.980689031817
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 81.6 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 81.6
+          "detail": "Heuristic: pin is 134.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 134.9
         },
         {
           "code": "no_independent_verification",
@@ -2943,6 +2788,68 @@
           "severity": "medium",
           "detail": "Coordinate moved 430.4 m from the pre-fix snapshot; review evidence",
           "distance_m": 430.4
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3404.1",
+      "name": "Root Beer Hut",
+      "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
+      "coordinates": [
+        -93.175346207692,
+        44.979577540605
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 76.9 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 76.9
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "10369.1",
+      "name": "Sadies Classics Frozen Custard",
+      "booth_location": "West side of Underwood St., just north of Carnes Ave.",
+      "coordinates": [
+        -93.169973501012,
+        44.979564451582
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 78.3 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 78.3
         },
         {
           "code": "no_independent_verification",
@@ -3065,8 +2972,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 91.3 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 91.3
+          "detail": "Heuristic: pin is 90.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 90.8
         },
         {
           "code": "no_independent_verification",
@@ -3220,8 +3127,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 161.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 161.1
+          "detail": "Heuristic: pin is 160.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 160.7
         },
         {
           "code": "no_independent_verification",
@@ -3282,39 +3189,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 143.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 143.2
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3983.1",
-      "name": "Sweet Martha's Cookie Jar",
-      "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
-      "coordinates": [
-        -93.170518503846,
-        44.980706473942
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 83.5 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 83.5
+          "detail": "Heuristic: pin is 142.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 142.7
         },
         {
           "code": "no_independent_verification",
@@ -3417,37 +3293,6 @@
       ]
     },
     {
-      "id": "8535.1",
-      "name": "Tasti Whip",
-      "booth_location": "Located on the northwest corner of Dan Patch Ave. & Underwood St.",
-      "coordinates": [
-        -93.1708134,
-        44.981263985612
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 60.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 60.2
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "1509.4",
       "name": "The Big Cheese Cheese Curds",
       "booth_location": "West side of Liggett St. at Carnes Ave., just south of Mighty Midway",
@@ -3541,37 +3386,6 @@
       ]
     },
     {
-      "id": "2348.1",
-      "name": "The Frontier",
-      "booth_location": "South side of Carnes Ave. between Liggett & Chambers streets",
-      "coordinates": [
-        -93.175562628127,
-        44.980525580547
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 63.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 63.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "2710.1",
       "name": "The Lunch Box",
       "booth_location": "East side of Cooper St. between Wright & Dan Patch avenues, south of the Home Improvement Building",
@@ -3623,8 +3437,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 129.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 129.2
+          "detail": "Heuristic: pin is 128.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 128.7
         },
         {
           "code": "no_independent_verification",
@@ -3778,8 +3592,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 109.9 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 109.9
+          "detail": "Heuristic: pin is 74.9 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 74.9
         },
         {
           "code": "no_independent_verification",
@@ -3811,6 +3625,37 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 107.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
           "distance_m": 107.5
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "1511.1",
+      "name": "Tom Thumb Mini Donuts",
+      "booth_location": "Southwest corner of Carnes Ave. & Underwood St.",
+      "coordinates": [
+        -93.170690246154,
+        44.979724936709
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 60.5 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 60.5
         },
         {
           "code": "no_independent_verification",
@@ -4050,6 +3895,36 @@
           "severity": "medium",
           "detail": "Coordinate moved 137.3 m from the pre-fix snapshot; review evidence",
           "distance_m": 137.3
+        }
+      ]
+    },
+    {
+      "id": "1457.1",
+      "name": "Dino's Gyros",
+      "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
+      "coordinates": [
+        -93.1710869,
+        44.980113
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "dinos_gyros",
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 132.9,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 132.9 m from the pre-fix snapshot; review evidence",
+          "distance_m": 132.9
         }
       ]
     },
@@ -6015,6 +5890,31 @@
       ]
     },
     {
+      "id": "10877.1",
+      "name": "Midway Mens Club",
+      "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, next to Visitors Plaza",
+      "coordinates": [
+        -93.170812558333,
+        44.981096432562
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "2780.1",
       "name": "Mini Melts/Wonder Bar",
       "booth_location": "East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park",
@@ -6415,6 +6315,31 @@
       ]
     },
     {
+      "id": "3077.1",
+      "name": "Poncho Dogs",
+      "booth_location": "South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building",
+      "coordinates": [
+        -93.171631410577,
+        44.980579265168
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "3079.2",
       "name": "Poncho Dogs",
       "booth_location": "South side of Dan Patch Ave. between Cooper & Cosgrove streets",
@@ -6471,6 +6396,31 @@
       "coordinates": [
         -93.169612024359,
         44.982657899418
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "5687.1",
+      "name": "Pronto Pups",
+      "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
+      "coordinates": [
+        -93.172529664103,
+        44.980542087368
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -6640,6 +6590,31 @@
       ]
     },
     {
+      "id": "3173.1",
+      "name": "Rice Kristie Bars",
+      "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
+      "coordinates": [
+        -93.170140046154,
+        44.980689031817
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "5275.1",
       "name": "Richie's Cheese Curd Tacos",
       "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
@@ -6671,31 +6646,6 @@
       "coordinates": [
         -93.175461431285,
         44.979495664557
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3404.1",
-      "name": "Root Beer Hut",
-      "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
-      "coordinates": [
-        -93.175346207692,
-        44.979577540605
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -6771,31 +6721,6 @@
       "coordinates": [
         -93.175331005769,
         44.978838583576
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "10369.1",
-      "name": "Sadies Classics Frozen Custard",
-      "booth_location": "West side of Underwood St., just north of Carnes Ave.",
-      "coordinates": [
-        -93.169973501012,
-        44.979564451582
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -7215,6 +7140,56 @@
       ]
     },
     {
+      "id": "3983.1",
+      "name": "Sweet Martha's Cookie Jar",
+      "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
+      "coordinates": [
+        -93.170518503846,
+        44.980706473942
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "8535.1",
+      "name": "Tasti Whip",
+      "booth_location": "Located on the northwest corner of Dan Patch Ave. & Underwood St.",
+      "coordinates": [
+        -93.1708134,
+        44.981263985612
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "5581.2",
       "name": "Taulelle's Jurassic Corn Dogs",
       "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
@@ -7315,6 +7290,31 @@
       ]
     },
     {
+      "id": "2348.1",
+      "name": "The Frontier",
+      "booth_location": "South side of Carnes Ave. between Liggett & Chambers streets",
+      "coordinates": [
+        -93.175562628127,
+        44.980525580547
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "5836.1",
       "name": "The Herbivorous Butcher",
       "booth_location": "In the Food Building, west section, south wall",
@@ -7390,87 +7390,12 @@
       ]
     },
     {
-      "id": "252.1",
-      "name": "The Peg",
-      "booth_location": "Outside southeast side of Agriculture Horticulture Building",
-      "coordinates": [
-        -93.169165191276,
-        44.97906736175
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3101.1",
-      "name": "The Produce Exchange",
-      "booth_location": "Northwest corner of Carnes Ave. & Underwood St.",
-      "coordinates": [
-        -93.170707179808,
-        44.980003622913
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "1948.1",
       "name": "Tino's Pizza on a Stick",
       "booth_location": "South side of Carnes Ave. at Chambers St.",
       "coordinates": [
         -93.17386817328,
         44.980287329012
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1511.1",
-      "name": "Tom Thumb Mini Donuts",
-      "booth_location": "Southwest corner of Carnes Ave. & Underwood St.",
-      "coordinates": [
-        -93.170690246154,
-        44.979724936709
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -7896,6 +7821,52 @@
         "google_maps"
       ],
       "baseline_change_m": null,
+      "verification_distance_m": 0.0,
+      "risk_score": 0,
+      "review_priority": "low",
+      "issues": []
+    },
+    {
+      "id": "252.1",
+      "name": "The Peg",
+      "booth_location": "Outside southeast side of Agriculture Horticulture Building",
+      "coordinates": [
+        -93.1693102,
+        44.9790698
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "cbs_minnesota",
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 11.4,
+      "verification_distance_m": 0.0,
+      "risk_score": 0,
+      "review_priority": "low",
+      "issues": []
+    },
+    {
+      "id": "3101.1",
+      "name": "The Produce Exchange",
+      "booth_location": "Northwest corner of Carnes Ave. & Underwood St.",
+      "coordinates": [
+        -93.170757,
+        44.9800641
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair",
+        "msp_magazine"
+      ],
+      "baseline_change_m": 7.8,
       "verification_distance_m": 0.0,
       "risk_score": 0,
       "review_priority": "low",
