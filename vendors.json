@@ -1878,9 +1878,10 @@
     ],
     "booth_location": "South side of Carnes Ave. between Chambers & Nelson streets",
     "coordinates": [
-      "-93.174847851157",
-      "44.980315510042"
+      "-93.1743171",
+      "44.979745"
     ],
+    "map_ref": "1491-1610",
     "popupHtml": "<b>Andy's Grille</b>\n\t\t<br>South side of Carnes Ave. between Chambers & Nelson streets\n",
     "categories": [
       {
