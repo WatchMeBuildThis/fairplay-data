@@ -26,6 +26,9 @@ remain present.
 | 3089.1 | The Perfect Pickle | -93.1755182, 44.9806751 | Fair directions + vendor site + Google place/address |
 | 3127.1 | Que Viet Concessions | -93.1688966, 44.9807643 | Fair directions + Google place pin |
 | 3340.1 | Spaghetti Eddies | -93.1688970, 44.9807323 | Fair directions + Google place pin |
+| 2021.1 | Cafe Caribe | -93.1738652, 44.9797356 | Fair directions + vendor address + Google place pin |
+| 2336.1 | French Meadow Bakery & Cafe | -93.1712263, 44.9801274 | Fair directions + vendor address + Google place pin |
+| 2770.1 | All You Can Drink Milk | -93.1733688, 44.9786946 | Fair directions + operator location + Google place pin |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -56,11 +59,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 14 verified and compass-eligible
+- 17 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 250 present but not independently verified and compass-ineligible
-- 103 medium-priority street-corridor heuristic leads remain; these are review
+- 247 present but not independently verified and compass-ineligible
+- 101 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 
