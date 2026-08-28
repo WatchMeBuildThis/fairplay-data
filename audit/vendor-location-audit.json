@@ -6,78 +6,68 @@
     "record_count_matches": true,
     "unique_id_count": 278,
     "coordinate_status_counts": {
-      "approximate": 1,
-      "missing": 2,
-      "unverified": 271,
-      "verified": 4
+      "approximate": 2,
+      "missing": 12,
+      "unverified": 250,
+      "verified": 14
     },
-    "compass_eligible_count": 4,
+    "compass_eligible_count": 14,
     "review_priority_counts": {
-      "critical": 2,
-      "high": 23,
-      "low": 140,
-      "medium": 113
+      "critical": 12,
+      "low": 144,
+      "medium": 122
     },
     "issue_counts": {
-      "duplicate_coordinate_location_conflict": 2,
-      "large_change_from_baseline": 22,
-      "missing_coordinate": 2,
-      "no_independent_verification": 273,
-      "same_written_location_spread": 21,
-      "written_street_corridor_conflict": 115
+      "large_change_from_baseline": 31,
+      "missing_coordinate": 12,
+      "no_independent_verification": 262,
+      "written_street_corridor_conflict": 103
     },
     "policy": {
       "compass_requires": "coordinate_status=verified, >=2 publisher groups, and no high/critical issue",
       "official_site_independence": "Directions, GeoJSON, mapRef, and official map count as one publisher group",
-      "live_feed_mutated": false
+      "audit_script_mutates_feed": false,
+      "status_fields_published": true
     },
     "road_models": {
       "dan patch": {
         "axis": "lat",
-        "center": 44.981646182577194,
-        "sample_count": 54,
-        "inlier_count": 15,
-        "inlier_ratio": 0.278,
+        "center": 44.982058690213535,
+        "sample_count": 52,
+        "inlier_count": 13,
+        "inlier_ratio": 0.25,
         "reliable_for_screening": true
       },
       "underwood": {
         "axis": "lon",
         "center": -93.17021309328118,
-        "sample_count": 85,
+        "sample_count": 83,
         "inlier_count": 28,
-        "inlier_ratio": 0.329,
+        "inlier_ratio": 0.337,
         "reliable_for_screening": true
       },
       "carnes": {
         "axis": "lat",
-        "center": 44.979771689760085,
-        "sample_count": 65,
-        "inlier_count": 23,
-        "inlier_ratio": 0.354,
+        "center": 44.97970971992328,
+        "sample_count": 62,
+        "inlier_count": 18,
+        "inlier_ratio": 0.29,
         "reliable_for_screening": true
       },
       "judson": {
         "axis": "lat",
         "center": 44.97809371983827,
-        "sample_count": 53,
+        "sample_count": 50,
         "inlier_count": 15,
-        "inlier_ratio": 0.283,
+        "inlier_ratio": 0.3,
         "reliable_for_screening": true
       },
       "liggett": {
         "axis": "lon",
-        "center": -93.17420695630244,
-        "sample_count": 33,
-        "inlier_count": 9,
-        "inlier_ratio": 0.273,
-        "reliable_for_screening": true
-      },
-      "nelson": {
-        "axis": "lon",
-        "center": -93.1724919008285,
-        "sample_count": 57,
-        "inlier_count": 16,
-        "inlier_ratio": 0.281,
+        "center": -93.1754220268404,
+        "sample_count": 31,
+        "inlier_count": 10,
+        "inlier_ratio": 0.323,
         "reliable_for_screening": true
       },
       "lee": {
@@ -106,10 +96,18 @@
       },
       "cooper": {
         "axis": "lon",
-        "center": -93.16926738877643,
-        "sample_count": 43,
-        "inlier_count": 14,
-        "inlier_ratio": 0.326,
+        "center": -93.16926641765284,
+        "sample_count": 38,
+        "inlier_count": 13,
+        "inlier_ratio": 0.342,
+        "reliable_for_screening": true
+      },
+      "nelson": {
+        "axis": "lon",
+        "center": -93.17184271797414,
+        "sample_count": 53,
+        "inlier_count": 15,
+        "inlier_ratio": 0.283,
         "reliable_for_screening": true
       },
       "chambers": {
@@ -146,591 +144,34 @@
       },
       "west dan patch": {
         "axis": "lat",
-        "center": 44.98145437636525,
+        "center": 44.980228150675664,
         "sample_count": 11,
-        "inlier_count": 4,
-        "inlier_ratio": 0.364,
-        "reliable_for_screening": true
+        "inlier_count": 3,
+        "inlier_ratio": 0.273,
+        "reliable_for_screening": false
       }
     }
   },
   "vendors": [
     {
-      "id": "2340.1",
-      "name": "Fresh French Fries",
-      "booth_location": "Diet Coke, Dasani bottled water, french fries made from fresh-cut potatoes, Sprite, Cherry Coke, Coca-Cola.",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "missing",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": null,
-      "verification_distance_m": null,
-      "risk_score": 100,
-      "review_priority": "critical",
-      "issues": [
-        {
-          "code": "missing_coordinate",
-          "severity": "critical",
-          "detail": "No coordinate is published"
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3645.1",
-      "name": "The Mouth Trap Cheese Curds",
-      "booth_location": "battered deep-fried cheese curds, Coca-Cola, Sprite, bottled water, Diet Coke, Mello Yello.",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "missing",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": null,
-      "verification_distance_m": null,
-      "risk_score": 100,
-      "review_priority": "critical",
-      "issues": [
-        {
-          "code": "missing_coordinate",
-          "severity": "critical",
-          "detail": "No coordinate is published"
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "225.1",
-      "name": "Donna's Bar-B-Q",
-      "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
-      "coordinates": [
-        -93.176128414024,
-        44.978879925943
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 95,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 108.5 m)",
-          "distance_m": 108.5
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 87.3 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 87.3
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 150.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 150.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2120.3",
-      "name": "L & B Cotton Candy",
-      "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
-      "coordinates": [
-        -93.173305503862,
-        44.979180010169
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 95,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 99.4 m)",
-          "distance_m": 99.4
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 65.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 65.7
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 63.9 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 63.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3089.1",
-      "name": "The Perfect Pickle",
-      "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
-      "coordinates": [
-        -93.176561437821,
-        44.979607175277
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 95,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 220.7 m)",
-          "distance_m": 220.7
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 205.0 m perpendicular to the feed-learned West Dan Patch corridor; manual review required",
-          "distance_m": 205.0
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 184.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 184.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "210.1",
-      "name": "Al's Subs & Malt Shop",
-      "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",
-      "coordinates": [
-        -93.171090976923,
-        44.979673648078
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 122.3 m)",
-          "distance_m": 122.3
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 110.0 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 110.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1932.1",
-      "name": "Bayou Bob's Gator Shack",
-      "booth_location": "Southeast corner of Dan Patch Ave. & Nelson St.",
-      "coordinates": [
-        -93.170869569058,
-        44.981504357749
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 137.6 m)",
-          "distance_m": 137.6
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 127.4 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 127.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2142.1",
-      "name": "Cream Puffs",
-      "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
-      "coordinates": [
-        -93.176959426923,
-        44.981571583989
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 220.7 m)",
-          "distance_m": 220.7
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 216.1 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 216.1
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2069.1",
-      "name": "Crutchees Cheese on a Stick",
-      "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
-      "coordinates": [
-        -93.172811082121,
-        44.979675006557
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 255.7 m)",
-          "distance_m": 255.7
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 175.5 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 175.5
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3340.2",
-      "name": "Deep Fried Batter Dipped Twinkies & Buckeyes",
-      "booth_location": "East side of Cooper St. outside the Merch Market",
-      "coordinates": [
-        -93.168243092308,
-        44.98129663426
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 98.1 m)",
-          "distance_m": 98.1
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 80.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 80.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3280.1",
-      "name": "Elm's Shaved Ice",
-      "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
-      "coordinates": [
-        -93.174915817949,
-        44.97934577134
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 108.5 m)",
-          "distance_m": 108.5
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 139.0 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 139.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3008.1",
-      "name": "Oven Fresh Brownies",
-      "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
-      "coordinates": [
-        -93.170647888462,
-        44.981432429011
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 162.0 m)",
-          "distance_m": 162.0
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 108.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 108.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "5910.1",
-      "name": "Pickle Barrel Sirloin Tips",
-      "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
-      "coordinates": [
-        -93.171132108333,
-        44.977706046665
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 255.7 m)",
-          "distance_m": 255.7
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 106.8 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 106.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3115.1",
-      "name": "Pronto Pups",
-      "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
-      "coordinates": [
-        -93.17391865641,
-        44.97898113695
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 115.9 m)",
-          "distance_m": 115.9
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 87.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 87.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3127.1",
-      "name": "Que Viet Concessions",
-      "booth_location": "East side of Cooper St. outside the Merch Market",
-      "coordinates": [
-        -93.1680523,
-        44.979881345648
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 75,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 118.0 m)",
-          "distance_m": 118.0
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 95.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 95.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "6135.1",
       "name": "About a Foot Long Hot Dog",
       "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
-      "coordinates": [
-        -93.172362059615,
-        44.97977494964
-      ],
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 99.4 m)",
-          "distance_m": 99.4
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -743,25 +184,21 @@
       "id": "11505.1",
       "name": "Chocolate Strawberry Cup",
       "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
-      "coordinates": [
-        -93.168669400626,
-        44.981838912141
-      ],
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 162.0 m)",
-          "distance_m": 162.0
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -771,59 +208,24 @@
       ]
     },
     {
-      "id": "216.1",
-      "name": "Coasters",
-      "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
-      "coordinates": [
-        -93.173641223397,
-        44.980005019245
-      ],
+      "id": "2069.1",
+      "name": "Crutchees Cheese on a Stick",
+      "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 115.9 m)",
-          "distance_m": 115.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2112.1",
-      "name": "Corn Roast",
-      "booth_location": "Southeast corner of Dan Patch Ave. & Nelson St.",
-      "coordinates": [
-        -93.172615607692,
-        44.981575107766
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
-      "issues": [
-        {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 137.6 m)",
-          "distance_m": 137.6
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -836,25 +238,102 @@
       "id": "3745.1",
       "name": "Danielson's & Daughters Onion Rings",
       "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
-      "coordinates": [
-        -93.169038239665,
-        44.980416825569
-      ],
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 139.2 m)",
-          "distance_m": 139.2
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3340.2",
+      "name": "Deep Fried Batter Dipped Twinkies & Buckeyes",
+      "booth_location": "East side of Cooper St. outside the Merch Market",
+      "coordinates": null,
+      "map_ref": null,
+      "coordinate_status": "missing",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": null,
+      "verification_distance_m": null,
+      "risk_score": 100,
+      "review_priority": "critical",
+      "issues": [
+        {
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3280.1",
+      "name": "Elm's Shaved Ice",
+      "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
+      "coordinates": null,
+      "map_ref": null,
+      "coordinate_status": "missing",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": null,
+      "verification_distance_m": null,
+      "risk_score": 100,
+      "review_priority": "critical",
+      "issues": [
+        {
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "2340.1",
+      "name": "Fresh French Fries",
+      "booth_location": "At Mighty Midway",
+      "coordinates": null,
+      "map_ref": null,
+      "coordinate_status": "missing",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": null,
+      "verification_distance_m": null,
+      "risk_score": 100,
+      "review_priority": "critical",
+      "issues": [
+        {
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -867,25 +346,21 @@
       "id": "2561.1",
       "name": "Isabel Burke's Taffy",
       "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
-      "coordinates": [
-        -93.168946127564,
-        44.979166683648
-      ],
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 139.2 m)",
-          "distance_m": 139.2
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -895,27 +370,24 @@
       ]
     },
     {
-      "id": "2607.1",
-      "name": "Katie's Famous Sweet Tea",
-      "booth_location": "At Mighty Midway",
-      "coordinates": [
-        -93.177235873077,
-        44.980200388489
-      ],
+      "id": "2120.3",
+      "name": "L & B Cotton Candy",
+      "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "duplicate_coordinate_location_conflict",
-          "severity": "high",
-          "detail": "Exact coordinate is shared by vendors with different written locations: 2607.1, 3394.1"
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -925,28 +397,24 @@
       ]
     },
     {
-      "id": "2776.1",
-      "name": "Miller's Flavored Cheese Curds",
-      "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",
-      "coordinates": [
-        -93.172645433974,
-        44.97967416281
-      ],
+      "id": "3008.1",
+      "name": "Oven Fresh Brownies",
+      "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 122.3 m)",
-          "distance_m": 122.3
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -956,28 +424,24 @@
       ]
     },
     {
-      "id": "3340.1",
-      "name": "Spaghetti Eddies",
-      "booth_location": "East side of Cooper St. outside the Merch Market",
-      "coordinates": [
-        -93.169089246154,
-        44.980647985612
-      ],
+      "id": "5910.1",
+      "name": "Pickle Barrel Sirloin Tips",
+      "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "same_written_location_spread",
-          "severity": "high",
-          "detail": "No peer with the same tight written location is within 55 m (nearest 98.1 m)",
-          "distance_m": 98.1
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -987,27 +451,24 @@
       ]
     },
     {
-      "id": "3394.1",
-      "name": "Sugar Shack",
-      "booth_location": "At the Mighty Midway",
-      "coordinates": [
-        -93.177235873077,
-        44.980200388489
-      ],
+      "id": "3115.1",
+      "name": "Pronto Pups",
+      "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
+      "coordinates": null,
       "map_ref": null,
-      "coordinate_status": "unverified",
+      "coordinate_status": "missing",
       "confidence": "none",
       "compass_eligible": false,
       "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
+      "baseline_change_m": null,
       "verification_distance_m": null,
-      "risk_score": 55,
-      "review_priority": "high",
+      "risk_score": 100,
+      "review_priority": "critical",
       "issues": [
         {
-          "code": "duplicate_coordinate_location_conflict",
-          "severity": "high",
-          "detail": "Exact coordinate is shared by vendors with different written locations: 2607.1, 3394.1"
+          "code": "missing_coordinate",
+          "severity": "critical",
+          "detail": "No coordinate is published"
         },
         {
           "code": "no_independent_verification",
@@ -1045,6 +506,80 @@
           "severity": "medium",
           "detail": "Coordinate moved 397.5 m from the pre-fix snapshot; review evidence",
           "distance_m": 397.5
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "9642.2",
+      "name": "About a Foot Long Hot Dog",
+      "booth_location": "Northwest corner of Dan Patch Ave. & Cooper St.",
+      "coordinates": [
+        -93.1693751,
+        44.9814141
+      ],
+      "map_ref": "1908-2548",
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 236.3,
+      "verification_distance_m": null,
+      "risk_score": 45,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 71.5 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 71.5
+        },
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 236.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 236.3
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "5733.1",
+      "name": "Bridge N' Barrel Root Beer",
+      "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+      "coordinates": [
+        -93.171136,
+        44.9814214
+      ],
+      "map_ref": "1893-2198",
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 272.5,
+      "verification_distance_m": null,
+      "risk_score": 45,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 70.7 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 70.7
+        },
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 272.5 m from the pre-fix snapshot; review evidence",
+          "distance_m": 272.5
         },
         {
           "code": "no_independent_verification",
@@ -1111,8 +646,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 141.7 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 141.7
+          "detail": "Heuristic: pin is 187.5 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 187.5
         },
         {
           "code": "written_street_corridor_conflict",
@@ -1128,12 +663,12 @@
       ]
     },
     {
-      "id": "12663.1",
-      "name": "dodopop",
-      "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
+      "id": "226.1",
+      "name": "El Sol Mexican Foods",
+      "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building",
       "coordinates": [
-        -93.170119228127,
-        44.982393602691
+        -93.170978671795,
+        44.981205840041
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -1148,14 +683,14 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 83.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 83.0
+          "detail": "Heuristic: pin is 94.7 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 94.7
         },
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 66.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 66.9
+          "detail": "Heuristic: pin is 166.1 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 166.1
         },
         {
           "code": "no_independent_verification",
@@ -1185,8 +720,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 161.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 161.0
+          "detail": "Heuristic: pin is 206.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 206.8
         },
         {
           "code": "written_street_corridor_conflict",
@@ -1222,8 +757,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 142.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 142.1
+          "detail": "Heuristic: pin is 187.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 187.9
         },
         {
           "code": "written_street_corridor_conflict",
@@ -1272,6 +807,76 @@
           "code": "no_independent_verification",
           "severity": "low",
           "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "1932.1",
+      "name": "Bayou Bob's Gator Shack",
+      "booth_location": "Southeast corner of Dan Patch Ave. & Nelson St.",
+      "coordinates": [
+        -93.171734,
+        44.9807911
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 104.5,
+      "verification_distance_m": 0.0,
+      "risk_score": 40,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 140.7 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 140.7
+        },
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 104.5 m from the pre-fix snapshot; review evidence",
+          "distance_m": 104.5
+        }
+      ]
+    },
+    {
+      "id": "2112.1",
+      "name": "Corn Roast",
+      "booth_location": "Southeast corner of Dan Patch Ave. & Nelson St.",
+      "coordinates": [
+        -93.1716163,
+        44.9808717
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 110.9,
+      "verification_distance_m": 0.0,
+      "risk_score": 40,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 131.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 131.8
+        },
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 110.9 m from the pre-fix snapshot; review evidence",
+          "distance_m": 110.9
         }
       ]
     },
@@ -1342,6 +947,37 @@
       ]
     },
     {
+      "id": "2114.1",
+      "name": "3B Fresh Squeezed Lemonade & Foot Long Corn Dogs",
+      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.174149666026,
+        44.978771392184
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 99.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 99.9
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "9642.1",
       "name": "About a Foot Long Hot Dog",
       "booth_location": "East side of Cosgrove St. between the Fine Arts Center & 4-H Building",
@@ -1364,37 +1000,6 @@
           "severity": "medium",
           "detail": "Coordinate moved 126.3 m from the pre-fix snapshot; review evidence",
           "distance_m": 126.3
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "9642.2",
-      "name": "About a Foot Long Hot Dog",
-      "booth_location": "Northwest corner of Dan Patch Ave. & Cooper St.",
-      "coordinates": [
-        -93.1693751,
-        44.9814141
-      ],
-      "map_ref": "1908-2548",
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 236.3,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "large_change_from_baseline",
-          "severity": "medium",
-          "detail": "Coordinate moved 236.3 m from the pre-fix snapshot; review evidence",
-          "distance_m": 236.3
         },
         {
           "code": "no_independent_verification",
@@ -1455,8 +1060,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 98.1 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 98.1
+          "detail": "Heuristic: pin is 98.2 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 98.2
         },
         {
           "code": "no_independent_verification",
@@ -1528,37 +1133,6 @@
       ]
     },
     {
-      "id": "5733.1",
-      "name": "Bridge N' Barrel Root Beer",
-      "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
-      "coordinates": [
-        -93.171136,
-        44.9814214
-      ],
-      "map_ref": "1893-2198",
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 272.5,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "large_change_from_baseline",
-          "severity": "medium",
-          "detail": "Coordinate moved 272.5 m from the pre-fix snapshot; review evidence",
-          "distance_m": 272.5
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "5733.2",
       "name": "Bridge N' Barrel Root Beer",
       "booth_location": "Northwest corner of Carnes Ave. & Underwood St.",
@@ -1610,8 +1184,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 88.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 88.4
+          "detail": "Heuristic: pin is 88.3 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 88.3
         },
         {
           "code": "no_independent_verification",
@@ -1683,6 +1257,37 @@
       ]
     },
     {
+      "id": "1996.1",
+      "name": "Bridgeman's Ice Cream",
+      "booth_location": "Northeast corner of Judson Ave. & Liggett St.",
+      "coordinates": [
+        -93.174268923397,
+        44.977853141634
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 90.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 90.5
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "2005.1",
       "name": "Buni's",
       "booth_location": "Northwest corner of Judson Ave. & Liggett St.",
@@ -1703,39 +1308,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 171.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 171.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "10014.1",
-      "name": "Butcher Boys",
-      "booth_location": "West side of Liggett St. between Carnes & West Dan Patch avenues",
-      "coordinates": [
-        -93.175614425979,
-        44.980217873197
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 110.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 110.5
+          "detail": "Heuristic: pin is 75.6 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 75.6
         },
         {
           "code": "no_independent_verification",
@@ -1765,8 +1339,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 82.5 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 82.5
+          "detail": "Heuristic: pin is 128.3 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 128.3
         },
         {
           "code": "no_independent_verification",
@@ -1796,8 +1370,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 75.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 75.7
+          "detail": "Heuristic: pin is 68.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 68.8
         },
         {
           "code": "no_independent_verification",
@@ -1858,8 +1432,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 171.3 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 171.3
+          "detail": "Heuristic: pin is 75.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 75.9
         },
         {
           "code": "no_independent_verification",
@@ -1962,37 +1536,6 @@
       ]
     },
     {
-      "id": "2069.2",
-      "name": "Crutchees Cheese on a Stick",
-      "booth_location": "southeast corner of West Dan Patch Ave. & Liggett St.",
-      "coordinates": [
-        -93.175980161316,
-        44.981387688534
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 139.2 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 139.2
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "2182.1",
       "name": "Daryl's Dog House",
       "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
@@ -2013,8 +1556,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 76.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 76.7
+          "detail": "Heuristic: pin is 83.6 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 83.6
         },
         {
           "code": "no_independent_verification",
@@ -2044,8 +1587,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 129.5 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 129.5
+          "detail": "Heuristic: pin is 136.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 136.4
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "2198.1",
+      "name": "Demetri's Fine Greek Foods",
+      "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues",
+      "coordinates": [
+        -93.173247925962,
+        44.981598484538
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 110.3 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 110.3
         },
         {
           "code": "no_independent_verification",
@@ -2075,8 +1649,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 74.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 74.7
+          "detail": "Heuristic: pin is 81.6 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 81.6
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "12663.1",
+      "name": "dodopop",
+      "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
+      "coordinates": [
+        -93.170119228127,
+        44.982393602691
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 67.0 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 67.0
         },
         {
           "code": "no_independent_verification",
@@ -2108,37 +1713,6 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 69.0 m perpendicular to the feed-learned Judson corridor; manual review required",
           "distance_m": 69.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "226.1",
-      "name": "El Sol Mexican Foods",
-      "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building",
-      "coordinates": [
-        -93.170978671795,
-        44.981205840041
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 159.2 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 159.2
         },
         {
           "code": "no_independent_verification",
@@ -2199,8 +1773,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 70.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 70.8
+          "detail": "Heuristic: pin is 63.9 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 63.9
         },
         {
           "code": "no_independent_verification",
@@ -2230,8 +1804,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 76.2 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 76.2
+          "detail": "Heuristic: pin is 69.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 69.4
         },
         {
           "code": "no_independent_verification",
@@ -2261,8 +1835,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 114.2 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 114.2
+          "detail": "Heuristic: pin is 63.3 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 63.3
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "217.1",
+      "name": "Fresh Made Nut Rolls",
+      "booth_location": "Northeast corner of Dan Patch Ave. & Underwood St.",
+      "coordinates": [
+        -93.170194551923,
+        44.98128171223
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 86.2 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 86.2
         },
         {
           "code": "no_independent_verification",
@@ -2334,12 +1939,12 @@
       ]
     },
     {
-      "id": "2247.1",
-      "name": "Funnel Cakes",
-      "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+      "id": "2196.1",
+      "name": "Galaxy of Drinks",
+      "booth_location": "West side of Liggett St., just south of Mighty Midway",
       "coordinates": [
-        -93.170131707943,
-        44.982191270589
+        -93.174524839665,
+        44.978939895317
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -2354,8 +1959,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 60.5 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 60.5
+          "detail": "Heuristic: pin is 70.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 70.4
         },
         {
           "code": "no_independent_verification",
@@ -2416,8 +2021,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 101.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 101.0
+          "detail": "Heuristic: pin is 146.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 146.8
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "10347.1",
+      "name": "Greater Tater",
+      "booth_location": "West side of Liggett St. between Carnes & Judson avenues, outside the Horse Barn",
+      "coordinates": [
+        -93.174356814744,
+        44.979828821699
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 83.6 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 83.6
         },
         {
           "code": "no_independent_verification",
@@ -2447,8 +2083,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 114.0 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 114.0
+          "detail": "Heuristic: pin is 113.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 113.9
         },
         {
           "code": "no_independent_verification",
@@ -2509,8 +2145,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 78.3 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 78.3
+          "detail": "Heuristic: pin is 124.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 124.1
         },
         {
           "code": "no_independent_verification",
@@ -2540,39 +2176,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 102.3 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 102.3
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2196.2",
-      "name": "Ice Cold Root Beer",
-      "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.171267228127,
-        44.978270592019
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 96.2 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 96.2
+          "detail": "Heuristic: pin is 102.2 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 102.2
         },
         {
           "code": "no_independent_verification",
@@ -2633,39 +2238,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 175.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 175.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2122.3",
-      "name": "Kathie's Cotton Candy",
-      "booth_location": "West side of Liggett St. between West Dan Patch & Carnes avenues",
-      "coordinates": [
-        -93.175379328846,
-        44.98039981295
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 92.1 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 92.1
+          "detail": "Heuristic: pin is 80.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 80.5
         },
         {
           "code": "no_independent_verification",
@@ -2737,6 +2311,37 @@
       ]
     },
     {
+      "id": "9067.1",
+      "name": "Lumpia City",
+      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.174125542455,
+        44.979857085169
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 101.8 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 101.8
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "10914.1",
       "name": "Magdalena's Chimney Cakes",
       "booth_location": "North side of Judson Ave. between Clough & Nelson streets",
@@ -2788,8 +2393,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 125.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 125.4
+          "detail": "Heuristic: pin is 132.3 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 132.3
         },
         {
           "code": "no_independent_verification",
@@ -2881,8 +2486,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 79.7 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 79.7
+          "detail": "Heuristic: pin is 125.5 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 125.5
         },
         {
           "code": "no_independent_verification",
@@ -2912,8 +2517,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 94.7 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 94.7
+          "detail": "Heuristic: pin is 94.8 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 94.8
         },
         {
           "code": "no_independent_verification",
@@ -2943,8 +2548,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 64.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 64.1
+          "detail": "Heuristic: pin is 109.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 109.9
         },
         {
           "code": "no_independent_verification",
@@ -2974,8 +2579,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 214.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 214.4
+          "detail": "Heuristic: pin is 119.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 119.0
         },
         {
           "code": "no_independent_verification",
@@ -3007,6 +2612,37 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 69.7 m perpendicular to the feed-learned Judson corridor; manual review required",
           "distance_m": 69.7
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3030.1",
+      "name": "Patio Grill",
+      "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.173235129487,
+        44.979696033755
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 109.3 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 109.3
         },
         {
           "code": "no_independent_verification",
@@ -3098,39 +2734,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 80.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 80.4
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3066.1",
-      "name": "Pizza Wagon",
-      "booth_location": "West side of Liggett St., just north of Mighty Midway",
-      "coordinates": [
-        -93.175473233654,
-        44.980380313561
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 99.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 99.4
+          "detail": "Heuristic: pin is 73.5 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 73.5
         },
         {
           "code": "no_independent_verification",
@@ -3160,8 +2765,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 89.6 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 89.6
+          "detail": "Heuristic: pin is 96.5 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 96.5
         },
         {
           "code": "no_independent_verification",
@@ -3253,8 +2858,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 173.8 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 173.8
+          "detail": "Heuristic: pin is 78.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 78.4
         },
         {
           "code": "no_independent_verification",
@@ -3315,8 +2920,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 138.3 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 138.3
+          "detail": "Heuristic: pin is 184.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 184.1
         },
         {
           "code": "no_independent_verification",
@@ -3377,8 +2982,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 85.5 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 85.5
+          "detail": "Heuristic: pin is 92.4 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 92.4
         },
         {
           "code": "no_independent_verification",
@@ -3408,8 +3013,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 100.5
+          "detail": "Heuristic: pin is 100.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 100.4
         },
         {
           "code": "no_independent_verification",
@@ -3439,8 +3044,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 62.4 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 62.4
+          "detail": "Heuristic: pin is 108.2 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 108.2
         },
         {
           "code": "no_independent_verification",
@@ -3501,8 +3106,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 101.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 101.8
+          "detail": "Heuristic: pin is 108.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 108.7
         },
         {
           "code": "no_independent_verification",
@@ -3574,37 +3179,6 @@
       ]
     },
     {
-      "id": "11056.1",
-      "name": "Roon's Savories",
-      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.175461431285,
-        44.979495664557
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 98.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 98.5
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "3249.1",
       "name": "Sausage Express",
       "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
@@ -3625,39 +3199,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 131.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 131.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3769.1",
-      "name": "Scotch Eggs",
-      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.175450142308,
-        44.979513482014
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 97.6 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 97.6
+          "detail": "Heuristic: pin is 176.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 176.8
         },
         {
           "code": "no_independent_verification",
@@ -3915,68 +3458,6 @@
       ]
     },
     {
-      "id": "3408.1",
-      "name": "Super Dog",
-      "booth_location": "east side of Liggett Street between West Dan Patch and Carnes avenues",
-      "coordinates": [
-        -93.176094986179,
-        44.979555170138
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 148.2 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 148.2
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2079.1",
-      "name": "Sweet Martha's Cookie Jar",
-      "booth_location": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
-      "coordinates": [
-        -93.173640357692,
-        44.98006676588
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 154.0 m perpendicular to the feed-learned West Dan Patch corridor; manual review required",
-          "distance_m": 154.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "3981.1",
       "name": "Sweet Martha's Cookie Jar",
       "booth_location": "West side of Underwood St. between Murphy & Lee avenues",
@@ -4028,39 +3509,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 103.8 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 103.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1509.1",
-      "name": "Sweets & Treats",
-      "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
-      "coordinates": [
-        -93.170089029487,
-        44.98229727677
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 72.3 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 72.3
+          "detail": "Heuristic: pin is 110.6 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 110.6
         },
         {
           "code": "no_independent_verification",
@@ -4132,6 +3582,37 @@
       ]
     },
     {
+      "id": "8535.1",
+      "name": "Tasti Whip",
+      "booth_location": "Located on the northwest corner of Dan Patch Ave. & Underwood St.",
+      "coordinates": [
+        -93.1708134,
+        44.981263985612
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 88.2 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 88.2
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "1509.4",
       "name": "The Big Cheese Cheese Curds",
       "booth_location": "West side of Liggett St. at Carnes Ave., just south of Mighty Midway",
@@ -4152,8 +3633,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 204.6 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 204.6
+          "detail": "Heuristic: pin is 109.2 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 109.2
         },
         {
           "code": "no_independent_verification",
@@ -4245,8 +3726,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 83.7 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 83.7
+          "detail": "Heuristic: pin is 90.6 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 90.6
         },
         {
           "code": "no_independent_verification",
@@ -4276,8 +3757,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 86.1 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 86.1
+          "detail": "Heuristic: pin is 86.0 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 86.0
         },
         {
           "code": "no_independent_verification",
@@ -4338,8 +3819,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 126.6 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 126.6
+          "detail": "Heuristic: pin is 75.7 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 75.7
         },
         {
           "code": "no_independent_verification",
@@ -4380,6 +3861,37 @@
       ]
     },
     {
+      "id": "9260.1",
+      "name": "The Strawberry Patch",
+      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.174319916667,
+        44.978623351579
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 86.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 86.5
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "6137.1",
       "name": "Three Sisters Concessions",
       "booth_location": "North side of Judson Ave., outside the Horse Barn",
@@ -4411,6 +3923,37 @@
       ]
     },
     {
+      "id": "1948.1",
+      "name": "Tino's Pizza on a Stick",
+      "booth_location": "South side of Carnes Ave. at Chambers St.",
+      "coordinates": [
+        -93.17386817328,
+        44.980287329012
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 64.1 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 64.1
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "3792.1",
       "name": "Tiny Tim Donuts",
       "booth_location": "North side of Carnes Ave. between Chambers & Clough streets",
@@ -4431,8 +3974,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 130.2 m perpendicular to the feed-learned Carnes corridor; manual review required",
-          "distance_m": 130.2
+          "detail": "Heuristic: pin is 137.1 m perpendicular to the feed-learned Carnes corridor; manual review required",
+          "distance_m": 137.1
         },
         {
           "code": "no_independent_verification",
@@ -4462,13 +4005,42 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 107.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 107.4
+          "detail": "Heuristic: pin is 107.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 107.5
         },
         {
           "code": "no_independent_verification",
           "severity": "low",
           "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "210.1",
+      "name": "Al's Subs & Malt Shop",
+      "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",
+      "coordinates": [
+        -93.1718193,
+        44.9803951
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 98.6,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 98.6 m from the pre-fix snapshot; review evidence",
+          "distance_m": 98.6
         }
       ]
     },
@@ -4532,6 +4104,93 @@
       ]
     },
     {
+      "id": "216.1",
+      "name": "Coasters",
+      "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
+      "coordinates": [
+        -93.1750531,
+        44.9797389
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 114.9,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 114.9 m from the pre-fix snapshot; review evidence",
+          "distance_m": 114.9
+        }
+      ]
+    },
+    {
+      "id": "2142.1",
+      "name": "Cream Puffs",
+      "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
+      "coordinates": [
+        -93.1760149,
+        44.9805332
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 137.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 137.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 137.3
+        }
+      ]
+    },
+    {
+      "id": "225.1",
+      "name": "Donna's Bar-B-Q",
+      "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
+      "coordinates": [
+        -93.1755381,
+        44.9784136
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 69.6,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 69.6 m from the pre-fix snapshot; review evidence",
+          "distance_m": 69.6
+        }
+      ]
+    },
+    {
       "id": "154.1",
       "name": "Mike's Hamburgers",
       "booth_location": "Northeast corner of Carnes Ave. & Nelson St.",
@@ -4561,27 +4220,90 @@
       ]
     },
     {
-      "id": "2114.1",
-      "name": "3B Fresh Squeezed Lemonade & Foot Long Corn Dogs",
-      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+      "id": "2776.1",
+      "name": "Miller's Flavored Cheese Curds",
+      "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",
       "coordinates": [
-        -93.174149666026,
-        44.978771392184
+        -93.1719291,
+        44.9801338
       ],
       "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 76.1,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
       "issues": [
         {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 76.1 m from the pre-fix snapshot; review evidence",
+          "distance_m": 76.1
+        }
+      ]
+    },
+    {
+      "id": "3127.1",
+      "name": "Que Viet Concessions",
+      "booth_location": "East side of Cooper St. outside the Merch Market",
+      "coordinates": [
+        -93.1688966,
+        44.9807643
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 118.5,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 118.5 m from the pre-fix snapshot; review evidence",
+          "distance_m": 118.5
+        }
+      ]
+    },
+    {
+      "id": "3089.1",
+      "name": "The Perfect Pickle",
+      "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
+      "coordinates": [
+        -93.1755182,
+        44.9806751
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair",
+        "perfect_pickle"
+      ],
+      "baseline_change_m": 144.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 144.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 144.3
         }
       ]
     },
@@ -4886,12 +4608,12 @@
       ]
     },
     {
-      "id": "1996.1",
-      "name": "Bridgeman's Ice Cream",
-      "booth_location": "Northeast corner of Judson Ave. & Liggett St.",
+      "id": "10014.1",
+      "name": "Butcher Boys",
+      "booth_location": "West side of Liggett St. between Carnes & West Dan Patch avenues",
       "coordinates": [
-        -93.174268923397,
-        44.977853141634
+        -93.175614425979,
+        44.980217873197
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5036,12 +4758,12 @@
       ]
     },
     {
-      "id": "2770.2",
-      "name": "Dairy Goodness",
-      "booth_location": "In the Dairy Building, south wall",
+      "id": "2069.2",
+      "name": "Crutchees Cheese on a Stick",
+      "booth_location": "southeast corner of West Dan Patch Ave. & Liggett St.",
       "coordinates": [
-        -93.17219856859,
-        44.978501593112
+        -93.175980161316,
+        44.981387688534
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5061,12 +4783,12 @@
       ]
     },
     {
-      "id": "2198.1",
-      "name": "Demetri's Fine Greek Foods",
-      "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues",
+      "id": "2770.2",
+      "name": "Dairy Goodness",
+      "booth_location": "In the Dairy Building, south wall",
       "coordinates": [
-        -93.173247925962,
-        44.981598484538
+        -93.17219856859,
+        44.978501593112
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5236,12 +4958,12 @@
       ]
     },
     {
-      "id": "217.1",
-      "name": "Fresh Made Nut Rolls",
-      "booth_location": "Northeast corner of Dan Patch Ave. & Underwood St.",
+      "id": "2342.1",
+      "name": "Fried Olives On A Stick",
+      "booth_location": "West of Nelson St. just south of the Grandstand",
       "coordinates": [
-        -93.170194551923,
-        44.98128171223
+        -93.172095979487,
+        44.979873904664
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5261,12 +4983,12 @@
       ]
     },
     {
-      "id": "2342.1",
-      "name": "Fried Olives On A Stick",
-      "booth_location": "West of Nelson St. just south of the Grandstand",
+      "id": "2247.1",
+      "name": "Funnel Cakes",
+      "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
       "coordinates": [
-        -93.172095979487,
-        44.979873904664
+        -93.170131707943,
+        44.982191270589
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5324,31 +5046,6 @@
       "compass_eligible": false,
       "evidence_publisher_groups": [],
       "baseline_change_m": null,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2196.1",
-      "name": "Galaxy of Drinks",
-      "booth_location": "West side of Liggett St., just south of Mighty Midway",
-      "coordinates": [
-        -93.174524839665,
-        44.978939895317
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
       "verification_distance_m": null,
       "risk_score": 5,
       "review_priority": "low",
@@ -5461,31 +5158,6 @@
       ]
     },
     {
-      "id": "10347.1",
-      "name": "Greater Tater",
-      "booth_location": "West side of Liggett St. between Carnes & Judson avenues, outside the Horse Barn",
-      "coordinates": [
-        -93.174356814744,
-        44.979828821699
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "3684.1",
       "name": "Hamline Church Dining Hall",
       "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
@@ -5517,6 +5189,31 @@
       "coordinates": [
         -93.169975545513,
         44.977496471968
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "2196.2",
+      "name": "Ice Cold Root Beer",
+      "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.171267228127,
+        44.978270592019
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5717,6 +5414,56 @@
       "coordinates": [
         -93.172717473718,
         44.981754491023
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "2122.3",
+      "name": "Kathie's Cotton Candy",
+      "booth_location": "West side of Liggett St. between West Dan Patch & Carnes avenues",
+      "coordinates": [
+        -93.175379328846,
+        44.98039981295
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "2607.1",
+      "name": "Katie's Famous Sweet Tea",
+      "booth_location": "At Mighty Midway",
+      "coordinates": [
+        -93.177235873077,
+        44.980200388489
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5967,31 +5714,6 @@
       "coordinates": [
         -93.176600235256,
         44.980406672759
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "9067.1",
-      "name": "Lumpia City",
-      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.174125542455,
-        44.979857085169
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -6586,31 +6308,6 @@
       ]
     },
     {
-      "id": "3030.1",
-      "name": "Patio Grill",
-      "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.173235129487,
-        44.979696033755
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "246.1",
       "name": "Peters Hot Dogs",
       "booth_location": "In the Food Building, west wall",
@@ -6642,6 +6339,31 @@
       "coordinates": [
         -93.171735587179,
         44.981903989241
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3066.1",
+      "name": "Pizza Wagon",
+      "booth_location": "West side of Liggett St., just north of Mighty Midway",
+      "coordinates": [
+        -93.175473233654,
+        44.980380313561
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -6867,6 +6589,31 @@
       "coordinates": [
         -93.173095059981,
         44.980933462565
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "11056.1",
+      "name": "Roon's Savories",
+      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.175461431285,
+        44.979495664557
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -7161,6 +6908,31 @@
       ]
     },
     {
+      "id": "3769.1",
+      "name": "Scotch Eggs",
+      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.175450142308,
+        44.979513482014
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "5581.1",
       "name": "Smoothies",
       "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
@@ -7311,12 +7083,62 @@
       ]
     },
     {
+      "id": "3394.1",
+      "name": "Sugar Shack",
+      "booth_location": "At the Mighty Midway",
+      "coordinates": [
+        -93.177235873077,
+        44.980200388489
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "3398.1",
       "name": "Summer Lakes Boat House",
       "booth_location": "Southwest corner of Randall Ave. & Underwood St.",
       "coordinates": [
         -93.170714876923,
         44.984197741007
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3408.1",
+      "name": "Super Dog",
+      "booth_location": "east side of Liggett Street between West Dan Patch and Carnes avenues",
+      "coordinates": [
+        -93.176094986179,
+        44.979555170138
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -7361,12 +7183,37 @@
       ]
     },
     {
-      "id": "8535.1",
-      "name": "Tasti Whip",
-      "booth_location": "Located on the northwest corner of Dan Patch Ave. & Underwood St.",
+      "id": "2079.1",
+      "name": "Sweet Martha's Cookie Jar",
+      "booth_location": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
       "coordinates": [
-        -93.1708134,
-        44.981263985612
+        -93.173640357692,
+        44.98006676588
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "1509.1",
+      "name": "Sweets & Treats",
+      "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
+      "coordinates": [
+        -93.170089029487,
+        44.98229727677
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -7617,56 +7464,6 @@
       "coordinates": [
         -93.170707179808,
         44.980003622913
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "9260.1",
-      "name": "The Strawberry Patch",
-      "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.174319916667,
-        44.978623351579
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1948.1",
-      "name": "Tino's Pizza on a Stick",
-      "booth_location": "South side of Carnes Ave. at Chambers St.",
-      "coordinates": [
-        -93.17386817328,
-        44.980287329012
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -8050,6 +7847,50 @@
       "evidence_publisher_groups": [
         "google_maps",
         "mnstatefair"
+      ],
+      "baseline_change_m": null,
+      "verification_distance_m": 0.0,
+      "risk_score": 0,
+      "review_priority": "low",
+      "issues": []
+    },
+    {
+      "id": "3340.1",
+      "name": "Spaghetti Eddies",
+      "booth_location": "East side of Cooper St. outside the Merch Market",
+      "coordinates": [
+        -93.168897,
+        44.9807323
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 17.8,
+      "verification_distance_m": 0.0,
+      "risk_score": 0,
+      "review_priority": "low",
+      "issues": []
+    },
+    {
+      "id": "3645.1",
+      "name": "The Mouth Trap Cheese Curds",
+      "booth_location": "In the Food Building",
+      "coordinates": [
+        -93.1699704,
+        44.9802432
+      ],
+      "map_ref": null,
+      "coordinate_status": "approximate",
+      "confidence": "medium",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [
+        "bring_me_the_news",
+        "google_maps"
       ],
       "baseline_change_m": null,
       "verification_distance_m": 0.0,
