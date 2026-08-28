@@ -4050,8 +4050,8 @@
     ],
     "booth_location": "At West End Market, south of History & Heritage Center",
     "coordinates": [
-      "-93.175668066667",
-      "44.980046834532"
+      "-93.1760875",
+      "44.9811063"
     ],
     "popupHtml": "<b>The Blue Barn</b>\n\t\t<br>At West End Market, south of History & Heritage Center\n",
     "categories": [
@@ -4127,8 +4127,8 @@
         "$3 off one order of Chicken in the Waffle (Regularly $14.50) OR buy one Orange Whip, get one FREE (Regularly $7.50 - $9.50)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "212.1",
@@ -4440,8 +4440,8 @@
     ],
     "booth_location": "Northeast corner of Carnes Ave. & Chambers St.",
     "coordinates": [
-      "-93.174192433654",
-      "44.980003622913"
+      "-93.1740994",
+      "44.9800146"
     ],
     "popupHtml": "<b>Blue Moon Dine-In Theater</b>\n\t\t<br>Northeast corner of Carnes Ave. & Chambers St.\n",
     "categories": [
@@ -4483,8 +4483,8 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1974.1",
@@ -16159,8 +16159,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.171184948734",
-      "44.981891755542"
+      "-93.1698412",
+      "44.9814379"
     ],
     "popupHtml": "<b>Hamline Church Dining Hall</b>\n\t\t<br>North side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -16227,8 +16227,8 @@
         "$4 off one grilled cheese meal (Regularly $8) OR $3 off one PBJ meal (Regularly $7)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3450.1",
@@ -21251,8 +21251,8 @@
     ],
     "booth_location": "At West End Market, south of Schilling Amphitheater",
     "coordinates": [
-      "-93.176600235256",
-      "44.980406672759"
+      "-93.1776071",
+      "44.9812286"
     ],
     "popupHtml": "<b>LuLu's Public House</b>\n\t\t<br>At West End Market, south of Schilling Amphitheater\n",
     "categories": [
@@ -21320,8 +21320,8 @@
     "notes": [
       "Breakfast (7 to 10:30 a.m.)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "9067.1",
@@ -22469,8 +22469,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.170408819872",
-      "44.980901282131"
+      "-93.1716697",
+      "44.9801006"
     ],
     "popupHtml": "<b>Mancini's al Fresco</b>\n\t\t<br>North side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -22538,8 +22538,8 @@
     "notes": [
       "Breakfast (7 to 10 a.m.)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2737.1",
@@ -24713,8 +24713,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Cooper & Cosgrove streets",
     "coordinates": [
-      "-93.167959742308",
-      "44.981882862356"
+      "-93.1685723",
+      "44.9814844"
     ],
     "popupHtml": "<b>Minnesota Farmers Union Coffee Shop</b>\n\t\t<br>North side of Dan Patch Ave. between Cooper & Cosgrove streets\n",
     "categories": [
@@ -24779,8 +24779,8 @@
         "$1.75 off one 20 oz. Minnesota Farmers Union mocha frappé (Regularly $8)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2886.1",
@@ -33574,8 +33574,8 @@
     ],
     "booth_location": "North side of Randall Ave., just south of the Progress Center",
     "coordinates": [
-      "-93.169420294872",
-      "44.983817237799"
+      "-93.1678234",
+      "44.9845954"
     ],
     "popupHtml": "<b>Salem Lutheran Church Dining Hall</b>\n\t\t<br>North side of Randall Ave., just south of the Progress Center\n",
     "categories": [
@@ -33587,8 +33587,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3231.1/featured.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3235.1",
@@ -40328,8 +40328,8 @@
     ],
     "booth_location": "East side of Clough St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.174377525641",
-      "44.978262135933"
+      "-93.1733812",
+      "44.9789745"
     ],
     "popupHtml": "<b>Turkey to Go</b>\n\t\t<br>East side of Clough St. between Carnes & Judson avenues\n",
     "categories": [
@@ -40361,8 +40361,8 @@
     "dietary": [
       "Gluten-free (turkey leg; please confirm with vendor)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "9613.1",
