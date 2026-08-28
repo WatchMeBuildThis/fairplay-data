@@ -19,7 +19,6 @@ medium,45,3505.1,Cotton Candy 7 Different Flavors,unverified,false,-93.169209994
 medium,45,226.1,El Sol Mexican Foods,unverified,false,-93.170978671795,44.981205840041,"East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building",,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,45,2375.1,Gass Station Grill,unverified,false,-93.169415603846,44.980195956835,"West side of Cooper St. between Dan Patch & Judson avenues, outside southeast corner of the Food Building",,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,45,2120.2,L & B Cotton Candy,unverified,false,-93.171891790385,44.980366205068,Northwest corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
-medium,45,3450.1,The Hangar,unverified,false,-93.171539545209,44.988320426545,"On the northeast corner of Underwood St. and Murphy Ave., at the North End",,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,40,2770.1,All You Can Drink Milk,verified,true,-93.1733688,44.9786946,Northeast corner of Judson Ave. & Clough St.,,66.0,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,1932.1,Bayou Bob's Gator Shack,verified,true,-93.171734,44.9807911,Southeast corner of Dan Patch Ave. & Nelson St.,,104.5,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,2112.1,Corn Roast,verified,true,-93.1716163,44.9808717,Southeast corner of Dan Patch Ave. & Nelson St.,,110.9,0.0,written_street_corridor_conflict|large_change_from_baseline
@@ -73,7 +72,6 @@ medium,25,1548.1,Minneapple Pie,unverified,false,-93.171806929487,44.97943465845
 medium,25,4072.1,Minnesota Wine Country,unverified,false,-93.171857008974,44.978808533152,West side of Underwood St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,11206.1,Minnesota's Original Apple Fries,unverified,false,-93.170514728205,44.98092835215,North side of Dan Patch Ave. between Underwood & Cooper streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2941.1,Netterfield's Food Court,unverified,false,-93.170473308333,44.981079118673,East side of Cooper St. between Wright & Dan Patch avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
-medium,25,256.1,O'Gara's at the Fair,unverified,false,-93.168257957692,44.981068992806,Southwest corner of Dan Patch Ave. & Cosgrove St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2987.1,Ole and Lena's,unverified,false,-93.176937875,44.980470828829,West side of Liggett St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,6268.1,Paella Depot,unverified,false,-93.173123161727,44.977466042152,South side of Judson Ave. between Clough & Nelson streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3030.1,Patio Grill,unverified,false,-93.173235129487,44.979696033755,East side of Nelson St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
@@ -131,7 +129,9 @@ medium,20,225.1,Donna's Bar-B-Q,verified,true,-93.1755381,44.9784136,Southwest c
 medium,20,2336.1,French Meadow Bakery & Cafe,verified,true,-93.1712263,44.9801274,North side of Carnes Ave. between Nelson & Underwood streets,,124.0,0.0,large_change_from_baseline
 medium,20,154.1,Mike's Hamburgers,verified,true,-93.171927,44.9800383,Northeast corner of Carnes Ave. & Nelson St.,1535-2077,139.3,0.0,large_change_from_baseline
 medium,20,2776.1,Miller's Flavored Cheese Curds,verified,true,-93.1719291,44.9801338,"East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",,76.1,0.0,large_change_from_baseline
+medium,20,256.1,O'Gara's at the Fair,verified,true,-93.1684059,44.9809198,Southwest corner of Dan Patch Ave. & Cosgrove St.,,20.3,0.0,written_street_corridor_conflict
 medium,20,3127.1,Que Viet Concessions,verified,true,-93.1688966,44.9807643,East side of Cooper St. outside the Merch Market,,118.5,0.0,large_change_from_baseline
+medium,20,3450.1,The Hangar,verified,true,-93.1702407,44.9873662,"On the northeast corner of Underwood St. and Murphy Ave., at the North End",,147.3,0.0,large_change_from_baseline
 medium,20,3089.1,The Perfect Pickle,verified,true,-93.1755182,44.9806751,Southwest corner of West Dan Patch Ave. & Liggett St.,,144.3,0.0,large_change_from_baseline
 low,5,6449.1,About a Foot Long Hot Dog,unverified,false,-93.1738553,44.978449884892,"South side of Judson Ave. between Liggett & Clough streets, in front of the Lee & Rose Warner Coliseum",,0.0,,no_independent_verification
 low,5,7388.1,Afro Deli & Grill,unverified,false,-93.169366342308,44.980484014388,"In the Food Building, east wall",,0.0,,no_independent_verification
