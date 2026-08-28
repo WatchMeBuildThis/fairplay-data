@@ -34989,8 +34989,11 @@
       }
     ],
     "booth_location": "In the Lee & Rose Warner Coliseum, east side",
-    "coordinates": null,
-    "popupHtml": null,
+    "coordinates": [
+      "-93.1745529",
+      "44.9781951"
+    ],
+    "popupHtml": "<b>Simply Nuts &amp; More</b>\n\t\t<br>In the Lee &amp; Rose Warner Coliseum, east side\n",
     "categories": [
       {
         "id_cat": 2,
