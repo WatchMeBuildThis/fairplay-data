@@ -253,6 +253,32 @@
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9784136,-93.1755381"}
       ]
     },
+    "256.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1684059, 44.9809198],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1626 Dan Patch Ave place pin agrees with the fair and independent press description of the southwest Dan Patch/Cosgrove corner.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/256.1/"},
+        {"publisher_group": "minnesota_monthly", "kind": "independent_venue_location", "url": "https://www.minnesotamonthly.com/general/eat-your-way-through-the-2026-minnesota-state-fair/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9809198,-93.1684059"}
+      ]
+    },
+    "3450.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1702407, 44.9873662],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Exact 1673 Murphy Ave Hangar place pin and operator venue identity agree with the fair's northeast Underwood/Murphy description.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3450.1/"},
+        {"publisher_group": "fun_biz", "kind": "operator_venue", "url": "https://funbizconcessions.com/concessions/byid/15"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9873662,-93.1702407"}
+      ]
+    },
     "2776.1": {
       "status": "verified",
       "confidence": "high",

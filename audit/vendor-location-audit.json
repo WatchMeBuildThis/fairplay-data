@@ -8,20 +8,20 @@
     "coordinate_status_counts": {
       "approximate": 2,
       "missing": 12,
-      "unverified": 247,
-      "verified": 17
+      "unverified": 245,
+      "verified": 19
     },
-    "compass_eligible_count": 17,
+    "compass_eligible_count": 19,
     "review_priority_counts": {
       "critical": 12,
       "low": 144,
       "medium": 122
     },
     "issue_counts": {
-      "large_change_from_baseline": 34,
+      "large_change_from_baseline": 35,
       "missing_coordinate": 12,
-      "no_independent_verification": 259,
-      "written_street_corridor_conflict": 101
+      "no_independent_verification": 257,
+      "written_street_corridor_conflict": 99
     },
     "policy": {
       "compass_requires": "coordinate_status=verified, >=2 publisher groups, and no high/critical issue",
@@ -40,10 +40,10 @@
       },
       "underwood": {
         "axis": "lon",
-        "center": -93.17021309328118,
+        "center": -93.170214045237,
         "sample_count": 83,
-        "inlier_count": 28,
-        "inlier_ratio": 0.337,
+        "inlier_count": 29,
+        "inlier_ratio": 0.349,
         "reliable_for_screening": true
       },
       "carnes": {
@@ -88,7 +88,7 @@
       },
       "cosgrove": {
         "axis": "lon",
-        "center": -93.16803549358978,
+        "center": -93.168051931624,
         "sample_count": 12,
         "inlier_count": 9,
         "inlier_ratio": 0.75,
@@ -498,8 +498,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 105.6 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 105.6
+          "detail": "Heuristic: pin is 105.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 105.7
         },
         {
           "code": "large_change_from_baseline",
@@ -763,45 +763,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 131.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 131.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "3450.1",
-      "name": "The Hangar",
-      "booth_location": "On the northeast corner of Underwood St. and Murphy Ave., at the North End",
-      "coordinates": [
-        -93.171539545209,
-        44.988320426545
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 45,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 157.3 m perpendicular to the feed-learned Murphy corridor; manual review required",
-          "distance_m": 157.3
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 104.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 104.1
+          "detail": "Heuristic: pin is 131.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 131.7
         },
         {
           "code": "no_independent_verification",
@@ -1220,8 +1183,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 93.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 93.1
+          "detail": "Heuristic: pin is 93.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 93.0
         },
         {
           "code": "no_independent_verification",
@@ -1251,8 +1214,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 122.1 m perpendicular to the feed-learned Cosgrove corridor; manual review required",
-          "distance_m": 122.1
+          "detail": "Heuristic: pin is 120.8 m perpendicular to the feed-learned Cosgrove corridor; manual review required",
+          "distance_m": 120.8
         },
         {
           "code": "no_independent_verification",
@@ -1468,8 +1431,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 93.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 93.8
+          "detail": "Heuristic: pin is 93.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 93.9
         },
         {
           "code": "no_independent_verification",
@@ -2057,8 +2020,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 67.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 67.8
+          "detail": "Heuristic: pin is 67.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 67.9
         },
         {
           "code": "no_independent_verification",
@@ -2243,8 +2206,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 133.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 133.5
+          "detail": "Heuristic: pin is 133.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 133.4
         },
         {
           "code": "no_independent_verification",
@@ -2398,8 +2361,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 129.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 129.1
+          "detail": "Heuristic: pin is 129.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 129.0
         },
         {
           "code": "no_independent_verification",
@@ -2462,37 +2425,6 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 94.8 m perpendicular to the feed-learned Cooper corridor; manual review required",
           "distance_m": 94.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "256.1",
-      "name": "O'Gara's at the Fair",
-      "booth_location": "Southwest corner of Dan Patch Ave. & Cosgrove St.",
-      "coordinates": [
-        -93.168257957692,
-        44.981068992806
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 109.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 109.9
         },
         {
           "code": "no_independent_verification",
@@ -2832,8 +2764,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 119.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 119.2
+          "detail": "Heuristic: pin is 119.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 119.1
         },
         {
           "code": "no_independent_verification",
@@ -2894,8 +2826,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 110.0 m perpendicular to the feed-learned Cosgrove corridor; manual review required",
-          "distance_m": 110.0
+          "detail": "Heuristic: pin is 108.7 m perpendicular to the feed-learned Cosgrove corridor; manual review required",
+          "distance_m": 108.7
         },
         {
           "code": "no_independent_verification",
@@ -3018,8 +2950,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 122.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 122.4
+          "detail": "Heuristic: pin is 122.3 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 122.3
         },
         {
           "code": "no_independent_verification",
@@ -3359,8 +3291,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 148.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 148.1
+          "detail": "Heuristic: pin is 148.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 148.0
         },
         {
           "code": "no_independent_verification",
@@ -3421,8 +3353,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 130.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 130.1
+          "detail": "Heuristic: pin is 130.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 130.0
         },
         {
           "code": "no_independent_verification",
@@ -3731,8 +3663,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 116.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 116.1
+          "detail": "Heuristic: pin is 116.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 116.0
         },
         {
           "code": "no_independent_verification",
@@ -4252,6 +4184,36 @@
       ]
     },
     {
+      "id": "256.1",
+      "name": "O'Gara's at the Fair",
+      "booth_location": "Southwest corner of Dan Patch Ave. & Cosgrove St.",
+      "coordinates": [
+        -93.1684059,
+        44.9809198
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "minnesota_monthly",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 20.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 126.4 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 126.4
+        }
+      ]
+    },
+    {
       "id": "3127.1",
       "name": "Que Viet Concessions",
       "booth_location": "East side of Cooper St. outside the Merch Market",
@@ -4277,6 +4239,36 @@
           "severity": "medium",
           "detail": "Coordinate moved 118.5 m from the pre-fix snapshot; review evidence",
           "distance_m": 118.5
+        }
+      ]
+    },
+    {
+      "id": "3450.1",
+      "name": "The Hangar",
+      "booth_location": "On the northeast corner of Underwood St. and Murphy Ave., at the North End",
+      "coordinates": [
+        -93.1702407,
+        44.9873662
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "fun_biz",
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 147.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 147.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 147.3
         }
       ]
     },

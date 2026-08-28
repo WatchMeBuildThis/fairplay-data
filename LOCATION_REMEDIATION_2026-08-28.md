@@ -29,6 +29,8 @@ remain present.
 | 2021.1 | Cafe Caribe | -93.1738652, 44.9797356 | Fair directions + vendor address + Google place pin |
 | 2336.1 | French Meadow Bakery & Cafe | -93.1712263, 44.9801274 | Fair directions + vendor address + Google place pin |
 | 2770.1 | All You Can Drink Milk | -93.1733688, 44.9786946 | Fair directions + operator location + Google place pin |
+| 256.1 | O'Gara's at the Fair | -93.1684059, 44.9809198 | Fair directions + independent venue coverage + Google place/address |
+| 3450.1 | The Hangar | -93.1702407, 44.9873662 | Fair directions + operator venue page + Google place/address |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -59,11 +61,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 17 verified and compass-eligible
+- 19 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 247 present but not independently verified and compass-ineligible
-- 101 medium-priority street-corridor heuristic leads remain; these are review
+- 245 present but not independently verified and compass-ineligible
+- 99 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 
