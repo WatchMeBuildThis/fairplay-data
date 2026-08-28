@@ -39,6 +39,9 @@ remain present.
 | 2878.1 | Minnesota Farmers Union Coffee Shop | -93.1685723, 44.9814844 | Fair directions + operator address + Google place/address |
 | 3231.1 | Salem Lutheran Church Dining Hall | -93.1678234, 44.9845954 | Fair directions + independent venue coverage + Google place/address |
 | 2924.1 | Turkey to Go | -93.1733812, 44.9789745 | Fair directions + operator-group address + Google place/address |
+| 1457.1 | Dino's Gyros | -93.1710869, 44.9801130 | Fair directions + vendor location + Google place/address |
+| 252.1 | The Peg | -93.1693102, 44.9790698 | Fair directions + independent venue coverage + Google place/address |
+| 3101.1 | The Produce Exchange | -93.1707570, 44.9800641 | Fair directions + independent venue coverage + Google place/address |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -69,11 +72,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 27 verified and compass-eligible
+- 30 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 237 present but not independently verified and compass-ineligible
-- 95 medium-priority street-corridor heuristic leads remain; these are review
+- 234 present but not independently verified and compass-ineligible
+- 90 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 

@@ -9829,8 +9829,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.169875159743",
-      "44.979280658417"
+      "-93.1710869",
+      "44.980113"
     ],
     "popupHtml": "<b>Dino's Gyros</b>\n\t\t<br>North side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -9902,8 +9902,8 @@
       "Vegetarian (falafel, Greek seasoned fries, Athena's whipped feta; please confirm with vendor)",
       "Gluten-free (chicken gyros (remove flatbread), Greek seasoned french fries, falafel; please confirm with vendor)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2208.1",
@@ -27568,8 +27568,8 @@
     ],
     "booth_location": "Outside southeast side of Agriculture Horticulture Building",
     "coordinates": [
-      "-93.169165191276",
-      "44.97906736175"
+      "-93.1693102",
+      "44.9790698"
     ],
     "popupHtml": "<b>The Peg</b>\n\t\t<br>Outside southeast side of Agriculture Horticulture Building\n",
     "categories": [
@@ -27619,8 +27619,8 @@
         "$4 off Mr. Peg sandwich (Reg. $14), $3 off Peg Muffin (Reg. $8)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3089.2",
@@ -29408,8 +29408,8 @@
     ],
     "booth_location": "Northwest corner of Carnes Ave. & Underwood St.",
     "coordinates": [
-      "-93.170707179808",
-      "44.980003622913"
+      "-93.170757",
+      "44.9800641"
     ],
     "popupHtml": "<b>The Produce Exchange</b>\n\t\t<br>Northwest corner of Carnes Ave. & Underwood St.\n",
     "categories": [
@@ -29463,8 +29463,8 @@
     "notes": [
       "Value Item (grilled peaches)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3107.1",
