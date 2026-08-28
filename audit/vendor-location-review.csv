@@ -20,13 +20,13 @@ medium,45,226.1,El Sol Mexican Foods,unverified,false,-93.170978671795,44.981205
 medium,45,2375.1,Gass Station Grill,unverified,false,-93.169415603846,44.980195956835,"West side of Cooper St. between Dan Patch & Judson avenues, outside southeast corner of the Food Building",,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,45,2120.2,L & B Cotton Candy,unverified,false,-93.171891790385,44.980366205068,Northwest corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,45,3450.1,The Hangar,unverified,false,-93.171539545209,44.988320426545,"On the northeast corner of Underwood St. and Murphy Ave., at the North End",,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
+medium,40,2770.1,All You Can Drink Milk,verified,true,-93.1733688,44.9786946,Northeast corner of Judson Ave. & Clough St.,,66.0,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,1932.1,Bayou Bob's Gator Shack,verified,true,-93.171734,44.9807911,Southeast corner of Dan Patch Ave. & Nelson St.,,104.5,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,2112.1,Corn Roast,verified,true,-93.1716163,44.9808717,Southeast corner of Dan Patch Ave. & Nelson St.,,110.9,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,10093.1,Giggles' Campfire Grill,verified,true,-93.1688586,44.9856224,Southeast corner of Lee Ave. & Cooper St. at The North Woods,,111.4,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,25,12742.1,1919 Root Beer,unverified,false,-93.168967967949,44.981847907836,Southeast corner of Dan Patch Ave. & Underwood St. outside The Garden,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2114.1,3B Fresh Squeezed Lemonade & Foot Long Corn Dogs,unverified,false,-93.174149666026,44.978771392184,West side of Liggett St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,9642.1,About a Foot Long Hot Dog,unverified,false,-93.168036,44.9839827,East side of Cosgrove St. between the Fine Arts Center & 4-H Building,2551-2787,126.3,,large_change_from_baseline|no_independent_verification
-medium,25,2770.1,All You Can Drink Milk,unverified,false,-93.173971454487,44.979107166116,Northeast corner of Judson Ave. & Clough St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,5937.1,Attavio's Fries,unverified,false,-93.17051655641,44.979407802061,"West side of Cooper St. between Dan Patch and Judson avenues, outside the Food Building",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,11830.1,Beans & Beignets,unverified,false,-93.173685963462,44.978813280576,Northwest corner of Judson Ave. & Clough St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1509.3,Bratwurst,unverified,false,-93.1722972,44.9800237,Northwest corner of Carnes Ave. & Nelson St.,1539-1982,120.6,,large_change_from_baseline|no_independent_verification
@@ -37,7 +37,6 @@ medium,25,5733.6,Bridge N' Barrel Root Beer,unverified,false,-93.169590286555,44
 medium,25,1996.1,Bridgeman's Ice Cream,unverified,false,-93.174268923397,44.977853141634,Northeast corner of Judson Ave. & Liggett St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2005.1,Buni's,unverified,false,-93.176384548397,44.978368700251,Northwest corner of Judson Ave. & Liggett St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,227.1,Butcher Boys,unverified,false,-93.170865162821,44.980902605354,North side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
-medium,25,2021.1,Cafe Caribe,unverified,false,-93.172895758013,44.979089804023,South side of Carnes Ave. between Chambers & Clough streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2031.1,Caramel Apple Sundae,unverified,false,-93.172400400641,44.980110476679,"Between Chambers & Nelson streets, just south of the Grandstand",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2037.1,Caribbean Smoothees,unverified,false,-93.176388092182,44.980162381258,West side of Liggett St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2065.1,Chan's Chicken On A Stick,unverified,false,-93.172807362179,44.979175037267,South side of Judson Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
@@ -51,7 +50,6 @@ medium,25,12663.1,dodopop,unverified,false,-93.170119228127,44.982393602691,Nort
 medium,25,265.1,Duke's Poutine,unverified,false,-93.173338053846,44.978715784173,North side of Judson Ave. between Clough & Nelson streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,4752.1,Fluffy's Hand Cut Donuts,unverified,false,-93.174634248077,44.980018690647,On the northwest corner of Carnes Ave. & Chambers St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2332.1,French Crêperie,unverified,false,-93.172062521795,44.979134014141,North side of Carnes Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
-medium,25,2336.1,French Meadow Bakery & Cafe,unverified,false,-93.171785124281,44.979084798263,North side of Carnes Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2387.1,Fresh Lemonade - Cheese on a Stick,unverified,false,-93.171036968339,44.981654793306,West side of Nelson St. between Dan Patch & Carnes avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,217.1,Fresh Made Nut Rolls,unverified,false,-93.170194551923,44.98128171223,Northeast corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,244.2,"Fresh Squeezed Lemonade, Fruit Smoothies, Fresh Squeezed Orange Treet & Strawberry Treet",unverified,false,-93.1700195,44.9799882,"Outside the Food Building, southwest side",1552-2435,124.4,,large_change_from_baseline|no_independent_verification
@@ -126,9 +124,11 @@ medium,25,1511.2,Tom Thumb Donuts,unverified,false,-93.170635573077,44.981201815
 medium,20,210.1,Al's Subs & Malt Shop,verified,true,-93.1718193,44.9803951,"East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",,98.6,0.0,large_change_from_baseline
 medium,20,1872.1,Andy's Grille,verified,true,-93.1743171,44.979745,South side of Carnes Ave. between Chambers & Nelson streets,1491-1610,75.9,0.0,large_change_from_baseline
 medium,20,616.1,Ball Park Cafe,verified,true,-93.1700734,44.9803924,East side of Underwood St. between Dan Patch & Carnes avenues,,121.1,0.0,large_change_from_baseline
+medium,20,2021.1,Cafe Caribe,verified,true,-93.1738652,44.9797356,South side of Carnes Ave. between Chambers & Clough streets,,104.7,0.0,large_change_from_baseline
 medium,20,216.1,Coasters,verified,true,-93.1750531,44.9797389,Southeast corner of Carnes Ave. & Liggett St.,,114.9,0.0,large_change_from_baseline
 medium,20,2142.1,Cream Puffs,verified,true,-93.1760149,44.9805332,Southwest corner of West Dan Patch Ave. & Liggett St.,,137.3,0.0,large_change_from_baseline
 medium,20,225.1,Donna's Bar-B-Q,verified,true,-93.1755381,44.9784136,Southwest corner of Judson Ave. & Liggett St.,,69.6,0.0,large_change_from_baseline
+medium,20,2336.1,French Meadow Bakery & Cafe,verified,true,-93.1712263,44.9801274,North side of Carnes Ave. between Nelson & Underwood streets,,124.0,0.0,large_change_from_baseline
 medium,20,154.1,Mike's Hamburgers,verified,true,-93.171927,44.9800383,Northeast corner of Carnes Ave. & Nelson St.,1535-2077,139.3,0.0,large_change_from_baseline
 medium,20,2776.1,Miller's Flavored Cheese Curds,verified,true,-93.1719291,44.9801338,"East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",,76.1,0.0,large_change_from_baseline
 medium,20,3127.1,Que Viet Concessions,verified,true,-93.1688966,44.9807643,East side of Cooper St. outside the Merch Market,,118.5,0.0,large_change_from_baseline
