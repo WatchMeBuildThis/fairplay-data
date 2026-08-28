@@ -1,7 +1,9 @@
 {
   "schema_version": 1,
   "expected_record_count": 278,
-  "known_missing_coordinate_ids": ["2340.1", "3645.1"],
+  "known_missing_coordinate_ids": [
+    "2340.1"
+  ],
   "policy": {
     "verified_requires": "Current coordinate agrees within tolerance with a reviewed coordinate supported by at least two publisher groups.",
     "official_site_group": "The fair's directions, GeoJSON, mapRef, PDF map, and official app are one publisher group, not independent confirmations.",
@@ -11,7 +13,10 @@
     "616.1": {
       "status": "verified",
       "confidence": "high",
-      "coordinates": [-93.1700734, 44.9803924],
+      "coordinates": [
+        -93.1700734,
+        44.9803924
+      ],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
       "method": "Reviewed permanent venue location against the written street segment and independent published venue coverage.",
@@ -31,7 +36,10 @@
     "10093.1": {
       "status": "verified",
       "confidence": "high",
-      "coordinates": [-93.1688586, 44.9856224],
+      "coordinates": [
+        -93.1688586,
+        44.9856224
+      ],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
       "method": "Vendor-published 1520 Cooper St address and place coordinate agree with the fair's southeast Lee/Cooper description.",
@@ -51,7 +59,10 @@
     "154.1": {
       "status": "verified",
       "confidence": "high",
-      "coordinates": [-93.171927, 44.9800383],
+      "coordinates": [
+        -93.171927,
+        44.9800383
+      ],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
       "method": "Independent place pin agrees with the fair's northeast Carnes/Nelson description.",
@@ -71,7 +82,10 @@
     "1872.1": {
       "status": "verified",
       "confidence": "high",
-      "coordinates": [-93.1743171, 44.979745],
+      "coordinates": [
+        -93.1743171,
+        44.979745
+      ],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
       "method": "Vendor-published 1774 Carnes Ave address and independent place pin agree with the fair's written block.",
@@ -96,7 +110,10 @@
     "215.1": {
       "status": "approximate",
       "confidence": "medium",
-      "coordinates": [-93.1745529, 44.9781951],
+      "coordinates": [
+        -93.1745529,
+        44.9781951
+      ],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
       "method": "Venue-center fallback for a listing inside the Coliseum; not booth-level accuracy.",
@@ -112,6 +129,277 @@
           "url": "https://www.google.com/maps/search/?api=1&query=44.9781951,-93.1745529"
         }
       ]
+    },
+    "210.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1718193,
+        44.9803951
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin and street address agree with the fair's east-Nelson, Giant Slide directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/210.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9803951,-93.1718193"
+        }
+      ]
+    },
+    "1932.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.171734,
+        44.9807911
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin and 1726 Nelson St address agree with the fair's southeast Dan Patch/Nelson directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/1932.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9807911,-93.171734"
+        }
+      ]
+    },
+    "216.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1750531,
+        44.9797389
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin and 1804 Carnes Ave address agree with the fair's southeast Carnes/Liggett directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/216.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9797389,-93.1750531"
+        }
+      ]
+    },
+    "2112.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1716163,
+        44.9808717
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin and 1722 Nelson St address agree with the fair's southeast Dan Patch/Nelson directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2112.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9808717,-93.1716163"
+        }
+      ]
+    },
+    "2142.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1760149,
+        44.9805332
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin and 1826 W Dan Patch Ave address agree with the fair's southwest West Dan Patch/Liggett directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2142.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9805332,-93.1760149"
+        }
+      ]
+    },
+    "225.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1755381,
+        44.9784136
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin and Cattle Barn/Judson address agree with the fair's southwest Judson/Liggett directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/225.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9784136,-93.1755381"
+        }
+      ]
+    },
+    "2776.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1719291,
+        44.9801338
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin agrees with the fair's east-Nelson, Giant Slide directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2776.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9801338,-93.1719291"
+        }
+      ]
+    },
+    "3089.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1755182,
+        44.9806751
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Vendor site and Google place pin at 1380 Liggett agree with the fair's southwest West Dan Patch/Liggett directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/3089.1/"
+        },
+        {
+          "publisher_group": "perfect_pickle",
+          "kind": "vendor_location",
+          "url": "https://myfriedpickles.com/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9806751,-93.1755182"
+        }
+      ]
+    },
+    "3127.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.1688966,
+        44.9807643
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin on Cooper St agrees with the fair's Merch Market directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/3127.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9807643,-93.1688966"
+        }
+      ]
+    },
+    "3340.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [
+        -93.168897,
+        44.9807323
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin on Cooper St agrees with the fair's Merch Market directions.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/3340.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9807323,-93.168897"
+        }
+      ]
+    },
+    "3645.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [
+        -93.1699704,
+        44.9802432
+      ],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-28",
+      "method": "Google place pin is inside the independently confirmed Food Building; retained as approximate because no second source exposes booth-level coordinates.",
+      "sources": [
+        {
+          "publisher_group": "google_maps",
+          "kind": "place_pin",
+          "url": "https://www.google.com/maps/search/?api=1&query=44.9802432,-93.1699704"
+        },
+        {
+          "publisher_group": "bring_me_the_news",
+          "kind": "independent_building_location",
+          "url": "https://bringmethenews.com/minnesota-lifestyle/what-to-eat-and-drink-in-different-areas-of-the-minnesota-state-fair-in-2026"
+        }
+      ]
     }
-  }
+  },
+  "quarantined_coordinate_ids": [
+    "2069.1",
+    "2120.3",
+    "2561.1",
+    "3008.1",
+    "3115.1",
+    "3280.1",
+    "3340.2",
+    "3745.1",
+    "5910.1",
+    "6135.1",
+    "11505.1"
+  ]
 }
