@@ -565,10 +565,10 @@
     ],
     "booth_location": "Southeast corner of Judson Ave. & Underwood St.",
     "coordinates": [
-      "-93.1738553",
-      "44.978449884892"
+      "-93.168867953526",
+      "44.977873963109"
     ],
-    "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>South side of Judson Ave. between Liggett & Clough streets, in front of the Lee & Rose Warner Coliseum\n",
+    "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Southeast corner of Judson Ave. & Underwood St.\n",
     "categories": [
       {
         "id_cat": 2,
@@ -2743,8 +2743,8 @@
     ],
     "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.171034706645",
-      "44.979541455913"
+      "-93.1700734",
+      "44.9803924"
     ],
     "popupHtml": "<b>Ball Park Cafe</b>\n\t\t<br>East side of Underwood St. between Dan Patch & Carnes avenues\n",
     "categories": [
