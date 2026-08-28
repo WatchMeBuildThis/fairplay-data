@@ -16827,8 +16827,8 @@
     ],
     "booth_location": "On the northeast corner of Underwood St. and Murphy Ave., at the North End",
     "coordinates": [
-      "-93.171539545209",
-      "44.988320426545"
+      -93.1702407,
+      44.9873662
     ],
     "popupHtml": "<b>The Hangar</b>\n\t\t<br>On the northeast corner of Underwood St. and Murphy Ave., at the North End\n",
     "categories": [
@@ -16915,8 +16915,8 @@
         "$4 off one turkey leg (Regularly $20) OR $2 off any kid's meal (Regularly $9)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2477.1",
@@ -26282,8 +26282,8 @@
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cosgrove St.",
     "coordinates": [
-      "-93.168257957692",
-      "44.981068992806"
+      -93.1684059,
+      44.9809198
     ],
     "popupHtml": "<b>O'Gara's at the Fair</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cosgrove St.\n",
     "categories": [
@@ -26339,8 +26339,8 @@
         "$3 off one order of Reuben bites (Regularly $11)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2987.1",
