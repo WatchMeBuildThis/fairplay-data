@@ -61,6 +61,12 @@ remain present.
 | 3239.1 | The Sandwich Stop | -93.1733813, 44.9789745 | Fair directions + Google place/address |
 | 9260.1 | The Strawberry Patch | -93.1756591, 44.9792484 | Fair directions + Google place/address |
 | 3983.1 | Sweet Martha's Cookie Jar (Carnes) | -93.1715896, 44.9797695 | Fair directions + operator site + Google place/address |
+| 12742.1 | 1919 Root Beer | -93.1703352, 44.9809803 | Fair directions + operator location + Google place/address |
+| 2348.1 | The Frontier | -93.1747221, 44.9797269 | Fair directions + operator profile + Google place/address |
+| 3060.1 | Pickle Dog | -93.1750532, 44.9797389 | Fair directions + operator profile + Google place/address |
+| 10877.1 | Midway Mens Club | -93.1702901, 44.9816890 | Fair directions + operator location + Google place/address |
+| 3398.1 | Summer Lakes Boat House | -93.1707496, 44.9840099 | Fair directions + operator location + Google place/address |
+| 3790.1 | The Hideaway Speakeasy | -93.1738435, 44.9812464 | Fair directions + operator location + Google place/address |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -91,11 +97,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 49 verified and compass-eligible
+- 55 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 215 present but not independently verified and compass-ineligible
-- 88 medium-priority street-corridor heuristic leads remain; these are review
+- 209 present but not independently verified and compass-ineligible
+- 85 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 
