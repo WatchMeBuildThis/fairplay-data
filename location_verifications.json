@@ -603,6 +603,107 @@
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800518,-93.1737502"}
       ]
     },
+    "1952.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1708786, 44.9809673],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Big Fat Bacon place address and pin agree with the fair's south-Dan Patch, Nelson-to-Underwood directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/1952.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9809673,-93.1708786"},
+        {"publisher_group": "big_fat_bacon", "kind": "operator_website", "url": "http://bigfatbacon.com/"}
+      ]
+    },
+    "10347.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1756477, 44.9792492],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Greater Tater 1265 Liggett St place pin agrees with the fair and operator's west-Liggett, Horse Barn directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/10347.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9792492,-93.1756477"},
+        {"publisher_group": "greater_tater", "kind": "operator_location", "url": "https://thegreatertater.com/"}
+      ]
+    },
+    "3217.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1748973, 44.9811008],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact RC's BBQ 1801 W Dan Patch Ave place pin agrees with the fair's north-West Dan Patch directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3217.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9811008,-93.1748973"},
+        {"publisher_group": "rcs_bbq", "kind": "operator_profile", "url": "https://www.facebook.com/RCsBBQMN/"}
+      ]
+    },
+    "5754.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1682909, 44.9814558],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Rick's Pizza 1629 Dan Patch Ave place pin links to vendor 5754.1 and agrees with the Cosgrove/Dan Patch corridor.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/5754.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9814558,-93.1682909"}
+      ]
+    },
+    "11056.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1752848, 44.9781329],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Roon's Savories Liggett St fair place pin agrees with the current fair and operator's west-Liggett directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/11056.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9781329,-93.1752848"},
+        {"publisher_group": "roons_savories", "kind": "operator_location", "url": "https://roonssavories.com/"}
+      ]
+    },
+    "3239.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1733813, 44.9789745],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Sandwich Stop 1256 Clough St place pin agrees with the fair's west-Clough, Carnes-to-Judson directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3239.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9789745,-93.1733813"}
+      ]
+    },
+    "9260.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1756591, 44.9792484],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Strawberry Patch 1267 Liggett St place pin agrees with the fair's west-Liggett, Carnes-to-Judson directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/9260.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9792484,-93.1756591"}
+      ]
+    },
+    "3983.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1715896, 44.9797695],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Sweet Martha's Cookie Jar 1710 Carnes Ave place pin identifies the Carnes stand and agrees with the fair's south-Carnes directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3983.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9797695,-93.1715896"},
+        {"publisher_group": "sweet_marthas", "kind": "operator_website", "url": "http://www.sweetmarthas.com/"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",
