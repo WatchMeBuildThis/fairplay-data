@@ -8,20 +8,20 @@
     "coordinate_status_counts": {
       "approximate": 2,
       "missing": 12,
-      "unverified": 206,
-      "verified": 58
+      "unverified": 202,
+      "verified": 62
     },
-    "compass_eligible_count": 58,
+    "compass_eligible_count": 62,
     "review_priority_counts": {
       "critical": 12,
-      "low": 135,
-      "medium": 131
+      "low": 130,
+      "medium": 136
     },
     "issue_counts": {
-      "large_change_from_baseline": 63,
+      "large_change_from_baseline": 66,
       "missing_coordinate": 12,
-      "no_independent_verification": 218,
-      "written_street_corridor_conflict": 81
+      "no_independent_verification": 214,
+      "written_street_corridor_conflict": 83
     },
     "policy": {
       "compass_requires": "coordinate_status=verified, >=2 publisher groups, and no high/critical issue",
@@ -40,10 +40,10 @@
       },
       "underwood": {
         "axis": "lon",
-        "center": -93.17007430176427,
+        "center": -93.17048821964714,
         "sample_count": 83,
-        "inlier_count": 30,
-        "inlier_ratio": 0.361,
+        "inlier_count": 31,
+        "inlier_ratio": 0.373,
         "reliable_for_screening": true
       },
       "carnes": {
@@ -56,10 +56,10 @@
       },
       "judson": {
         "axis": "lat",
-        "center": 44.9780851041094,
+        "center": 44.978082370469146,
         "sample_count": 50,
-        "inlier_count": 15,
-        "inlier_ratio": 0.3,
+        "inlier_count": 14,
+        "inlier_ratio": 0.28,
         "reliable_for_screening": true
       },
       "liggett": {
@@ -96,10 +96,10 @@
       },
       "cooper": {
         "axis": "lon",
-        "center": -93.16919266055805,
+        "center": -93.16918542941595,
         "sample_count": 38,
-        "inlier_count": 17,
-        "inlier_ratio": 0.447,
+        "inlier_count": 18,
+        "inlier_ratio": 0.474,
         "reliable_for_screening": true
       },
       "nelson": {
@@ -541,8 +541,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 87.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 87.4
+          "detail": "Heuristic: pin is 88.0 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 88.0
         },
         {
           "code": "no_independent_verification",
@@ -578,8 +578,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 67.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 67.9
+          "detail": "Heuristic: pin is 100.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 100.4
         },
         {
           "code": "no_independent_verification",
@@ -615,8 +615,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 234.3 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 234.3
+          "detail": "Heuristic: pin is 234.6 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 234.6
         },
         {
           "code": "no_independent_verification",
@@ -652,8 +652,45 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 142.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 142.7
+          "detail": "Heuristic: pin is 110.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 110.2
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3235.1",
+      "name": "San Felipe Tacos",
+      "booth_location": "Southwest corner of Dan Patch Ave. & Underwood St.",
+      "coordinates": [
+        -93.169450288462,
+        44.98203281107
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 45,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 66.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 66.0
+        },
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 81.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 81.5
         },
         {
           "code": "no_independent_verification",
@@ -687,8 +724,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 67.7 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 67.7
+          "detail": "Heuristic: pin is 68.0 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 68.0
         },
         {
           "code": "large_change_from_baseline",
@@ -862,49 +899,14 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 76.8 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 76.8
+          "detail": "Heuristic: pin is 77.1 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 77.1
         },
         {
           "code": "large_change_from_baseline",
           "severity": "medium",
           "detail": "Coordinate moved 74.6 m from the pre-fix snapshot; review evidence",
           "distance_m": 74.6
-        }
-      ]
-    },
-    {
-      "id": "4072.1",
-      "name": "Minnesota Wine Country",
-      "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.1708926,
-        44.9793878
-      ],
-      "map_ref": null,
-      "coordinate_status": "verified",
-      "confidence": "high",
-      "compass_eligible": true,
-      "evidence_publisher_groups": [
-        "google_maps",
-        "mnstatefair"
-      ],
-      "baseline_change_m": 99.5,
-      "verification_distance_m": 0.0,
-      "risk_score": 40,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 64.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 64.2
-        },
-        {
-          "code": "large_change_from_baseline",
-          "severity": "medium",
-          "detail": "Coordinate moved 99.5 m from the pre-fix snapshot; review evidence",
-          "distance_m": 99.5
         }
       ]
     },
@@ -996,8 +998,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 94.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 94.7
+          "detail": "Heuristic: pin is 127.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 127.2
         },
         {
           "code": "no_independent_verification",
@@ -1089,8 +1091,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 103.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 103.9
+          "detail": "Heuristic: pin is 104.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 104.5
         },
         {
           "code": "no_independent_verification",
@@ -1120,8 +1122,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 80.8 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 80.8
+          "detail": "Heuristic: pin is 81.1 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 81.1
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "1783.1",
+      "name": "Big Dog Corndogs",
+      "booth_location": "Northeast corner of Randall Ave. & Underwood St.",
+      "coordinates": [
+        -93.169663734271,
+        44.98368117601
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 64.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 64.7
         },
         {
           "code": "no_independent_verification",
@@ -1244,8 +1277,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 82.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 82.5
+          "detail": "Heuristic: pin is 81.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 81.9
         },
         {
           "code": "no_independent_verification",
@@ -1275,8 +1308,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 104.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 104.0
+          "detail": "Heuristic: pin is 71.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 71.5
         },
         {
           "code": "no_independent_verification",
@@ -1430,8 +1463,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 121.0 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 121.0
+          "detail": "Heuristic: pin is 121.3 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 121.3
         },
         {
           "code": "no_independent_verification",
@@ -1461,8 +1494,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 82.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 82.9
+          "detail": "Heuristic: pin is 115.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 115.4
         },
         {
           "code": "no_independent_verification",
@@ -1585,8 +1618,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 70.0 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 70.0
+          "detail": "Heuristic: pin is 70.3 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 70.3
         },
         {
           "code": "no_independent_verification",
@@ -1740,8 +1773,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 128.3 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 128.3
+          "detail": "Heuristic: pin is 128.6 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 128.6
         },
         {
           "code": "no_independent_verification",
@@ -1833,8 +1866,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 60.7 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 60.7
+          "detail": "Heuristic: pin is 60.1 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 60.1
         },
         {
           "code": "no_independent_verification",
@@ -1875,6 +1908,37 @@
       ]
     },
     {
+      "id": "2447.1",
+      "name": "Gyros by G&G Concessions",
+      "booth_location": "Northeast corner of Lee Ave. & Underwood St.",
+      "coordinates": [
+        -93.16934945641,
+        44.986705875559
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 89.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 89.4
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "2493.1",
       "name": "Henry's Kettle Korn",
       "booth_location": "East side of Cooper St. between Lee & Randall avenues, at The North Woods",
@@ -1895,8 +1959,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 96.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 96.4
+          "detail": "Heuristic: pin is 95.8 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 95.8
         },
         {
           "code": "no_independent_verification",
@@ -1988,8 +2052,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 160.5 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 160.5
+          "detail": "Heuristic: pin is 160.8 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 160.8
         },
         {
           "code": "no_independent_verification",
@@ -2019,8 +2083,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 144.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 144.4
+          "detail": "Heuristic: pin is 111.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 111.9
         },
         {
           "code": "no_independent_verification",
@@ -2081,8 +2145,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 178.4 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 178.4
+          "detail": "Heuristic: pin is 178.7 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 178.7
         },
         {
           "code": "no_independent_verification",
@@ -2143,8 +2207,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.6 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 100.6
+          "detail": "Heuristic: pin is 101.1 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 101.1
         },
         {
           "code": "no_independent_verification",
@@ -2205,8 +2269,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 68.7 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 68.7
+          "detail": "Heuristic: pin is 68.4 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 68.4
         },
         {
           "code": "no_independent_verification",
@@ -2298,8 +2362,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 83.4 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 83.4
+          "detail": "Heuristic: pin is 83.7 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 83.7
         },
         {
           "code": "no_independent_verification",
@@ -2360,8 +2424,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 146.0 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 146.0
+          "detail": "Heuristic: pin is 146.3 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 146.3
         },
         {
           "code": "no_independent_verification",
@@ -2453,8 +2517,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 130.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 130.1
+          "detail": "Heuristic: pin is 97.6 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 97.6
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "3109.1",
+      "name": "Pronto Pups",
+      "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway",
+      "coordinates": [
+        -93.169612024359,
+        44.982657899418
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 68.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 68.8
         },
         {
           "code": "no_independent_verification",
@@ -2577,8 +2672,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 94.6 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 94.6
+          "detail": "Heuristic: pin is 94.0 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 94.0
         },
         {
           "code": "no_independent_verification",
@@ -2608,8 +2703,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 133.3 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 133.3
+          "detail": "Heuristic: pin is 100.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 100.8
         },
         {
           "code": "no_independent_verification",
@@ -2681,37 +2776,6 @@
       ]
     },
     {
-      "id": "3235.1",
-      "name": "San Felipe Tacos",
-      "booth_location": "Southwest corner of Dan Patch Ave. & Underwood St.",
-      "coordinates": [
-        -93.169450288462,
-        44.98203281107
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 66.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 66.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "3249.1",
       "name": "Sausage Express",
       "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
@@ -2734,37 +2798,6 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 107.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
           "distance_m": 107.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1573.1",
-      "name": "Shrimp Shack",
-      "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
-      "coordinates": [
-        -93.17120962726,
-        44.978846993366
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 89.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 89.1
         },
         {
           "code": "no_independent_verification",
@@ -2898,37 +2931,6 @@
       ]
     },
     {
-      "id": "3386.1",
-      "name": "Strawberries 'N Creme",
-      "booth_location": "West side of Underwood St. at Wright Ave.",
-      "coordinates": [
-        -93.172099068085,
-        44.983812984987
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 159.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 159.0
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "3276.2",
       "name": "Summit On A Stick",
       "booth_location": "At the International Bazaar, north section",
@@ -2980,8 +2982,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 141.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 141.0
+          "detail": "Heuristic: pin is 108.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 108.5
         },
         {
           "code": "no_independent_verification",
@@ -3075,6 +3077,37 @@
           "severity": "medium",
           "detail": "Heuristic: pin is 819.2 m perpendicular to the feed-learned Lee corridor; manual review required",
           "distance_m": 819.2
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "1328.1",
+      "name": "The Anchor Coffee House",
+      "booth_location": "West side of Underwood St. between Dan Patch & Carnes avenues",
+      "coordinates": [
+        -93.169719014103,
+        44.979551072007
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 60.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 60.4
         },
         {
           "code": "no_independent_verification",
@@ -3197,8 +3230,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 127.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 127.0
+          "detail": "Heuristic: pin is 94.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 94.5
         },
         {
           "code": "no_independent_verification",
@@ -3259,8 +3292,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 151.9 m perpendicular to the feed-learned Judson corridor; manual review required",
-          "distance_m": 151.9
+          "detail": "Heuristic: pin is 152.2 m perpendicular to the feed-learned Judson corridor; manual review required",
+          "distance_m": 152.2
         },
         {
           "code": "no_independent_verification",
@@ -3290,8 +3323,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 113.3 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 113.3
+          "detail": "Heuristic: pin is 113.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 113.9
         },
         {
           "code": "no_independent_verification",
@@ -3390,6 +3423,35 @@
       ]
     },
     {
+      "id": "5146.1",
+      "name": "BABA'S",
+      "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
+      "coordinates": [
+        -93.1708125,
+        44.9846875
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 176.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 176.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 176.3
+        }
+      ]
+    },
+    {
       "id": "1952.1",
       "name": "Big Fat Bacon",
       "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
@@ -3475,6 +3537,35 @@
           "severity": "medium",
           "detail": "Coordinate moved 159.4 m from the pre-fix snapshot; review evidence",
           "distance_m": 159.4
+        }
+      ]
+    },
+    {
+      "id": "2067.1",
+      "name": "Charcoal Hut",
+      "booth_location": "East side of Judson Ave. between Underwood & Cooper streets, next to the International Bazaar",
+      "coordinates": [
+        -93.1690625,
+        44.9785625
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 108.6,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 108.6 m from the pre-fix snapshot; review evidence",
+          "distance_m": 108.6
         }
       ]
     },
@@ -4039,6 +4130,35 @@
       ]
     },
     {
+      "id": "4072.1",
+      "name": "Minnesota Wine Country",
+      "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.1708926,
+        44.9793878
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 99.5,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 99.5 m from the pre-fix snapshot; review evidence",
+          "distance_m": 99.5
+        }
+      ]
+    },
+    {
       "id": "3060.1",
       "name": "Pickle Dog",
       "booth_location": "South side of Carnes Ave. between Liggett & Chambers streets",
@@ -4241,6 +4361,35 @@
           "severity": "medium",
           "detail": "Coordinate moved 134.8 m from the pre-fix snapshot; review evidence",
           "distance_m": 134.8
+        }
+      ]
+    },
+    {
+      "id": "3386.1",
+      "name": "Strawberries 'N Creme",
+      "booth_location": "West side of Underwood St. at Wright Ave.",
+      "coordinates": [
+        -93.170747,
+        44.984002
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 108.4,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 108.4 m from the pre-fix snapshot; review evidence",
+          "distance_m": 108.4
         }
       ]
     },
@@ -4566,31 +4715,6 @@
       ]
     },
     {
-      "id": "7388.1",
-      "name": "Afro Deli & Grill",
-      "booth_location": "In the Food Building, east wall",
-      "coordinates": [
-        -93.169366342308,
-        44.980484014388
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "792.3",
       "name": "Aldo's Burgers",
       "booth_location": "In the Lee & Rose Warner Coliseum, west side",
@@ -4666,62 +4790,12 @@
       ]
     },
     {
-      "id": "5146.1",
-      "name": "BABA'S",
-      "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
-      "coordinates": [
-        -93.170261260507,
-        44.986224484458
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "6041.1",
       "name": "Bandstand Concessions",
       "booth_location": "Inside the Grandstand Concert Venue",
       "coordinates": [
         -93.171914135256,
         44.982716512152
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1783.1",
-      "name": "Big Dog Corndogs",
-      "booth_location": "Northeast corner of Randall Ave. & Underwood St.",
-      "coordinates": [
-        -93.169663734271,
-        44.98368117601
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -4847,31 +4921,6 @@
       "coordinates": [
         -93.170136053846,
         44.984202172662
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2067.1",
-      "name": "Charcoal Hut",
-      "booth_location": "East side of Judson Ave. between Underwood & Cooper streets, next to the International Bazaar",
-      "coordinates": [
-        -93.167829660897,
-        44.978123375073
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -5297,31 +5346,6 @@
       "coordinates": [
         -93.171167395513,
         44.979968400415
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2447.1",
-      "name": "Gyros by G&G Concessions",
-      "booth_location": "Northeast corner of Lee Ave. & Underwood St.",
-      "coordinates": [
-        -93.16934945641,
-        44.986705875559
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -6491,31 +6515,6 @@
       ]
     },
     {
-      "id": "3109.1",
-      "name": "Pronto Pups",
-      "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway",
-      "coordinates": [
-        -93.169612024359,
-        44.982657899418
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "1416.2",
       "name": "Pryes Brewing Pavilion",
       "booth_location": "At West End Market, south of Schilling Amphitheater",
@@ -6891,6 +6890,31 @@
       ]
     },
     {
+      "id": "1573.1",
+      "name": "Shrimp Shack",
+      "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
+      "coordinates": [
+        -93.17120962726,
+        44.978846993366
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 5,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
       "id": "5581.1",
       "name": "Smoothies",
       "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
@@ -7197,31 +7221,6 @@
       "coordinates": [
         -93.168996351282,
         44.98179751625
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 5,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "1328.1",
-      "name": "The Anchor Coffee House",
-      "booth_location": "West side of Underwood St. between Dan Patch & Carnes avenues",
-      "coordinates": [
-        -93.169719014103,
-        44.979551072007
       ],
       "map_ref": null,
       "coordinate_status": "unverified",
@@ -7664,6 +7663,29 @@
           "detail": "No curated independent coordinate evidence is recorded"
         }
       ]
+    },
+    {
+      "id": "7388.1",
+      "name": "Afro Deli & Grill",
+      "booth_location": "In the Food Building, east wall",
+      "coordinates": [
+        -93.16944,
+        44.9803502
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "afro_deli",
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 16.0,
+      "verification_distance_m": 0.0,
+      "risk_score": 0,
+      "review_priority": "low",
+      "issues": []
     },
     {
       "id": "616.1",

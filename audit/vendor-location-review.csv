@@ -16,13 +16,13 @@ medium,45,2029.1,Candy Factory,unverified,false,-93.170306136538,44.987831515847
 medium,45,3505.1,Cotton Candy 7 Different Flavors,unverified,false,-93.169209994231,44.98036970186,Southeast corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,45,2375.1,Gass Station Grill,unverified,false,-93.169415603846,44.980195956835,"West side of Cooper St. between Dan Patch & Judson avenues, outside southeast corner of the Food Building",,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,45,2120.2,L & B Cotton Candy,unverified,false,-93.171891790385,44.980366205068,Northwest corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
+medium,45,3235.1,San Felipe Tacos,unverified,false,-93.169450288462,44.98203281107,Southwest corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|written_street_corridor_conflict|no_independent_verification
 medium,40,2770.1,All You Can Drink Milk,verified,true,-93.1733688,44.9786946,Northeast corner of Judson Ave. & Clough St.,,66.0,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,1932.1,Bayou Bob's Gator Shack,verified,true,-93.171734,44.9807911,Southeast corner of Dan Patch Ave. & Nelson St.,,104.5,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,7099.1,Carousel BBQ,verified,true,-93.1749722,44.9806423,West side of Chambers St. between West Dan Patch & Carnes avenues,,140.1,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,2112.1,Corn Roast,verified,true,-93.1716163,44.9808717,Southeast corner of Dan Patch Ave. & Nelson St.,,110.9,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,10093.1,Giggles' Campfire Grill,verified,true,-93.1688586,44.9856224,Southeast corner of Lee Ave. & Cooper St. at The North Woods,,111.4,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,1548.1,Minneapple Pie,verified,true,-93.1716182,44.9787774,South side of Judson Ave. between Nelson & Underwood streets,,74.6,0.0,written_street_corridor_conflict|large_change_from_baseline
-medium,40,4072.1,Minnesota Wine Country,verified,true,-93.1708926,44.9793878,West side of Underwood St. between Carnes & Judson avenues,,99.5,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,40,3231.1,Salem Lutheran Church Dining Hall,verified,true,-93.1678234,44.9845954,"North side of Randall Ave., just south of the Progress Center",,152.5,0.0,written_street_corridor_conflict|large_change_from_baseline
 medium,25,2114.1,3B Fresh Squeezed Lemonade & Foot Long Corn Dogs,unverified,false,-93.174149666026,44.978771392184,West side of Liggett St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,6449.2,About a Foot Long Hot Dog,unverified,false,-93.168867953526,44.977873963109,Southeast corner of Judson Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|no_independent_verification
@@ -30,6 +30,7 @@ medium,25,9642.1,About a Foot Long Hot Dog,unverified,false,-93.168036,44.983982
 medium,25,9642.2,About a Foot Long Hot Dog,unverified,false,-93.1693751,44.9814141,Northwest corner of Dan Patch Ave. & Cooper St.,1908-2548,236.3,,large_change_from_baseline|no_independent_verification
 medium,25,5937.1,Attavio's Fries,unverified,false,-93.17051655641,44.979407802061,"West side of Cooper St. between Dan Patch and Judson avenues, outside the Food Building",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,11830.1,Beans & Beignets,unverified,false,-93.173685963462,44.978813280576,Northwest corner of Judson Ave. & Clough St.,,0.0,,written_street_corridor_conflict|no_independent_verification
+medium,25,1783.1,Big Dog Corndogs,unverified,false,-93.169663734271,44.98368117601,Northeast corner of Randall Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1509.3,Bratwurst,unverified,false,-93.1722972,44.9800237,Northwest corner of Carnes Ave. & Nelson St.,1539-1982,120.6,,large_change_from_baseline|no_independent_verification
 medium,25,5733.1,Bridge N' Barrel Root Beer,unverified,false,-93.171136,44.9814214,North side of Dan Patch Ave. between Nelson & Underwood streets,1893-2198,272.5,,large_change_from_baseline|no_independent_verification
 medium,25,5733.2,Bridge N' Barrel Root Beer,unverified,false,-93.1706802,44.9799609,Northwest corner of Carnes Ave. & Underwood St.,1539-2304,132.1,,large_change_from_baseline|no_independent_verification
@@ -54,6 +55,7 @@ medium,25,2247.1,Funnel Cakes,unverified,false,-93.170131707943,44.982191270589,
 medium,25,2196.1,Galaxy of Drinks,unverified,false,-93.174524839665,44.978939895317,"West side of Liggett St., just south of Mighty Midway",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2527.1,Goertzes Dairy Kone,unverified,false,-93.168420029808,44.979751637691,"East side of Cooper St., next to the Merch Market",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2417.1,Granny's Cheesecake & More,unverified,false,-93.169810417308,44.980736302936,North side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
+medium,25,2447.1,Gyros by G&G Concessions,unverified,false,-93.16934945641,44.986705875559,Northeast corner of Lee Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2493.1,Henry's Kettle Korn,unverified,false,-93.167965033974,44.984756687925,"East side of Cooper St. between Lee & Randall avenues, at The North Woods",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2122.1,Kathie's Cotton Candy,unverified,false,-93.17644756859,44.979856055091,West side of Liggett St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3699.1,Kora & Mila's Cookie Dough,unverified,false,-93.168000873718,44.981982605872,South side of Dan Patch Ave. between Cooper & Cosgrove streets,,0.0,,written_street_corridor_conflict|no_independent_verification
@@ -73,6 +75,7 @@ medium,25,3079.1,Poncho Dogs,unverified,false,-93.172881254487,44.979400116793,S
 medium,25,3079.3,Poncho Dogs,unverified,false,-93.175083399359,44.978101568864,Southwest corner of Judson Ave. & Clough St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3095.1,Pretzel Dogs,unverified,false,-93.176421138665,44.978916659608,West side of Liggett St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1023.1,Pronto Pups,unverified,false,-93.171730824359,44.979595388554,West side of Underwood St. between Dan Patch & Carnes avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
+medium,25,3109.1,Pronto Pups,unverified,false,-93.169612024359,44.982657899418,"East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3111.1,Pronto Pups,unverified,false,-93.169165639744,44.980400140644,South side of Dan Patch Ave. between Underwood & Cooper streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,5028.1,Pronto Pups,unverified,false,-93.169436747436,44.982996216087,East side of Cosgrove St. between Randall & Wright avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,5687.1,Pronto Pups,unverified,false,-93.172529664103,44.980542087368,North side of Carnes Ave. between Chambers & Nelson streets,,0.0,,written_street_corridor_conflict|no_independent_verification
@@ -80,19 +83,17 @@ medium,25,7805.1,Pronto Pups,unverified,false,-93.167987884615,44.983609593493,N
 medium,25,1856.1,RC Cola,unverified,false,-93.171771571154,44.982257403353,East side of Underwood St. outside Visitors Plaza,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3173.1,Rice Kristie Bars,unverified,false,-93.170140046154,44.980689031817,North side of Carnes Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,5754.2,Rick's Pizza,unverified,false,-93.1694244,44.9867388,West side of Cooper St. between Murphy & Lee avenues,3214-2482,430.4,,large_change_from_baseline|no_independent_verification
-medium,25,3235.1,San Felipe Tacos,unverified,false,-93.169450288462,44.98203281107,Southwest corner of Dan Patch Ave. & Underwood St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3249.1,Sausage Express,unverified,false,-93.170311162821,44.980465741266,North side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,written_street_corridor_conflict|no_independent_verification
-medium,25,1573.1,Shrimp Shack,unverified,false,-93.17120962726,44.978846993366,West side of Underwood St. between Carnes & Judson avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,2084.2,Smokey's Grill,unverified,false,-93.1695298,44.9870282,South side of Murphy Ave. between Underwood & Cooper streets,3284-2458,146.2,,large_change_from_baseline|no_independent_verification
 medium,25,5052.1,Solem's Cheese Curds,unverified,false,-93.1702056,44.9864309,East side of Underwood St. between Murphy & Lee avenues,3131-2330,97.3,,large_change_from_baseline|no_independent_verification
 medium,25,5052.3,Solem's French Fries,unverified,false,-93.1702056,44.9864309,East side of Underwood St. between Murphy & Lee avenues,3131-2330,97.3,,large_change_from_baseline|no_independent_verification
 medium,25,5052.2,Solem's Mini Donuts,unverified,false,-93.1702056,44.9864309,East side of Underwood St. between Murphy & Lee avenues,3131-2330,97.3,,large_change_from_baseline|no_independent_verification
-medium,25,3386.1,Strawberries 'N Creme,unverified,false,-93.172099068085,44.983812984987,West side of Underwood St. at Wright Ave.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,3276.2,Summit On A Stick,unverified,false,-93.1691058,44.9780534,"At the International Bazaar, north section",1086-2637,178.4,,large_change_from_baseline|no_independent_verification
 medium,25,3981.1,Sweet Martha's Cookie Jar,unverified,false,-93.171870286538,44.987169390239,West side of Underwood St. between Murphy & Lee avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1509.1,Sweets & Treats,unverified,false,-93.170089029487,44.98229727677,North side of Dan Patch Ave. between Underwood & Cooper streets,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1509.2,Sweets & Treats,unverified,false,-93.1700536,44.9827569,At Kidway,2231-2399,379.5,,large_change_from_baseline|no_independent_verification
 medium,25,792.4,Swine & Spuds,unverified,false,-93.17225460208,44.979240459781,"In the Lee & Rose Warner Coliseum, northeast corner",,0.0,,written_street_corridor_conflict|no_independent_verification
+medium,25,1328.1,The Anchor Coffee House,unverified,false,-93.169719014103,44.979551072007,West side of Underwood St. between Dan Patch & Carnes avenues,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1509.4,The Big Cheese Cheese Curds,unverified,false,-93.176812700641,44.979124115497,"West side of Liggett St. at Carnes Ave., just south of Mighty Midway",,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,1974.1,The Blue Ox Burger Bar,unverified,false,-93.172088763462,44.978105607253,Southeast corner of Judson Ave. & Clough St.,,0.0,,written_street_corridor_conflict|no_independent_verification
 medium,25,244.1,The Dairy Bar,unverified,false,-93.1699973,44.9801218,"In the Food Building, south wall",1585-2438,115.1,,large_change_from_baseline|no_independent_verification
@@ -103,9 +104,11 @@ medium,25,1511.2,Tom Thumb Donuts,unverified,false,-93.170635573077,44.981201815
 medium,20,12742.1,1919 Root Beer,verified,true,-93.1703352,44.9809803,Southeast corner of Dan Patch Ave. & Underwood St. outside The Garden,,144.5,0.0,large_change_from_baseline
 medium,20,210.1,Al's Subs & Malt Shop,verified,true,-93.1718193,44.9803951,"East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",,98.6,0.0,large_change_from_baseline
 medium,20,1872.1,Andy's Grille,verified,true,-93.1743171,44.979745,South side of Carnes Ave. between Chambers & Nelson streets,1491-1610,75.9,0.0,large_change_from_baseline
+medium,20,5146.1,BABA'S,verified,true,-93.1708125,44.9846875,East side of Underwood St. between Murphy & Lee avenues,,176.3,0.0,large_change_from_baseline
 medium,20,1952.1,Big Fat Bacon,verified,true,-93.1708786,44.9809673,South side of Dan Patch Ave. between Nelson & Underwood streets,,82.2,0.0,large_change_from_baseline
 medium,20,2021.1,Cafe Caribe,verified,true,-93.1738652,44.9797356,South side of Carnes Ave. between Chambers & Clough streets,,104.7,0.0,large_change_from_baseline
 medium,20,12335.1,Carl's Gizmo,verified,true,-93.1692506,44.9813316,South side of Dan Patch Ave. between Underwood & Cooper streets,,159.4,0.0,large_change_from_baseline
+medium,20,2067.1,Charcoal Hut,verified,true,-93.1690625,44.9785625,"East side of Judson Ave. between Underwood & Cooper streets, next to the International Bazaar",,108.6,0.0,large_change_from_baseline
 medium,20,2084.1,CinnieSmiths,verified,true,-93.1693875,44.9871474,South side of Murphy Ave. between Underwood & Cooper streets,3284-2458,144.9,0.0,large_change_from_baseline
 medium,20,216.1,Coasters,verified,true,-93.1750531,44.9797389,Southeast corner of Carnes Ave. & Liggett St.,,114.9,0.0,large_change_from_baseline
 medium,20,2142.1,Cream Puffs,verified,true,-93.1760149,44.9805332,Southwest corner of West Dan Patch Ave. & Liggett St.,,137.3,0.0,large_change_from_baseline
@@ -125,6 +128,7 @@ medium,20,10877.1,Midway Mens Club,verified,true,-93.1702901,44.981689,"East sid
 medium,20,154.1,Mike's Hamburgers,verified,true,-93.171927,44.9800383,Northeast corner of Carnes Ave. & Nelson St.,1535-2077,139.3,0.0,large_change_from_baseline
 medium,20,2776.1,Miller's Flavored Cheese Curds,verified,true,-93.1719291,44.9801338,"East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",,76.1,0.0,large_change_from_baseline
 medium,20,2878.1,Minnesota Farmers Union Coffee Shop,verified,true,-93.1685723,44.9814844,North side of Dan Patch Ave. between Cooper & Cosgrove streets,,65.5,0.0,large_change_from_baseline
+medium,20,4072.1,Minnesota Wine Country,verified,true,-93.1708926,44.9793878,West side of Underwood St. between Carnes & Judson avenues,,99.5,0.0,large_change_from_baseline
 medium,20,3060.1,Pickle Dog,verified,true,-93.1750532,44.9797389,South side of Carnes Ave. between Liggett & Chambers streets,,130.1,0.0,large_change_from_baseline
 medium,20,3127.1,Que Viet Concessions,verified,true,-93.1688966,44.9807643,East side of Cooper St. outside the Merch Market,,118.5,0.0,large_change_from_baseline
 medium,20,3217.1,RC's BBQ,verified,true,-93.1748973,44.9811008,North side of West Dan Patch Ave. between Liggett & Chambers streets,,104.8,0.0,large_change_from_baseline
@@ -132,6 +136,7 @@ medium,20,5754.1,Rick's Pizza,verified,true,-93.1682909,44.9814558,West side of 
 medium,20,11056.1,Roon's Savories,verified,true,-93.1752848,44.9781329,West side of Liggett St. between Carnes & Judson avenues,,152.2,0.0,large_change_from_baseline
 medium,20,3404.1,Root Beer Hut,verified,true,-93.1736472,44.9800207,North side of Carnes Ave. between Chambers & Nelson streets,,142.4,0.0,large_change_from_baseline
 medium,20,3276.1,Shanghai Henri's,verified,true,-93.1693112,44.9784212,"At the International Bazaar, north section",1086-2637,134.8,0.0,large_change_from_baseline
+medium,20,3386.1,Strawberries 'N Creme,verified,true,-93.170747,44.984002,West side of Underwood St. at Wright Ave.,,108.4,0.0,large_change_from_baseline
 medium,20,3983.1,Sweet Martha's Cookie Jar,verified,true,-93.1715896,44.9797695,South side of Carnes Ave. between Nelson & Underwood streets,,134.0,0.0,large_change_from_baseline
 medium,20,1968.1,The Blue Barn,verified,true,-93.1760875,44.9811063,"At West End Market, south of History & Heritage Center",,122.3,0.0,large_change_from_baseline
 medium,20,2348.1,The Frontier,verified,true,-93.1747221,44.9797269,South side of Carnes Ave. between Liggett & Chambers streets,,110.7,0.0,large_change_from_baseline
@@ -143,19 +148,15 @@ medium,20,9260.1,The Strawberry Patch,verified,true,-93.1756591,44.9792484,West 
 medium,20,3792.1,Tiny Tim Donuts,verified,true,-93.1737502,44.9800518,North side of Carnes Ave. between Chambers & Clough streets,,126.5,0.0,large_change_from_baseline
 medium,20,2924.1,Turkey to Go,verified,true,-93.1733812,44.9789745,East side of Clough St. between Carnes & Judson avenues,,111.4,0.0,large_change_from_baseline
 low,5,6449.1,About a Foot Long Hot Dog,unverified,false,-93.1738553,44.978449884892,"South side of Judson Ave. between Liggett & Clough streets, in front of the Lee & Rose Warner Coliseum",,0.0,,no_independent_verification
-low,5,7388.1,Afro Deli & Grill,unverified,false,-93.169366342308,44.980484014388,"In the Food Building, east wall",,0.0,,no_independent_verification
 low,5,792.3,Aldo's Burgers,unverified,false,-93.174896844329,44.978295168621,"In the Lee & Rose Warner Coliseum, west side",,0.0,,no_independent_verification
 low,5,5177.1,Auntie M's Gluten Free,unverified,false,-93.173444394872,44.977904475598,"South side of Judson Ave. between Nelson & Underwood streets, just west of Adventure Park",,0.0,,no_independent_verification
 low,5,1899.1,Australian Battered Potatoes,unverified,false,-93.172825984828,44.977903913226,South side of Judson Ave. between Nelson & Underwood streets,,0.0,,no_independent_verification
-low,5,5146.1,BABA'S,unverified,false,-93.170261260507,44.986224484458,East side of Underwood St. between Murphy & Lee avenues,,0.0,,no_independent_verification
 low,5,6041.1,Bandstand Concessions,unverified,false,-93.171914135256,44.982716512152,Inside the Grandstand Concert Venue,,0.0,,no_independent_verification
-low,5,1783.1,Big Dog Corndogs,unverified,false,-93.169663734271,44.98368117601,Northeast corner of Randall Ave. & Underwood St.,,0.0,,no_independent_verification
 low,5,1783.2,Big Dog Corndogs,unverified,false,-93.169851372185,44.979507210913,West side of Underwood St. between Carnes & Judson avenues,,0.0,,no_independent_verification
 low,5,5733.4,Bridge N' Barrel Root Beer,unverified,false,-93.169963108974,44.978246295807,Northwest corner of Judson Ave. & Underwood St.,,0.0,,no_independent_verification
 low,5,10014.1,Butcher Boys,unverified,false,-93.175614425979,44.980217873197,West side of Liggett St. between Carnes & West Dan Patch avenues,,0.0,,no_independent_verification
 low,5,227.1,Butcher Boys,unverified,false,-93.170865162821,44.980902605354,North side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,no_independent_verification
 low,5,1887.1,"Caramel Apples, Cotton Candy, Sno Kones",unverified,false,-93.170136053846,44.984202172662,South side of Randall Ave. between Underwood & Cooper streets,,0.0,,no_independent_verification
-low,5,2067.1,Charcoal Hut,unverified,false,-93.167829660897,44.978123375073,"East side of Judson Ave. between Underwood & Cooper streets, next to the International Bazaar",,0.0,,no_independent_verification
 low,5,2075.1,Chicago Dogs,unverified,false,-93.168612794231,44.981597695379,"In The Garden, east wall",,0.0,,no_independent_verification
 low,5,2770.2,Dairy Goodness,unverified,false,-93.17219856859,44.978501593112,"In the Dairy Building, south wall",,0.0,,no_independent_verification
 low,5,2182.1,Daryl's Dog House,unverified,false,-93.171560717949,44.980462900382,South side of Carnes Ave. between Nelson & Underwood streets,,0.0,,no_independent_verification
@@ -173,7 +174,6 @@ low,5,3255.1,German Root Beer and Popcorn,unverified,false,-93.173291870833,44.9
 low,5,10990.1,Gopher Dairy Bar,unverified,false,-93.175169678205,44.977633622529,South side of Judson Ave. between Stevens & Liggett streets,,0.0,,no_independent_verification
 low,5,2415.1,Grandstand Mini Donuts,unverified,false,-93.173735225,44.980887294964,"East of Chambers St., just south of the Grandstand",,0.0,,no_independent_verification
 low,5,11704.1,Granny's Apples + Lemonade,unverified,false,-93.171167395513,44.979968400415,"In the Food Building, west wall",,0.0,,no_independent_verification
-low,5,2447.1,Gyros by G&G Concessions,unverified,false,-93.16934945641,44.986705875559,Northeast corner of Lee Ave. & Underwood St.,,0.0,,no_independent_verification
 low,5,2477.1,Hawaiian Shaved Ice,unverified,false,-93.170864417949,44.980941050291,North side of Dan Patch Ave. between Underwood & Cooper streets,,0.0,,no_independent_verification
 low,5,3689.1,Holy Land,unverified,false,-93.169975545513,44.977496471968,"At the International Bazaar, southeast corner",,0.0,,no_independent_verification
 low,5,2196.2,Ice Cold Root Beer,unverified,false,-93.171267228127,44.978270592019,East side of Nelson St. between Carnes & Judson avenues,,0.0,,no_independent_verification
@@ -220,7 +220,6 @@ low,5,3052.1,Peters Hot Dogs,unverified,false,-93.171735587179,44.981903989241,A
 low,5,3066.1,Pizza Wagon,unverified,false,-93.175473233654,44.980380313561,"West side of Liggett St., just north of Mighty Midway",,0.0,,no_independent_verification
 low,5,3079.2,Poncho Dogs,unverified,false,-93.167913463462,44.981518860458,South side of Dan Patch Ave. between Cooper & Cosgrove streets,,0.0,,no_independent_verification
 low,5,3107.1,Pronto Pups,unverified,false,-93.172337428846,44.980368791367,West side of Nelson St. between Dan Patch & Carnes avenues,,0.0,,no_independent_verification
-low,5,3109.1,Pronto Pups,unverified,false,-93.169612024359,44.982657899418,"East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway",,0.0,,no_independent_verification
 low,5,1416.2,Pryes Brewing Pavilion,unverified,false,-93.178766901923,44.980929195282,"At West End Market, south of Schilling Amphitheater",,0.0,,no_independent_verification
 low,5,4150.1,Quench’d: Lemonade/Bottled Water,unverified,false,-93.171254906238,44.981083733961,South side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,no_independent_verification
 low,5,3759.1,Quesadilla Junction,unverified,false,-93.1705577,44.9838769,On the east side of Underwood St. between Murphy and Lee avenues,2501-2287,21.4,,no_independent_verification
@@ -236,6 +235,7 @@ low,5,9531.1,Saturday Dumpling Co.,unverified,false,-93.168427871154,44.97978792
 low,5,3247.1,Sausage by Cynthia,unverified,false,-93.17310056791,44.977866724026,North side of Judson Ave. between Nelson & Underwood streets,,0.0,,no_independent_verification
 low,5,12916.1,Sausage Sister & Me,unverified,false,-93.169350244868,44.980420343544,"In the Food Building, east wall",,0.0,,no_independent_verification
 low,5,3769.1,Scotch Eggs,unverified,false,-93.175450142308,44.979513482014,West side of Liggett St. between Carnes & Judson avenues,,0.0,,no_independent_verification
+low,5,1573.1,Shrimp Shack,unverified,false,-93.17120962726,44.978846993366,West side of Underwood St. between Carnes & Judson avenues,,0.0,,no_independent_verification
 low,5,5581.1,Smoothies,unverified,false,-93.1701963,44.9868911,East side of Underwood St. between Murphy & Lee avenues,3244-2327,8.1,,no_independent_verification
 low,5,3332.1,Sonny's Fair Food,unverified,false,-93.168608849359,44.98116161706,"In the Food Building, northwest section",,0.0,,no_independent_verification
 low,5,5799.1,Soul Bowl,unverified,false,-93.168502725641,44.979993824746,"In the Food Building, east wall",,0.0,,no_independent_verification
@@ -249,7 +249,6 @@ low,5,2079.1,Sweet Martha's Cookie Jar,unverified,false,-93.173640357692,44.9800
 low,5,8535.1,Tasti Whip,unverified,false,-93.1708134,44.981263985612,Located on the northwest corner of Dan Patch Ave. & Underwood St.,,0.0,,no_independent_verification
 low,5,5581.2,Taulelle's Jurassic Corn Dogs,unverified,false,-93.1701963,44.9868911,East side of Underwood St. between Murphy & Lee avenues,3244-2327,8.1,,no_independent_verification
 low,5,3436.1,Tejas Express,unverified,false,-93.168996351282,44.98179751625,"In The Garden, north wall",,0.0,,no_independent_verification
-low,5,1328.1,The Anchor Coffee House,unverified,false,-93.169719014103,44.979551072007,West side of Underwood St. between Dan Patch & Carnes avenues,,0.0,,no_independent_verification
 low,5,3448.1,The Donut Family,unverified,false,-93.177945042308,44.980583198522,At Mighty Midway,,0.0,,no_independent_verification
 low,5,5836.1,The Herbivorous Butcher,unverified,false,-93.169103148718,44.979506986195,"In the Food Building, west section, south wall",,0.0,,no_independent_verification
 low,5,239.1,The Jerky Shoppe,unverified,false,-93.174590014103,44.981971783556,"In the Grandstand, lower level, west wall, row 10",,0.0,,no_independent_verification
@@ -267,6 +266,7 @@ low,5,1286.1,West Indies Soul Food,unverified,false,-93.167824609615,44.97869554
 low,5,4872.1,Westmoreland Concessions,unverified,false,-93.177864078205,44.981119307408,At Mighty Midway,,0.0,,no_independent_verification
 low,5,10572.1,Wild Rice Specialties,unverified,false,-93.170024120435,44.981123259354,"In the Food Building, northeast section",,0.0,,no_independent_verification
 low,5,6202.1,Wow Fudge,unverified,false,-93.167754614103,44.981460214392,"In the Merch Market, center aisle",,0.0,,no_independent_verification
+low,0,7388.1,Afro Deli & Grill,verified,true,-93.16944,44.9803502,"In the Food Building, east wall",,16.0,0.0,
 low,0,616.1,Ball Park Cafe,verified,true,-93.1700734,44.9803924,East side of Underwood St. between Dan Patch & Carnes avenues,,0.0,0.0,
 low,0,212.1,Blue Moon Dine-In Theater,verified,true,-93.1740994,44.9800146,Northeast corner of Carnes Ave. & Chambers St.,,7.4,0.0,
 low,0,256.1,O'Gara's at the Fair,verified,true,-93.1684059,44.9809198,Southwest corner of Dan Patch Ave. & Cosgrove St.,,20.3,0.0,
