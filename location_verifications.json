@@ -704,6 +704,84 @@
         {"publisher_group": "sweet_marthas", "kind": "operator_website", "url": "http://www.sweetmarthas.com/"}
       ]
     },
+    "12742.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1703352, 44.9809803],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact 1919 Draft Root Beer 1676 Dan Patch Ave place pin agrees with the fair and operator's southeast Dan Patch/Underwood directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/12742.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9809803,-93.1703352"},
+        {"publisher_group": "1919_root_beer", "kind": "operator_location", "url": "https://x.com/1919rootbeer?lang=en"}
+      ]
+    },
+    "2348.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1747221, 44.9797269],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Frontier Saloon 1790 Carnes Ave place pin agrees with the fair's south-Carnes, Liggett-to-Chambers directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2348.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9797269,-93.1747221"},
+        {"publisher_group": "frontier_saloon", "kind": "operator_profile", "url": "https://www.facebook.com/FrontierSaloonMNSF/"}
+      ]
+    },
+    "3060.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1750532, 44.9797389],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Pickle Dog 1804 Carnes Ave place pin agrees with the fair's south-Carnes, Liggett-to-Chambers directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3060.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9797389,-93.1750532"},
+        {"publisher_group": "pickle_dog", "kind": "operator_profile", "url": "https://www.facebook.com/pickledogs/"}
+      ]
+    },
+    "10877.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1702901, 44.981689],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Midway Mens Club 1354 Underwood St place pin agrees with the fair's east-Underwood, Wright-to-Dan Patch directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/10877.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.981689,-93.1702901"},
+        {"publisher_group": "midway_mens_club", "kind": "operator_location", "url": "https://midwaymensclub.com/state-fair-stand/"}
+      ]
+    },
+    "3398.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1707496, 44.9840099],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Summer Lakes Boat House Underwood St place pin agrees with the fair and operator's southwest Randall/Underwood location.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3398.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9840099,-93.1707496"},
+        {"publisher_group": "summer_lakes", "kind": "operator_location", "url": "https://summerlakesbeverage.com/mn-state-fair/"}
+      ]
+    },
+    "3790.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1738435, 44.9812464],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Hideaway Speakeasy Grandstand place pin agrees with the fair and operator's upper-west Grandstand location.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3790.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9812464,-93.1738435"},
+        {"publisher_group": "hideaway_speakeasy", "kind": "operator_location", "url": "https://hideawayatthefair.com/"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",

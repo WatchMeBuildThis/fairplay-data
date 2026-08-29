@@ -74,8 +74,8 @@
     ],
     "booth_location": "Southeast corner of Dan Patch Ave. & Underwood St. outside The Garden",
     "coordinates": [
-      "-93.168967967949",
-      "44.981847907836"
+      "-93.1703352",
+      "44.9809803"
     ],
     "popupHtml": "<b>1919 Root Beer</b>\n\t\t<br>Southeast corner of Dan Patch Ave. & Underwood St. outside The Garden\n",
     "categories": [
@@ -111,8 +111,8 @@
         "Yukon Outfitters 1919 Hatchie Backpack Cooler, Carhartt 1919 Canvas Packable Duffle with Pouch (Two prize drawings daily)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2114.1",
@@ -13392,8 +13392,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Liggett & Chambers streets",
     "coordinates": [
-      "-93.175562628127",
-      "44.980525580547"
+      "-93.1747221",
+      "44.9797269"
     ],
     "popupHtml": "<b>The Frontier</b>\n\t\t<br>South side of Carnes Ave. between Liggett & Chambers streets\n",
     "categories": [
@@ -13455,8 +13455,8 @@
     "notes": [
       "Value Item (peanuts, hot dog, chili dog)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2359.1",
@@ -17464,8 +17464,8 @@
     ],
     "booth_location": "In the Grandstand, upper level, west section",
     "coordinates": [
-      "-93.174003084615",
-      "44.981259553957"
+      "-93.1738435",
+      "44.9812464"
     ],
     "popupHtml": "<b>The Hideaway Speakeasy</b>\n\t\t<br>In the Grandstand, upper level, west section\n",
     "categories": [
@@ -17499,8 +17499,8 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3689.1",
@@ -23571,8 +23571,8 @@
     ],
     "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, next to Visitors Plaza",
     "coordinates": [
-      "-93.170812558333",
-      "44.981096432562"
+      "-93.1702901",
+      "44.9816890"
     ],
     "popupHtml": "<b>Midway Mens Club</b>\n\t\t<br>East side of Underwood St. between Wright & Dan Patch avenues, next to Visitors Plaza\n",
     "categories": [
@@ -23596,8 +23596,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/10877.1/featured.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "154.1",
@@ -28526,8 +28526,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Liggett & Chambers streets",
     "coordinates": [
-      "-93.17371949359",
-      "44.979047482039"
+      "-93.1750532",
+      "44.9797389"
     ],
     "popupHtml": "<b>Pickle Dog</b>\n\t\t<br>South side of Carnes Ave. between Liggett & Chambers streets\n",
     "categories": [
@@ -28587,8 +28587,8 @@
     "notes": [
       "Value Item (pickle on-a-stick)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3066.1",
@@ -37740,8 +37740,8 @@
     ],
     "booth_location": "Southwest corner of Randall Ave. & Underwood St.",
     "coordinates": [
-      "-93.170714876923",
-      "44.984197741007"
+      "-93.1707496",
+      "44.9840099"
     ],
     "popupHtml": "<b>Summer Lakes Boat House</b>\n\t\t<br>Southwest corner of Randall Ave. & Underwood St.\n",
     "categories": [
@@ -37826,8 +37826,8 @@
     "notes": [
       "Value Item (hand-cut chips and dips)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3276.2",
