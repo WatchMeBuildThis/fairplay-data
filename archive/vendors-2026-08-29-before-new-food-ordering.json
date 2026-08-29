@@ -608,15 +608,15 @@
     "directions": "In the Food Building, east wall",
     "detail_url": "https://www.mnstatefair.org/vendor/7388.1",
     "items": [
-      "Peri-Peri Bowl",
-      "Mango Sunrise drink",
       "plantains",
       "veggie sambusa",
       "chicken sambusa",
       "beef sambusa",
+      "Peri-Peri Bowl",
       "iced Somali tea",
       "mango juice",
-      "Somali Spiced Tea"
+      "Somali Spiced Tea",
+      "Mango Sunrise drink"
     ],
     "item_details": [
       {
@@ -668,7 +668,7 @@
         "components": []
       },
       {
-        "name": "Mango Sunrise Drink",
+        "name": "Mango Sunrise drink",
         "is_new": true,
         "group": null,
         "components": []
@@ -2170,9 +2170,9 @@
     "directions": "South side of Judson Ave. between Nelson & Underwood streets",
     "detail_url": "https://www.mnstatefair.org/vendor/1899.1",
     "items": [
-      "Honey Brisket Battered Potatoes",
       "toppings",
-      "Australian Battered Potatoes"
+      "Australian Battered Potatoes",
+      "Honey Brisket Battered Potatoes"
     ],
     "item_details": [
       {
@@ -3816,7 +3816,6 @@
     "directions": "At West End Market, south of History & Heritage Center",
     "detail_url": "https://www.mnstatefair.org/vendor/1968.1",
     "items": [
-      "Cracklin' Corn Ribs",
       "Farm Handwich",
       "Iron Range Pierogies",
       "Blue Cheese & Corn Fritz",
@@ -3825,6 +3824,7 @@
       "French toast bites",
       "Breakfast Gnocchi",
       "Sweet Squeakers",
+      "Cracklin' Corn Ribs",
       "Red Bull energy drink",
       "blueberry basil lemonade",
       "bottled water",
@@ -4135,7 +4135,6 @@
     "directions": "Northeast corner of Carnes Ave. & Chambers St.",
     "detail_url": "https://www.mnstatefair.org/vendor/212.1",
     "items": [
-      "Butter Brew Mustache Pretzel",
       "Soda Pop Shakes",
       "vanilla milkshake",
       "chocolate milkshake",
@@ -4155,6 +4154,7 @@
       "cheesy hash browns",
       "monkey bread",
       "Belgian waffles",
+      "Butter Brew Mustache Pretzel",
       "Frozen Fudge Affogato",
       "coffee",
       "Pepsi",
@@ -5175,7 +5175,6 @@
     "directions": "Northeast corner of Judson Ave. & Liggett St.",
     "detail_url": "https://www.mnstatefair.org/vendor/1996.1",
     "items": [
-      "French Chouxnut Sundae",
       "turtle sundaes",
       "campfire marble sundaes",
       "waffle cones",
@@ -5185,7 +5184,8 @@
       "ice cream soda",
       "La La Palooza sundaes",
       "Gray Duck Sundae",
-      "Lady's Slipper Marble Sundae"
+      "Lady's Slipper Marble Sundae",
+      "French Chouxnut Sundae"
     ],
     "item_details": [
       {
@@ -5646,7 +5646,6 @@
     "directions": "South side of Carnes Ave. between Chambers & Clough streets",
     "detail_url": "https://www.mnstatefair.org/vendor/2021.1",
     "items": [
-      "Surf 'N' Turf Burger",
       "chicken strips",
       "chicken wings",
       "grilled Cuban sandwich",
@@ -5667,6 +5666,7 @@
       "cheeseburgers",
       "crab cakes",
       "Loaded Lobster Fries",
+      "Surf 'N' Turf Burger",
       "Vitamin Water XXX",
       "Diet Coke",
       "coffee",
@@ -6938,19 +6938,19 @@
     "directions": "East side of Underwood St. between Murphy & Lee avenues",
     "detail_url": "https://www.mnstatefair.org/vendor/9238.1",
     "items": [
-      "pickle Korean corn dog",
-      "Mango Sticky Rice Refresher",
       "original Korean corn dog",
       "Hot Cheetos Korean corn dog",
       "potato Korean corn dog",
       "Boba toppings",
       "mochi donut",
       "spicy mayo dip",
+      "pickle Korean corn dog",
       "iced coffee",
       "milk teas",
       "fruit green teas",
       "Assam black tea",
-      "Jasmine green tea"
+      "Jasmine green tea",
+      "Mango Sticky Rice Refresher"
     ],
     "item_details": [
       {
@@ -7007,7 +7007,7 @@
         "components": []
       },
       {
-        "name": "Pickle Korean Corn Dog",
+        "name": "pickle Korean corn dog",
         "is_new": true,
         "group": null,
         "components": []
@@ -9558,13 +9558,13 @@
     "directions": "North side of Carnes Ave. between Nelson & Underwood streets",
     "detail_url": "https://www.mnstatefair.org/vendor/1457.1",
     "items": [
-      "Dubai Whoopie Pie",
       "gyros",
       "spicy gyros",
       "meal combos",
       "chicken gyros",
       "Falafel pita sandwich",
       "Athena's Whipped Feta",
+      "Dubai Whoopie Pie",
       "Pepsi",
       "Mountain Dew",
       "Starry",
@@ -10536,14 +10536,14 @@
     "directions": "At the International Bazaar, south wall",
     "detail_url": "https://www.mnstatefair.org/vendor/10312.2",
     "items": [
-      "Strawberry Chata",
-      "Agua de Piña con Mango",
       "Flauta Dippers",
       "Quesabirria Taquitos",
       "Esquites",
       "Tacos de Mole",
       "Cafe-Chata",
-      "Agua de Sandia Loca"
+      "Agua de Sandia Loca",
+      "Strawberry Chata",
+      "Agua de Piña con Mango"
     ],
     "item_details": [
       {
@@ -10602,7 +10602,7 @@
         ]
       },
       {
-        "name": "Agua De Piña Con Mango",
+        "name": "Agua de Piña con Mango",
         "is_new": true,
         "group": null,
         "components": []
@@ -12040,7 +12040,6 @@
     "directions": "North side of Carnes Ave. between Nelson & Underwood streets",
     "detail_url": "https://www.mnstatefair.org/vendor/2336.1",
     "items": [
-      "Shakshuka Lamb Meatballs",
       "Everything Cream Cheese Ba-Sant",
       "gluten-free bread",
       "milks & milk alternatives",
@@ -12054,6 +12053,7 @@
       "vegan iced blueberry & lemon scone",
       "Shroomy Calamari",
       "breakfast croissant",
+      "Shakshuka Lamb Meatballs",
       "full espresso bar",
       "Peoples Organic nitro cold press coffee on tap",
       "coffee",
@@ -17042,7 +17042,7 @@
     ],
     "item_details": [
       {
-        "name": "The Fried And The Furious: Cubano Drift",
+        "name": "The Fried and the Furious: Cubano Drift",
         "is_new": true,
         "group": null,
         "components": [
@@ -19609,10 +19609,10 @@
     "directions": "South side of Dan Patch Ave. between Cooper & Cosgrove streets",
     "detail_url": "https://www.mnstatefair.org/vendor/3699.1",
     "items": [
-      "Brandy Old Fashioned Cookie Dough",
       "deep-fried chocolate chip cookie dough",
       "cookie dough on-a-stick",
-      "Birthday Cake Cookie Dough On-A-Stick"
+      "Birthday Cake Cookie Dough On-A-Stick",
+      "Brandy Old Fashioned Cookie Dough"
     ],
     "item_details": [
       {
@@ -20531,14 +20531,14 @@
     "directions": "West side of Underwood St. between Wright & Dan Patch avenues",
     "detail_url": "https://www.mnstatefair.org/vendor/3386.2",
     "items": [
-      "Caramel Apple Iced Tea",
       "cotton candy iced tea",
       "blueberry iced tea",
       "strawberry iced tea",
       "blood orange iced tea",
       "peach iced tea",
       "unsweetened iced tea",
-      "Dill Pickle Iced Tea"
+      "Dill Pickle Iced Tea",
+      "Caramel Apple Iced Tea"
     ],
     "item_details": [
       {
@@ -20829,7 +20829,6 @@
     "directions": "At West End Market, south of Schilling Amphitheater",
     "detail_url": "https://www.mnstatefair.org/vendor/1416.1",
     "items": [
-      "Pickle Pie",
       "Gorilla Bread",
       "walleye taco",
       "chicken tenders",
@@ -20843,6 +20842,7 @@
       "Love Me Tender",
       "King Kong Bread",
       "Fiery Hot Deep-Fried Ranch",
+      "Pickle Pie",
       "Red Bull energy drink",
       "Pepsi",
       "Diet Pepsi",
@@ -21317,9 +21317,9 @@
     "directions": "West side of Liggett St. between Carnes & Judson avenues",
     "detail_url": "https://www.mnstatefair.org/vendor/9067.1",
     "items": [
+      "Ube Butter Banana French Toast Lumpia",
       "Shanghai Lumpia",
-      "Longanisa Cheese Curd Lumpia",
-      "Ube Butter Banana French Toast Lumpia"
+      "Longanisa Cheese Curd Lumpia"
     ],
     "item_details": [
       {
@@ -22125,7 +22125,6 @@
     "directions": "North side of Carnes Ave. between Nelson & Underwood streets",
     "detail_url": "https://www.mnstatefair.org/vendor/198.1",
     "items": [
-      "Walking Chopped Italian Grinder",
       "Italian scrambler",
       "grilled steak sandwich on ciabatta with or without mushrooms & onions",
       "Porchetta Pig Wings",
@@ -22140,6 +22139,7 @@
       "gelato",
       "Meatballs",
       "Prima Breakfast Sandwich",
+      "Walking Chopped Italian Grinder",
       "coffee",
       "orange juice",
       "Sprite",
@@ -23168,8 +23168,8 @@
     "directions": "In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",
     "detail_url": "https://www.mnstatefair.org/vendor/2764.1",
     "items": [
-      "Jamaican Jerk Chicken Loaded Fries",
       "fried sweet plantains",
+      "Jamaican Jerk Chicken Loaded Fries",
       "Spicy Mango Caribbean Coconut Shrimp",
       "hibiscus ginger drink",
       "pineapple ginger drink"
@@ -24276,10 +24276,10 @@
     "directions": "West side of Nelson St. between Dan Patch & Carnes avenues",
     "detail_url": "https://www.mnstatefair.org/vendor/2784.1",
     "items": [
-      "Blue Moon Crunch",
       "Minnesnowii Shave Ice in 20+ flavors",
       "Mangonada Shave ice",
-      "sugar-free options"
+      "sugar-free options",
+      "Blue Moon Crunch"
     ],
     "item_details": [
       {
@@ -24546,11 +24546,10 @@
     "directions": "North side of Dan Patch Ave. between Cooper & Cosgrove streets",
     "detail_url": "https://www.mnstatefair.org/vendor/2878.1",
     "items": [
-      "Farmer’s Muffin Top",
-      "watermelon mint limeade",
       "Pork Schnitzel Sandwich",
       "whole coffee beans sold by the pound",
       "Amazing Grain Bowl",
+      "Farmer’s Muffin Top",
       "Great MN Muddy Buddy",
       "Apple Donut Ham Grinder",
       "espresso",
@@ -24563,7 +24562,8 @@
       "Americano",
       "milk",
       "chocolate milk",
-      "hot chocolate"
+      "hot chocolate",
+      "watermelon mint limeade"
     ],
     "item_details": [
       {
@@ -24692,7 +24692,7 @@
         "components": []
       },
       {
-        "name": "Watermelon Mint Limeade",
+        "name": "watermelon mint limeade",
         "is_new": true,
         "group": null,
         "components": []
@@ -25908,7 +25908,6 @@
     "directions": "Southwest corner of Dan Patch Ave. & Cosgrove St.",
     "detail_url": "https://www.mnstatefair.org/vendor/256.1",
     "items": [
-      "Sligo Slider Bites On-A-Stick",
       "California burgers",
       "hamburgers",
       "Reuben fritters",
@@ -25925,6 +25924,7 @@
       "cheeseburgers",
       "Dill-iscious Grilled Cheese Bites",
       "french fries",
+      "Sligo Slider Bites On-A-Stick",
       "iced tea",
       "lemonade",
       "Coca-Cola",
@@ -26780,14 +26780,14 @@
     "directions": "South side of Judson Ave. between Clough & Nelson streets",
     "detail_url": "https://www.mnstatefair.org/vendor/6268.1",
     "items": [
-      "Manchego Chorizo Croquettes",
-      "prickly pear orange aguas fresca",
       "chicken chorizo Paella",
+      "Manchego Chorizo Croquettes",
       "guava hibiscus aguas fresca",
       "bottled water",
       "mango pineapple basil aguas fresca",
       "mixed berry fruit aguas fresca",
-      "ginger peach raspberry aguas fresca"
+      "ginger peach raspberry aguas fresca",
+      "prickly pear orange aguas fresca"
     ],
     "item_details": [
       {
@@ -26836,7 +26836,7 @@
         "components": []
       },
       {
-        "name": "Prickly Pear Orange Aguas Fresca",
+        "name": "prickly pear orange aguas fresca",
         "is_new": true,
         "group": null,
         "components": []
@@ -30306,13 +30306,13 @@
     "directions": "South side of Dan Patch Ave. between Nelson & Underwood streets",
     "detail_url": "https://www.mnstatefair.org/vendor/4150.1",
     "items": [
-      "Sweet Peach Lemonade Sparkler",
       "Lemonade Sorbet",
       "Lemonade Float",
       "Coca-Cola",
       "bottled water",
       "Diet Coke",
-      "fresh-squeezed lemonade"
+      "fresh-squeezed lemonade",
+      "Sweet Peach Lemonade Sparkler"
     ],
     "item_details": [
       {
@@ -31168,7 +31168,6 @@
     "directions": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
     "detail_url": "https://www.mnstatefair.org/vendor/3217.1",
     "items": [
-      "Bao Belly",
       "brisket sandwich",
       "barbecue pulled pork sandwich",
       "smoked chicken sandwich",
@@ -31176,6 +31175,7 @@
       "BBQ chips",
       "St. Louis-style barbecue ribs",
       "dinners",
+      "Bao Belly",
       "Sprite",
       "bottled water",
       "Diet Coke",
@@ -32249,7 +32249,6 @@
     "directions": "In the Lee & Rose Warner Coliseum, south side",
     "detail_url": "https://www.mnstatefair.org/vendor/792.1",
     "items": [
-      "Korean BBQ Bao Buns",
       "The Garden Crunch Noodle Salad Bowl",
       "Spicy Zoodle Bowl",
       "Elote Avo Bowl",
@@ -32262,6 +32261,7 @@
       "Icee frozen carbonated beverages",
       "cheddar cheese popcorn",
       "Deep-Fried Tofuego Bites",
+      "Korean BBQ Bao Buns",
       "Coca-Cola",
       "Diet Coke",
       "Sprite",
@@ -33578,7 +33578,6 @@
     "directions": "Southwest corner of Dan Patch Ave. & Underwood St.",
     "detail_url": "https://www.mnstatefair.org/vendor/3235.1",
     "items": [
-      "Bucket of Chicharrones",
       "fish taco",
       "beef taco",
       "jerk chicken taco",
@@ -33588,6 +33587,7 @@
       "nachos and cheese",
       "nachos grande",
       "taco toppings",
+      "Bucket of Chicharrones",
       "iced tea",
       "POWERADE",
       "Mello Yello",
@@ -33675,7 +33675,7 @@
         ]
       },
       {
-        "name": "Bucket Of Chicharrones",
+        "name": "Bucket of Chicharrones",
         "is_new": true,
         "group": null,
         "components": []
@@ -34014,7 +34014,6 @@
     "directions": "In the Food Building, northwest wall",
     "detail_url": "https://www.mnstatefair.org/vendor/1288.1",
     "items": [
-      "Strawberry Ube Sundae Tart",
       "Tipsy Pecan Tart",
       "Boozy Blueberry Lemon Tipsy Pie infused with alcohol",
       "Caramel Apple Tipsy Pie infused with alcohol",
@@ -34022,6 +34021,7 @@
       "Onion Gouda Tipsy Pie infused with alcohol",
       "Cinna-sugar Crust Tidbits",
       "Maple Bacon Irish Apple Pie infused with alcohol",
+      "Strawberry Ube Sundae Tart",
       "bottled Coca-Cola",
       "coffee",
       "bottled water",
@@ -34580,12 +34580,12 @@
     "directions": "In the Food Building, east wall",
     "detail_url": "https://www.mnstatefair.org/vendor/12916.1",
     "items": [
-      "When Pigs Fly",
       "Up North Puff Pasty",
       "The Twisted Sister",
       "Puff Daddy On-a-Stick",
       "Tex-Mex Sausage Gravy and Biscuits",
       "buttermilk biscuits with creamy butter and rhubarb jam",
+      "When Pigs Fly",
       "coffee",
       "iced coffee",
       "Coca-Cola",
@@ -35983,10 +35983,10 @@
     "directions": "East side of Underwood St. between Murphy & Lee avenues",
     "detail_url": "https://www.mnstatefair.org/vendor/5052.2",
     "items": [
-      "Strawberry Crunch Mini Donuts",
       "cinnamon-sugar mini donuts",
       "blueberry mini donuts",
       "frozen lemonade",
+      "Strawberry Crunch Mini Donuts",
       "Coca-Cola",
       "Diet Coke",
       "Pepsi",
@@ -36843,8 +36843,8 @@
     "directions": "West side of Underwood St. at Wright Ave.",
     "detail_url": "https://www.mnstatefair.org/vendor/3386.1",
     "items": [
-      "Strawberries & Blueberry Creme Parfait",
-      "fresh strawberries in a parfait cup topped with non-dairy whipped topping"
+      "fresh strawberries in a parfait cup topped with non-dairy whipped topping",
+      "Strawberries & Blueberry Creme Parfait"
     ],
     "item_details": [
       {
@@ -37283,7 +37283,6 @@
     "directions": "Southwest corner of Randall Ave. & Underwood St.",
     "detail_url": "https://www.mnstatefair.org/vendor/3398.1",
     "items": [
-      "Dockside Poppers",
       "Bootleg brand cocktail mix",
       "Luna Paloma brand cocktail mix",
       "crispy chicken sandwich",
@@ -37292,6 +37291,7 @@
       "riblets 'n' chips",
       "slow-roasted ribeye sliders",
       "wild rice walleye sliders",
+      "Dockside Poppers",
       "Perfect Press Margarita mocktails",
       "Perfect Press Jalapeño Margarita brand cocktail mix",
       "Luna Paloma brand mocktails",
@@ -38945,7 +38945,6 @@
     "directions": "East side of Underwood St. between Murphy & Lee avenues",
     "detail_url": "https://www.mnstatefair.org/vendor/5581.2",
     "items": [
-      "Pumpkin Bar Funnel Cake",
       "french fries",
       "chicken tenders",
       "foot-long corn dogs",
@@ -38955,6 +38954,7 @@
       "strawberries & cream funnel cakes",
       "apple cinnamon funnel cakes",
       "corn dogs",
+      "Pumpkin Bar Funnel Cake",
       "fresh-squeezed lemonade",
       "Coca-Cola",
       "Mello Yello",
@@ -40492,9 +40492,9 @@
     "directions": "At the International Bazaar, south wall, west corner",
     "detail_url": "https://www.mnstatefair.org/vendor/5659.1",
     "items": [
-      "Hmong Corndog",
       "Galabao with Kua Txob",
-      "Shrimp & Pork Toast On-A-Stick"
+      "Shrimp & Pork Toast On-A-Stick",
+      "Hmong Corndog"
     ],
     "item_details": [
       {
@@ -40555,10 +40555,8 @@
     "directions": "At the North End, northeast section, across from the North End Event Center",
     "detail_url": "https://www.mnstatefair.org/vendor/11221.1",
     "items": [
-      "Dill with it, Cookie!",
-      "Razzarita frozen mocktail",
-      "Two-Tone Bloody Mary Mocktail",
       "Cheweenie",
+      "Dill with it, Cookie!",
       "coffee",
       "Nojito mocktail",
       "Bonspiel Blue mocktail",
@@ -40566,7 +40564,9 @@
       "flavor shots",
       "nitro cold press coffee",
       "“Kind of a Big Dill” Pickle Lemonade",
-      "Orchard Mule mocktail"
+      "Orchard Mule mocktail",
+      "Razzarita frozen mocktail",
+      "Two-Tone Bloody Mary Mocktail"
     ],
     "item_details": [
       {
@@ -40580,7 +40580,7 @@
         ]
       },
       {
-        "name": "Dill With It, Cookie!",
+        "name": "Dill with it, Cookie!",
         "is_new": true,
         "group": null,
         "components": [
@@ -40660,7 +40660,7 @@
         ]
       },
       {
-        "name": "Razzarita Frozen Mocktail",
+        "name": "Razzarita frozen mocktail",
         "is_new": true,
         "group": null,
         "components": [

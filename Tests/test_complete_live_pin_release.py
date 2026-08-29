@@ -37,7 +37,7 @@ class CompleteLivePinReleaseTests(unittest.TestCase):
             )
             self.assertEqual(
                 json.loads(output.read_text()),
-                json.loads((ROOT / "vendors.json").read_text()),
+                json.loads((ROOT / "archive/vendors-2026-08-29-before-new-food-ordering.json").read_text()),
             )
             self.assertEqual(
                 json.loads(changes.read_text()),
@@ -56,7 +56,7 @@ class CompleteLivePinReleaseTests(unittest.TestCase):
                     sys.executable,
                     str(ROOT / "Scripts/validate_live_pin_release.py"),
                     "--live", str(ROOT / "archive/vendors-2026-08-29-before-complete-pin-repair.json"),
-                    "--candidate", str(ROOT / "vendors.json"),
+                    "--candidate", str(ROOT / "archive/vendors-2026-08-29-before-new-food-ordering.json"),
                     "--change-log", str(ROOT / "audit/vendor-complete-pin-changes-2026-08-29.json"),
                     "--output", str(output),
                 ],

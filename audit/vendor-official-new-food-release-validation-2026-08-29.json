@@ -1,0 +1,9 @@
+{
+  "release_gate": "pass",
+  "record_count": 278,
+  "official_new_food_vendor_count": 33,
+  "official_vendors_with_every_new_food_first_and_visible": 33,
+  "pin_fields_preserved": true,
+  "unrelated_fields_preserved": true,
+  "errors": []
+}

@@ -1,0 +1,10 @@
+{
+  "record_count": 278,
+  "official_new_food_vendor_count": 33,
+  "official_new_food_item_count": 42,
+  "vendors_reordered_count": 32,
+  "badge_name_normalization_count": 9,
+  "official_vendors_with_every_new_food_in_first_three": 33,
+  "source_sha256": "8e1f938cf4e1f3bdef7e0e192472f638bdc68a4effc96d164c6bb7b165ff01e1",
+  "output_sha256": "ab42751cd68eae3aae63d37c2f295762e65db7d3eb8ce4c8111e7fae9c1b2039"
+}
