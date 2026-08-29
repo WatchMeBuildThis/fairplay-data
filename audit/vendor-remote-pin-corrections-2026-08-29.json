@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2196.1",
+    "current_official_id": "2196.2",
+    "name": "Galaxy of Drinks",
+    "booth_location": "West side of Liggett St., just south of Mighty Midway",
+    "old_coordinates": [-93.1803267773, 44.9799615],
+    "new_coordinates": [-93.17550263604026, 44.97970592292104],
+    "displacement_m": 380.5,
+    "method": "current_official_displayed_map_ref+written_street_geometry",
+    "official_map_ref": "1446-1361",
+    "official_page": "https://www.mnstatefair.org/vendor/2196.2/",
+    "live_constraint_distance_m": 389.2,
+    "new_constraint_distance_m": 10.0
+  },
+  {
+    "id": "1509.4",
+    "current_official_id": "1509.4",
+    "name": "The Big Cheese Cheese Curds",
+    "booth_location": "West side of Liggett St. at Carnes Ave., just south of Mighty Midway",
+    "old_coordinates": [-93.1802250627, 44.9799615],
+    "new_coordinates": [-93.17544269412032, 44.97990862996648],
+    "displacement_m": 376.2,
+    "method": "current_official_displayed_map_ref+written_street_geometry",
+    "official_map_ref": "1503-1374",
+    "official_page": "https://www.mnstatefair.org/vendor/1509.4/",
+    "live_constraint_distance_m": 381.2,
+    "new_constraint_distance_m": 5.1
+  },
+  {
+    "id": "5937.1",
+    "current_official_id": "5937.1",
+    "name": "Attavio's Fries",
+    "booth_location": "West side of Cooper St. between Dan Patch and Judson avenues, outside the Food Building",
+    "old_coordinates": [-93.170450184, 44.9805211],
+    "new_coordinates": [-93.16930120326384, 44.98046320027116],
+    "displacement_m": 90.6,
+    "method": "current_official_displayed_map_ref+written_street_geometry",
+    "official_map_ref": "1657-2581",
+    "official_page": "https://www.mnstatefair.org/vendor/5937.1/",
+    "live_constraint_distance_m": 108.2,
+    "new_constraint_distance_m": 19.1
+  }
+]

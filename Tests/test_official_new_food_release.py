@@ -8,6 +8,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 BASELINE = ROOT / "archive/vendors-2026-08-29-before-new-food-ordering.json"
+RELEASE_FEED = ROOT / "archive/vendors-2026-08-29-before-three-remote-pin-corrections.json"
 
 
 class OfficialNewFoodReleaseTests(unittest.TestCase):
@@ -30,7 +31,7 @@ class OfficialNewFoodReleaseTests(unittest.TestCase):
                 capture_output=True,
                 text=True,
             )
-            self.assertEqual(output.read_bytes(), (ROOT / "vendors.json").read_bytes())
+            self.assertEqual(output.read_bytes(), RELEASE_FEED.read_bytes())
             self.assertEqual(
                 json.loads(changes.read_text()),
                 json.loads((ROOT / "audit/vendor-official-new-food-changes-2026-08-29.json").read_text()),
@@ -48,7 +49,7 @@ class OfficialNewFoodReleaseTests(unittest.TestCase):
                     sys.executable,
                     str(ROOT / "Scripts/validate_official_new_food_release.py"),
                     "--baseline", str(BASELINE),
-                    "--candidate", str(ROOT / "vendors.json"),
+                    "--candidate", str(RELEASE_FEED),
                     "--output", str(output),
                 ],
                 check=True,
