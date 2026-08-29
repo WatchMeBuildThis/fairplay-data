@@ -782,6 +782,43 @@
         {"publisher_group": "hideaway_speakeasy", "kind": "operator_location", "url": "https://hideawayatthefair.com/"}
       ]
     },
+    "12663.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1689113, 44.981417],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact dodopop fairgrounds place pin agrees with the fair's northeast Dan Patch/Cooper directions and the operator's current Minnesota State Fair page; the off-site dodopop result was explicitly excluded.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/12663.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/place/dodopop/data=!4m7!3m6!1s0x52b32b0079db2331:0x7d05a8f1b3b189e6!8m2!3d44.981417!4d-93.1689113"},
+        {"publisher_group": "dodopop", "kind": "operator_fair_page", "url": "https://www.dodopopdrinks.com/mn-statefair"}
+      ]
+    },
+    "2437.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1688826, 44.9841057],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Green Mill State Fair Pizza Truck place pin agrees with the fair's east-Cooper, Randall-to-Wright directions at Family Fair at Baldwin Park; the seasonal closed label does not change the mapped booth position.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2437.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/place/Green+Mill+State+Fair+Pizza+Truck/data=!4m7!3m6!1s0x52b32b6fd7345adf:0x69fbe674134c3a36!8m2!3d44.9841057!4d-93.1688826"}
+      ]
+    },
+    "2582.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1750625, 44.9806875],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Java Jive place listing at 1805 W Dan Patch Ave and its 10-character plus-code center agree with the fair's south-West Dan Patch, Liggett-to-Chambers directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2582.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Java%20Jive%201805%20W%20Dan%20Patch%20Ave%20Falcon%20Heights"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",

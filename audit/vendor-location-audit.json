@@ -8,20 +8,20 @@
     "coordinate_status_counts": {
       "approximate": 2,
       "missing": 12,
-      "unverified": 209,
-      "verified": 55
+      "unverified": 206,
+      "verified": 58
     },
-    "compass_eligible_count": 55,
+    "compass_eligible_count": 58,
     "review_priority_counts": {
       "critical": 12,
-      "low": 134,
-      "medium": 132
+      "low": 135,
+      "medium": 131
     },
     "issue_counts": {
-      "large_change_from_baseline": 62,
+      "large_change_from_baseline": 63,
       "missing_coordinate": 12,
-      "no_independent_verification": 221,
-      "written_street_corridor_conflict": 85
+      "no_independent_verification": 218,
+      "written_street_corridor_conflict": 81
     },
     "policy": {
       "compass_requires": "coordinate_status=verified, >=2 publisher groups, and no high/critical issue",
@@ -32,10 +32,10 @@
     "road_models": {
       "dan patch": {
         "axis": "lat",
-        "center": 44.98143953277807,
+        "center": 44.98143812447944,
         "sample_count": 52,
-        "inlier_count": 15,
-        "inlier_ratio": 0.288,
+        "inlier_count": 16,
+        "inlier_ratio": 0.308,
         "reliable_for_screening": true
       },
       "underwood": {
@@ -64,10 +64,10 @@
       },
       "liggett": {
         "axis": "lon",
-        "center": -93.175403417416,
+        "center": -93.17537719299938,
         "sample_count": 31,
-        "inlier_count": 12,
-        "inlier_ratio": 0.387,
+        "inlier_count": 13,
+        "inlier_ratio": 0.419,
         "reliable_for_screening": true
       },
       "lee": {
@@ -96,10 +96,10 @@
       },
       "cooper": {
         "axis": "lon",
-        "center": -93.16923208863247,
+        "center": -93.16919266055805,
         "sample_count": 38,
-        "inlier_count": 15,
-        "inlier_ratio": 0.395,
+        "inlier_count": 17,
+        "inlier_ratio": 0.447,
         "reliable_for_screening": true
       },
       "nelson": {
@@ -112,10 +112,10 @@
       },
       "chambers": {
         "axis": "lon",
-        "center": -93.1737584726215,
+        "center": -93.1738008222817,
         "sample_count": 20,
-        "inlier_count": 8,
-        "inlier_ratio": 0.4,
+        "inlier_count": 7,
+        "inlier_ratio": 0.35,
         "reliable_for_screening": true
       },
       "murphy": {
@@ -128,10 +128,10 @@
       },
       "randall": {
         "axis": "lat",
-        "center": 44.983914966053206,
+        "center": 44.983946755044336,
         "sample_count": 13,
-        "inlier_count": 5,
-        "inlier_ratio": 0.385,
+        "inlier_count": 6,
+        "inlier_ratio": 0.462,
         "reliable_for_screening": true
       },
       "wright": {
@@ -144,10 +144,10 @@
       },
       "west dan patch": {
         "axis": "lat",
-        "center": 44.9805626032375,
+        "center": 44.98058758259,
         "sample_count": 11,
-        "inlier_count": 4,
-        "inlier_ratio": 0.364,
+        "inlier_count": 5,
+        "inlier_ratio": 0.455,
         "reliable_for_screening": true
       }
     }
@@ -478,43 +478,6 @@
       ]
     },
     {
-      "id": "6449.2",
-      "name": "About a Foot Long Hot Dog",
-      "booth_location": "Southeast corner of Judson Ave. & Underwood St.",
-      "coordinates": [
-        -93.168867953526,
-        44.977873963109
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 397.5,
-      "verification_distance_m": null,
-      "risk_score": 45,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 94.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 94.7
-        },
-        {
-          "code": "large_change_from_baseline",
-          "severity": "medium",
-          "detail": "Coordinate moved 397.5 m from the pre-fix snapshot; review evidence",
-          "distance_m": 397.5
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
       "id": "5733.6",
       "name": "Bridge N' Barrel Root Beer",
       "booth_location": "Northeast corner of Dan Patch Ave & Cosgrove St.",
@@ -535,8 +498,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 64.5 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 64.5
+          "detail": "Heuristic: pin is 64.7 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 64.7
         },
         {
           "code": "written_street_corridor_conflict",
@@ -578,8 +541,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 84.3 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 84.3
+          "detail": "Heuristic: pin is 87.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 87.4
         },
         {
           "code": "no_independent_verification",
@@ -609,51 +572,14 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 118.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 118.8
+          "detail": "Heuristic: pin is 118.6 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 118.6
         },
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
           "detail": "Heuristic: pin is 67.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
           "distance_m": 67.9
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "12663.1",
-      "name": "dodopop",
-      "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
-      "coordinates": [
-        -93.170119228127,
-        44.982393602691
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 45,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 105.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 105.9
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 69.7 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 69.7
         },
         {
           "code": "no_independent_verification",
@@ -683,8 +609,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 138.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 138.0
+          "detail": "Heuristic: pin is 137.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 137.9
         },
         {
           "code": "written_street_corridor_conflict",
@@ -720,8 +646,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 119.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 119.1
+          "detail": "Heuristic: pin is 119.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 119.0
         },
         {
           "code": "written_street_corridor_conflict",
@@ -796,8 +722,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 72.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 72.0
+          "detail": "Heuristic: pin is 71.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 71.8
         },
         {
           "code": "large_change_from_baseline",
@@ -831,8 +757,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 95.3 m perpendicular to the feed-learned Chambers corridor; manual review required",
-          "distance_m": 95.3
+          "detail": "Heuristic: pin is 92.0 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 92.0
         },
         {
           "code": "large_change_from_baseline",
@@ -866,8 +792,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 63.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 63.0
+          "detail": "Heuristic: pin is 62.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 62.9
         },
         {
           "code": "large_change_from_baseline",
@@ -1007,8 +933,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 75.5 m perpendicular to the feed-learned Randall corridor; manual review required",
-          "distance_m": 75.5
+          "detail": "Heuristic: pin is 72.0 m perpendicular to the feed-learned Randall corridor; manual review required",
+          "distance_m": 72.0
         },
         {
           "code": "large_change_from_baseline",
@@ -1039,8 +965,39 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 98.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 98.4
+          "detail": "Heuristic: pin is 96.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 96.4
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ]
+    },
+    {
+      "id": "6449.2",
+      "name": "About a Foot Long Hot Dog",
+      "booth_location": "Southeast corner of Judson Ave. & Underwood St.",
+      "coordinates": [
+        -93.168867953526,
+        44.977873963109
+      ],
+      "map_ref": null,
+      "coordinate_status": "unverified",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 25,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 94.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 94.7
         },
         {
           "code": "no_independent_verification",
@@ -1132,8 +1089,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 100.9
+          "detail": "Heuristic: pin is 103.9 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 103.9
         },
         {
           "code": "no_independent_verification",
@@ -1287,8 +1244,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 85.6 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 85.6
+          "detail": "Heuristic: pin is 82.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 82.5
         },
         {
           "code": "no_independent_verification",
@@ -1349,8 +1306,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 89.1 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 89.1
+          "detail": "Heuristic: pin is 87.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 87.0
         },
         {
           "code": "no_independent_verification",
@@ -1380,8 +1337,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 77.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 77.0
+          "detail": "Heuristic: pin is 79.1 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 79.1
         },
         {
           "code": "no_independent_verification",
@@ -1411,8 +1368,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 106.6 m perpendicular to the feed-learned Chambers corridor; manual review required",
-          "distance_m": 106.6
+          "detail": "Heuristic: pin is 110.0 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 110.0
         },
         {
           "code": "no_independent_verification",
@@ -1442,8 +1399,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 77.3 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 77.3
+          "detail": "Heuristic: pin is 79.4 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 79.4
         },
         {
           "code": "no_independent_verification",
@@ -1535,8 +1492,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 91.6 m perpendicular to the feed-learned West Dan Patch corridor; manual review required",
-          "distance_m": 91.6
+          "detail": "Heuristic: pin is 88.8 m perpendicular to the feed-learned West Dan Patch corridor; manual review required",
+          "distance_m": 88.8
         },
         {
           "code": "no_independent_verification",
@@ -1814,8 +1771,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 83.4 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 83.4
+          "detail": "Heuristic: pin is 83.6 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 83.6
         },
         {
           "code": "no_independent_verification",
@@ -1845,8 +1802,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 69.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 69.0
+          "detail": "Heuristic: pin is 66.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 66.9
         },
         {
           "code": "no_independent_verification",
@@ -1876,8 +1833,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 63.8 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 63.8
+          "detail": "Heuristic: pin is 60.7 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 60.7
         },
         {
           "code": "no_independent_verification",
@@ -1907,39 +1864,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 78.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 78.1
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2437.1",
-      "name": "Green Mill",
-      "booth_location": "East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park",
-      "coordinates": [
-        -93.167815325,
-        44.984935836282
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 111.2 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 111.2
+          "detail": "Heuristic: pin is 77.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 77.9
         },
         {
           "code": "no_independent_verification",
@@ -1969,39 +1895,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 99.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 99.5
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ]
-    },
-    {
-      "id": "2582.1",
-      "name": "Java Jive",
-      "booth_location": "South side of West Dan Patch Ave. between Liggett & Chambers streets",
-      "coordinates": [
-        -93.173462025,
-        44.981376986843
-      ],
-      "map_ref": null,
-      "coordinate_status": "unverified",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 25,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 90.4 m perpendicular to the feed-learned West Dan Patch corridor; manual review required",
-          "distance_m": 90.4
+          "detail": "Heuristic: pin is 96.4 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 96.4
         },
         {
           "code": "no_independent_verification",
@@ -2031,8 +1926,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 82.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 82.0
+          "detail": "Heuristic: pin is 84.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 84.0
         },
         {
           "code": "no_independent_verification",
@@ -2062,8 +1957,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 60.3 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 60.3
+          "detail": "Heuristic: pin is 60.4 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 60.4
         },
         {
           "code": "no_independent_verification",
@@ -2155,8 +2050,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.3 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 100.3
+          "detail": "Heuristic: pin is 98.3 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 98.3
         },
         {
           "code": "no_independent_verification",
@@ -2217,8 +2112,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 69.6 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 69.6
+          "detail": "Heuristic: pin is 69.8 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 69.8
         },
         {
           "code": "no_independent_verification",
@@ -2248,8 +2143,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 97.5 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 97.5
+          "detail": "Heuristic: pin is 100.6 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 100.6
         },
         {
           "code": "no_independent_verification",
@@ -2279,8 +2174,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 120.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 120.5
+          "detail": "Heuristic: pin is 122.5 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 122.5
         },
         {
           "code": "no_independent_verification",
@@ -2372,8 +2267,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 158.3 m perpendicular to the feed-learned Randall corridor; manual review required",
-          "distance_m": 158.3
+          "detail": "Heuristic: pin is 154.8 m perpendicular to the feed-learned Randall corridor; manual review required",
+          "distance_m": 154.8
         },
         {
           "code": "no_independent_verification",
@@ -2527,8 +2422,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 79.9 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 79.9
+          "detail": "Heuristic: pin is 82.0 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 82.0
         },
         {
           "code": "no_independent_verification",
@@ -2589,8 +2484,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 115.4 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 115.4
+          "detail": "Heuristic: pin is 115.2 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 115.2
         },
         {
           "code": "no_independent_verification",
@@ -2682,8 +2577,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 97.7 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 97.7
+          "detail": "Heuristic: pin is 94.6 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 94.6
         },
         {
           "code": "no_independent_verification",
@@ -2806,8 +2701,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 65.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 65.9
+          "detail": "Heuristic: pin is 66.0 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 66.0
         },
         {
           "code": "no_independent_verification",
@@ -2837,8 +2732,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 108.1 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 108.1
+          "detail": "Heuristic: pin is 107.9 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 107.9
         },
         {
           "code": "no_independent_verification",
@@ -3116,8 +3011,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 95.2 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
-          "distance_m": 95.2
+          "detail": "Heuristic: pin is 95.4 m perpendicular to the feed-learned Dan Patch corridor; manual review required",
+          "distance_m": 95.4
         },
         {
           "code": "no_independent_verification",
@@ -3209,8 +3104,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 110.7 m perpendicular to the feed-learned Liggett corridor; manual review required",
-          "distance_m": 110.7
+          "detail": "Heuristic: pin is 112.7 m perpendicular to the feed-learned Liggett corridor; manual review required",
+          "distance_m": 112.7
         },
         {
           "code": "no_independent_verification",
@@ -3395,8 +3290,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 110.2 m perpendicular to the feed-learned Cooper corridor; manual review required",
-          "distance_m": 110.2
+          "detail": "Heuristic: pin is 113.3 m perpendicular to the feed-learned Cooper corridor; manual review required",
+          "distance_m": 113.3
         },
         {
           "code": "no_independent_verification",
@@ -3491,35 +3386,6 @@
           "severity": "medium",
           "detail": "Coordinate moved 75.9 m from the pre-fix snapshot; review evidence",
           "distance_m": 75.9
-        }
-      ]
-    },
-    {
-      "id": "616.1",
-      "name": "Ball Park Cafe",
-      "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues",
-      "coordinates": [
-        -93.1700734,
-        44.9803924
-      ],
-      "map_ref": null,
-      "coordinate_status": "verified",
-      "confidence": "high",
-      "compass_eligible": true,
-      "evidence_publisher_groups": [
-        "mnstatefair",
-        "startribune"
-      ],
-      "baseline_change_m": 121.1,
-      "verification_distance_m": 0.0,
-      "risk_score": 20,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "large_change_from_baseline",
-          "severity": "medium",
-          "detail": "Coordinate moved 121.1 m from the pre-fix snapshot; review evidence",
-          "distance_m": 121.1
         }
       ]
     },
@@ -3730,6 +3596,36 @@
       ]
     },
     {
+      "id": "12663.1",
+      "name": "dodopop",
+      "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
+      "coordinates": [
+        -93.1689113,
+        44.981417
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "dodopop",
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 144.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 144.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 144.3
+        }
+      ]
+    },
+    {
       "id": "225.1",
       "name": "Donna's Bar-B-Q",
       "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
@@ -3782,8 +3678,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 74.7 m perpendicular to the feed-learned Chambers corridor; manual review required",
-          "distance_m": 74.7
+          "detail": "Heuristic: pin is 71.4 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 71.4
         }
       ]
     },
@@ -3848,6 +3744,35 @@
       ]
     },
     {
+      "id": "2437.1",
+      "name": "Green Mill",
+      "booth_location": "East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park",
+      "coordinates": [
+        -93.1688826,
+        44.9841057
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 124.8,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 124.8 m from the pre-fix snapshot; review evidence",
+          "distance_m": 124.8
+        }
+      ]
+    },
+    {
       "id": "3684.1",
       "name": "Hamline Church Dining Hall",
       "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
@@ -3874,6 +3799,35 @@
           "severity": "medium",
           "detail": "Coordinate moved 117.1 m from the pre-fix snapshot; review evidence",
           "distance_m": 117.1
+        }
+      ]
+    },
+    {
+      "id": "2582.1",
+      "name": "Java Jive",
+      "booth_location": "South side of West Dan Patch Ave. between Liggett & Chambers streets",
+      "coordinates": [
+        -93.1750625,
+        44.9806875
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair"
+      ],
+      "baseline_change_m": 147.4,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 147.4 m from the pre-fix snapshot; review evidence",
+          "distance_m": 147.4
         }
       ]
     },
@@ -7710,6 +7664,28 @@
           "detail": "No curated independent coordinate evidence is recorded"
         }
       ]
+    },
+    {
+      "id": "616.1",
+      "name": "Ball Park Cafe",
+      "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues",
+      "coordinates": [
+        -93.1700734,
+        44.9803924
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "mnstatefair",
+        "startribune"
+      ],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": 0.0,
+      "risk_score": 0,
+      "review_priority": "low",
+      "issues": []
     },
     {
       "id": "212.1",
