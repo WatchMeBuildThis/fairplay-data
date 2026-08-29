@@ -6674,8 +6674,8 @@
     ],
     "booth_location": "South side of Dan Patch Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.170916854487",
-      "44.982148034092"
+      "-93.1692506",
+      "44.9813316"
     ],
     "popupHtml": "<b>Carl's Gizmo</b>\n\t\t<br>South side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -6693,8 +6693,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "7099.1",
@@ -6729,8 +6729,8 @@
     ],
     "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.173642522436",
-      "44.981481246095"
+      "-93.1749722",
+      "44.9806423"
     ],
     "popupHtml": "<b>Carousel BBQ</b>\n\t\t<br>West side of Chambers St. between West Dan Patch & Carnes avenues\n",
     "categories": [
@@ -6762,8 +6762,8 @@
     "dietary": [
       "Gluten-free (turkey legs, pork chops; please confirm with vendor)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2065.1",
@@ -7856,8 +7856,8 @@
     ],
     "booth_location": "South side of Murphy Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1695298",
-      "44.9870282"
+      "-93.1693875",
+      "44.9871474"
     ],
     "popupHtml": "<b>CinnieSmiths</b>\n\t\t<br>South side of Murphy Ave. between Underwood &amp; Cooper streets\n",
     "categories": [
@@ -7881,8 +7881,8 @@
       ]
     },
     "map_ref": "3284-2458",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "216.1",
@@ -11614,8 +11614,8 @@
     ],
     "booth_location": "On the northwest corner of Carnes Ave. & Chambers St.",
     "coordinates": [
-      "-93.174634248077",
-      "44.980018690647"
+      "-93.1747099",
+      "44.9800099"
     ],
     "popupHtml": "<b>Fluffy's Hand Cut Donuts</b>\n\t\t<br>On the northwest corner of Carnes Ave. & Chambers St.\n",
     "categories": [
@@ -11651,8 +11651,8 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2332.1",
@@ -18592,8 +18592,8 @@
     ],
     "booth_location": "North side of Lee Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.169996031551",
-      "44.985988409335"
+      "-93.1701194",
+      "44.9867755"
     ],
     "popupHtml": "<b>Jive Turkey BBQ</b>\n\t\t<br>North side of Lee Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -18611,8 +18611,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "4847.1",
@@ -21617,8 +21617,8 @@
     ],
     "booth_location": "East side of Cooper St. between Wright & Dan Patch avenues, south of the Home Improvement Building",
     "coordinates": [
-      "-93.168171220513",
-      "44.98231470179"
+      "-93.1689096",
+      "44.9816333"
     ],
     "popupHtml": "<b>The Lunch Box</b>\n\t\t<br>East side of Cooper St. between Wright & Dan Patch avenues, south of the Home Improvement Building\n",
     "categories": [
@@ -21644,8 +21644,8 @@
     "notes": [
       "Breakfast (7 to 11 a.m.)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2673.1",
@@ -24155,8 +24155,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.171806929487",
-      "44.979434658456"
+      "-93.1716182",
+      "44.9787774"
     ],
     "popupHtml": "<b>Minneapple Pie</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -24196,8 +24196,8 @@
       "Vegan (apple and blueberry pie exclude ice cream; please confirm with vendor)",
       "Vegetarian (apple pie, blueberry pie; please confirm with vendor)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3718.1",
@@ -25168,8 +25168,8 @@
     ],
     "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.171857008974",
-      "44.978808533152"
+      "-93.1708926",
+      "44.9793878"
     ],
     "popupHtml": "<b>Minnesota Wine Country</b>\n\t\t<br>West side of Underwood St. between Carnes & Judson avenues\n",
     "categories": [
@@ -25199,8 +25199,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4072.1/featured.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "11206.1",
@@ -32245,8 +32245,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
     "coordinates": [
-      "-93.175346207692",
-      "44.979577540605"
+      "-93.1736472",
+      "44.9800207"
     ],
     "popupHtml": "<b>Root Beer Hut</b>\n\t\t<br>North side of Carnes Ave. between Chambers & Nelson streets\n",
     "categories": [
@@ -32258,8 +32258,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3404.1/featured.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "792.1",
@@ -35151,8 +35151,8 @@
     ],
     "booth_location": "At the International Bazaar, north section",
     "coordinates": [
-      "-93.1691058",
-      "44.9780534"
+      "-93.1693112",
+      "44.9784212"
     ],
     "popupHtml": "<b>Shanghai Henri's</b>\n\t\t<br>At the International Bazaar, north section\n",
     "categories": [
@@ -35203,8 +35203,8 @@
       "Vegetarian (pimento cheese puffs, nacho bites, deep fried strawberry cheesecake; please confirm with vendor)"
     ],
     "map_ref": "1086-2637",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1573.1",
@@ -39830,8 +39830,8 @@
     "item_details": [],
     "booth_location": "North side of Carnes Ave. between Chambers & Clough streets",
     "coordinates": [
-      "-93.174746265385",
-      "44.980944824952"
+      "-93.1737502",
+      "44.9800518"
     ],
     "popupHtml": "<b>Tiny Tim Donuts</b>\n\t\t<br>North side of Carnes Ave. between Chambers & Clough streets\n",
     "categories": [
@@ -39851,8 +39851,8 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1511.2",

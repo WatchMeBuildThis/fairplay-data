@@ -42,6 +42,17 @@ remain present.
 | 1457.1 | Dino's Gyros | -93.1710869, 44.9801130 | Fair directions + vendor location + Google place/address |
 | 252.1 | The Peg | -93.1693102, 44.9790698 | Fair directions + independent venue coverage + Google place/address |
 | 3101.1 | The Produce Exchange | -93.1707570, 44.9800641 | Fair directions + independent venue coverage + Google place/address |
+| 12335.1 | Carl's Gizmo | -93.1692506, 44.9813316 | Fair directions + Google place/address |
+| 7099.1 | Carousel BBQ | -93.1749722, 44.9806423 | Fair directions + Google place pin |
+| 2084.1 | CinnieSmiths | -93.1693875, 44.9871474 | Fair directions + Google place pin |
+| 4752.1 | Fluffy's Hand Cut Donuts | -93.1747099, 44.9800099 | Fair directions + Google place pin |
+| 7741.1 | Jive Turkey BBQ | -93.1701194, 44.9867755 | Fair directions + Google place/address |
+| 2710.1 | The Lunch Box | -93.1689096, 44.9816333 | Fair directions + Google place/address |
+| 1548.1 | Minneapple Pie | -93.1716182, 44.9787774 | Fair directions + Google place pin |
+| 4072.1 | Minnesota Wine Country | -93.1708926, 44.9793878 | Fair directions + Google place/address |
+| 3404.1 | Root Beer Hut | -93.1736472, 44.9800207 | Fair directions + Google place/address |
+| 3276.1 | Shanghai Henri's | -93.1693112, 44.9784212 | Fair directions + Google place pin |
+| 3792.1 | Tiny Tim Donuts | -93.1737502, 44.9800518 | Fair directions + Google place pin |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -72,11 +83,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 30 verified and compass-eligible
+- 41 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 234 present but not independently verified and compass-ineligible
-- 90 medium-priority street-corridor heuristic leads remain; these are review
+- 223 present but not independently verified and compass-ineligible
+- 93 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 
