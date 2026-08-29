@@ -113,3 +113,28 @@ approximate value to `withheld_coordinates`, sets the app-facing coordinate to
 `null`, and leaves the vendor, menu, written directions, and review candidate
 intact. The geography audit continues to analyze withheld candidates, but they
 cannot appear as app map pins or drive older navigation code.
+
+## Independent OpenStreetMap comparison
+
+Download one dated, fairgrounds-bounded Overpass export of named features and
+keep it outside the repository. Compare all current or withheld candidates:
+
+```bash
+python3 Scripts/compare_vendor_osm.py \
+  --vendors vendors.json \
+  --osm ../osm-fairgrounds-named-YYYY-MM-DD.json \
+  --output audit/vendor-osm-comparison-YYYY-MM-DD.csv
+```
+
+This comparison is advisory and cannot edit the feed or verification ledger.
+It normalizes names, measures candidate-to-place distance, and fails closed on
+both multiple OpenStreetMap features and multiple FairPlay records with the
+same normalized name. Exact and strong rows are the next manual research
+queue; they are not automatic coordinate replacements.
+
+For few-feet precision, require agreement between two independent coordinate
+publishers and the fair's written location. A named point or building centroid
+from one map is insufficient. Indoor, temporary, multi-location,
+large-footprint, or entrance-sensitive rows still require a dated on-site
+observation even when public maps agree. Record both the provider-to-provider
+distance and the old candidate displacement in the verification method.

@@ -7,21 +7,21 @@
     "unique_id_count": 278,
     "coordinate_status_counts": {
       "missing": 12,
-      "verified": 62,
-      "withheld": 204
+      "verified": 65,
+      "withheld": 201
     },
-    "compass_eligible_count": 62,
+    "compass_eligible_count": 65,
     "review_priority_counts": {
       "critical": 12,
       "high": 7,
-      "low": 129,
-      "medium": 130
+      "low": 126,
+      "medium": 133
     },
     "issue_counts": {
-      "coordinate_withheld": 204,
-      "large_change_from_baseline": 68,
+      "coordinate_withheld": 201,
+      "large_change_from_baseline": 71,
       "missing_coordinate": 12,
-      "no_independent_verification": 214,
+      "no_independent_verification": 211,
       "written_street_corridor_conflict": 83
     },
     "policy": {
@@ -41,10 +41,10 @@
       },
       "underwood": {
         "axis": "lon",
-        "center": -93.17048821964714,
+        "center": -93.17049736555845,
         "sample_count": 83,
-        "inlier_count": 31,
-        "inlier_ratio": 0.373,
+        "inlier_count": 30,
+        "inlier_ratio": 0.361,
         "reliable_for_screening": true
       },
       "carnes": {
@@ -105,7 +105,7 @@
       },
       "nelson": {
         "axis": "lon",
-        "center": -93.17182348135542,
+        "center": -93.17176885468874,
         "sample_count": 53,
         "inlier_count": 15,
         "inlier_ratio": 0.283,
@@ -113,10 +113,10 @@
       },
       "chambers": {
         "axis": "lon",
-        "center": -93.1738008222817,
+        "center": -93.17387778559718,
         "sample_count": 20,
-        "inlier_count": 7,
-        "inlier_ratio": 0.35,
+        "inlier_count": 10,
+        "inlier_ratio": 0.5,
         "reliable_for_screening": true
       },
       "murphy": {
@@ -501,8 +501,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 127.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 127.2
+          "detail": "Heuristic: pin is 127.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 127.9
         },
         {
           "code": "large_change_from_baseline",
@@ -636,8 +636,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 100.4
+          "detail": "Heuristic: pin is 101.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 101.1
         },
         {
           "code": "no_independent_verification",
@@ -722,8 +722,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 110.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 110.2
+          "detail": "Heuristic: pin is 109.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 109.5
         },
         {
           "code": "no_independent_verification",
@@ -765,8 +765,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 81.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 81.5
+          "detail": "Heuristic: pin is 82.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 82.2
         },
         {
           "code": "no_independent_verification",
@@ -874,8 +874,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 92.0 m perpendicular to the feed-learned Chambers corridor; manual review required",
-          "distance_m": 92.0
+          "detail": "Heuristic: pin is 85.9 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 85.9
         },
         {
           "code": "large_change_from_baseline",
@@ -1234,8 +1234,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 64.7 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 64.7
+          "detail": "Heuristic: pin is 65.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 65.5
         },
         {
           "code": "no_independent_verification",
@@ -1419,8 +1419,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 71.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 71.5
+          "detail": "Heuristic: pin is 70.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 70.8
         },
         {
           "code": "no_independent_verification",
@@ -1530,8 +1530,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 110.0 m perpendicular to the feed-learned Chambers corridor; manual review required",
-          "distance_m": 110.0
+          "detail": "Heuristic: pin is 116.0 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 116.0
         },
         {
           "code": "no_independent_verification",
@@ -1641,8 +1641,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 115.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 115.4
+          "detail": "Heuristic: pin is 116.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 116.1
         },
         {
           "code": "no_independent_verification",
@@ -1752,8 +1752,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 111.8 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 111.8
+          "detail": "Heuristic: pin is 116.1 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 116.1
         },
         {
           "code": "no_independent_verification",
@@ -1875,43 +1875,6 @@
       "withheld_coordinates": [
         -93.172062521795,
         44.979134014141
-      ]
-    },
-    {
-      "id": "2387.1",
-      "name": "Fresh Lemonade - Cheese on a Stick",
-      "booth_location": "West side of Nelson St. between Dan Patch & Carnes avenues",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "withheld",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 30,
-      "review_priority": "medium",
-      "issues": [
-        {
-          "code": "coordinate_withheld",
-          "severity": "low",
-          "detail": "Candidate is preserved for review but is not published to the app map"
-        },
-        {
-          "code": "written_street_corridor_conflict",
-          "severity": "medium",
-          "detail": "Heuristic: pin is 61.8 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 61.8
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ],
-      "withheld_coordinates": [
-        -93.171036968339,
-        44.981654793306
       ]
     },
     {
@@ -2159,8 +2122,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 89.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 89.4
+          "detail": "Heuristic: pin is 90.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 90.1
         },
         {
           "code": "no_independent_verification",
@@ -2344,8 +2307,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 111.9 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 111.9
+          "detail": "Heuristic: pin is 111.2 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 111.2
         },
         {
           "code": "no_independent_verification",
@@ -2603,8 +2566,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 110.8 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 110.8
+          "detail": "Heuristic: pin is 115.1 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 115.1
         },
         {
           "code": "no_independent_verification",
@@ -2862,8 +2825,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 97.6 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 97.6
+          "detail": "Heuristic: pin is 96.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 96.8
         },
         {
           "code": "no_independent_verification",
@@ -2899,8 +2862,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 68.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 68.8
+          "detail": "Heuristic: pin is 69.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 69.5
         },
         {
           "code": "no_independent_verification",
@@ -3084,8 +3047,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 100.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 100.8
+          "detail": "Heuristic: pin is 100.0 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 100.0
         },
         {
           "code": "no_independent_verification",
@@ -3133,6 +3096,43 @@
       "withheld_coordinates": [
         -93.170140046154,
         44.980689031817
+      ]
+    },
+    {
+      "id": "5275.1",
+      "name": "Richie's Cheese Curd Tacos",
+      "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
+      "coordinates": null,
+      "map_ref": null,
+      "coordinate_status": "withheld",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 30,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "coordinate_withheld",
+          "severity": "low",
+          "detail": "Candidate is preserved for review but is not published to the app map"
+        },
+        {
+          "code": "written_street_corridor_conflict",
+          "severity": "medium",
+          "detail": "Heuristic: pin is 61.5 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 61.5
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ],
+      "withheld_coordinates": [
+        -93.173095059981,
+        44.980933462565
       ]
     },
     {
@@ -3417,8 +3417,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 108.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 108.5
+          "detail": "Heuristic: pin is 107.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 107.8
         },
         {
           "code": "no_independent_verification",
@@ -3565,8 +3565,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 60.4 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 60.4
+          "detail": "Heuristic: pin is 61.1 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 61.1
         },
         {
           "code": "no_independent_verification",
@@ -3713,8 +3713,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 94.5 m perpendicular to the feed-learned Underwood corridor; manual review required",
-          "distance_m": 94.5
+          "detail": "Heuristic: pin is 93.8 m perpendicular to the feed-learned Underwood corridor; manual review required",
+          "distance_m": 93.8
         },
         {
           "code": "no_independent_verification",
@@ -3750,8 +3750,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 74.2 m perpendicular to the feed-learned Nelson corridor; manual review required",
-          "distance_m": 74.2
+          "detail": "Heuristic: pin is 69.9 m perpendicular to the feed-learned Nelson corridor; manual review required",
+          "distance_m": 69.9
         },
         {
           "code": "no_independent_verification",
@@ -4304,8 +4304,8 @@
         {
           "code": "written_street_corridor_conflict",
           "severity": "medium",
-          "detail": "Heuristic: pin is 71.4 m perpendicular to the feed-learned Chambers corridor; manual review required",
-          "distance_m": 71.4
+          "detail": "Heuristic: pin is 65.3 m perpendicular to the feed-learned Chambers corridor; manual review required",
+          "distance_m": 65.3
         }
       ]
     },
@@ -4429,6 +4429,40 @@
       ]
     },
     {
+      "id": "2565.1",
+      "name": "Italian Junction",
+      "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
+      "coordinates": [
+        -93.1714778,
+        44.9809592
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair",
+        "openstreetmap"
+      ],
+      "baseline_change_m": 140.4,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 140.4 m from the pre-fix snapshot; review evidence",
+          "distance_m": 140.4
+        }
+      ],
+      "withheld_coordinates": [
+        -93.170213842308,
+        44.981851273805
+      ]
+    },
+    {
       "id": "2582.1",
       "name": "Java Jive",
       "booth_location": "South side of West Dan Patch Ave. between Liggett & Chambers streets",
@@ -4484,6 +4518,40 @@
           "detail": "Coordinate moved 88.1 m from the pre-fix snapshot; review evidence",
           "distance_m": 88.1
         }
+      ]
+    },
+    {
+      "id": "4847.1",
+      "name": "JJ Vescio's",
+      "booth_location": "East of Chambers St., just south of the Grandstand",
+      "coordinates": [
+        -93.1738345,
+        44.9807007
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "google_maps",
+        "mnstatefair",
+        "openstreetmap"
+      ],
+      "baseline_change_m": 118.3,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 118.3 m from the pre-fix snapshot; review evidence",
+          "distance_m": 118.3
+        }
+      ],
+      "withheld_coordinates": [
+        -93.172586574359,
+        44.980107249401
       ]
     },
     {
@@ -4544,6 +4612,41 @@
           "detail": "Coordinate moved 133.3 m from the pre-fix snapshot; review evidence",
           "distance_m": 133.3
         }
+      ]
+    },
+    {
+      "id": "2758.1",
+      "name": "Mexican Hat",
+      "booth_location": "East of Chambers St., just south of the Grandstand",
+      "coordinates": [
+        -93.1740205,
+        44.9806661
+      ],
+      "map_ref": null,
+      "coordinate_status": "verified",
+      "confidence": "high",
+      "compass_eligible": true,
+      "evidence_publisher_groups": [
+        "access_press",
+        "google_maps",
+        "mnstatefair",
+        "openstreetmap"
+      ],
+      "baseline_change_m": 146.6,
+      "verification_distance_m": 0.0,
+      "risk_score": 20,
+      "review_priority": "medium",
+      "issues": [
+        {
+          "code": "large_change_from_baseline",
+          "severity": "medium",
+          "detail": "Coordinate moved 146.6 m from the pre-fix snapshot; review evidence",
+          "distance_m": 146.6
+        }
+      ],
+      "withheld_coordinates": [
+        -93.175460028846,
+        44.981503695768
       ]
     },
     {
@@ -5814,6 +5917,37 @@
       ]
     },
     {
+      "id": "2387.1",
+      "name": "Fresh Lemonade - Cheese on a Stick",
+      "booth_location": "West side of Nelson St. between Dan Patch & Carnes avenues",
+      "coordinates": null,
+      "map_ref": null,
+      "coordinate_status": "withheld",
+      "confidence": "none",
+      "compass_eligible": false,
+      "evidence_publisher_groups": [],
+      "baseline_change_m": 0.0,
+      "verification_distance_m": null,
+      "risk_score": 10,
+      "review_priority": "low",
+      "issues": [
+        {
+          "code": "coordinate_withheld",
+          "severity": "low",
+          "detail": "Candidate is preserved for review but is not published to the app map"
+        },
+        {
+          "code": "no_independent_verification",
+          "severity": "low",
+          "detail": "No curated independent coordinate evidence is recorded"
+        }
+      ],
+      "withheld_coordinates": [
+        -93.171036968339,
+        44.981654793306
+      ]
+    },
+    {
       "id": "217.1",
       "name": "Fresh Made Nut Rolls",
       "booth_location": "Northeast corner of Dan Patch Ave. & Underwood St.",
@@ -6214,68 +6348,6 @@
       "withheld_coordinates": [
         -93.169815853846,
         44.980213683453
-      ]
-    },
-    {
-      "id": "2565.1",
-      "name": "Italian Junction",
-      "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "withheld",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 10,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "coordinate_withheld",
-          "severity": "low",
-          "detail": "Candidate is preserved for review but is not published to the app map"
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ],
-      "withheld_coordinates": [
-        -93.170213842308,
-        44.981851273805
-      ]
-    },
-    {
-      "id": "4847.1",
-      "name": "JJ Vescio's",
-      "booth_location": "East of Chambers St., just south of the Grandstand",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "withheld",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 10,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "coordinate_withheld",
-          "severity": "low",
-          "detail": "Candidate is preserved for review but is not published to the app map"
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ],
-      "withheld_coordinates": [
-        -93.172586574359,
-        44.980107249401
       ]
     },
     {
@@ -6834,37 +6906,6 @@
       "withheld_coordinates": [
         -93.168750476282,
         44.980849972001
-      ]
-    },
-    {
-      "id": "2758.1",
-      "name": "Mexican Hat",
-      "booth_location": "East of Chambers St., just south of the Grandstand",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "withheld",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 10,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "coordinate_withheld",
-          "severity": "low",
-          "detail": "Candidate is preserved for review but is not published to the app map"
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ],
-      "withheld_coordinates": [
-        -93.175460028846,
-        44.981503695768
       ]
     },
     {
@@ -7640,37 +7681,6 @@
       "withheld_coordinates": [
         -93.170698641026,
         44.979889237085
-      ]
-    },
-    {
-      "id": "5275.1",
-      "name": "Richie's Cheese Curd Tacos",
-      "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
-      "coordinates": null,
-      "map_ref": null,
-      "coordinate_status": "withheld",
-      "confidence": "none",
-      "compass_eligible": false,
-      "evidence_publisher_groups": [],
-      "baseline_change_m": 0.0,
-      "verification_distance_m": null,
-      "risk_score": 10,
-      "review_priority": "low",
-      "issues": [
-        {
-          "code": "coordinate_withheld",
-          "severity": "low",
-          "detail": "Candidate is preserved for review but is not published to the app map"
-        },
-        {
-          "code": "no_independent_verification",
-          "severity": "low",
-          "detail": "No curated independent coordinate evidence is recorded"
-        }
-      ],
-      "withheld_coordinates": [
-        -93.173095059981,
-        44.980933462565
       ]
     },
     {

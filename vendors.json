@@ -18346,7 +18346,10 @@
       }
     ],
     "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
-    "coordinates": null,
+    "coordinates": [
+      -93.1714778,
+      44.9809592
+    ],
     "popupHtml": "<b>Italian Junction</b>\n\t\t<br>South side of Dan Patch Ave. between Nelson & Underwood streets\n",
     "categories": [
       {
@@ -18357,8 +18360,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2565.1/featured.1695x953.jpg",
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
+    "coordinate_status": "verified",
+    "compass_eligible": true,
     "withheld_coordinates": [
       "-93.170213842308",
       "44.981851273805"
@@ -18875,7 +18878,10 @@
       }
     ],
     "booth_location": "East of Chambers St., just south of the Grandstand",
-    "coordinates": null,
+    "coordinates": [
+      -93.1738345,
+      44.9807007
+    ],
     "popupHtml": "<b>JJ Vescio's</b>\n\t\t<br>East of Chambers St., just south of the Grandstand\n",
     "categories": [
       {
@@ -18886,8 +18892,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4847.1/featured.1695x953.jpg",
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
+    "coordinate_status": "verified",
+    "compass_eligible": true,
     "withheld_coordinates": [
       "-93.172586574359",
       "44.980107249401"
@@ -23249,7 +23255,10 @@
       }
     ],
     "booth_location": "East of Chambers St., just south of the Grandstand",
-    "coordinates": null,
+    "coordinates": [
+      -93.1740205,
+      44.9806661
+    ],
     "popupHtml": "<b>Mexican Hat</b>\n\t\t<br>East of Chambers St., just south of the Grandstand\n",
     "categories": [
       {
@@ -23291,8 +23300,8 @@
     "notes": [
       "Breakfast (8 to 11 a.m.)"
     ],
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
+    "coordinate_status": "verified",
+    "compass_eligible": true,
     "withheld_coordinates": [
       "-93.175460028846",
       "44.981503695768"

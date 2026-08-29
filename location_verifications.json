@@ -21,6 +21,86 @@
     "compass_rule": "Only verified coordinates are eligible for compass guidance. Approximate, unverified, missing, or conflicted coordinates are not."
   },
   "vendors": {
+    "2565.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1714778, 44.9809592],
+      "tolerance_m": 10,
+      "verified_on": "2026-08-28",
+      "method": "Exact Google place identity and OpenStreetMap building/address agree within 2.2 m at 1710 Dan Patch Ave, matching the fair's south-Dan-Patch, Nelson-to-Underwood directions. The prior source candidate was 142.4 m away.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2565.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_pin",
+          "url": "https://maps.app.goo.gl/F78Dao8rJ2PQ2MFLA"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_building_and_address",
+          "url": "https://www.openstreetmap.org/way/177770088"
+        }
+      ]
+    },
+    "4847.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1738345, 44.9807007],
+      "tolerance_m": 10,
+      "verified_on": "2026-08-28",
+      "method": "Exact Google place identity and OpenStreetMap Vescio's building at 1770 Dan Patch Ave agree within 3.9 m, matching the fair's east-of-Chambers, south-of-Grandstand directions. The prior source candidate was 115.9 m away.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/4847.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_pin",
+          "url": "https://maps.app.goo.gl/YiUGDLjjphP6CsoM6"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_building_and_address",
+          "url": "https://www.openstreetmap.org/way/177770119"
+        }
+      ]
+    },
+    "2758.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1740205, 44.9806661],
+      "tolerance_m": 10,
+      "verified_on": "2026-08-28",
+      "method": "Exact Google and OpenStreetMap Mexican Hat place features agree within 4.4 m, matching the fair and independent accessibility-guide directions east of Chambers and south of the Grandstand. The prior source candidate was 142.7 m away.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2758.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_pin",
+          "url": "https://maps.app.goo.gl/7oAgWBMVyLhWS4hh7"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_place",
+          "url": "https://www.openstreetmap.org/way/177770133"
+        },
+        {
+          "publisher_group": "access_press",
+          "kind": "independent_written_location",
+          "url": "https://accesspress.org/wp-content/uploads/2025/08/AP_August_2025_web.pdf"
+        }
+      ]
+    },
     "616.1": {
       "status": "verified",
       "confidence": "high",

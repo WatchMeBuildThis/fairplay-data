@@ -48,7 +48,6 @@ medium,30,2198.1,Demetri's Fine Greek Foods,withheld,false,-93.173247925962,44.9
 medium,30,265.1,Duke's Poutine,withheld,false,-93.173338053846,44.978715784173,North side of Judson Ave. between Clough & Nelson streets,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,226.1,El Sol Mexican Foods,withheld,false,-93.170978671795,44.981205840041,"East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building",,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,2332.1,French Crêperie,withheld,false,-93.172062521795,44.979134014141,North side of Carnes Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
-medium,30,2387.1,Fresh Lemonade - Cheese on a Stick,withheld,false,-93.171036968339,44.981654793306,West side of Nelson St. between Dan Patch & Carnes avenues,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,244.2,"Fresh Squeezed Lemonade, Fruit Smoothies, Fresh Squeezed Orange Treet & Strawberry Treet",withheld,false,-93.1700195,44.9799882,"Outside the Food Building, southwest side",1552-2435,124.4,,coordinate_withheld|large_change_from_baseline|no_independent_verification
 medium,30,2029.2,Funnel Cakes,withheld,false,-93.170823261538,44.979241160023,"South side of Judson Ave. between Nelson & Underwood streets, at Adventure Park",,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,2247.1,Funnel Cakes,withheld,false,-93.170131707943,44.982191270589,North side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
@@ -82,6 +81,7 @@ medium,30,5687.1,Pronto Pups,withheld,false,-93.172529664103,44.980542087368,Nor
 medium,30,7805.1,Pronto Pups,withheld,false,-93.167987884615,44.983609593493,Northwest corner of Randall Ave. & Cooper St.,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,1856.1,RC Cola,withheld,false,-93.171771571154,44.982257403353,East side of Underwood St. outside Visitors Plaza,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,3173.1,Rice Kristie Bars,withheld,false,-93.170140046154,44.980689031817,North side of Carnes Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
+medium,30,5275.1,Richie's Cheese Curd Tacos,withheld,false,-93.173095059981,44.980933462565,West side of Chambers St. between West Dan Patch & Carnes avenues,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,5754.2,Rick's Pizza,withheld,false,-93.1694244,44.9867388,West side of Cooper St. between Murphy & Lee avenues,3214-2482,430.4,,coordinate_withheld|large_change_from_baseline|no_independent_verification
 medium,30,3249.1,Sausage Express,withheld,false,-93.170311162821,44.980465741266,North side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|written_street_corridor_conflict|no_independent_verification
 medium,30,2084.2,Smokey's Grill,withheld,false,-93.1695298,44.9870282,South side of Murphy Ave. between Underwood & Cooper streets,3284-2458,146.2,,coordinate_withheld|large_change_from_baseline|no_independent_verification
@@ -121,10 +121,13 @@ medium,20,2336.1,French Meadow Bakery & Cafe,verified,true,-93.1712263,44.980127
 medium,20,10347.1,Greater Tater,verified,true,-93.1756477,44.9792492,"West side of Liggett St. between Carnes & Judson avenues, outside the Horse Barn",,120.3,0.0,large_change_from_baseline
 medium,20,2437.1,Green Mill,verified,true,-93.1688826,44.9841057,"East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park",,124.8,0.0,large_change_from_baseline
 medium,20,3684.1,Hamline Church Dining Hall,verified,true,-93.1698412,44.9814379,North side of Dan Patch Ave. between Underwood & Cooper streets,,117.1,0.0,large_change_from_baseline
+medium,20,2565.1,Italian Junction,verified,true,-93.1714778,44.9809592,South side of Dan Patch Ave. between Nelson & Underwood streets,,140.4,0.0,large_change_from_baseline
 medium,20,2582.1,Java Jive,verified,true,-93.1750625,44.9806875,South side of West Dan Patch Ave. between Liggett & Chambers streets,,147.4,0.0,large_change_from_baseline
 medium,20,7741.1,Jive Turkey BBQ,verified,true,-93.1701194,44.9867755,North side of Lee Ave. between Underwood & Cooper streets,,88.1,0.0,large_change_from_baseline
+medium,20,4847.1,JJ Vescio's,verified,true,-93.1738345,44.9807007,"East of Chambers St., just south of the Grandstand",,118.3,0.0,large_change_from_baseline
 medium,20,1416.1,LuLu's Public House,verified,true,-93.1776071,44.9812286,"At West End Market, south of Schilling Amphitheater",,120.9,0.0,large_change_from_baseline
 medium,20,198.1,Mancini's al Fresco,verified,true,-93.1716697,44.9801006,North side of Carnes Ave. between Nelson & Underwood streets,,133.3,0.0,large_change_from_baseline
+medium,20,2758.1,Mexican Hat,verified,true,-93.1740205,44.9806661,"East of Chambers St., just south of the Grandstand",,146.6,0.0,large_change_from_baseline
 medium,20,10877.1,Midway Mens Club,verified,true,-93.1702901,44.981689,"East side of Underwood St. between Wright & Dan Patch avenues, next to Visitors Plaza",,77.7,0.0,large_change_from_baseline
 medium,20,154.1,Mike's Hamburgers,verified,true,-93.171927,44.9800383,Northeast corner of Carnes Ave. & Nelson St.,1535-2077,139.3,0.0,large_change_from_baseline
 medium,20,2776.1,Miller's Flavored Cheese Curds,verified,true,-93.1719291,44.9801338,"East side of Nelson St. between Dan Patch & Carnes avenues, next to the Giant Slide",,76.1,0.0,large_change_from_baseline
@@ -167,6 +170,7 @@ low,10,2279.1,Falafel King,withheld,false,-93.168558812196,44.979665484248,"In t
 low,10,2305.1,Fish & Chips Seafood Shoppe,withheld,false,-93.169042549749,44.979517023891,"In the Food Building, northwest section",,0.0,,coordinate_withheld|no_independent_verification
 low,10,228.1,Flowering Onions,withheld,false,-93.171675476923,44.978488860759,South side of Judson Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|no_independent_verification
 low,10,2340.2,Fresh French Fries,withheld,false,-93.1721257136,44.978316157072,North side of Judson Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|no_independent_verification
+low,10,2387.1,Fresh Lemonade - Cheese on a Stick,withheld,false,-93.171036968339,44.981654793306,West side of Nelson St. between Dan Patch & Carnes avenues,,0.0,,coordinate_withheld|no_independent_verification
 low,10,217.1,Fresh Made Nut Rolls,withheld,false,-93.170194551923,44.98128171223,Northeast corner of Dan Patch Ave. & Underwood St.,,0.0,,coordinate_withheld|no_independent_verification
 low,10,2342.1,Fried Olives On A Stick,withheld,false,-93.172095979487,44.979873904664,West of Nelson St. just south of the Grandstand,,0.0,,coordinate_withheld|no_independent_verification
 low,10,2359.1,Funnel Cakes,withheld,false,-93.168488389744,44.979733291983,"In the Food Building, east wall",,0.0,,coordinate_withheld|no_independent_verification
@@ -180,8 +184,6 @@ low,10,3689.1,Holy Land,withheld,false,-93.169975545513,44.977496471968,"At the 
 low,10,2196.2,Ice Cold Root Beer,withheld,false,-93.171267228127,44.978270592019,East side of Nelson St. between Carnes & Judson avenues,,0.0,,coordinate_withheld|no_independent_verification
 low,10,13242.1,Iemochi Japanese Confections,withheld,false,-93.167999911538,44.977307,"At the International Bazaar, south wall",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2569.1,iPierogi,withheld,false,-93.169815853846,44.980213683453,"In the Food Building, south wall",,0.0,,coordinate_withheld|no_independent_verification
-low,10,2565.1,Italian Junction,withheld,false,-93.170213842308,44.981851273805,South side of Dan Patch Ave. between Nelson & Underwood streets,,0.0,,coordinate_withheld|no_independent_verification
-low,10,4847.1,JJ Vescio's,withheld,false,-93.172586574359,44.980107249401,"East of Chambers St., just south of the Grandstand",,0.0,,coordinate_withheld|no_independent_verification
 low,10,3695.1,JonnyPops,withheld,false,-93.176282873718,44.981753212453,"At West End Market, center section",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2604.1,Juanita's Fajitas,withheld,false,-93.17403971859,44.980561950742,"West of Nelson St., just south of the Grandstand",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2122.2,Kathie's Cotton Candy,withheld,false,-93.172717473718,44.981754491023,"West of Nelson St., just south of the Grandstand",,0.0,,coordinate_withheld|no_independent_verification
@@ -200,7 +202,6 @@ low,10,2719.1,Lynn's Lefse,withheld,false,-93.168827331879,44.97908187514,"In th
 low,10,2727.1,Mac's Grille,withheld,false,-93.169814006238,44.980146708644,"In the Food Building, south wall",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2737.1,Manny's Tortas,withheld,false,-93.17093205641,44.979793268332,"In the Food Building, northeast section",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2743.1,Mario's,withheld,false,-93.168750476282,44.980849972001,"In the Food Building, northwest section",,0.0,,coordinate_withheld|no_independent_verification
-low,10,2758.1,Mexican Hat,withheld,false,-93.175460028846,44.981503695768,"East of Chambers St., just south of the Grandstand",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2764.2,Midtown Global Market's El Taco Torro,withheld,false,-93.169702040007,44.979363825076,"In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2764.1,Midtown Global Market's Irie Jamaican Express,withheld,false,-93.169753322058,44.979219680932,"In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",,0.0,,coordinate_withheld|no_independent_verification
 low,10,2780.1,Mini Melts/Wonder Bar,withheld,false,-93.169058457692,44.98373886076,"East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park",,0.0,,coordinate_withheld|no_independent_verification
@@ -226,7 +227,6 @@ low,10,4150.1,Quench’d: Lemonade/Bottled Water,withheld,false,-93.171254906238
 low,10,3759.1,Quesadilla Junction,withheld,false,-93.1705577,44.9838769,On the east side of Underwood St. between Murphy and Lee avenues,2501-2287,21.4,,coordinate_withheld|no_independent_verification
 low,10,2529.1,R&R Ice Cream,withheld,false,-93.170250894958,44.984328917877,Southeast corner of Randall Ave. & Underwood St.,,0.0,,coordinate_withheld|no_independent_verification
 low,10,3131.1,Ragin Cajun,withheld,false,-93.170698641026,44.979889237085,"In The Garden, west wall",,0.0,,coordinate_withheld|no_independent_verification
-low,10,5275.1,Richie's Cheese Curd Tacos,withheld,false,-93.173095059981,44.980933462565,West side of Chambers St. between West Dan Patch & Carnes avenues,,0.0,,coordinate_withheld|no_independent_verification
 low,10,792.1,Rooted & Wild by Snack House,withheld,false,-93.173614572436,44.978486090997,"In the Lee & Rose Warner Coliseum, south side",,0.0,,coordinate_withheld|no_independent_verification
 low,10,3766.1,Route 66 Roadhouse Chicken,withheld,false,-93.170000584615,44.980345189873,"In the Food Building, northwest corner",,0.0,,coordinate_withheld|no_independent_verification
 low,10,792.2,Sabino's Pizza Pies,withheld,false,-93.175331005769,44.978838583576,"In the Lee & Rose Warner Coliseum, north side",,0.0,,coordinate_withheld|no_independent_verification
