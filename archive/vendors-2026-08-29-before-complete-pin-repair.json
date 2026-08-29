@@ -182,8 +182,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1754730684",
-      "44.9787608639"
+      "-93.174149666026",
+      "44.978771392184"
     ],
     "popupHtml": "<b>3B Fresh Squeezed Lemonade & Foot Long Corn Dogs</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -221,7 +221,7 @@
     "dietary": [
       "Gluten-free (lemonades, limeade, sweet tea; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -277,10 +277,12 @@
       }
     ],
     "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
-    "coordinates": [
-      "-93.1722724005",
-      "44.979795668"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.172362059615",
+      "44.97977494964"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Southwest corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
@@ -311,7 +313,7 @@
     "dietary": [
       "Gluten-free (hot dog excluding bun; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -381,7 +383,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6449.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -452,7 +454,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9642.1/featured.1695x953.jpg",
     "map_ref": "2551-2787",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -502,8 +504,8 @@
     ],
     "booth_location": "Northwest corner of Dan Patch Ave. & Cooper St.",
     "coordinates": [
-      "-93.1692872432",
-      "44.981206432"
+      "-93.1693751",
+      "44.9814141"
     ],
     "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Northwest corner of Dan Patch Ave. &amp; Cooper St.\n",
     "categories": [
@@ -522,7 +524,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
     "map_ref": "1908-2548",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -579,8 +581,8 @@
     ],
     "booth_location": "Southeast corner of Judson Ave. & Underwood St.",
     "coordinates": [
-      "-93.1704258568",
-      "44.978478168"
+      "-93.168867953526",
+      "44.977873963109"
     ],
     "popupHtml": "<b>About a Foot Long Hot Dog</b>\n\t\t<br>Southeast corner of Judson Ave. & Underwood St.\n",
     "categories": [
@@ -598,7 +600,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -1318,7 +1320,7 @@
         "$5 off one Concha Bacon Burger (Reg. $15)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -1509,8 +1511,8 @@
     ],
     "booth_location": "West side of Underwood St. between Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1707088862",
-      "44.9798917"
+      "-93.169719014103",
+      "44.979551072007"
     ],
     "popupHtml": "<b>The Anchor Coffee House</b>\n\t\t<br>West side of Underwood St. between Dan Patch & Carnes avenues\n",
     "categories": [
@@ -1522,7 +1524,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1328.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -2085,8 +2087,8 @@
     ],
     "booth_location": "West side of Cooper St. between Dan Patch and Judson avenues, outside the Food Building",
     "coordinates": [
-      "-93.170450184",
-      "44.9805211"
+      "-93.17051655641",
+      "44.979407802061"
     ],
     "popupHtml": "<b>Attavio's Fries</b>\n\t\t<br>West side of Cooper St. between Dan Patch and Judson avenues, outside the Food Building\n",
     "categories": [
@@ -2098,7 +2100,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5937.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -2141,8 +2143,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets, just west of Adventure Park",
     "coordinates": [
-      "-93.1722657289",
-      "44.9785114612"
+      "-93.173444394872",
+      "44.977904475598"
     ],
     "popupHtml": "<b>Auntie M's Gluten Free</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets, just west of Adventure Park\n",
     "categories": [
@@ -2160,7 +2162,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5177.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -2206,8 +2208,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1721004427",
-      "44.9785114612"
+      "-93.172825984828",
+      "44.977903913226"
     ],
     "popupHtml": "<b>Australian Battered Potatoes</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -2246,7 +2248,7 @@
         "$3.50 off one order of Australian battered potatoes (Regularly $17)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -2340,8 +2342,8 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.1702612605",
-      "44.9862244845"
+      -93.1708125,
+      44.9846875
     ],
     "popupHtml": "<b>BABA'S</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
     "categories": [
@@ -2393,8 +2395,8 @@
       "Vegan, Vegetarian (falafelicous, falafel drizzled with tahini; please confirm with vendor)",
       "Gluten-free (falafel drizzled with tahini; falafelicous, hummus bi lahme & al elotay bowls excluding pita puffs; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "616.1",
@@ -2852,8 +2854,8 @@
         "$3 off one order of garlic fries (Regularly $11)"
       ]
     },
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "6041.1",
@@ -3183,7 +3185,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6041.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -3518,7 +3520,7 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -3531,8 +3533,8 @@
     "item_details": [],
     "booth_location": "West side of Liggett St. at Carnes Ave., just south of Mighty Midway",
     "coordinates": [
-      "-93.1802250627",
-      "44.9799615"
+      "-93.176812700641",
+      "44.979124115497"
     ],
     "popupHtml": "<b>The Big Cheese Cheese Curds</b>\n\t\t<br>West side of Liggett St. at Carnes Ave., just south of Mighty Midway\n",
     "categories": [
@@ -3554,7 +3556,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -3622,8 +3624,8 @@
     ],
     "booth_location": "Northeast corner of Randall Ave. & Underwood St.",
     "coordinates": [
-      "-93.1703536568",
-      "44.984474232"
+      "-93.169663734271",
+      "44.98368117601"
     ],
     "popupHtml": "<b>Big Dog Corndogs</b>\n\t\t<br>Northeast corner of Randall Ave. & Underwood St.\n",
     "categories": [
@@ -3652,7 +3654,7 @@
         "$4 off one 15\" all-beef corndog (Regularly $18) OR $2 off one 12\" all-beef corndog (Regularly $11)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -3720,8 +3722,8 @@
     ],
     "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1706607419",
-      "44.9795096801"
+      "-93.169851372185",
+      "44.979507210913"
     ],
     "popupHtml": "<b>Big Dog Corndogs</b>\n\t\t<br>West side of Underwood St. between Carnes & Judson avenues\n",
     "categories": [
@@ -3750,7 +3752,7 @@
         "$4 off one 15\" all-beef corndog (Regularly $18) OR $2 off one 12\" all-beef corndog (Regularly $11)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -4573,8 +4575,8 @@
     ],
     "booth_location": "Southeast corner of Judson Ave. & Clough St.",
     "coordinates": [
-      "-93.1734562568",
-      "44.978499968"
+      "-93.172088763462",
+      "44.978105607253"
     ],
     "popupHtml": "<b>The Blue Ox Burger Bar</b>\n\t\t<br>Southeast corner of Judson Ave. & Clough St.\n",
     "categories": [
@@ -4598,7 +4600,7 @@
     "dietary": [
       "Vegetarian, gluten-free (french fries; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -4635,7 +4637,7 @@
     ],
     "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
     "map_ref": "1539-1982",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -4699,8 +4701,8 @@
     ],
     "booth_location": "Northwest corner of Randall & Underwood streets",
     "coordinates": [
-      "-93.1706079432",
-      "44.984474232"
+      "-93.171398589771",
+      "44.983942720834"
     ],
     "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northwest corner of Randall & Underwood streets\n",
     "categories": [
@@ -4723,7 +4725,7 @@
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -4787,8 +4789,8 @@
     ],
     "booth_location": "Northwest corner of Wright Ave. & Cooper St.",
     "coordinates": [
-      "-93.1692528432",
-      "44.983338432"
+      "-93.168141730769",
+      "44.982909562123"
     ],
     "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northwest corner of Wright Ave. & Cooper St.\n",
     "categories": [
@@ -4811,7 +4813,7 @@
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -4900,7 +4902,7 @@
       ]
     },
     "map_ref": "1539-2304",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -4964,8 +4966,8 @@
     ],
     "booth_location": "Northwest corner of Judson Ave. & Underwood St.",
     "coordinates": [
-      "-93.1706801432",
-      "44.978658032"
+      "-93.169963108974",
+      "44.978246295807"
     ],
     "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northwest corner of Judson Ave. & Underwood St.\n",
     "categories": [
@@ -4988,7 +4990,7 @@
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -5052,8 +5054,8 @@
     ],
     "booth_location": "Northeast corner of Dan Patch Ave & Cosgrove St.",
     "coordinates": [
-      "-93.1679656568",
-      "44.981216832"
+      "-93.169590286555",
+      "44.982020565743"
     ],
     "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>Northeast corner of Dan Patch Ave & Cosgrove St.\n",
     "categories": [
@@ -5076,7 +5078,7 @@
         "$1 off one 20 oz. Coke product (Regularly $3) OR $1 off one 20 oz. craft soda product (Regularly $4)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -5140,8 +5142,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1710891914",
-      "44.9811663029"
+      "-93.1711360",
+      "44.9814214"
     ],
     "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>North side of Dan Patch Ave. between Nelson &amp; Underwood streets\n",
     "categories": [
@@ -5165,7 +5167,7 @@
       ]
     },
     "map_ref": "1893-2198",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -5269,8 +5271,8 @@
     ],
     "booth_location": "Northeast corner of Judson Ave. & Liggett St.",
     "coordinates": [
-      "-93.1752281568",
-      "44.978658932"
+      "-93.174268923397",
+      "44.977853141634"
     ],
     "popupHtml": "<b>Bridgeman's Ice Cream</b>\n\t\t<br>Northeast corner of Judson Ave. & Liggett St.\n",
     "categories": [
@@ -5327,7 +5329,7 @@
         "$3.50 off one brownie sundae (Regularly $10.50)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -5398,8 +5400,8 @@
     ],
     "booth_location": "Northwest corner of Judson Ave. & Liggett St.",
     "coordinates": [
-      "-93.1754824432",
-      "44.978658932"
+      "-93.176384548397",
+      "44.978368700251"
     ],
     "popupHtml": "<b>Buni's</b>\n\t\t<br>Northwest corner of Judson Ave. & Liggett St.\n",
     "categories": [
@@ -5411,7 +5413,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2005.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -5502,7 +5504,7 @@
       "Vegetarian (veggies sandwich; please confirm with vendor)",
       "Gluten-free (sliced London Broil steak sandwiches (excluding bread); please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -5636,7 +5638,7 @@
       "Vegetarian (veggies sandwich; please confirm with vendor)",
       "Gluten-free (sliced London Broil steak sandwiches (excluding bread); please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -6259,8 +6261,8 @@
     ],
     "booth_location": "Northeast corner of Murphy Ave. & Cooper St.",
     "coordinates": [
-      "-93.1689313568",
-      "44.987286232"
+      "-93.170306136538",
+      "44.987831515847"
     ],
     "popupHtml": "<b>Candy Factory</b>\n\t\t<br>Northeast corner of Murphy Ave. & Cooper St.\n",
     "categories": [
@@ -6278,7 +6280,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2029.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -6365,8 +6367,8 @@
     ],
     "booth_location": "Between Chambers & Nelson streets, just south of the Grandstand",
     "coordinates": [
-      "-93.1743413865",
-      "44.9800330569"
+      "-93.172400400641",
+      "44.980110476679"
     ],
     "popupHtml": "<b>Caramel Apple Sundae</b>\n\t\t<br>Between Chambers & Nelson streets, just south of the Grandstand\n",
     "categories": [
@@ -6389,7 +6391,7 @@
         "$2 off one serving of caramel apples in-a-dish with vanilla or cinnamon ice cream (Regularly $9) OR $1 off any jumbo ice cream soda float (excludes cider float) (Regularly $8)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -6503,7 +6505,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1887.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -6516,8 +6518,8 @@
     "item_details": [],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1754414716",
-      "44.9798674"
+      "-93.176388092182",
+      "44.980162381258"
     ],
     "popupHtml": "<b>Caribbean Smoothees</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -6561,7 +6563,7 @@
     "dietary": [
       "Vegan, Vegetarian, Gluten-free (please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -6727,8 +6729,8 @@
     ],
     "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1745832207",
-      "44.9806816718"
+      "-93.1749722",
+      "44.9806423"
     ],
     "popupHtml": "<b>Carousel BBQ</b>\n\t\t<br>West side of Chambers St. between West Dan Patch & Carnes avenues\n",
     "categories": [
@@ -6760,8 +6762,8 @@
     "dietary": [
       "Gluten-free (turkey legs, pork chops; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2065.1",
@@ -6873,8 +6875,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1721767286",
-      "44.9785426146"
+      "-93.172807362179",
+      "44.979175037267"
     ],
     "popupHtml": "<b>Chan's Chicken On A Stick</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -6928,7 +6930,7 @@
     "notes": [
       "Value Item (egg rolls)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -7071,8 +7073,8 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.1703370205",
-      "44.9868465179"
+      "-93.16901814359",
+      "44.986844015281"
     ],
     "popupHtml": "<b>Chan's Eatery</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
     "categories": [
@@ -7139,7 +7141,7 @@
         "$2 off original Korean corn dog (Reg. $13)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -7684,8 +7686,8 @@
     ],
     "booth_location": "In The Garden, east wall",
     "coordinates": [
-      "-93.1702122427",
-      "44.9809236"
+      "-93.168612794231",
+      "44.981597695379"
     ],
     "popupHtml": "<b>Chicago Dogs</b>\n\t\t<br>In The Garden, east wall\n",
     "categories": [
@@ -7709,7 +7711,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2075.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -7751,10 +7753,12 @@
       }
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
-    "coordinates": [
-      "-93.1692872432",
-      "44.981026568"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.168669400626",
+      "44.981838912141"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Chocolate Strawberry Cup</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -7765,7 +7769,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/11505.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -8472,8 +8476,8 @@
     "item_details": [],
     "booth_location": "Southeast corner of Dan Patch Ave. & Underwood St.",
     "coordinates": [
-      "-93.1703990568",
-      "44.981034668"
+      "-93.169209994231",
+      "44.98036970186"
     ],
     "popupHtml": "<b>Cotton Candy 7 Different Flavors</b>\n\t\t<br>Southeast corner of Dan Patch Ave. & Underwood St.\n",
     "categories": [
@@ -8526,7 +8530,7 @@
         "$2 off any single-flavor bag of cotton candy (Regularly $8) OR buy three flavor tubs, get a fourth tub FREE (Regularly 3 for $10)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -8581,8 +8585,8 @@
     ],
     "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
     "coordinates": [
-      "-93.1754916432",
-      "44.980627468"
+      "-93.1760149",
+      "44.9805332"
     ],
     "popupHtml": "<b>Cream Puffs</b>\n\t\t<br>Southwest corner of West Dan Patch Ave. & Liggett St.\n",
     "categories": [
@@ -8594,8 +8598,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2142.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2069.2",
@@ -8607,8 +8611,8 @@
     "item_details": [],
     "booth_location": "southeast corner of West Dan Patch Ave. & Liggett St.",
     "coordinates": [
-      "-93.1752373568",
-      "44.980627468"
+      "-93.175980161316",
+      "44.981387688534"
     ],
     "popupHtml": "<b>Crutchees Cheese on a Stick</b>\n\t\t<br>southeast corner of West Dan Patch Ave. & Liggett St.\n",
     "categories": [
@@ -8626,7 +8630,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -8638,10 +8642,12 @@
     "items": [],
     "item_details": [],
     "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
-    "coordinates": [
-      "-93.1719732995",
-      "44.978682332"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.172811082121",
+      "44.979675006557"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Crutchees Cheese on a Stick</b>\n\t\t<br>Northeast corner of Judson Ave. & Nelson St.\n",
     "categories": [
       {
@@ -8658,7 +8664,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2069.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -8918,7 +8924,7 @@
       ]
     },
     "map_ref": "1585-2438",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -9066,8 +9072,8 @@
     ],
     "booth_location": "In the Dairy Building, south wall",
     "coordinates": [
-      "-93.1709963",
-      "44.977899148"
+      "-93.17219856859",
+      "44.978501593112"
     ],
     "popupHtml": "<b>Dairy Goodness</b>\n\t\t<br>In the Dairy Building, south wall\n",
     "categories": [
@@ -9099,7 +9105,7 @@
     "notes": [
       "Value Item (cheese sticks, yogurt)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -9111,10 +9117,12 @@
     "items": [],
     "item_details": [],
     "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
-    "coordinates": [
-      "-93.1699518073",
-      "44.9799973"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.169038239665",
+      "44.980416825569"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Danielson's & Daughters Onion Rings</b>\n\t\t<br>Between Underwood & Cooper streets, outside south side of the Food Building\n",
     "categories": [
       {
@@ -9144,7 +9152,7 @@
         "$2 off one order of onion rings (Regularly $9)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -9173,8 +9181,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1715561959",
-      "44.9798067782"
+      "-93.171560717949",
+      "44.980462900382"
     ],
     "popupHtml": "<b>Daryl's Dog House</b>\n\t\t<br>South side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -9218,7 +9226,7 @@
     "dietary": [
       "Vegan, Vegetarian (vegan corn dog, lemonade; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -9253,10 +9261,12 @@
       }
     ],
     "booth_location": "East side of Cooper St. outside the Merch Market",
-    "coordinates": [
-      "-93.168578956",
-      "44.980762"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.168243092308",
+      "44.98129663426"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Deep Fried Batter Dipped Twinkies & Buckeyes</b>\n\t\t<br>East side of Cooper St. outside the Merch Market\n",
     "categories": [
       {
@@ -9273,7 +9283,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3340.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -9349,8 +9359,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1720944",
-      "44.9799665388"
+      "-93.172484179487",
+      "44.980938483764"
     ],
     "popupHtml": "<b>Deep Fried Candy Bars</b>\n\t\t<br>North side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -9378,7 +9388,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 11 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -9491,8 +9501,8 @@
     ],
     "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1717027711",
-      "44.9811464"
+      "-93.173247925962",
+      "44.981598484538"
     ],
     "popupHtml": "<b>Demetri's Fine Greek Foods</b>\n\t\t<br>East side of Nelson St. between Dan Patch & Carnes avenues\n",
     "categories": [
@@ -9548,7 +9558,7 @@
     "notes": [
       "Value Item (Baklava)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -9942,8 +9952,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1705436",
-      "44.9798107612"
+      "-93.170275034615",
+      "44.980444590965"
     ],
     "popupHtml": "<b>Dippin' Dots</b>\n\t\t<br>South side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -9955,7 +9965,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2208.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -10053,8 +10063,8 @@
     ],
     "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
     "coordinates": [
-      "-93.1690329568",
-      "44.981206432"
+      -93.1689113,
+      44.981417
     ],
     "popupHtml": "<b>dodopop</b>\n\t\t<br>Northeast corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
@@ -10082,8 +10092,8 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "225.1",
@@ -10417,8 +10427,8 @@
     ],
     "booth_location": "At Mighty Midway",
     "coordinates": [
-      "-93.1780542927",
-      "44.9799615"
+      "-93.177945042308",
+      "44.980583198522"
     ],
     "popupHtml": "<b>The Donut Family</b>\n\t\t<br>At Mighty Midway\n",
     "categories": [
@@ -10441,7 +10451,7 @@
         "$3 off one super-size bag of mini donuts (Regularly $9) OR $2 off one bucket of mini donuts (Regularly $19)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -10526,7 +10536,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -10610,8 +10620,8 @@
     ],
     "booth_location": "At the International Bazaar, south wall",
     "coordinates": [
-      "-93.1689079927",
-      "44.97799"
+      "-93.170365644872",
+      "44.978780620001"
     ],
     "popupHtml": "<b>El Burrito Mercado</b>\n\t\t<br>At the International Bazaar, south wall\n",
     "categories": [
@@ -10657,7 +10667,7 @@
       "Vegetarian (esquite; please confirm with vendor)",
       "Gluten-friendly (quesabirria taquitos, chicken flautas, esquite; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -10767,8 +10777,8 @@
     ],
     "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building",
     "coordinates": [
-      "-93.170450184",
-      "44.9799973"
+      "-93.170978671795",
+      "44.981205840041"
     ],
     "popupHtml": "<b>El Sol Mexican Foods</b>\n\t\t<br>East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building\n",
     "categories": [
@@ -10816,7 +10826,7 @@
         "$4 off one bean & beef burrito (Regularly $13)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -10872,10 +10882,12 @@
       }
     ],
     "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
-    "coordinates": [
-      "-93.1754824432",
-      "44.978479068"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.174915817949",
+      "44.97934577134"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Elm's Shaved Ice</b>\n\t\t<br>Southwest corner of Judson Ave. & Liggett St.\n",
     "categories": [
       {
@@ -10920,7 +10932,7 @@
       "Vegan, Vegetarian (shaved ice; please confirm with vendor)",
       "Gluten-friendly (shaved ice; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -11050,8 +11062,8 @@
     ],
     "booth_location": "In the Food Building, south wall",
     "coordinates": [
-      "-93.1698500927",
-      "44.9801137"
+      "-93.168558812196",
+      "44.979665484248"
     ],
     "popupHtml": "<b>Falafel King</b>\n\t\t<br>In the Food Building, south wall\n",
     "categories": [
@@ -11096,7 +11108,7 @@
         "$2 off one falafel on-a-stick (Regularly $8) OR $3 off one veggie pocket (Regularly $12)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -11308,8 +11320,8 @@
     ],
     "booth_location": "In the Food Building, northwest section",
     "coordinates": [
-      "-93.1701043677",
-      "44.9807636"
+      "-93.169042549749",
+      "44.979517023891"
     ],
     "popupHtml": "<b>Fish & Chips Seafood Shoppe</b>\n\t\t<br>In the Food Building, northwest section\n",
     "categories": [
@@ -11389,7 +11401,7 @@
         "For $1 each, add up to three crunchy butterfly shrimp to select orders (Reg. $2.50 each)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -11472,8 +11484,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1715625",
-      "44.9786875"
+      "-93.171675476923",
+      "44.978488860759"
     ],
     "popupHtml": "<b>Flowering Onions</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -11495,7 +11507,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -11602,8 +11614,8 @@
     ],
     "booth_location": "On the northwest corner of Carnes Ave. & Chambers St.",
     "coordinates": [
-      "-93.1744694432",
-      "44.979962432"
+      "-93.1747099",
+      "44.9800099"
     ],
     "popupHtml": "<b>Fluffy's Hand Cut Donuts</b>\n\t\t<br>On the northwest corner of Carnes Ave. & Chambers St.\n",
     "categories": [
@@ -11639,8 +11651,8 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2332.1",
@@ -11991,8 +12003,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1720684315",
-      "44.979966641"
+      "-93.172062521795",
+      "44.979134014141"
     ],
     "popupHtml": "<b>French Crêperie</b>\n\t\t<br>North side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -12030,7 +12042,7 @@
     "notes": [
       "Breakfast"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -12447,10 +12459,7 @@
       }
     ],
     "booth_location": "At Mighty Midway",
-    "coordinates": [
-      "-93.175131979",
-      "44.9802207234"
-    ],
+    "coordinates": null,
     "popupHtml": null,
     "categories": [
       {
@@ -12461,7 +12470,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2340.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -12511,8 +12520,8 @@
     ],
     "booth_location": "North side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1711875",
-      "44.9788125"
+      "-93.1721257136",
+      "44.978316157072"
     ],
     "popupHtml": "<b>Fresh French Fries</b>\n\t\t<br>North side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -12524,7 +12533,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2340.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -12553,8 +12562,8 @@
     ],
     "booth_location": "West side of Nelson St. between Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1719316289",
-      "44.9811464"
+      "-93.171036968339",
+      "44.981654793306"
     ],
     "popupHtml": "<b>Fresh Lemonade - Cheese on a Stick</b>\n\t\t<br>West side of Nelson St. between Dan Patch & Carnes avenues\n",
     "categories": [
@@ -12606,7 +12615,7 @@
       "Vegan, Gluten-friendly (fresh squeezed lemonade; please confirm with vendor)",
       "Vegetarian (entire menu; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -12640,8 +12649,8 @@
     ],
     "booth_location": "Northeast corner of Dan Patch Ave. & Underwood St.",
     "coordinates": [
-      "-93.1703990568",
-      "44.981214532"
+      "-93.170194551923",
+      "44.98128171223"
     ],
     "popupHtml": "<b>Fresh Made Nut Rolls</b>\n\t\t<br>Northeast corner of Dan Patch Ave. & Underwood St.\n",
     "categories": [
@@ -12679,7 +12688,7 @@
     "dietary": [
       "Gluten-free (salted nut rolls, chocolate dipped salted nut rolls; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -12799,7 +12808,7 @@
       ]
     },
     "map_ref": "1552-2435",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -13013,7 +13022,7 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -13495,8 +13504,8 @@
     ],
     "booth_location": "In the Food Building, east wall",
     "coordinates": [
-      "-93.1694229107",
-      "44.9805211"
+      "-93.168488389744",
+      "44.979733291983"
     ],
     "popupHtml": "<b>Funnel Cakes</b>\n\t\t<br>In the Food Building, east wall\n",
     "categories": [
@@ -13519,7 +13528,7 @@
         "$3 off one regular-size funnel cake with your choice of powdered sugar or cinnamon sugar (Regularly $8)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -13639,8 +13648,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1704753427",
-      "44.9812055388"
+      "-93.170131707943",
+      "44.982191270589"
     ],
     "popupHtml": "<b>Funnel Cakes</b>\n\t\t<br>North side of Dan Patch Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -13652,7 +13661,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2247.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -13758,8 +13767,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets, at Adventure Park",
     "coordinates": [
-      "-93.1708435804",
-      "44.9784915791"
+      "-93.170823261538",
+      "44.979241160023"
     ],
     "popupHtml": "<b>Funnel Cakes</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets, at Adventure Park\n",
     "categories": [
@@ -13777,7 +13786,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2029.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -13968,8 +13977,8 @@
     ],
     "booth_location": "West side of Liggett St., just south of Mighty Midway",
     "coordinates": [
-      "-93.1803267773",
-      "44.9799615"
+      "-93.174524839665",
+      "44.978939895317"
     ],
     "popupHtml": "<b>Galaxy of Drinks</b>\n\t\t<br>West side of Liggett St., just south of Mighty Midway\n",
     "categories": [
@@ -13981,7 +13990,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2196.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -14181,7 +14190,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -14396,8 +14405,8 @@
     ],
     "booth_location": "East of Chambers St. just south of the Grandstand",
     "coordinates": [
-      "-93.1742269973",
-      "44.9800221197"
+      "-93.173291870833",
+      "44.980101155612"
     ],
     "popupHtml": "<b>German Root Beer and Popcorn</b>\n\t\t<br>East of Chambers St. just south of the Grandstand\n",
     "categories": [
@@ -14466,7 +14475,7 @@
         "$3 off one large buttered popcorn (Regularly $7)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -15074,8 +15083,8 @@
     ],
     "booth_location": "East side of Cooper St., next to the Merch Market",
     "coordinates": [
-      "-93.168621988",
-      "44.980762"
+      "-93.168420029808",
+      "44.979751637691"
     ],
     "popupHtml": "<b>Goertzes Dairy Kone</b>\n\t\t<br>East side of Cooper St., next to the Merch Market\n",
     "categories": [
@@ -15087,7 +15096,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2527.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -15144,8 +15153,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Stevens & Liggett streets",
     "coordinates": [
-      "-93.1753553",
-      "44.9784880612"
+      "-93.175169678205",
+      "44.977633622529"
     ],
     "popupHtml": "<b>Gopher Dairy Bar</b>\n\t\t<br>South side of Judson Ave. between Stevens & Liggett streets\n",
     "categories": [
@@ -15157,7 +15166,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/10990.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -15170,8 +15179,8 @@
     "item_details": [],
     "booth_location": "East of Chambers St., just south of the Grandstand",
     "coordinates": [
-      "-93.1742625711",
-      "44.9806069612"
+      "-93.173735225",
+      "44.980887294964"
     ],
     "popupHtml": "<b>Grandstand Mini Donuts</b>\n\t\t<br>East of Chambers St., just south of the Grandstand\n",
     "categories": [
@@ -15183,7 +15192,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2415.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -15233,8 +15242,8 @@
     ],
     "booth_location": "In the Food Building, west wall",
     "coordinates": [
-      "-93.1703125",
-      "44.9803125"
+      "-93.171167395513",
+      "44.979968400415"
     ],
     "popupHtml": "<b>Granny's Apples + Lemonade</b>\n\t\t<br>In the Food Building, west wall\n",
     "categories": [
@@ -15282,7 +15291,7 @@
     "notes": [
       "Value Item (Caramel Apple Sundae with apples & caramel)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -15432,8 +15441,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1705262",
-      "44.9812415116"
+      "-93.169810417308",
+      "44.980736302936"
     ],
     "popupHtml": "<b>Granny's Cheesecake & More</b>\n\t\t<br>North side of Dan Patch Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -15451,7 +15460,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2417.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -15804,8 +15813,8 @@
     ],
     "booth_location": "Northeast corner of Lee Ave. & Underwood St.",
     "coordinates": [
-      "-93.1703278568",
-      "44.985919032"
+      "-93.16934945641",
+      "44.986705875559"
     ],
     "popupHtml": "<b>Gyros by G&G Concessions</b>\n\t\t<br>Northeast corner of Lee Ave. & Underwood St.\n",
     "categories": [
@@ -15844,7 +15853,7 @@
         "$4.25 off one mega-size Greek gyro sandwich (Regularly $17)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -16919,8 +16928,8 @@
     "item_details": [],
     "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1705770573",
-      "44.9812055388"
+      "-93.170864417949",
+      "44.980941050291"
     ],
     "popupHtml": "<b>Hawaiian Shaved Ice</b>\n\t\t<br>North side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -16932,7 +16941,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2477.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -16982,8 +16991,8 @@
     ],
     "booth_location": "East side of Cooper St. between Lee & Randall avenues, at The North Woods",
     "coordinates": [
-      "-93.168983431",
-      "44.9847700149"
+      "-93.167965033974",
+      "44.984756687925"
     ],
     "popupHtml": "<b>Henry's Kettle Korn</b>\n\t\t<br>East side of Cooper St. between Lee & Randall avenues, at The North Woods\n",
     "categories": [
@@ -17027,7 +17036,7 @@
     "dietary": [
       "Vegan, Vegetarian, Gluten-free (kettle corn; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -17064,8 +17073,8 @@
     ],
     "booth_location": "In the Food Building, west section, south wall",
     "coordinates": [
-      "-93.170328132",
-      "44.9801137"
+      "-93.169103148718",
+      "44.979506986195"
     ],
     "popupHtml": "<b>The Herbivorous Butcher</b>\n\t\t<br>In the Food Building, west section, south wall\n",
     "categories": [
@@ -17095,7 +17104,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5836.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -17668,8 +17677,8 @@
     ],
     "booth_location": "At the International Bazaar, southeast corner",
     "coordinates": [
-      "-93.16852394",
-      "44.97799"
+      "-93.169975545513",
+      "44.977496471968"
     ],
     "popupHtml": "<b>Holy Land</b>\n\t\t<br>At the International Bazaar, southeast corner\n",
     "categories": [
@@ -17744,7 +17753,7 @@
         "$2 off one gyro on-a-stick (Regularly $8) OR buy two gyros on-a-stick for $12 (Regularly $16)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -17843,8 +17852,8 @@
     ],
     "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1720368711",
-      "44.9785924"
+      "-93.171267228127",
+      "44.978270592019"
     ],
     "popupHtml": "<b>Ice Cold Root Beer</b>\n\t\t<br>East side of Nelson St. between Carnes & Judson avenues\n",
     "categories": [
@@ -17856,7 +17865,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2196.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -17901,8 +17910,8 @@
     ],
     "booth_location": "At the International Bazaar, south wall",
     "coordinates": [
-      "-93.1689842786",
-      "44.9779588466"
+      "-93.167999911538",
+      "44.977307"
     ],
     "popupHtml": "<b>Iemochi Japanese Confections</b>\n\t\t<br>At the International Bazaar, south wall\n",
     "categories": [
@@ -17946,7 +17955,7 @@
     "dietary": [
       "Gluten-free (tanghulu; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -18044,7 +18053,7 @@
         "$4 off one kielbasa and sauerkraut sandwich (Regularly $12) OR buy one regular-price kielbasa and sauerkraut sandwich, get one 50% off"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -18056,10 +18065,12 @@
     "items": [],
     "item_details": [],
     "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
-    "coordinates": [
-      "-93.1698500927",
-      "44.9799973"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.168946127564",
+      "44.979166683648"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Isabel Burke's Taffy</b>\n\t\t<br>Between Underwood & Cooper streets, outside south side of the Food Building\n",
     "categories": [
       {
@@ -18089,7 +18100,7 @@
     "notes": [
       "Value Item (sample bag of salt water taffy)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -18188,8 +18199,8 @@
     ],
     "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1714778",
-      "44.9809592"
+      "-93.170213842308",
+      "44.981851273805"
     ],
     "popupHtml": "<b>Italian Junction</b>\n\t\t<br>South side of Dan Patch Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -18201,8 +18212,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2565.1/featured.1695x953.jpg",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2582.1",
@@ -18455,7 +18466,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/239.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -18581,8 +18592,8 @@
     ],
     "booth_location": "North side of Lee Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1699960316",
-      "44.9859884093"
+      "-93.1701194",
+      "44.9867755"
     ],
     "popupHtml": "<b>Jive Turkey BBQ</b>\n\t\t<br>North side of Lee Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -18600,8 +18611,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "4847.1",
@@ -18713,8 +18724,8 @@
     ],
     "booth_location": "East of Chambers St., just south of the Grandstand",
     "coordinates": [
-      "-93.1738345",
-      "44.9807007"
+      "-93.172586574359",
+      "44.980107249401"
     ],
     "popupHtml": "<b>JJ Vescio's</b>\n\t\t<br>East of Chambers St., just south of the Grandstand\n",
     "categories": [
@@ -18726,8 +18737,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4847.1/featured.1695x953.jpg",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "3695.1",
@@ -18897,7 +18908,7 @@
     "notes": [
       "Value Item (select popsicles)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19054,8 +19065,8 @@
     ],
     "booth_location": "West of Nelson St., just south of the Grandstand",
     "coordinates": [
-      "-93.1722740144",
-      "44.9804592321"
+      "-93.17403971859",
+      "44.980561950742"
     ],
     "popupHtml": "<b>Juanita's Fajitas</b>\n\t\t<br>West of Nelson St., just south of the Grandstand\n",
     "categories": [
@@ -19104,7 +19115,7 @@
     "notes": [
       "Breakfast (7 to 11 a.m.)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19133,8 +19144,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1754922935",
-      "44.9798653706"
+      "-93.17644756859",
+      "44.979856055091"
     ],
     "popupHtml": "<b>Kathie's Cotton Candy</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -19178,7 +19189,7 @@
       "Cash only",
       "Value Item (cotton candy on-a-stick)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19207,8 +19218,8 @@
     ],
     "booth_location": "West of Nelson St., just south of the Grandstand",
     "coordinates": [
-      "-93.1720304289",
-      "44.9810130612"
+      "-93.172717473718",
+      "44.981754491023"
     ],
     "popupHtml": "<b>Kathie's Cotton Candy</b>\n\t\t<br>West of Nelson St., just south of the Grandstand\n",
     "categories": [
@@ -19252,7 +19263,7 @@
       "Cash only",
       "Value Item (cotton candy on-a-stick)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19326,7 +19337,7 @@
       "Cash only",
       "Value Item (cotton candy on-a-stick)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19448,7 +19459,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19496,8 +19507,8 @@
     ],
     "booth_location": "West side of Cooper St., just north of the Agriculture Horticulture Building",
     "coordinates": [
-      "-93.1702941",
-      "44.9792257"
+      "-93.168567477564",
+      "44.980970670944"
     ],
     "popupHtml": "<b>Key Lime Pie Bar</b>\n\t\t<br>West side of Cooper St., just north of the Agriculture Horticulture Building\n",
     "categories": [
@@ -19541,7 +19552,7 @@
       "Cash only",
       "Value Item (sorbet and fruit bars)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19577,8 +19588,8 @@
     ],
     "booth_location": "East side of Cosgrove St. between the Fine Arts Center & 4-H Building",
     "coordinates": [
-      "-93.16738162",
-      "44.98408535"
+      "-93.168753580128",
+      "44.983132662519"
     ],
     "popupHtml": "<b>Kiwanis Malts</b>\n\t\t<br>East side of Cosgrove St. between the Fine Arts Center & 4-H Building\n",
     "categories": [
@@ -19599,7 +19610,7 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19650,8 +19661,8 @@
     ],
     "booth_location": "South side of Dan Patch Ave. between Cooper & Cosgrove streets",
     "coordinates": [
-      "-93.1681436573",
-      "44.9810459612"
+      "-93.168000873718",
+      "44.981982605872"
     ],
     "popupHtml": "<b>Kora & Mila's Cookie Dough</b>\n\t\t<br>South side of Dan Patch Ave. between Cooper & Cosgrove streets\n",
     "categories": [
@@ -19714,7 +19725,7 @@
         "$3 off one cookie dough on-a-stick (Regularly $8-$10)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19815,7 +19826,7 @@
       "Vegan, Vegetarian (veggie koshari; please confirm with vendor)",
       "Gluten-free (beed koshari, chicken koshari, veggie koshari; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19851,8 +19862,8 @@
     ],
     "booth_location": "Northwest corner of Dan Patch Ave. & Underwood St.",
     "coordinates": [
-      "-93.1706533432",
-      "44.981214532"
+      "-93.171891790385",
+      "44.980366205068"
     ],
     "popupHtml": "<b>L & B Cotton Candy</b>\n\t\t<br>Northwest corner of Dan Patch Ave. & Underwood St.\n",
     "categories": [
@@ -19882,7 +19893,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -19917,10 +19928,12 @@
       }
     ],
     "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
-    "coordinates": [
-      "-93.1721706859",
-      "44.979795668"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.173305503862",
+      "44.979180010169"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>L & B Cotton Candy</b>\n\t\t<br>Southwest corner of Carnes Ave. & Nelson St.\n",
     "categories": [
       {
@@ -19949,7 +19962,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -19985,8 +19998,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1710492812",
-      "44.9784947065"
+      "-93.171020259615",
+      "44.979530674574"
     ],
     "popupHtml": "<b>L & B Cotton Candy</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -20016,7 +20029,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -20148,7 +20161,7 @@
         "$2 off one slice of pizza (Regularly $6) OR buy two slices of pizza for $8 (Regularly $12)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -20275,8 +20288,8 @@
     ],
     "booth_location": "Located south of the Grandstand Building, under the Grandstand Ramp",
     "coordinates": [
-      "-93.1733509427",
-      "44.9810026612"
+      "-93.174187344299",
+      "44.981594712132"
     ],
     "popupHtml": "<b>Libby's Ice Cream & Co.</b>\n\t\t<br>Located south of the Grandstand Building, under the Grandstand Ramp\n",
     "categories": [
@@ -20314,7 +20327,7 @@
     "dietary": [
       "Gluten-friendly (ice cream in a cup; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -20495,7 +20508,7 @@
     "dietary": [
       "Gluten-friendly (ice cream in a cup; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -20521,7 +20534,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3477.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -20604,8 +20617,8 @@
     ],
     "booth_location": "West side of Underwood St. between Wright & Dan Patch avenues",
     "coordinates": [
-      "-93.1706037289",
-      "44.9832551"
+      "-93.171913342308",
+      "44.983514440728"
     ],
     "popupHtml": "<b>Loon Lake Iced Tea</b>\n\t\t<br>West side of Underwood St. between Wright & Dan Patch avenues\n",
     "categories": [
@@ -20647,7 +20660,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -20772,8 +20785,8 @@
     ],
     "booth_location": "Northeast corner of Carnes Ave. & Nelson St.",
     "coordinates": [
-      "-93.1719672568",
-      "44.979975532"
+      "-93.17245278335",
+      "44.980102213089"
     ],
     "popupHtml": "<b>Luigi Fries</b>\n\t\t<br>Northeast corner of Carnes Ave. & Nelson St.\n",
     "categories": [
@@ -20819,7 +20832,7 @@
       "Vegan (Luigi's italian ice; please confirm with vendor)",
       "Vegetarian (Luigi's fries, deep-fried italian pepperoncini, Luigi's italian ice, Luigi's italian motzza fries; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -21356,8 +21369,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1754919595",
-      "44.9798461822"
+      "-93.174125542455",
+      "44.979857085169"
     ],
     "popupHtml": "<b>Lumpia City</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -21381,7 +21394,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9067.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -21778,7 +21791,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 10:15 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -21829,8 +21842,8 @@
     ],
     "booth_location": "In the Food Building, south wall",
     "coordinates": [
-      "-93.1699263786",
-      "44.9801448534"
+      "-93.168827331879",
+      "44.97908187514"
     ],
     "popupHtml": "<b>Lynn's Lefse</b>\n\t\t<br>In the Food Building, south wall\n",
     "categories": [
@@ -21866,7 +21879,7 @@
     "notes": [
       "Breakfast"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -22024,7 +22037,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2727.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -22082,8 +22095,8 @@
     ],
     "booth_location": "North side of Judson Ave. between Clough & Nelson streets",
     "coordinates": [
-      "-93.1735834",
-      "44.9786708388"
+      "-93.174369229575",
+      "44.979692495783"
     ],
     "popupHtml": "<b>Magdalena's Chimney Cakes</b>\n\t\t<br>North side of Judson Ave. between Clough & Nelson streets\n",
     "categories": [
@@ -22115,7 +22128,7 @@
     "dietary": [
       "Vegetarian (entire menu)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -22654,8 +22667,8 @@
     ],
     "booth_location": "In the Food Building, northeast section",
     "coordinates": [
-      "-93.169646675",
-      "44.9807636"
+      "-93.17093205641",
+      "44.979793268332"
     ],
     "popupHtml": "<b>Manny's Tortas</b>\n\t\t<br>In the Food Building, northeast section\n",
     "categories": [
@@ -22711,7 +22724,7 @@
     "notes": [
       "Value Item (tacos al pastor, pineapple pieces)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -22805,8 +22818,8 @@
     ],
     "booth_location": "In the Food Building, northwest section",
     "coordinates": [
-      "-93.1701806536",
-      "44.9807947534"
+      "-93.168750476282",
+      "44.980849972001"
     ],
     "popupHtml": "<b>Mario's</b>\n\t\t<br>In the Food Building, northwest section\n",
     "categories": [
@@ -22836,7 +22849,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -23033,8 +23046,8 @@
     ],
     "booth_location": "East of Chambers St., just south of the Grandstand",
     "coordinates": [
-      "-93.1740205",
-      "44.9806661"
+      "-93.175460028846",
+      "44.981503695768"
     ],
     "popupHtml": "<b>Mexican Hat</b>\n\t\t<br>East of Chambers St., just south of the Grandstand\n",
     "categories": [
@@ -23077,8 +23090,8 @@
     "notes": [
       "Breakfast (8 to 11 a.m.)"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2764.2",
@@ -23133,8 +23146,8 @@
     ],
     "booth_location": "In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",
     "coordinates": [
-      "-93.1685625",
-      "44.9780625"
+      "-93.169702040007",
+      "44.979363825076"
     ],
     "popupHtml": "<b>Midtown Global Market's El Taco Torro</b>\n\t\t<br>In the Taste of the Midtown Global Market booth at the International Bazaar, east wall\n",
     "categories": [
@@ -23158,7 +23171,7 @@
     "notes": [
       "Aug. 27 to Sept. 1 only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -23210,8 +23223,8 @@
     ],
     "booth_location": "In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",
     "coordinates": [
-      "-93.16852394",
-      "44.97818845"
+      "-93.169753322058",
+      "44.979219680932"
     ],
     "popupHtml": "<b>Midtown Global Market's Irie Jamaican Express</b>\n\t\t<br>In the Taste of the Midtown Global Market booth at the International Bazaar, east wall\n",
     "categories": [
@@ -23235,7 +23248,7 @@
     "notes": [
       "Aug. 21-26 only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -24058,7 +24071,7 @@
         "$2 off one ice cream bar (Regularly $7)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -24247,8 +24260,8 @@
     ],
     "booth_location": "South side of Dan Patch Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.169281478",
-      "44.9810362809"
+      "-93.169270224359",
+      "44.982066807311"
     ],
     "popupHtml": "<b>Minnekabob</b>\n\t\t<br>South side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -24266,7 +24279,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3718.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -24309,8 +24322,8 @@
     ],
     "booth_location": "West side of Nelson St. between Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1720714669",
-      "44.9805103688"
+      "-93.172362059615",
+      "44.980554920863"
     ],
     "popupHtml": "<b>Minnesnowii Shave Ice</b>\n\t\t<br>West side of Nelson St. between Dan Patch & Carnes avenues\n",
     "categories": [
@@ -24328,7 +24341,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2784.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -24438,7 +24451,7 @@
       "Cash only",
       "Value Item (apple, apple roll over)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -24470,8 +24483,8 @@
     ],
     "booth_location": "In the Agriculture Horticulture Building, west side",
     "coordinates": [
-      "-93.1703125",
-      "44.9793125"
+      "-93.169644785256",
+      "44.980053087692"
     ],
     "popupHtml": "<b>Minnesota Craft Brewers Guild</b>\n\t\t<br>In the Agriculture Horticulture Building, west side\n",
     "categories": [
@@ -24536,7 +24549,7 @@
         "Minnesota craft brewery & brewpub statewide map"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -24954,7 +24967,7 @@
         "$3 off one 16 oz. honey beverage - lemonade or cream soda (Regularly $6.50) OR get $3 off one jar of select MN honey (12-16 oz.) (Regularly $14-$19)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -25278,7 +25291,7 @@
     "dietary": [
       "Vegetarian, Gluten-friendly (apple fries, apple cider; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -25405,8 +25418,8 @@
     ],
     "booth_location": "In the Food Building, south wall",
     "coordinates": [
-      "-93.1699263786",
-      "44.9800825466"
+      "-93.171263940401",
+      "44.98115639984"
     ],
     "popupHtml": "<b>Mr. E's Drink Time</b>\n\t\t<br>In the Food Building, south wall\n",
     "categories": [
@@ -25426,7 +25439,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -25525,7 +25538,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5827.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -25708,8 +25721,8 @@
     ],
     "booth_location": "East side of Cooper St. between Wright & Dan Patch avenues",
     "coordinates": [
-      "-93.1690456711",
-      "44.9811165"
+      "-93.170473308333",
+      "44.981079118673"
     ],
     "popupHtml": "<b>Netterfield's Food Court</b>\n\t\t<br>East side of Cooper St. between Wright & Dan Patch avenues\n",
     "categories": [
@@ -25747,7 +25760,7 @@
     "notes": [
       "Value Item (hot dog)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -25872,7 +25885,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2941.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -25885,8 +25898,8 @@
     "item_details": [],
     "booth_location": "In the Food Building, northeast corner",
     "coordinates": [
-      "-93.169473768",
-      "44.9809285"
+      "-93.168161214103",
+      "44.981420077127"
     ],
     "popupHtml": "<b>Nitro Ice Cream</b>\n\t\t<br>In the Food Building, northeast corner\n",
     "categories": [
@@ -25898,7 +25911,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2953.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -26403,8 +26416,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1755431862",
-      "44.9798674"
+      "-93.176937875",
+      "44.980470828829"
     ],
     "popupHtml": "<b>Ole and Lena's</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -26422,7 +26435,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2987.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -26465,8 +26478,8 @@
     ],
     "booth_location": "On the east side of Underwood St. between Murphy and Lee avenues",
     "coordinates": [
-      "-93.1703405711",
-      "44.9858291"
+      "-93.1705577",
+      "44.9838769"
     ],
     "popupHtml": "<b>Ollie's Crab Fritters</b>\n\t\t<br>On the east side of Underwood St. between Murphy and Lee avenues\n",
     "categories": [
@@ -26506,7 +26519,7 @@
       ]
     },
     "map_ref": "2501-2287",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -26644,8 +26657,8 @@
     ],
     "booth_location": "In the Food Building, east wall",
     "coordinates": [
-      "-93.1694991966",
-      "44.9805522534"
+      "-93.168417624359",
+      "44.981174004926"
     ],
     "popupHtml": "<b>Oodles of Noodles</b>\n\t\t<br>In the Food Building, east wall\n",
     "categories": [
@@ -26674,7 +26687,7 @@
         "$2 off one order of classic mac 'n' cheese (Regularly $8) OR $2 off one 32 oz fresh-squeezed lemonade (Regularly $7)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -26748,10 +26761,12 @@
       }
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
-    "coordinates": [
-      "-93.1694537",
-      "44.9809635"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.170647888462",
+      "44.981432429011"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Oven Fresh Brownies</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -26770,7 +26785,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -26844,8 +26859,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Clough & Nelson streets",
     "coordinates": [
-      "-93.1731270859",
-      "44.9785097577"
+      "-93.173123161727",
+      "44.977466042152"
     ],
     "popupHtml": "<b>Paella Depot</b>\n\t\t<br>South side of Judson Ave. between Clough & Nelson streets\n",
     "categories": [
@@ -26883,7 +26898,7 @@
     "dietary": [
       "Gluten-free (chicken chorizo paella, chorizo manchego croquette; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -26996,8 +27011,8 @@
     ],
     "booth_location": "At the International Bazaar, northeast corner",
     "coordinates": [
-      "-93.16852394",
-      "44.9783869"
+      "-93.167854147436",
+      "44.977922785015"
     ],
     "popupHtml": "<b>Panda Palace</b>\n\t\t<br>At the International Bazaar, northeast corner\n",
     "categories": [
@@ -27037,7 +27052,7 @@
       "Vegan (spring rolls; please confirm with vendor)",
       "Vegetarian (lo mein, fried rice, spring rolls, cream cheese wontons; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -27156,8 +27171,8 @@
     ],
     "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1719894077",
-      "44.97967113"
+      "-93.173235129487",
+      "44.979696033755"
     ],
     "popupHtml": "<b>Patio Grill</b>\n\t\t<br>East side of Nelson St. between Carnes & Judson avenues\n",
     "categories": [
@@ -27169,7 +27184,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3030.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -27201,7 +27216,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8386.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -27699,8 +27714,8 @@
     ],
     "booth_location": "West side of Underwood St. at Lee Ave.",
     "coordinates": [
-      "-93.1705667744",
-      "44.9866035671"
+      "-93.171691809615",
+      "44.986605695897"
     ],
     "popupHtml": "<b>The Perfect Pickle</b>\n\t\t<br>West side of Underwood St. at Lee Ave.\n",
     "categories": [
@@ -27754,7 +27769,7 @@
     "notes": [
       "Value Item (pickle on-a-stick)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28020,8 +28035,8 @@
     ],
     "booth_location": "In the Food Building, west wall",
     "coordinates": [
-      "-93.170328132",
-      "44.9805211"
+      "-93.171285353846",
+      "44.980748043943"
     ],
     "popupHtml": "<b>Peters Hot Dogs</b>\n\t\t<br>In the Food Building, west wall\n",
     "categories": [
@@ -28033,7 +28048,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/246.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28156,8 +28171,8 @@
     ],
     "booth_location": "At Kidway",
     "coordinates": [
-      "-93.1697719427",
-      "44.9825528"
+      "-93.171735587179",
+      "44.981903989241"
     ],
     "popupHtml": "<b>Peters Hot Dogs</b>\n\t\t<br>At Kidway\n",
     "categories": [
@@ -28177,7 +28192,7 @@
       "credit cards"
     ],
     "hours": "Open 8 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28315,7 +28330,7 @@
     "dietary": [
       "Gluten-free (pork chop on-a-stick, chicken breast on-a-stick; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28406,10 +28421,12 @@
       }
     ],
     "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
-    "coordinates": [
-      "-93.1720750141",
-      "44.978682332"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.171132108333",
+      "44.977706046665"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Pickle Barrel Sirloin Tips</b>\n\t\t<br>Northeast corner of Judson Ave. & Nelson St.\n",
     "categories": [
       {
@@ -28434,7 +28451,7 @@
       "Vegetarian (red potatoes, mushrooms; please confirm with vendor)",
       "Gluten-friendly (entire menu excluding pita bread; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -28701,7 +28718,7 @@
         "Two slices of pizza for $4 (Reg. $6)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28762,8 +28779,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building",
     "coordinates": [
-      "-93.1728234",
-      "44.979217828"
+      "-93.171631410577",
+      "44.980579265168"
     ],
     "popupHtml": "<b>Poncho Dogs</b>\n\t\t<br>South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building\n",
     "categories": [
@@ -28790,7 +28807,7 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28851,8 +28868,8 @@
     ],
     "booth_location": "South side of Dan Patch Ave. between Cooper & Cosgrove streets",
     "coordinates": [
-      "-93.1680419427",
-      "44.9810459612"
+      "-93.167913463462",
+      "44.981518860458"
     ],
     "popupHtml": "<b>Poncho Dogs</b>\n\t\t<br>South side of Dan Patch Ave. between Cooper & Cosgrove streets\n",
     "categories": [
@@ -28879,7 +28896,7 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -28940,8 +28957,8 @@
     ],
     "booth_location": "Southwest corner of Judson Ave. & Clough St.",
     "coordinates": [
-      "-93.1737105432",
-      "44.978499968"
+      "-93.175083399359",
+      "44.978101568864"
     ],
     "popupHtml": "<b>Poncho Dogs</b>\n\t\t<br>Southwest corner of Judson Ave. & Clough St.\n",
     "categories": [
@@ -28968,7 +28985,7 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29029,8 +29046,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1721767286",
-      "44.9784803078"
+      "-93.172881254487",
+      "44.979400116793"
     ],
     "popupHtml": "<b>Poncho Dogs</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -29057,7 +29074,7 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29155,8 +29172,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1754759408",
-      "44.9789258874"
+      "-93.176421138665",
+      "44.978916659608"
     ],
     "popupHtml": "<b>Pretzel Dogs</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -29174,7 +29191,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3095.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29236,8 +29253,8 @@
     ],
     "booth_location": "West side of Nelson St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1722657289",
-      "44.9785924"
+      "-93.170878969231",
+      "44.978286593428"
     ],
     "popupHtml": "<b>The Pretzel Factory</b>\n\t\t<br>West side of Nelson St. between Carnes & Judson avenues\n",
     "categories": [
@@ -29257,7 +29274,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29526,7 +29543,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3107.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29606,7 +29623,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3109.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29667,8 +29684,8 @@
     ],
     "booth_location": "South side of Dan Patch Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1691601",
-      "44.9810355612"
+      "-93.169165639744",
+      "44.980400140644"
     ],
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>South side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -29694,7 +29711,7 @@
       "credit cards"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29754,10 +29771,12 @@
       }
     ],
     "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
-    "coordinates": [
-      "-93.1752507568",
-      "44.979777468"
+    "coordinates": null,
+    "quarantined_coordinates": [
+      "-93.17391865641",
+      "44.97898113695"
     ],
+    "quarantine_reason": "Conflicts with a peer at the same tight written location; independent booth pin required.",
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>Southeast corner of Carnes Ave. & Liggett St.\n",
     "categories": [
       {
@@ -29783,7 +29802,7 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "missing",
     "compass_eligible": false
   },
   {
@@ -29851,8 +29870,8 @@
     ],
     "booth_location": "West side of Underwood St. between Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1706071716",
-      "44.9798917"
+      "-93.171730824359",
+      "44.979595388554"
     ],
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>West side of Underwood St. between Dan Patch & Carnes avenues\n",
     "categories": [
@@ -29870,7 +29889,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1023.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -29931,8 +29950,8 @@
     ],
     "booth_location": "East side of Cosgrove St. between Randall & Wright avenues",
     "coordinates": [
-      "-93.1679486711",
-      "44.9832357"
+      "-93.169436747436",
+      "44.982996216087"
     ],
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>East side of Cosgrove St. between Randall & Wright avenues\n",
     "categories": [
@@ -29950,7 +29969,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5028.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -30011,8 +30030,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
     "coordinates": [
-      "-93.1725219883",
-      "44.979964047"
+      "-93.172529664103",
+      "44.980542087368"
     ],
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>North side of Carnes Ave. between Chambers & Nelson streets\n",
     "categories": [
@@ -30030,7 +30049,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5687.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -30091,8 +30110,8 @@
     ],
     "booth_location": "Northwest corner of Randall Ave. & Cooper St.",
     "coordinates": [
-      "-93.1692343432",
-      "44.984462732"
+      "-93.167987884615",
+      "44.983609593493"
     ],
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>Northwest corner of Randall Ave. & Cooper St.\n",
     "categories": [
@@ -30110,7 +30129,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/7805.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -30195,8 +30214,8 @@
     ],
     "booth_location": "At West End Market, south of Schilling Amphitheater",
     "coordinates": [
-      "-93.17760135",
-      "44.98157855"
+      "-93.178766901923",
+      "44.980929195282"
     ],
     "popupHtml": "<b>Pryes Brewing Pavilion</b>\n\t\t<br>At West End Market, south of Schilling Amphitheater\n",
     "categories": [
@@ -30220,7 +30239,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1416.2/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -30426,7 +30445,7 @@
         "$2 off one lemonade float (Reg. $8) OR buy one jumbo-size 32 oz. fresh-squeezed lemonade, get one bottle of water FREE (Reg. $3)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -30538,8 +30557,8 @@
     ],
     "booth_location": "On the east side of Underwood St. between Murphy and Lee avenues",
     "coordinates": [
-      "-93.1703405711",
-      "44.9858291"
+      "-93.1705577",
+      "44.9838769"
     ],
     "popupHtml": "<b>Quesadilla Junction</b>\n\t\t<br>On the east side of Underwood St. between Murphy and Lee avenues\n",
     "categories": [
@@ -30601,7 +30620,7 @@
       ]
     },
     "map_ref": "2501-2287",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -30712,7 +30731,7 @@
       "Apple Pay"
     ],
     "hours": "Open 6:30 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -31009,8 +31028,8 @@
     ],
     "booth_location": "In The Garden, west wall",
     "coordinates": [
-      "-93.1702885286",
-      "44.9809547534"
+      "-93.170698641026",
+      "44.979889237085"
     ],
     "popupHtml": "<b>Ragin Cajun</b>\n\t\t<br>In The Garden, west wall\n",
     "categories": [
@@ -31046,7 +31065,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3131.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -31124,8 +31143,8 @@
     ],
     "booth_location": "East side of Underwood St. outside Visitors Plaza",
     "coordinates": [
-      "-93.16993026",
-      "44.9815531"
+      "-93.171771571154",
+      "44.982257403353"
     ],
     "popupHtml": "<b>RC Cola</b>\n\t\t<br>East side of Underwood St. outside Visitors Plaza\n",
     "categories": [
@@ -31158,7 +31177,7 @@
         "$1 off one large 20 oz. soft drink (Regularly $3)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -31568,8 +31587,8 @@
     ],
     "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1705436",
-      "44.9799726388"
+      "-93.170140046154",
+      "44.980689031817"
     ],
     "popupHtml": "<b>Rice Kristie Bars</b>\n\t\t<br>North side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -31619,7 +31638,7 @@
       "Cash only",
       "Value Item (itty bitty rice kristie bar)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -31728,8 +31747,8 @@
     ],
     "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
     "coordinates": [
-      "-93.1745980289",
-      "44.9807764"
+      "-93.173095059981",
+      "44.980933462565"
     ],
     "popupHtml": "<b>Richie's Cheese Curd Tacos</b>\n\t\t<br>West side of Chambers St. between West Dan Patch & Carnes avenues\n",
     "categories": [
@@ -31741,7 +31760,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5275.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -31985,7 +32004,7 @@
       "Vegetarian (pickle pizza; please confirm with vendor)"
     ],
     "map_ref": "3214-2482",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -32091,7 +32110,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -32143,8 +32162,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1754697289",
-      "44.978569"
+      "-93.1752848",
+      "44.9781329"
     ],
     "popupHtml": "<b>Roon's Savories</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -32162,8 +32181,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3404.1",
@@ -32591,7 +32610,7 @@
         "$3 off a Zoodle Bowl with tofu noodles (Reg. $12)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -32771,7 +32790,7 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -33041,8 +33060,8 @@
     ],
     "booth_location": "In the Lee & Rose Warner Coliseum, north side",
     "coordinates": [
-      "-93.17443995",
-      "44.978454128"
+      "-93.175331005769",
+      "44.978838583576"
     ],
     "popupHtml": "<b>Sabino's Pizza Pies</b>\n\t\t<br>In the Lee & Rose Warner Coliseum, north side\n",
     "categories": [
@@ -33077,7 +33096,7 @@
         "$3 off one Fried Bee-Nana Pie with ice cream (Reg. $10)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -33305,8 +33324,8 @@
     ],
     "booth_location": "West side of Underwood St., just north of Carnes Ave.",
     "coordinates": [
-      "-93.1706603148",
-      "44.9796473997"
+      "-93.169973501012",
+      "44.979564451582"
     ],
     "popupHtml": "<b>Sadies Classics Frozen Custard</b>\n\t\t<br>West side of Underwood St., just north of Carnes Ave.\n",
     "categories": [
@@ -33328,7 +33347,7 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 10:30 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -33749,8 +33768,8 @@
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Underwood St.",
     "coordinates": [
-      "-93.1706533432",
-      "44.981034668"
+      "-93.169450288462",
+      "44.98203281107"
     ],
     "popupHtml": "<b>San Felipe Tacos</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Underwood St.\n",
     "categories": [
@@ -33768,7 +33787,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3235.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -34189,7 +34208,7 @@
         "$3 off one regular-price sweet or savory hand pie (Regularly $10) OR $5 off four sweet or savory hand pies (Regularly $40)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -34241,8 +34260,8 @@
     ],
     "booth_location": "In the Food Building, east wall",
     "coordinates": [
-      "-93.170135",
-      "44.9801902"
+      "-93.168427871154",
+      "44.979787928835"
     ],
     "popupHtml": "<b>Saturday Dumpling Co.</b>\n\t\t<br>In the Food Building, east wall\n",
     "categories": [
@@ -34260,7 +34279,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -34409,8 +34428,8 @@
     ],
     "booth_location": "North side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1719236",
-      "44.9786289"
+      "-93.17310056791",
+      "44.977866724026"
     ],
     "popupHtml": "<b>Sausage by Cynthia</b>\n\t\t<br>North side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -34441,7 +34460,7 @@
     "dietary": [
       "Gluten-friendly (sausage, creole chaurice, chicken fiesta; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -34545,8 +34564,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1705262",
-      "44.981169566"
+      "-93.170311162821",
+      "44.980465741266"
     ],
     "popupHtml": "<b>Sausage Express</b>\n\t\t<br>North side of Dan Patch Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -34570,7 +34589,7 @@
     "dietary": [
       "Vegan, vegetarian (pretzels; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -34729,7 +34748,7 @@
       "Value Item (bisquit and rhubarb jam)",
       "Breakfast"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -34844,7 +34863,7 @@
     "notes": [
       "Breakfast (all-day)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -35291,8 +35310,8 @@
     ],
     "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.1706654648",
-      "44.9788446533"
+      "-93.17120962726",
+      "44.978846993366"
     ],
     "popupHtml": "<b>Shrimp Shack</b>\n\t\t<br>West side of Underwood St. between Carnes & Judson avenues\n",
     "categories": [
@@ -35330,7 +35349,7 @@
     "dietary": [
       "Gluten-free (mild shrimp skwers; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -35651,7 +35670,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2084.2/featured.1695x953.jpg",
     "map_ref": "3284-2458",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -35701,7 +35720,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5581.1/featured.1695x953.jpg",
     "map_ref": "3244-2327",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -35833,7 +35852,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5052.1/featured.1695x953.jpg",
     "map_ref": "3131-2330",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -35973,7 +35992,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
     "map_ref": "3131-2330",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -36120,7 +36139,7 @@
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
     "map_ref": "3131-2330",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -36198,8 +36217,8 @@
     ],
     "booth_location": "In the Food Building, northwest section",
     "coordinates": [
-      "-93.1701806536",
-      "44.9807324466"
+      "-93.168608849359",
+      "44.98116161706"
     ],
     "popupHtml": "<b>Sonny's Fair Food</b>\n\t\t<br>In the Food Building, northwest section\n",
     "categories": [
@@ -36250,7 +36269,7 @@
       "Vegan, Vegetarian (spiral cut chips; please confirm with vendor)",
       "Gluten-free (gluten-free beer batter brat on-a-stick; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -36308,8 +36327,8 @@
     ],
     "booth_location": "In the Food Building, east wall",
     "coordinates": [
-      "-93.1694991966",
-      "44.9804899466"
+      "-93.168502725641",
+      "44.979993824746"
     ],
     "popupHtml": "<b>Soul Bowl</b>\n\t\t<br>In the Food Building, east wall\n",
     "categories": [
@@ -36327,7 +36346,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5799.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -36526,8 +36545,8 @@
     ],
     "booth_location": "Located south of the Grandstand Building, under the Grandstand Ramp",
     "coordinates": [
-      "-93.1734526573",
-      "44.9810026612"
+      "-93.17482836994",
+      "44.981684802222"
     ],
     "popupHtml": "<b>SPAM</b>\n\t\t<br>Located south of the Grandstand Building, under the Grandstand Ramp\n",
     "categories": [
@@ -36539,7 +36558,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8073.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -36596,8 +36615,8 @@
     ],
     "booth_location": "Located north of Wright Ave. between Cooper & Cosgrove streets, at Family Fair at Baldwin Park",
     "coordinates": [
-      "-93.1680631",
-      "44.9833166388"
+      "-93.167733014103",
+      "44.982688331454"
     ],
     "popupHtml": "<b>Spinning Wylde</b>\n\t\t<br>Located north of Wright Ave. between Cooper & Cosgrove streets, at Family Fair at Baldwin Park\n",
     "categories": [
@@ -36615,7 +36634,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5175.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -36833,7 +36852,7 @@
         "$2 off one ham, egg, cheese breakfast wrap sandwich (7-10:30 a.m.) (Regularly $7) OR $8 off one fresh, made-to-order meal deal: “original” deli sandwich, chips, potato salad, pickle and one 12 oz. soda (all day) (Regularly $23)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -37273,7 +37292,7 @@
     "dietary": [
       "Vegan, Vegetarian, Gluten-free (caramel apple, popcorn, caramel corn, sno cones, cotton candy; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -37721,8 +37740,8 @@
     ],
     "booth_location": "Southwest corner of Randall Ave. & Underwood St.",
     "coordinates": [
-      "-93.1706079432",
-      "44.984294368"
+      "-93.1707496",
+      "44.9840099"
     ],
     "popupHtml": "<b>Summer Lakes Boat House</b>\n\t\t<br>Southwest corner of Randall Ave. & Underwood St.\n",
     "categories": [
@@ -37807,8 +37826,8 @@
     "notes": [
       "Value Item (hand-cut chips and dips)"
     ],
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3276.2",
@@ -37922,7 +37941,7 @@
       "Proud sponsor of the Summit Stage at the Bazaar"
     ],
     "map_ref": "1086-2637",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -37993,8 +38012,8 @@
     ],
     "booth_location": "east side of Liggett Street between West Dan Patch and Carnes avenues",
     "coordinates": [
-      "-93.1752634711",
-      "44.9798674"
+      "-93.176094986179",
+      "44.979555170138"
     ],
     "popupHtml": "<b>Super Dog</b>\n\t\t<br>east side of Liggett Street between West Dan Patch and Carnes avenues\n",
     "categories": [
@@ -38012,7 +38031,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/3408.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38051,8 +38070,8 @@
     ],
     "booth_location": "In the Lee & Rose Warner Coliseum, south wall",
     "coordinates": [
-      "-93.17443995",
-      "44.977844372"
+      "-93.175783639681",
+      "44.978339509055"
     ],
     "popupHtml": "<b>Sweet & Sour USA</b>\n\t\t<br>In the Lee & Rose Warner Coliseum, south wall\n",
     "categories": [
@@ -38095,7 +38114,7 @@
         "$1 off one long piece of sweet or sour licorice (Regularly $5)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38131,8 +38150,8 @@
     ],
     "booth_location": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
     "coordinates": [
-      "-93.1744836",
-      "44.9808573388"
+      "-93.173640357692",
+      "44.98006676588"
     ],
     "popupHtml": "<b>Sweet Martha's Cookie Jar</b>\n\t\t<br>North side of West Dan Patch Ave. between Liggett & Chambers streets\n",
     "categories": [
@@ -38163,7 +38182,7 @@
     "dietary": [
       "Vegetarian (cookies; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38267,8 +38286,8 @@
     ],
     "booth_location": "West side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      "-93.17056476",
-      "44.9871669109"
+      "-93.171870286538",
+      "44.987169390239"
     ],
     "popupHtml": "<b>Sweet Martha's Cookie Jar</b>\n\t\t<br>West side of Underwood St. between Murphy & Lee avenues\n",
     "categories": [
@@ -38299,7 +38318,7 @@
     "dietary": [
       "Vegetarian (cookies; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38398,8 +38417,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
     "coordinates": [
-      "-93.1701029568",
-      "44.9812030293"
+      "-93.170089029487",
+      "44.98229727677"
     ],
     "popupHtml": "<b>Sweets & Treats</b>\n\t\t<br>North side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
@@ -38452,7 +38471,7 @@
         "$2 off one snow cone (Regularly $6)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38592,7 +38611,7 @@
       ]
     },
     "map_ref": "2231-2399",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38817,8 +38836,8 @@
     ],
     "booth_location": "In the Lee & Rose Warner Coliseum, northeast corner",
     "coordinates": [
-      "-93.173821752",
-      "44.978454128"
+      "-93.17225460208",
+      "44.979240459781"
     ],
     "popupHtml": "<b>Swine & Spuds</b>\n\t\t<br>In the Lee & Rose Warner Coliseum, northeast corner\n",
     "categories": [
@@ -38853,7 +38872,7 @@
         "$3 off one family-size basket of curly fries (Reg. $9)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -38935,7 +38954,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/8535.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -39106,7 +39125,7 @@
       ]
     },
     "map_ref": "3244-2327",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -39386,8 +39405,8 @@
     ],
     "booth_location": "In The Garden, north wall",
     "coordinates": [
-      "-93.1702885286",
-      "44.9808924466"
+      "-93.168996351282",
+      "44.98179751625"
     ],
     "popupHtml": "<b>Tejas Express</b>\n\t\t<br>In The Garden, north wall\n",
     "categories": [
@@ -39439,7 +39458,7 @@
       "Vegetarian (nachos, guacamole and chips; please confirm with vendor)",
       "Gluten-friendly (guacamole and chips; please confirm with vendor)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -39685,7 +39704,7 @@
       "Value Item (hashbrown, bacon)",
       "Breakfast (7 to 11 a.m.)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -39779,8 +39798,8 @@
     ],
     "booth_location": "South side of Carnes Ave. at Chambers St.",
     "coordinates": [
-      "-93.1738617492",
-      "44.9797953185"
+      "-93.17386817328",
+      "44.980287329012"
     ],
     "popupHtml": "<b>Tino's Pizza on a Stick</b>\n\t\t<br>South side of Carnes Ave. at Chambers St.\n",
     "categories": [
@@ -39798,7 +39817,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/1948.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -39889,8 +39908,8 @@
     ],
     "booth_location": "West side of Cooper St. between Wright & Dan Patch avenues, at Kidway",
     "coordinates": [
-      "-93.1692733446",
-      "44.981189895"
+      "-93.170635573077",
+      "44.981201815486"
     ],
     "popupHtml": "<b>Tom Thumb Donuts</b>\n\t\t<br>West side of Cooper St. between Wright & Dan Patch avenues, at Kidway\n",
     "categories": [
@@ -39921,7 +39940,7 @@
     "dietary": [
       "Vegetarian (mini donuts)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40003,7 +40022,7 @@
     "dietary": [
       "Vegetarian (mini donuts)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40213,7 +40232,7 @@
         "$3 off one \"best value\"-size dill pickle tater tots (Regularly $12)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40482,7 +40501,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/9613.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40545,7 +40564,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5659.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40746,7 +40765,7 @@
         "$2 off one mocktail (Regularly $8) OR $2 off one order of Cheweenies (Regularly $9)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40824,8 +40843,8 @@
     ],
     "booth_location": "On Judson Ave. between Liggett & Clough streets",
     "coordinates": [
-      "-93.1736101411",
-      "44.9785895846"
+      "-93.173594415385",
+      "44.977922554281"
     ],
     "popupHtml": "<b>Waffle Chix</b>\n\t\t<br>On Judson Ave. between Liggett & Clough streets\n",
     "categories": [
@@ -40843,7 +40862,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/5609.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -40933,8 +40952,8 @@
     ],
     "booth_location": "At Kidway",
     "coordinates": [
-      "-93.1698736573",
-      "44.9825528"
+      "-93.169491997436",
+      "44.983858944196"
     ],
     "popupHtml": "<b>Waffle Cones</b>\n\t\t<br>At Kidway\n",
     "categories": [
@@ -40977,7 +40996,7 @@
         "$3 off one ice cream cone (Regularly $9)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -41084,8 +41103,8 @@
     ],
     "booth_location": "In the Food Building, southeast center section",
     "coordinates": [
-      "-93.169646675",
-      "44.9802786"
+      "-93.170935754503",
+      "44.979341423154"
     ],
     "popupHtml": "<b>Walleye On a Stick</b>\n\t\t<br>In the Food Building, southeast center section\n",
     "categories": [
@@ -41133,7 +41152,7 @@
         "$2 off one regular-size catfish on-a-stick (Regularly $8) OR 50% off one 20 oz. or 32 oz. birch beer soda (Regularly $4 and $6)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -41379,7 +41398,7 @@
     "notes": [
       "Value Item (prepackaged ice cream bar on-a-stick)"
     ],
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -41492,8 +41511,8 @@
     ],
     "booth_location": "At the International Bazaar, south wall",
     "coordinates": [
-      "-93.1689842786",
-      "44.9780211534"
+      "-93.167824609615",
+      "44.978695544365"
     ],
     "popupHtml": "<b>West Indies Soul Food</b>\n\t\t<br>At the International Bazaar, south wall\n",
     "categories": [
@@ -41522,7 +41541,7 @@
         "$2 off one turmeric ginger lemonade (Regularly $10) OR $3.50 off one jerk pork chop on-a-stick (Regularly $17)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -41677,8 +41696,8 @@
     ],
     "booth_location": "At Mighty Midway",
     "coordinates": [
-      "-93.1781560073",
-      "44.9799615"
+      "-93.177864078205",
+      "44.981119307408"
     ],
     "popupHtml": "<b>Westmoreland Concessions</b>\n\t\t<br>At Mighty Midway\n",
     "categories": [
@@ -41741,7 +41760,7 @@
         "$3 off one jumbo corndog (Regularly $10) OR two jumbo corndogs for $10 (Regularly $20)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -41861,7 +41880,7 @@
         "$5 off one bucket of hand-cut french fries (Regularly $16) OR $2 off one wild rice cheeseburger (Regularly $13)"
       ]
     },
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   },
   {
@@ -41874,8 +41893,8 @@
     "item_details": [],
     "booth_location": "In the Merch Market, center aisle",
     "coordinates": [
-      "-93.1687726",
-      "44.980762"
+      "-93.167754614103",
+      "44.981460214392"
     ],
     "popupHtml": "<b>Wow Fudge</b>\n\t\t<br>In the Merch Market, center aisle\n",
     "categories": [
@@ -41887,7 +41906,7 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/6202.1/featured.1695x953.jpg",
-    "coordinate_status": "approximate",
+    "coordinate_status": "unverified",
     "compass_eligible": false
   }
 ]

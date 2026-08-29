@@ -1,0 +1,33 @@
+{
+  "record_count": 278,
+  "unique_id_count": 278,
+  "published_pin_count": 278,
+  "verified_pin_count": 56,
+  "approximate_pin_count": 222,
+  "changed_or_filled_count": 157,
+  "deconflicted_overlap_group_count": 17,
+  "deconflicted_pin_count": 42,
+  "method_counts": {
+    "reviewed_evidence": 69,
+    "written_street_segment_projection": 57,
+    "written_street_corner": 31,
+    "existing_within_30m": 65,
+    "written_named_place:Food Building": 18,
+    "written_named_place:Midway Lot": 4,
+    "written_street_corridor_projection": 10,
+    "written_named_place:Treasure Island | The Garden": 3,
+    "written_named_place:Dairy Building": 1,
+    "written_named_place:Merchandise Mart": 3,
+    "written_named_place:International Bazaar": 6,
+    "shipping_bundle_zone_fallback": 1,
+    "written_named_place:Agriculture Horticulture Building": 1,
+    "written_named_place:Fine Arts Center": 1,
+    "written_named_place:Kidway Lot": 2,
+    "written_named_place:DNR Building": 1,
+    "written_named_place:Schilling Amphitheater": 1,
+    "written_named_place:Visitors Plaza": 1,
+    "written_named_place:Lee & Rose Warner Coliseum": 3
+  },
+  "outside_fair_count": 0,
+  "shipping_client_warning": "Every non-null coordinate is compass-enabled by the current App Store binary, regardless of audit status fields."
+}

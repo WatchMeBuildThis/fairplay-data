@@ -1,0 +1,2635 @@
+[
+  {
+    "id": "2114.1",
+    "name": "3B Fresh Squeezed Lemonade & Foot Long Corn Dogs",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.174149666026,
+      44.978771392184
+    ],
+    "new_coordinates": [
+      -93.17547306844132,
+      44.978760863853005
+    ],
+    "displacement_m": 104.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "6135.1",
+    "name": "About a Foot Long Hot Dog",
+    "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.17227240046743,
+      44.979795668
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner+stable_4m_separation",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "9642.2",
+    "name": "About a Foot Long Hot Dog",
+    "booth_location": "Northwest corner of Dan Patch Ave. & Cooper St.",
+    "old_coordinates": [
+      -93.1693751,
+      44.9814141
+    ],
+    "new_coordinates": [
+      -93.16928724316861,
+      44.981206432036366
+    ],
+    "displacement_m": 24.1,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "6449.2",
+    "name": "About a Foot Long Hot Dog",
+    "booth_location": "Southeast corner of Judson Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.168867953526,
+      44.977873963109
+    ],
+    "new_coordinates": [
+      -93.17042585683141,
+      44.97847816796362
+    ],
+    "displacement_m": 139.7,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "1328.1",
+    "name": "The Anchor Coffee House",
+    "booth_location": "West side of Underwood St. between Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.169719014103,
+      44.979551072007
+    ],
+    "new_coordinates": [
+      -93.17070888616742,
+      44.9798917
+    ],
+    "displacement_m": 86.6,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5937.1",
+    "name": "Attavio's Fries",
+    "booth_location": "West side of Cooper St. between Dan Patch and Judson avenues, outside the Food Building",
+    "old_coordinates": [
+      -93.17051655641,
+      44.979407802061
+    ],
+    "new_coordinates": [
+      -93.17045018400003,
+      44.9805211
+    ],
+    "displacement_m": 123.9,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5177.1",
+    "name": "Auntie M's Gluten Free",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets, just west of Adventure Park",
+    "old_coordinates": [
+      -93.173444394872,
+      44.977904475598
+    ],
+    "new_coordinates": [
+      -93.17226572885176,
+      44.97851146116726
+    ],
+    "displacement_m": 114.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "1899.1",
+    "name": "Australian Battered Potatoes",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.172825984828,
+      44.977903913226
+    ],
+    "new_coordinates": [
+      -93.17210044273257,
+      44.9785114612
+    ],
+    "displacement_m": 88.4,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5146.1",
+    "name": "BABA'S",
+    "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
+    "old_coordinates": [
+      -93.1708125,
+      44.9846875
+    ],
+    "new_coordinates": [
+      -93.170261260507,
+      44.986224484458
+    ],
+    "displacement_m": 176.3,
+    "method": "reviewed_evidence",
+    "previous_location_check": "manual_review_15_to_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "1509.4",
+    "name": "The Big Cheese Cheese Curds",
+    "booth_location": "West side of Liggett St. at Carnes Ave., just south of Mighty Midway",
+    "old_coordinates": [
+      -93.176812700641,
+      44.979124115497
+    ],
+    "new_coordinates": [
+      -93.18022506273257,
+      44.9799615
+    ],
+    "displacement_m": 284.1,
+    "method": "written_named_place:Midway Lot+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "1783.1",
+    "name": "Big Dog Corndogs",
+    "booth_location": "Northeast corner of Randall Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.169663734271,
+      44.98368117601
+    ],
+    "new_coordinates": [
+      -93.1703536568314,
+      44.98447423203637
+    ],
+    "displacement_m": 103.5,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "1783.2",
+    "name": "Big Dog Corndogs",
+    "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.169851372185,
+      44.979507210913
+    ],
+    "new_coordinates": [
+      -93.17066074189695,
+      44.97950968014409
+    ],
+    "displacement_m": 63.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "1974.1",
+    "name": "The Blue Ox Burger Bar",
+    "booth_location": "Southeast corner of Judson Ave. & Clough St.",
+    "old_coordinates": [
+      -93.172088763462,
+      44.978105607253
+    ],
+    "new_coordinates": [
+      -93.1734562568314,
+      44.978499967963636
+    ],
+    "displacement_m": 116.2,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "5733.5",
+    "name": "Bridge N' Barrel Root Beer",
+    "booth_location": "Northwest corner of Randall & Underwood streets",
+    "old_coordinates": [
+      -93.171398589771,
+      44.983942720834
+    ],
+    "new_coordinates": [
+      -93.1706079431686,
+      44.98447423203637
+    ],
+    "displacement_m": 85.8,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "5733.3",
+    "name": "Bridge N' Barrel Root Beer",
+    "booth_location": "Northwest corner of Wright Ave. & Cooper St.",
+    "old_coordinates": [
+      -93.168141730769,
+      44.982909562123
+    ],
+    "new_coordinates": [
+      -93.1692528431686,
+      44.983338432036376
+    ],
+    "displacement_m": 99.6,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "5733.4",
+    "name": "Bridge N' Barrel Root Beer",
+    "booth_location": "Northwest corner of Judson Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.169963108974,
+      44.978246295807
+    ],
+    "new_coordinates": [
+      -93.17068014316862,
+      44.978658032036364
+    ],
+    "displacement_m": 72.6,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "5733.6",
+    "name": "Bridge N' Barrel Root Beer",
+    "booth_location": "Northeast corner of Dan Patch Ave & Cosgrove St.",
+    "old_coordinates": [
+      -93.169590286555,
+      44.982020565743
+    ],
+    "new_coordinates": [
+      -93.16796565683141,
+      44.98121683203637
+    ],
+    "displacement_m": 155.9,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "5733.1",
+    "name": "Bridge N' Barrel Root Beer",
+    "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.171136,
+      44.9814214
+    ],
+    "new_coordinates": [
+      -93.17108919142657,
+      44.981166302877355
+    ],
+    "displacement_m": 28.6,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "1996.1",
+    "name": "Bridgeman's Ice Cream",
+    "booth_location": "Northeast corner of Judson Ave. & Liggett St.",
+    "old_coordinates": [
+      -93.174268923397,
+      44.977853141634
+    ],
+    "new_coordinates": [
+      -93.17522815683141,
+      44.978658932036375
+    ],
+    "displacement_m": 117.1,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2005.1",
+    "name": "Buni's",
+    "booth_location": "Northwest corner of Judson Ave. & Liggett St.",
+    "old_coordinates": [
+      -93.176384548397,
+      44.978368700251
+    ],
+    "new_coordinates": [
+      -93.17548244316862,
+      44.978658932036375
+    ],
+    "displacement_m": 77.9,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2029.1",
+    "name": "Candy Factory",
+    "booth_location": "Northeast corner of Murphy Ave. & Cooper St.",
+    "old_coordinates": [
+      -93.170306136538,
+      44.987831515847
+    ],
+    "new_coordinates": [
+      -93.16893135683141,
+      44.987286232036375
+    ],
+    "displacement_m": 124.0,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2031.1",
+    "name": "Caramel Apple Sundae",
+    "booth_location": "Between Chambers & Nelson streets, just south of the Grandstand",
+    "old_coordinates": [
+      -93.172400400641,
+      44.980110476679
+    ],
+    "new_coordinates": [
+      -93.17434138652506,
+      44.980033056913925
+    ],
+    "displacement_m": 152.9,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "2037.1",
+    "name": "Caribbean Smoothees",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.176388092182,
+      44.980162381258
+    ],
+    "new_coordinates": [
+      -93.17544147163257,
+      44.97986740000001
+    ],
+    "displacement_m": 81.4,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "7099.1",
+    "name": "Carousel BBQ",
+    "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.1749722,
+      44.9806423
+    ],
+    "new_coordinates": [
+      -93.17458322068676,
+      44.980681671759605
+    ],
+    "displacement_m": 30.9,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2065.1",
+    "name": "Chan's Chicken On A Stick",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.172807362179,
+      44.979175037267
+    ],
+    "new_coordinates": [
+      -93.17217672863373,
+      44.978542614571246
+    ],
+    "displacement_m": 86.1,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "9238.1",
+    "name": "Chan's Eatery",
+    "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
+    "old_coordinates": [
+      -93.16901814359,
+      44.986844015281
+    ],
+    "new_coordinates": [
+      -93.17033702046783,
+      44.98684651789488
+    ],
+    "displacement_m": 103.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2075.1",
+    "name": "Chicago Dogs",
+    "booth_location": "In The Garden, east wall",
+    "old_coordinates": [
+      -93.168612794231,
+      44.981597695379
+    ],
+    "new_coordinates": [
+      -93.17021224273256,
+      44.9809236
+    ],
+    "displacement_m": 146.4,
+    "method": "written_named_place:Treasure Island | The Garden+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "11505.1",
+    "name": "Chocolate Strawberry Cup",
+    "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.16928724316861,
+      44.981026567963625
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "3505.1",
+    "name": "Cotton Candy 7 Different Flavors",
+    "booth_location": "Southeast corner of Dan Patch Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.169209994231,
+      44.98036970186
+    ],
+    "new_coordinates": [
+      -93.1703990568314,
+      44.98103466796363
+    ],
+    "displacement_m": 119.2,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2142.1",
+    "name": "Cream Puffs",
+    "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
+    "old_coordinates": [
+      -93.1760149,
+      44.9805332
+    ],
+    "new_coordinates": [
+      -93.17549164316858,
+      44.98062746796363
+    ],
+    "displacement_m": 42.5,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2069.2",
+    "name": "Crutchees Cheese on a Stick",
+    "booth_location": "southeast corner of West Dan Patch Ave. & Liggett St.",
+    "old_coordinates": [
+      -93.175980161316,
+      44.981387688534
+    ],
+    "new_coordinates": [
+      -93.17523735683139,
+      44.98062746796363
+    ],
+    "displacement_m": 102.8,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2069.1",
+    "name": "Crutchees Cheese on a Stick",
+    "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.17197329953258,
+      44.978682332000005
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner+stable_4m_separation",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2770.2",
+    "name": "Dairy Goodness",
+    "booth_location": "In the Dairy Building, south wall",
+    "old_coordinates": [
+      -93.17219856859,
+      44.978501593112
+    ],
+    "new_coordinates": [
+      -93.17099630000001,
+      44.977899148
+    ],
+    "displacement_m": 115.9,
+    "method": "written_named_place:Dairy Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3745.1",
+    "name": "Danielson's & Daughters Onion Rings",
+    "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.16995180726744,
+      44.9799973
+    ],
+    "displacement_m": null,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2182.1",
+    "name": "Daryl's Dog House",
+    "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.171560717949,
+      44.980462900382
+    ],
+    "new_coordinates": [
+      -93.1715561958759,
+      44.979806778168275
+    ],
+    "displacement_m": 73.0,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3340.2",
+    "name": "Deep Fried Batter Dipped Twinkies & Buckeyes",
+    "booth_location": "East side of Cooper St. outside the Merch Market",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.16857895600002,
+      44.98076199999999
+    ],
+    "displacement_m": null,
+    "method": "written_named_place:Merchandise Mart",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2192.1",
+    "name": "Deep Fried Candy Bars",
+    "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.172484179487,
+      44.980938483764
+    ],
+    "new_coordinates": [
+      -93.1720944,
+      44.979966538832734
+    ],
+    "displacement_m": 112.3,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2198.1",
+    "name": "Demetri's Fine Greek Foods",
+    "booth_location": "East side of Nelson St. between Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.173247925962,
+      44.981598484538
+    ],
+    "new_coordinates": [
+      -93.17170277114828,
+      44.98114640000001
+    ],
+    "displacement_m": 131.5,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2208.1",
+    "name": "Dippin' Dots",
+    "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.170275034615,
+      44.980444590965
+    ],
+    "new_coordinates": [
+      -93.1705436,
+      44.979810761167265
+    ],
+    "displacement_m": 73.6,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "12663.1",
+    "name": "dodopop",
+    "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
+    "old_coordinates": [
+      -93.1689113,
+      44.981417
+    ],
+    "new_coordinates": [
+      -93.1690329568314,
+      44.981206432036366
+    ],
+    "displacement_m": 25.3,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "3448.1",
+    "name": "The Donut Family",
+    "booth_location": "At Mighty Midway",
+    "old_coordinates": [
+      -93.177945042308,
+      44.980583198522
+    ],
+    "new_coordinates": [
+      -93.17805429273255,
+      44.9799615
+    ],
+    "displacement_m": 69.7,
+    "method": "written_named_place:Midway Lot+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "10312.2",
+    "name": "El Burrito Mercado",
+    "booth_location": "At the International Bazaar, south wall",
+    "old_coordinates": [
+      -93.170365644872,
+      44.978780620001
+    ],
+    "new_coordinates": [
+      -93.16890799273257,
+      44.977990000000005
+    ],
+    "displacement_m": 144.5,
+    "method": "written_named_place:International Bazaar+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "226.1",
+    "name": "El Sol Mexican Foods",
+    "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues, outside southwest corner of the Food Building",
+    "old_coordinates": [
+      -93.170978671795,
+      44.981205840041
+    ],
+    "new_coordinates": [
+      -93.17045018400003,
+      44.9799973
+    ],
+    "displacement_m": 140.7,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "3280.1",
+    "name": "Elm's Shaved Ice",
+    "booth_location": "Southwest corner of Judson Ave. & Liggett St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.17548244316862,
+      44.97847906796363
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2279.1",
+    "name": "Falafel King",
+    "booth_location": "In the Food Building, south wall",
+    "old_coordinates": [
+      -93.168558812196,
+      44.979665484248
+    ],
+    "new_coordinates": [
+      -93.16985009273256,
+      44.9801137
+    ],
+    "displacement_m": 113.1,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2305.1",
+    "name": "Fish & Chips Seafood Shoppe",
+    "booth_location": "In the Food Building, northwest section",
+    "old_coordinates": [
+      -93.169042549749,
+      44.979517023891
+    ],
+    "new_coordinates": [
+      -93.17010436773256,
+      44.9807636
+    ],
+    "displacement_m": 161.8,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "228.1",
+    "name": "Flowering Onions",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.171675476923,
+      44.978488860759
+    ],
+    "new_coordinates": [
+      -93.1715625,
+      44.9786875
+    ],
+    "displacement_m": 23.8,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "4752.1",
+    "name": "Fluffy's Hand Cut Donuts",
+    "booth_location": "On the northwest corner of Carnes Ave. & Chambers St.",
+    "old_coordinates": [
+      -93.1747099,
+      44.9800099
+    ],
+    "new_coordinates": [
+      -93.1744694431686,
+      44.97996243203637
+    ],
+    "displacement_m": 19.6,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2332.1",
+    "name": "French Crêperie",
+    "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.172062521795,
+      44.979134014141
+    ],
+    "new_coordinates": [
+      -93.17206843154173,
+      44.97996664097847
+    ],
+    "displacement_m": 92.6,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2340.1",
+    "name": "Fresh French Fries",
+    "booth_location": "At Mighty Midway",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.17513197895393,
+      44.980220723387426
+    ],
+    "displacement_m": null,
+    "method": "shipping_bundle_zone_fallback",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2340.2",
+    "name": "Fresh French Fries",
+    "booth_location": "North side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.1721257136,
+      44.978316157072
+    ],
+    "new_coordinates": [
+      -93.1711875,
+      44.9788125
+    ],
+    "displacement_m": 92.1,
+    "method": "reviewed_evidence",
+    "previous_location_check": "manual_review_15_to_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2387.1",
+    "name": "Fresh Lemonade - Cheese on a Stick",
+    "booth_location": "West side of Nelson St. between Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.171036968339,
+      44.981654793306
+    ],
+    "new_coordinates": [
+      -93.17193162885175,
+      44.98114640000001
+    ],
+    "displacement_m": 90.3,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "217.1",
+    "name": "Fresh Made Nut Rolls",
+    "booth_location": "Northeast corner of Dan Patch Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.170194551923,
+      44.98128171223
+    ],
+    "new_coordinates": [
+      -93.1703990568314,
+      44.981214532036375
+    ],
+    "displacement_m": 17.7,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2359.1",
+    "name": "Funnel Cakes",
+    "booth_location": "In the Food Building, east wall",
+    "old_coordinates": [
+      -93.168488389744,
+      44.979733291983
+    ],
+    "new_coordinates": [
+      -93.16942291073256,
+      44.9805211
+    ],
+    "displacement_m": 114.4,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2247.1",
+    "name": "Funnel Cakes",
+    "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.170131707943,
+      44.982191270589
+    ],
+    "new_coordinates": [
+      -93.17047534273257,
+      44.9812055388
+    ],
+    "displacement_m": 112.9,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2029.2",
+    "name": "Funnel Cakes",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets, at Adventure Park",
+    "old_coordinates": [
+      -93.170823261538,
+      44.979241160023
+    ],
+    "new_coordinates": [
+      -93.17084358037866,
+      44.97849157905077
+    ],
+    "displacement_m": 83.4,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2196.1",
+    "name": "Galaxy of Drinks",
+    "booth_location": "West side of Liggett St., just south of Mighty Midway",
+    "old_coordinates": [
+      -93.174524839665,
+      44.978939895317
+    ],
+    "new_coordinates": [
+      -93.18032677726747,
+      44.9799615
+    ],
+    "displacement_m": 470.3,
+    "method": "written_named_place:Midway Lot+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3255.1",
+    "name": "German Root Beer and Popcorn",
+    "booth_location": "East of Chambers St. just south of the Grandstand",
+    "old_coordinates": [
+      -93.173291870833,
+      44.980101155612
+    ],
+    "new_coordinates": [
+      -93.1742269973076,
+      44.980022119655644
+    ],
+    "displacement_m": 74.1,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "2527.1",
+    "name": "Goertzes Dairy Kone",
+    "booth_location": "East side of Cooper St., next to the Merch Market",
+    "old_coordinates": [
+      -93.168420029808,
+      44.979751637691
+    ],
+    "new_coordinates": [
+      -93.168621988,
+      44.98076199999999
+    ],
+    "displacement_m": 113.5,
+    "method": "written_named_place:Merchandise Mart",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "10990.1",
+    "name": "Gopher Dairy Bar",
+    "booth_location": "South side of Judson Ave. between Stevens & Liggett streets",
+    "old_coordinates": [
+      -93.175169678205,
+      44.977633622529
+    ],
+    "new_coordinates": [
+      -93.17535530000004,
+      44.97848806116727
+    ],
+    "displacement_m": 96.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2415.1",
+    "name": "Grandstand Mini Donuts",
+    "booth_location": "East of Chambers St., just south of the Grandstand",
+    "old_coordinates": [
+      -93.173735225,
+      44.980887294964
+    ],
+    "new_coordinates": [
+      -93.1742625711483,
+      44.98060696116727
+    ],
+    "displacement_m": 51.9,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "11704.1",
+    "name": "Granny's Apples + Lemonade",
+    "booth_location": "In the Food Building, west wall",
+    "old_coordinates": [
+      -93.171167395513,
+      44.979968400415
+    ],
+    "new_coordinates": [
+      -93.1703125,
+      44.9803125
+    ],
+    "displacement_m": 77.4,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2417.1",
+    "name": "Granny's Cheesecake & More",
+    "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.169810417308,
+      44.980736302936
+    ],
+    "new_coordinates": [
+      -93.1705262,
+      44.98124151161454
+    ],
+    "displacement_m": 79.5,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2447.1",
+    "name": "Gyros by G&G Concessions",
+    "booth_location": "Northeast corner of Lee Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.16934945641,
+      44.986705875559
+    ],
+    "new_coordinates": [
+      -93.17032785683142,
+      44.98591903203637
+    ],
+    "displacement_m": 116.5,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2477.1",
+    "name": "Hawaiian Shaved Ice",
+    "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
+    "old_coordinates": [
+      -93.170864417949,
+      44.980941050291
+    ],
+    "new_coordinates": [
+      -93.17057705726744,
+      44.9812055388
+    ],
+    "displacement_m": 37.1,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2493.1",
+    "name": "Henry's Kettle Korn",
+    "booth_location": "East side of Cooper St. between Lee & Randall avenues, at The North Woods",
+    "old_coordinates": [
+      -93.167965033974,
+      44.984756687925
+    ],
+    "new_coordinates": [
+      -93.16898343103723,
+      44.984770014926525
+    ],
+    "displacement_m": 80.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5836.1",
+    "name": "The Herbivorous Butcher",
+    "booth_location": "In the Food Building, west section, south wall",
+    "old_coordinates": [
+      -93.169103148718,
+      44.979506986195
+    ],
+    "new_coordinates": [
+      -93.17032813200002,
+      44.980113700000004
+    ],
+    "displacement_m": 117.6,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3689.1",
+    "name": "Holy Land",
+    "booth_location": "At the International Bazaar, southeast corner",
+    "old_coordinates": [
+      -93.169975545513,
+      44.977496471968
+    ],
+    "new_coordinates": [
+      -93.16852394,
+      44.977990000000005
+    ],
+    "displacement_m": 126.7,
+    "method": "written_named_place:International Bazaar",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2196.2",
+    "name": "Ice Cold Root Beer",
+    "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.171267228127,
+      44.978270592019
+    ],
+    "new_coordinates": [
+      -93.17203687114826,
+      44.9785924
+    ],
+    "displacement_m": 70.3,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "13242.1",
+    "name": "Iemochi Japanese Confections",
+    "booth_location": "At the International Bazaar, south wall",
+    "old_coordinates": [
+      -93.167999911538,
+      44.977307
+    ],
+    "new_coordinates": [
+      -93.16898427863373,
+      44.97795884662876
+    ],
+    "displacement_m": 106.1,
+    "method": "written_named_place:International Bazaar+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2561.1",
+    "name": "Isabel Burke's Taffy",
+    "booth_location": "Between Underwood & Cooper streets, outside south side of the Food Building",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.16985009273256,
+      44.9799973
+    ],
+    "displacement_m": null,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2565.1",
+    "name": "Italian Junction",
+    "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.170213842308,
+      44.981851273805
+    ],
+    "new_coordinates": [
+      -93.1714778,
+      44.9809592
+    ],
+    "displacement_m": 140.4,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "7741.1",
+    "name": "Jive Turkey BBQ",
+    "booth_location": "North side of Lee Ave. between Underwood & Cooper streets",
+    "old_coordinates": [
+      -93.1701194,
+      44.9867755
+    ],
+    "new_coordinates": [
+      -93.169996031551,
+      44.985988409335
+    ],
+    "displacement_m": 88.1,
+    "method": "reviewed_evidence",
+    "previous_location_check": "manual_review_15_to_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "4847.1",
+    "name": "JJ Vescio's",
+    "booth_location": "East of Chambers St., just south of the Grandstand",
+    "old_coordinates": [
+      -93.172586574359,
+      44.980107249401
+    ],
+    "new_coordinates": [
+      -93.1738345,
+      44.9807007
+    ],
+    "displacement_m": 118.3,
+    "method": "reviewed_evidence",
+    "previous_location_check": "manual_review_conflicting_constraints",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "2604.1",
+    "name": "Juanita's Fajitas",
+    "booth_location": "West of Nelson St., just south of the Grandstand",
+    "old_coordinates": [
+      -93.17403971859,
+      44.980561950742
+    ],
+    "new_coordinates": [
+      -93.17227401442756,
+      44.98045923206799
+    ],
+    "displacement_m": 139.3,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "2122.1",
+    "name": "Kathie's Cotton Candy",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.17644756859,
+      44.979856055091
+    ],
+    "new_coordinates": [
+      -93.17549229352785,
+      44.97986537059401
+    ],
+    "displacement_m": 75.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2122.2",
+    "name": "Kathie's Cotton Candy",
+    "booth_location": "West of Nelson St., just south of the Grandstand",
+    "old_coordinates": [
+      -93.172717473718,
+      44.981754491023
+    ],
+    "new_coordinates": [
+      -93.17203042885174,
+      44.98101306116726
+    ],
+    "displacement_m": 98.6,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "3986.1",
+    "name": "Key Lime Pie Bar",
+    "booth_location": "West side of Cooper St., just north of the Agriculture Horticulture Building",
+    "old_coordinates": [
+      -93.168567477564,
+      44.980970670944
+    ],
+    "new_coordinates": [
+      -93.17029409999999,
+      44.9792257
+    ],
+    "displacement_m": 236.8,
+    "method": "written_named_place:Agriculture Horticulture Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "11408.1",
+    "name": "Kiwanis Malts",
+    "booth_location": "East side of Cosgrove St. between the Fine Arts Center & 4-H Building",
+    "old_coordinates": [
+      -93.168753580128,
+      44.983132662519
+    ],
+    "new_coordinates": [
+      -93.16738162,
+      44.98408535
+    ],
+    "displacement_m": 151.2,
+    "method": "written_named_place:Fine Arts Center",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3699.1",
+    "name": "Kora & Mila's Cookie Dough",
+    "booth_location": "South side of Dan Patch Ave. between Cooper & Cosgrove streets",
+    "old_coordinates": [
+      -93.168000873718,
+      44.981982605872
+    ],
+    "new_coordinates": [
+      -93.16814365726745,
+      44.9810459612
+    ],
+    "displacement_m": 104.8,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2120.2",
+    "name": "L & B Cotton Candy",
+    "booth_location": "Northwest corner of Dan Patch Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.171891790385,
+      44.980366205068
+    ],
+    "new_coordinates": [
+      -93.1706533431686,
+      44.981214532036375
+    ],
+    "displacement_m": 135.6,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "2120.3",
+    "name": "L & B Cotton Candy",
+    "booth_location": "Southwest corner of Carnes Ave. & Nelson St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.17217068593256,
+      44.979795668
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner+stable_4m_separation",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "2120.1",
+    "name": "L & B Cotton Candy",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.171020259615,
+      44.979530674574
+    ],
+    "new_coordinates": [
+      -93.1710492812496,
+      44.97849470645561
+    ],
+    "displacement_m": 115.2,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5171.1",
+    "name": "Libby's Ice Cream & Co.",
+    "booth_location": "Located south of the Grandstand Building, under the Grandstand Ramp",
+    "old_coordinates": [
+      -93.174187344299,
+      44.981594712132
+    ],
+    "new_coordinates": [
+      -93.17335094273255,
+      44.9810026612
+    ],
+    "displacement_m": 93.1,
+    "method": "written_street_corridor_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "3386.2",
+    "name": "Loon Lake Iced Tea",
+    "booth_location": "West side of Underwood St. between Wright & Dan Patch avenues",
+    "old_coordinates": [
+      -93.171913342308,
+      44.983514440728
+    ],
+    "new_coordinates": [
+      -93.17060372885176,
+      44.9832551
+    ],
+    "displacement_m": 107.0,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2708.1",
+    "name": "Luigi Fries",
+    "booth_location": "Northeast corner of Carnes Ave. & Nelson St.",
+    "old_coordinates": [
+      -93.17245278335,
+      44.980102213089
+    ],
+    "new_coordinates": [
+      -93.17196725683141,
+      44.97997553203637
+    ],
+    "displacement_m": 40.7,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "9067.1",
+    "name": "Lumpia City",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.174125542455,
+      44.979857085169
+    ],
+    "new_coordinates": [
+      -93.1754919595347,
+      44.97984618224534
+    ],
+    "displacement_m": 107.5,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2719.1",
+    "name": "Lynn's Lefse",
+    "booth_location": "In the Food Building, south wall",
+    "old_coordinates": [
+      -93.168827331879,
+      44.97908187514
+    ],
+    "new_coordinates": [
+      -93.16992637863372,
+      44.98014485337125
+    ],
+    "displacement_m": 146.4,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "10914.1",
+    "name": "Magdalena's Chimney Cakes",
+    "booth_location": "North side of Judson Ave. between Clough & Nelson streets",
+    "old_coordinates": [
+      -93.174369229575,
+      44.979692495783
+    ],
+    "new_coordinates": [
+      -93.1735834,
+      44.97867083883275
+    ],
+    "displacement_m": 129.3,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2737.1",
+    "name": "Manny's Tortas",
+    "booth_location": "In the Food Building, northeast section",
+    "old_coordinates": [
+      -93.17093205641,
+      44.979793268332
+    ],
+    "new_coordinates": [
+      -93.16964667500001,
+      44.9807636
+    ],
+    "displacement_m": 147.9,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2743.1",
+    "name": "Mario's",
+    "booth_location": "In the Food Building, northwest section",
+    "old_coordinates": [
+      -93.168750476282,
+      44.980849972001
+    ],
+    "new_coordinates": [
+      -93.17018065363372,
+      44.98079475337125
+    ],
+    "displacement_m": 112.7,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2758.1",
+    "name": "Mexican Hat",
+    "booth_location": "East of Chambers St., just south of the Grandstand",
+    "old_coordinates": [
+      -93.175460028846,
+      44.981503695768
+    ],
+    "new_coordinates": [
+      -93.1740205,
+      44.9806661
+    ],
+    "displacement_m": 146.6,
+    "method": "reviewed_evidence",
+    "previous_location_check": "manual_review_15_to_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "2764.2",
+    "name": "Midtown Global Market's El Taco Torro",
+    "booth_location": "In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",
+    "old_coordinates": [
+      -93.169702040007,
+      44.979363825076
+    ],
+    "new_coordinates": [
+      -93.1685625,
+      44.9780625
+    ],
+    "displacement_m": 170.2,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2764.1",
+    "name": "Midtown Global Market's Irie Jamaican Express",
+    "booth_location": "In the Taste of the Midtown Global Market booth at the International Bazaar, east wall",
+    "old_coordinates": [
+      -93.169753322058,
+      44.979219680932
+    ],
+    "new_coordinates": [
+      -93.16852394,
+      44.978188450000005
+    ],
+    "displacement_m": 150.0,
+    "method": "written_named_place:International Bazaar",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3718.1",
+    "name": "Minnekabob",
+    "booth_location": "South side of Dan Patch Ave. between Underwood & Cooper streets",
+    "old_coordinates": [
+      -93.169270224359,
+      44.982066807311
+    ],
+    "new_coordinates": [
+      -93.16928147804465,
+      44.981036280852614
+    ],
+    "displacement_m": 114.6,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2784.1",
+    "name": "Minnesnowii Shave Ice",
+    "booth_location": "West side of Nelson St. between Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.172362059615,
+      44.980554920863
+    ],
+    "new_coordinates": [
+      -93.17207146693228,
+      44.98051036878816
+    ],
+    "displacement_m": 23.4,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2649.1",
+    "name": "Minnesota Craft Brewers Guild",
+    "booth_location": "In the Agriculture Horticulture Building, west side",
+    "old_coordinates": [
+      -93.169644785256,
+      44.980053087692
+    ],
+    "new_coordinates": [
+      -93.1703125,
+      44.9793125
+    ],
+    "displacement_m": 97.7,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "4057.1",
+    "name": "Mr. E's Drink Time",
+    "booth_location": "In the Food Building, south wall",
+    "old_coordinates": [
+      -93.171263940401,
+      44.98115639984
+    ],
+    "new_coordinates": [
+      -93.16992637863372,
+      44.98008254662875
+    ],
+    "displacement_m": 159.1,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2941.1",
+    "name": "Netterfield's Food Court",
+    "booth_location": "East side of Cooper St. between Wright & Dan Patch avenues",
+    "old_coordinates": [
+      -93.170473308333,
+      44.981079118673
+    ],
+    "new_coordinates": [
+      -93.16904567114827,
+      44.9811165
+    ],
+    "displacement_m": 112.4,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2953.1",
+    "name": "Nitro Ice Cream",
+    "booth_location": "In the Food Building, northeast corner",
+    "old_coordinates": [
+      -93.168161214103,
+      44.981420077127
+    ],
+    "new_coordinates": [
+      -93.16947376800002,
+      44.9809285
+    ],
+    "displacement_m": 116.8,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2987.1",
+    "name": "Ole and Lena's",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.176937875,
+      44.980470828829
+    ],
+    "new_coordinates": [
+      -93.17554318616745,
+      44.97986740000001
+    ],
+    "displacement_m": 128.6,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3759.2",
+    "name": "Ollie's Crab Fritters",
+    "booth_location": "On the east side of Underwood St. between Murphy and Lee avenues",
+    "old_coordinates": [
+      -93.1705577,
+      44.9838769
+    ],
+    "new_coordinates": [
+      -93.17034057114829,
+      44.9858291
+    ],
+    "displacement_m": 217.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "2991.1",
+    "name": "Oodles of Noodles",
+    "booth_location": "In the Food Building, east wall",
+    "old_coordinates": [
+      -93.168417624359,
+      44.981174004926
+    ],
+    "new_coordinates": [
+      -93.16949919663374,
+      44.98055225337124
+    ],
+    "displacement_m": 109.6,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3008.1",
+    "name": "Oven Fresh Brownies",
+    "booth_location": "Southwest corner of Dan Patch Ave. & Cooper St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.1694537,
+      44.9809635
+    ],
+    "displacement_m": null,
+    "method": "reviewed_evidence",
+    "previous_location_check": "manual_review_15_to_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "6268.1",
+    "name": "Paella Depot",
+    "booth_location": "South side of Judson Ave. between Clough & Nelson streets",
+    "old_coordinates": [
+      -93.173123161727,
+      44.977466042152
+    ],
+    "new_coordinates": [
+      -93.17312708585322,
+      44.978509757749464
+    ],
+    "displacement_m": 116.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3020.1",
+    "name": "Panda Palace",
+    "booth_location": "At the International Bazaar, northeast corner",
+    "old_coordinates": [
+      -93.167854147436,
+      44.977922785015
+    ],
+    "new_coordinates": [
+      -93.16852394,
+      44.9783869
+    ],
+    "displacement_m": 73.7,
+    "method": "written_named_place:International Bazaar",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3030.1",
+    "name": "Patio Grill",
+    "booth_location": "East side of Nelson St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.173235129487,
+      44.979696033755
+    ],
+    "new_coordinates": [
+      -93.17198940769458,
+      44.97967113002258
+    ],
+    "displacement_m": 98.0,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3089.2",
+    "name": "The Perfect Pickle",
+    "booth_location": "West side of Underwood St. at Lee Ave.",
+    "old_coordinates": [
+      -93.171691809615,
+      44.986605695897
+    ],
+    "new_coordinates": [
+      -93.17056677440948,
+      44.98660356714645
+    ],
+    "displacement_m": 88.5,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "246.1",
+    "name": "Peters Hot Dogs",
+    "booth_location": "In the Food Building, west wall",
+    "old_coordinates": [
+      -93.171285353846,
+      44.980748043943
+    ],
+    "new_coordinates": [
+      -93.17032813200002,
+      44.9805211
+    ],
+    "displacement_m": 79.4,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3052.1",
+    "name": "Peters Hot Dogs",
+    "booth_location": "At Kidway",
+    "old_coordinates": [
+      -93.171735587179,
+      44.981903989241
+    ],
+    "new_coordinates": [
+      -93.16977194273258,
+      44.9825528
+    ],
+    "displacement_m": 170.5,
+    "method": "written_named_place:Kidway Lot+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "5910.1",
+    "name": "Pickle Barrel Sirloin Tips",
+    "booth_location": "Northeast corner of Judson Ave. & Nelson St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.17207501406746,
+      44.978682332000005
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner+stable_4m_separation",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "3077.1",
+    "name": "Poncho Dogs",
+    "booth_location": "South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building",
+    "old_coordinates": [
+      -93.171631410577,
+      44.980579265168
+    ],
+    "new_coordinates": [
+      -93.1728234,
+      44.979217827999996
+    ],
+    "displacement_m": 178.1,
+    "method": "written_named_place:DNR Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3079.2",
+    "name": "Poncho Dogs",
+    "booth_location": "South side of Dan Patch Ave. between Cooper & Cosgrove streets",
+    "old_coordinates": [
+      -93.167913463462,
+      44.981518860458
+    ],
+    "new_coordinates": [
+      -93.16804194273257,
+      44.9810459612
+    ],
+    "displacement_m": 53.5,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3079.3",
+    "name": "Poncho Dogs",
+    "booth_location": "Southwest corner of Judson Ave. & Clough St.",
+    "old_coordinates": [
+      -93.175083399359,
+      44.978101568864
+    ],
+    "new_coordinates": [
+      -93.17371054316861,
+      44.978499967963636
+    ],
+    "displacement_m": 116.7,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "3079.1",
+    "name": "Poncho Dogs",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.172881254487,
+      44.979400116793
+    ],
+    "new_coordinates": [
+      -93.17217672863373,
+      44.978480307828754
+    ],
+    "displacement_m": 116.3,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3095.1",
+    "name": "Pretzel Dogs",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.176421138665,
+      44.978916659608
+    ],
+    "new_coordinates": [
+      -93.17547594084665,
+      44.97892588735346
+    ],
+    "displacement_m": 74.3,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3093.1",
+    "name": "The Pretzel Factory",
+    "booth_location": "West side of Nelson St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.170878969231,
+      44.978286593428
+    ],
+    "new_coordinates": [
+      -93.17226572885176,
+      44.9785924
+    ],
+    "displacement_m": 114.2,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3111.1",
+    "name": "Pronto Pups",
+    "booth_location": "South side of Dan Patch Ave. between Underwood & Cooper streets",
+    "old_coordinates": [
+      -93.169165639744,
+      44.980400140644
+    ],
+    "new_coordinates": [
+      -93.1691601,
+      44.98103556116726
+    ],
+    "displacement_m": 70.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3115.1",
+    "name": "Pronto Pups",
+    "booth_location": "Southeast corner of Carnes Ave. & Liggett St.",
+    "old_coordinates": null,
+    "new_coordinates": [
+      -93.1752507568314,
+      44.979777467963636
+    ],
+    "displacement_m": null,
+    "method": "written_street_corner",
+    "previous_location_check": "unparsed",
+    "anchor_kind": "none"
+  },
+  {
+    "id": "1023.1",
+    "name": "Pronto Pups",
+    "booth_location": "West side of Underwood St. between Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.171730824359,
+      44.979595388554
+    ],
+    "new_coordinates": [
+      -93.17060717163255,
+      44.9798917
+    ],
+    "displacement_m": 94.3,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5028.1",
+    "name": "Pronto Pups",
+    "booth_location": "East side of Cosgrove St. between Randall & Wright avenues",
+    "old_coordinates": [
+      -93.169436747436,
+      44.982996216087
+    ],
+    "new_coordinates": [
+      -93.16794867114827,
+      44.9832357
+    ],
+    "displacement_m": 120.0,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5687.1",
+    "name": "Pronto Pups",
+    "booth_location": "North side of Carnes Ave. between Chambers & Nelson streets",
+    "old_coordinates": [
+      -93.172529664103,
+      44.980542087368
+    ],
+    "new_coordinates": [
+      -93.17252198831049,
+      44.97996404699286
+    ],
+    "displacement_m": 64.3,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "7805.1",
+    "name": "Pronto Pups",
+    "booth_location": "Northwest corner of Randall Ave. & Cooper St.",
+    "old_coordinates": [
+      -93.167987884615,
+      44.983609593493
+    ],
+    "new_coordinates": [
+      -93.1692343431686,
+      44.98446273203638
+    ],
+    "displacement_m": 136.4,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "1416.2",
+    "name": "Pryes Brewing Pavilion",
+    "booth_location": "At West End Market, south of Schilling Amphitheater",
+    "old_coordinates": [
+      -93.178766901923,
+      44.980929195282
+    ],
+    "new_coordinates": [
+      -93.17760135,
+      44.98157855000001
+    ],
+    "displacement_m": 116.7,
+    "method": "written_named_place:Schilling Amphitheater",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3759.1",
+    "name": "Quesadilla Junction",
+    "booth_location": "On the east side of Underwood St. between Murphy and Lee avenues",
+    "old_coordinates": [
+      -93.1705577,
+      44.9838769
+    ],
+    "new_coordinates": [
+      -93.17034057114829,
+      44.9858291
+    ],
+    "displacement_m": 217.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3131.1",
+    "name": "Ragin Cajun",
+    "booth_location": "In The Garden, west wall",
+    "old_coordinates": [
+      -93.170698641026,
+      44.979889237085
+    ],
+    "new_coordinates": [
+      -93.17028852863372,
+      44.98095475337124
+    ],
+    "displacement_m": 122.8,
+    "method": "written_named_place:Treasure Island | The Garden+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "1856.1",
+    "name": "RC Cola",
+    "booth_location": "East side of Underwood St. outside Visitors Plaza",
+    "old_coordinates": [
+      -93.171771571154,
+      44.982257403353
+    ],
+    "new_coordinates": [
+      -93.16993026000002,
+      44.9815531
+    ],
+    "displacement_m": 164.6,
+    "method": "written_named_place:Visitors Plaza",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3173.1",
+    "name": "Rice Kristie Bars",
+    "booth_location": "North side of Carnes Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.170140046154,
+      44.980689031817
+    ],
+    "new_coordinates": [
+      -93.1705436,
+      44.97997263883274
+    ],
+    "displacement_m": 85.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5275.1",
+    "name": "Richie's Cheese Curd Tacos",
+    "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
+    "old_coordinates": [
+      -93.173095059981,
+      44.980933462565
+    ],
+    "new_coordinates": [
+      -93.17459802885178,
+      44.9807764
+    ],
+    "displacement_m": 119.5,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "11056.1",
+    "name": "Roon's Savories",
+    "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.1752848,
+      44.9781329
+    ],
+    "new_coordinates": [
+      -93.17546972885177,
+      44.978569
+    ],
+    "displacement_m": 50.6,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "792.2",
+    "name": "Sabino's Pizza Pies",
+    "booth_location": "In the Lee & Rose Warner Coliseum, north side",
+    "old_coordinates": [
+      -93.175331005769,
+      44.978838583576
+    ],
+    "new_coordinates": [
+      -93.17443995000002,
+      44.978454128
+    ],
+    "displacement_m": 82.1,
+    "method": "written_named_place:Lee & Rose Warner Coliseum",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "10369.1",
+    "name": "Sadies Classics Frozen Custard",
+    "booth_location": "West side of Underwood St., just north of Carnes Ave.",
+    "old_coordinates": [
+      -93.169973501012,
+      44.979564451582
+    ],
+    "new_coordinates": [
+      -93.17066031478245,
+      44.979647399653096
+    ],
+    "displacement_m": 54.8,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "3235.1",
+    "name": "San Felipe Tacos",
+    "booth_location": "Southwest corner of Dan Patch Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.169450288462,
+      44.98203281107
+    ],
+    "new_coordinates": [
+      -93.1706533431686,
+      44.98103466796363
+    ],
+    "displacement_m": 145.8,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "9531.1",
+    "name": "Saturday Dumpling Co.",
+    "booth_location": "In the Food Building, east wall",
+    "old_coordinates": [
+      -93.168427871154,
+      44.979787928835
+    ],
+    "new_coordinates": [
+      -93.170135,
+      44.9801902
+    ],
+    "displacement_m": 141.5,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3247.1",
+    "name": "Sausage by Cynthia",
+    "booth_location": "North side of Judson Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.17310056791,
+      44.977866724026
+    ],
+    "new_coordinates": [
+      -93.1719236,
+      44.9786289
+    ],
+    "displacement_m": 125.5,
+    "method": "reviewed_evidence",
+    "previous_location_check": "consistent_with_written_location",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3249.1",
+    "name": "Sausage Express",
+    "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+    "old_coordinates": [
+      -93.170311162821,
+      44.980465741266
+    ],
+    "new_coordinates": [
+      -93.1705262,
+      44.98116956598544
+    ],
+    "displacement_m": 80.1,
+    "method": "written_street_segment_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "1573.1",
+    "name": "Shrimp Shack",
+    "booth_location": "West side of Underwood St. between Carnes & Judson avenues",
+    "old_coordinates": [
+      -93.17120962726,
+      44.978846993366
+    ],
+    "new_coordinates": [
+      -93.1706654648136,
+      44.97884465329046
+    ],
+    "displacement_m": 42.8,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3332.1",
+    "name": "Sonny's Fair Food",
+    "booth_location": "In the Food Building, northwest section",
+    "old_coordinates": [
+      -93.168608849359,
+      44.98116161706
+    ],
+    "new_coordinates": [
+      -93.17018065363372,
+      44.98073244662876
+    ],
+    "displacement_m": 132.5,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "5799.1",
+    "name": "Soul Bowl",
+    "booth_location": "In the Food Building, east wall",
+    "old_coordinates": [
+      -93.168502725641,
+      44.979993824746
+    ],
+    "new_coordinates": [
+      -93.16949919663374,
+      44.98048994662875
+    ],
+    "displacement_m": 95.8,
+    "method": "written_named_place:Food Building+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "8073.1",
+    "name": "SPAM",
+    "booth_location": "Located south of the Grandstand Building, under the Grandstand Ramp",
+    "old_coordinates": [
+      -93.17482836994,
+      44.981684802222
+    ],
+    "new_coordinates": [
+      -93.17345265726743,
+      44.9810026612
+    ],
+    "displacement_m": 132.1,
+    "method": "written_street_corridor_projection+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "5175.1",
+    "name": "Spinning Wylde",
+    "booth_location": "Located north of Wright Ave. between Cooper & Cosgrove streets, at Family Fair at Baldwin Park",
+    "old_coordinates": [
+      -93.167733014103,
+      44.982688331454
+    ],
+    "new_coordinates": [
+      -93.1680631,
+      44.98331663883274
+    ],
+    "displacement_m": 74.5,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3398.1",
+    "name": "Summer Lakes Boat House",
+    "booth_location": "Southwest corner of Randall Ave. & Underwood St.",
+    "old_coordinates": [
+      -93.1707496,
+      44.9840099
+    ],
+    "new_coordinates": [
+      -93.1706079431686,
+      44.98429436796363
+    ],
+    "displacement_m": 33.5,
+    "method": "written_street_corner",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corner"
+  },
+  {
+    "id": "3408.1",
+    "name": "Super Dog",
+    "booth_location": "east side of Liggett Street between West Dan Patch and Carnes avenues",
+    "old_coordinates": [
+      -93.176094986179,
+      44.979555170138
+    ],
+    "new_coordinates": [
+      -93.17526347114827,
+      44.97986740000001
+    ],
+    "displacement_m": 74.0,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3412.1",
+    "name": "Sweet & Sour USA",
+    "booth_location": "In the Lee & Rose Warner Coliseum, south wall",
+    "old_coordinates": [
+      -93.175783639681,
+      44.978339509055
+    ],
+    "new_coordinates": [
+      -93.17443995000002,
+      44.977844372
+    ],
+    "displacement_m": 119.2,
+    "method": "written_named_place:Lee & Rose Warner Coliseum",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "2079.1",
+    "name": "Sweet Martha's Cookie Jar",
+    "booth_location": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
+    "old_coordinates": [
+      -93.173640357692,
+      44.98006676588
+    ],
+    "new_coordinates": [
+      -93.17448360000002,
+      44.98085733883274
+    ],
+    "displacement_m": 110.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3981.1",
+    "name": "Sweet Martha's Cookie Jar",
+    "booth_location": "West side of Underwood St. between Murphy & Lee avenues",
+    "old_coordinates": [
+      -93.171870286538,
+      44.987169390239
+    ],
+    "new_coordinates": [
+      -93.17056476003363,
+      44.98716691093546
+    ],
+    "displacement_m": 102.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "1509.1",
+    "name": "Sweets & Treats",
+    "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
+    "old_coordinates": [
+      -93.170089029487,
+      44.98229727677
+    ],
+    "new_coordinates": [
+      -93.17010295677171,
+      44.981203029301845
+    ],
+    "displacement_m": 121.7,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "792.4",
+    "name": "Swine & Spuds",
+    "booth_location": "In the Lee & Rose Warner Coliseum, northeast corner",
+    "old_coordinates": [
+      -93.17225460208,
+      44.979240459781
+    ],
+    "new_coordinates": [
+      -93.17382175200002,
+      44.978454128
+    ],
+    "displacement_m": 151.1,
+    "method": "written_named_place:Lee & Rose Warner Coliseum",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3436.1",
+    "name": "Tejas Express",
+    "booth_location": "In The Garden, north wall",
+    "old_coordinates": [
+      -93.168996351282,
+      44.98179751625
+    ],
+    "new_coordinates": [
+      -93.17028852863372,
+      44.98089244662875
+    ],
+    "displacement_m": 143.0,
+    "method": "written_named_place:Treasure Island | The Garden+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "1948.1",
+    "name": "Tino's Pizza on a Stick",
+    "booth_location": "South side of Carnes Ave. at Chambers St.",
+    "old_coordinates": [
+      -93.17386817328,
+      44.980287329012
+    ],
+    "new_coordinates": [
+      -93.17386174921363,
+      44.979795318455416
+    ],
+    "displacement_m": 54.7,
+    "method": "written_street_corridor_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_corridor"
+  },
+  {
+    "id": "1511.2",
+    "name": "Tom Thumb Donuts",
+    "booth_location": "West side of Cooper St. between Wright & Dan Patch avenues, at Kidway",
+    "old_coordinates": [
+      -93.170635573077,
+      44.981201815486
+    ],
+    "new_coordinates": [
+      -93.16927334461714,
+      44.981189895005656
+    ],
+    "displacement_m": 107.1,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "5609.1",
+    "name": "Waffle Chix",
+    "booth_location": "On Judson Ave. between Liggett & Clough streets",
+    "old_coordinates": [
+      -93.173594415385,
+      44.977922554281
+    ],
+    "new_coordinates": [
+      -93.17361014107999,
+      44.978589584582345
+    ],
+    "displacement_m": 74.2,
+    "method": "written_street_segment_projection",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "street_segment"
+  },
+  {
+    "id": "3549.1",
+    "name": "Waffle Cones",
+    "booth_location": "At Kidway",
+    "old_coordinates": [
+      -93.169491997436,
+      44.983858944196
+    ],
+    "new_coordinates": [
+      -93.16987365726746,
+      44.9825528
+    ],
+    "displacement_m": 148.3,
+    "method": "written_named_place:Kidway Lot+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "3553.1",
+    "name": "Walleye On a Stick",
+    "booth_location": "In the Food Building, southeast center section",
+    "old_coordinates": [
+      -93.170935754503,
+      44.979341423154
+    ],
+    "new_coordinates": [
+      -93.16964667500001,
+      44.9802786
+    ],
+    "displacement_m": 145.4,
+    "method": "written_named_place:Food Building",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "1286.1",
+    "name": "West Indies Soul Food",
+    "booth_location": "At the International Bazaar, south wall",
+    "old_coordinates": [
+      -93.167824609615,
+      44.978695544365
+    ],
+    "new_coordinates": [
+      -93.16898427863373,
+      44.97802115337125
+    ],
+    "displacement_m": 118.1,
+    "method": "written_named_place:International Bazaar+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "4872.1",
+    "name": "Westmoreland Concessions",
+    "booth_location": "At Mighty Midway",
+    "old_coordinates": [
+      -93.177864078205,
+      44.981119307408
+    ],
+    "new_coordinates": [
+      -93.17815600726743,
+      44.9799615
+    ],
+    "displacement_m": 130.8,
+    "method": "written_named_place:Midway Lot+stable_4m_separation",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  },
+  {
+    "id": "6202.1",
+    "name": "Wow Fudge",
+    "booth_location": "In the Merch Market, center aisle",
+    "old_coordinates": [
+      -93.167754614103,
+      44.981460214392
+    ],
+    "new_coordinates": [
+      -93.1687726,
+      44.98076199999999
+    ],
+    "displacement_m": 111.5,
+    "method": "written_named_place:Merchandise Mart",
+    "previous_location_check": "reject_over_30m",
+    "anchor_kind": "named_place_or_building"
+  }
+]

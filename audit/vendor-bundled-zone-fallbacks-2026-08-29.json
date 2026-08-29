@@ -1,0 +1,13 @@
+[
+  {
+    "id": "2340.1",
+    "name": "Fresh French Fries",
+    "booth_location": "At Mighty Midway",
+    "coordinates": [
+      "-93.17513197895393",
+      "44.980220723387426"
+    ],
+    "source": "FairPlay App Store bundle Resources/vendors.json",
+    "reason": "The current live feed is blank for this separate Mighty Midway record, while the public exact result refers to the other Fresh French Fries stand on Judson Avenue."
+  }
+]

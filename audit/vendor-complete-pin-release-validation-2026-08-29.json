@@ -1,0 +1,32 @@
+{
+  "release_gate": "pass",
+  "errors": [],
+  "live_record_count": 278,
+  "candidate_record_count": 278,
+  "unique_candidate_id_count": 278,
+  "shipping_app_decodable_pin_count": 278,
+  "inside_fair_pin_count": 278,
+  "non_location_content_preserved": true,
+  "record_order_preserved": true,
+  "coordinate_status_counts": {
+    "verified": 56,
+    "approximate": 222
+  },
+  "coordinate_change_count": 157,
+  "previously_blank_filled_count": 12,
+  "displacement_buckets": {
+    "moved_over_100m": 85,
+    "filled_blank": 12,
+    "moved_15_to_30m": 7,
+    "moved_30_to_100m": 53
+  },
+  "maximum_nonblank_displacement_m": 470.3,
+  "live_exact_overlap_group_count": 4,
+  "candidate_exact_overlap_group_count": 4,
+  "new_exact_overlap_group_count": 0,
+  "content_mismatch_ids": [],
+  "invalid_coordinate_ids": [],
+  "outside_fair_ids": [],
+  "new_exact_overlap_groups": [],
+  "current_app_behavior_warning": "The shipping app uses all 278 non-null coordinates for map pins, compass targets, distance, and Apple Maps directions; it ignores compass_eligible."
+}

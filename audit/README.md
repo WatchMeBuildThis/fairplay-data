@@ -1,6 +1,6 @@
 # Vendor geography audit
 
-`vendors.json` is the live feed. The audit never edits it.
+`vendors.json` is the live feed. Audit scripts never edit it in place.
 
 Run:
 
@@ -64,3 +64,22 @@ python3 Scripts/enrich_vendor_geography_status.py vendors.json \
 
 App versions that support these fields must use `compass_eligible`, not the
 mere presence of a coordinate, for compass and walking-directions features.
+
+## Current App Store client and complete-pin release gate
+
+The currently released client does not yet enforce `compass_eligible`. Every
+non-null coordinate becomes a map annotation, compass target, distance, and
+Apple Maps walking destination. The normal fail-closed policy above therefore
+cannot both protect navigation and display all 278 pins in that binary.
+
+For the time-critical 2026-08-29 repair, `vendors.json` contains 56
+evidence-verified points and 222 clearly labeled best-available approximate
+points. This restores all 278 annotations without changing vendor, menu, photo,
+category, or record-order content. It is an emergency availability choice, not
+a claim that every temporary booth has entrance-level GPS verification.
+
+Before any complete-pin candidate is published, run the builder and release
+validator documented in `COMPLETE_LIVE_PIN_REPAIR_2026-08-29.md`. The release
+gate requires all 278 unique records and pins, fair-bounds containment, exact
+non-location content preservation, no new exact overlaps, and a complete
+coordinate change log.

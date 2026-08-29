@@ -1,5 +1,11 @@
 # Vendor location remediation — 2026-08-28
 
+> **2026-08-29 emergency update:** The current App Store binary ignores
+> `compass_eligible`, and the product requirement is now complete nonblank map
+> coverage. The fail-closed production decision below is retained as history
+> but is superseded for this release by
+> [`COMPLETE_LIVE_PIN_REPAIR_2026-08-29.md`](COMPLETE_LIVE_PIN_REPAIR_2026-08-29.md).
+
 ## Production decision
 
 Navigation now fails closed. A vendor may drive the compass and walking-

@@ -21,13 +21,93 @@
     "compass_rule": "Only verified coordinates are eligible for compass guidance. Approximate, unverified, missing, or conflicted coordinates are not."
   },
   "vendors": {
-    "616.1": {
+    "2565.1": {
       "status": "verified",
       "confidence": "high",
-      "coordinates": [-93.1700734, 44.9803924],
-      "tolerance_m": 25,
+      "coordinates": [-93.1714778, 44.9809592],
+      "tolerance_m": 10,
       "verified_on": "2026-08-28",
-      "method": "Reviewed permanent venue location against the written street segment and independent published venue coverage.",
+      "method": "Exact Google place identity and OpenStreetMap building/address agree within 2.2 m at 1710 Dan Patch Ave, matching the fair's south-Dan-Patch, Nelson-to-Underwood directions. The prior source candidate was 142.4 m away.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2565.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_pin",
+          "url": "https://maps.app.goo.gl/F78Dao8rJ2PQ2MFLA"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_building_and_address",
+          "url": "https://www.openstreetmap.org/way/177770088"
+        }
+      ]
+    },
+    "4847.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1738345, 44.9807007],
+      "tolerance_m": 10,
+      "verified_on": "2026-08-28",
+      "method": "Exact Google place identity and OpenStreetMap Vescio's building at 1770 Dan Patch Ave agree within 3.9 m, matching the fair's east-of-Chambers, south-of-Grandstand directions. The prior source candidate was 115.9 m away.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/4847.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_pin",
+          "url": "https://maps.app.goo.gl/YiUGDLjjphP6CsoM6"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_building_and_address",
+          "url": "https://www.openstreetmap.org/way/177770119"
+        }
+      ]
+    },
+    "2758.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1740205, 44.9806661],
+      "tolerance_m": 10,
+      "verified_on": "2026-08-28",
+      "method": "Exact Google and OpenStreetMap Mexican Hat place features agree within 4.4 m, matching the fair and independent accessibility-guide directions east of Chambers and south of the Grandstand. The prior source candidate was 142.7 m away.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions",
+          "url": "https://www.mnstatefair.org/vendor/2758.1/"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_pin",
+          "url": "https://maps.app.goo.gl/7oAgWBMVyLhWS4hh7"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_place",
+          "url": "https://www.openstreetmap.org/way/177770133"
+        },
+        {
+          "publisher_group": "access_press",
+          "kind": "independent_written_location",
+          "url": "https://accesspress.org/wp-content/uploads/2025/08/AP_August_2025_web.pdf"
+        }
+      ]
+    },
+    "616.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1700734, 44.9803924],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The manually corrected candidate is 5.1 m from the center of Google's exact Ball Park Cafe plus-code cell and replaces the fair GeoJSON candidate 121.1 m away. It remains approximate because OpenStreetMap's permanent-venue point is 22.3 m away and the simplified written-street model is 36.4 m away; an entrance GPS/photo is still needed to settle the booth edge.",
       "sources": [
         {
           "publisher_group": "mnstatefair",
@@ -38,6 +118,16 @@
           "publisher_group": "startribune",
           "kind": "independent_venue_location",
           "url": "https://www.startribune.com/ball-park-cafe-a-family-restaurant/101733818"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_place_pin",
+          "url": "https://www.openstreetmap.org/node/7223510630"
+        },
+        {
+          "publisher_group": "google_maps",
+          "kind": "independent_exact_place_plus_code",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ball%20Park%20Cafe%20Minnesota%20State%20Fair"
         }
       ]
     },
@@ -230,12 +320,12 @@
       ]
     },
     "2142.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1760149, 44.9805332],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
-      "method": "Google place pin and 1826 W Dan Patch Ave address agree with the fair's southwest West Dan Patch/Liggett directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 55.1 m from the modeled West Dan Patch/Liggett corner and falls at an address shared with another mapped fairground building. No second booth-level coordinate agrees within 10 m, so the point is withheld pending on-site confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2142.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9805332,-93.1760149"}
@@ -484,12 +574,12 @@
       ]
     },
     "7099.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1749722, 44.9806423],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Carousel BBQ place pin agrees with the fair's west-Chambers, West Dan Patch-to-Carnes directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 39.8 m from the modeled west-Chambers segment, the similarly named OSM Carousel feature is unrelated and 162.2 m away, and no second booth-level coordinate agrees within 10 m. Preserve as an approximate candidate pending field confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7099.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9806423,-93.1749722"}
@@ -508,27 +598,28 @@
       ]
     },
     "4752.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1747099, 44.9800099],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Fluffy's place pin agrees with the fair's northwest Carnes/Chambers corner directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 32.7 m from the modeled northwest Carnes/Chambers corner and lacks a second booth-level coordinate within 10 m. Preserve as an approximate candidate pending field confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/4752.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800099,-93.1747099"}
       ]
     },
     "7741.1": {
-      "status": "verified",
-      "confidence": "high",
-      "coordinates": [-93.1701194, 44.9867755],
+      "status": "approximate",
+      "confidence": "low",
+      "coordinates": [-93.169996031551, 44.985988409335],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact 1550 Underwood Street Jive Turkey place pin agrees with the fair's north-Lee, Underwood-to-Cooper directions.",
+      "method": "Reopened during the written-geometry gate. The Google listing at 1550 Underwood is 105.4 m outside the new vendor's north-Lee, Underwood-to-Cooper segment. The current fair GeoJSON candidate is 17.9 m from that segment and is preserved only as an approximate review candidate pending a second current coordinate or on-site GPS/photo.",
       "sources": [
-        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7741.1/"},
-        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9867755,-93.1701194"}
+        {"publisher_group": "mnstatefair", "kind": "official_directions_and_geojson_candidate", "url": "https://www.mnstatefair.org/vendor/7741.1/"},
+        {"publisher_group": "bring_me_the_news", "kind": "independent_current_written_location", "url": "https://bringmethenews.com/minnesota-lifestyle/what-to-eat-and-drink-in-different-areas-of-the-minnesota-state-fair-in-2026"},
+        {"publisher_group": "google_maps", "kind": "rejected_conflicting_place_pin", "url": "https://www.google.com/maps/place/Jive+Turkey+BBQ/@44.9867755,-93.1701194,17z"}
       ]
     },
     "2710.1": {
@@ -655,12 +746,12 @@
       ]
     },
     "11056.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1752848, 44.9781329],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Roon's Savories Liggett St fair place pin agrees with the current fair and operator's west-Liggett directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 48.8 m from the modeled west-Liggett, Carnes-to-Judson segment. The operator supplies written location support but no independent coordinate within 10 m, so the point is withheld pending field confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/11056.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9781329,-93.1752848"},
@@ -757,12 +848,12 @@
       ]
     },
     "3398.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1707496, 44.9840099],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Summer Lakes Boat House Underwood St place pin agrees with the fair and operator's southwest Randall/Underwood location.",
+      "method": "Reopened by the geometry gate. The candidate is 46.7 m from the modeled southwest Randall/Underwood corner. This is also a new 2026 vendor and location change, while the operator supplies written location support but no second coordinate within 10 m; preserve the point only for field review.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3398.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9840099,-93.1707496"},
@@ -783,12 +874,12 @@
       ]
     },
     "12663.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1689113, 44.981417],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact dodopop fairgrounds place pin agrees with the fair's northeast Dan Patch/Cooper directions and the operator's current Minnesota State Fair page; the off-site dodopop result was explicitly excluded.",
+      "method": "Reopened by the geometry gate. The fairgrounds Google candidate is 38.7 m from the modeled northeast Dan Patch/Cooper corner. The operator confirms fair participation but does not publish a second booth-level coordinate within 10 m, so the point is withheld pending field confirmation; the off-site dodopop result remains excluded.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/12663.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/place/dodopop/data=!4m7!3m6!1s0x52b32b0079db2331:0x7d05a8f1b3b189e6!8m2!3d44.981417!4d-93.1689113"},
@@ -833,15 +924,16 @@
       ]
     },
     "5146.1": {
-      "status": "verified",
-      "confidence": "high",
-      "coordinates": [-93.1708125, 44.9846875],
+      "status": "approximate",
+      "confidence": "low",
+      "coordinates": [-93.170261260507, 44.986224484458],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Baba's fairgrounds listing at 1500-1520 Underwood St and its 10-character plus-code center agree with the fair's east-Underwood, Murphy-to-Lee directions.",
+      "method": "Reopened during the written-geometry gate. The Google listing at 1500-1520 Underwood is the former Lee-to-Randall booth location and is 130.0 m outside the current Murphy-to-Lee segment. The current fair GeoJSON candidate is 15.1 m from the moved segment and is preserved only as an approximate review candidate pending a second current coordinate or on-site GPS/photo.",
       "sources": [
-        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/5146.1/"},
-        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Baba%27s%201500-1520%20Underwood%20St%20Falcon%20Heights"}
+        {"publisher_group": "mnstatefair", "kind": "official_location_change_directions_and_geojson_candidate", "url": "https://www.mnstatefair.org/vendor/5146.1/"},
+        {"publisher_group": "google_maps", "kind": "rejected_stale_place_pin", "url": "https://www.google.com/maps/place/Baba%27s/@44.9846668,-93.1708123,17z"},
+        {"publisher_group": "fox_9", "kind": "independent_2025_former_location", "url": "https://www.fox9.com/news/minnesota-state-fair-new-foods-2025"}
       ]
     },
     "2067.1": {
@@ -850,10 +942,12 @@
       "coordinates": [-93.1690625, 44.9785625],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Charcoal Hut listing at 1646 Judson Ave and its 10-character plus-code center agree with the fair's east-Judson location beside the International Bazaar.",
+      "method": "Retained after P0 recheck. Google and the exact OSM Charcoal Hut building agree within 3.6 m; the feed point is within 3.1 m of OSM and 14.6 m from the nearest International Bazaar kiosk, matching the long-standing written landmark. The current fair GeoJSON point is rejected: it is 108.6 m from this corroborated place and at least 50 m from the Bazaar.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2067.1/"},
-        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Charcoal%20Hut%201646%20Judson%20Ave%20Falcon%20Heights"}
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_pin", "url": "https://www.google.com/maps/place/Charcoal+Hut/@44.9785841,-93.1690476,17z"},
+        {"publisher_group": "openstreetmap", "kind": "independent_exact_named_building", "url": "https://www.openstreetmap.org/way/177770064"},
+        {"publisher_group": "access_press", "kind": "independent_written_landmark", "url": "https://accesspress.org/minnesota-state-fair-offers-accommodations/"}
       ]
     },
     "3386.1": {
@@ -866,6 +960,102 @@
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3386.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/place/Strawberries+n%27+Creme/data=!4m7!3m6!1s0x52b32b68da5029c3:0x9610d93e9d592151!8m2!3d44.984002!4d-93.170747"}
+      ]
+    },
+    "228.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1715625, 44.9786875],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact Flowering Onions Google panel identifies 1711 Judson Ave and its plus-code cell center is 11.6 m from the written Nelson-to-Underwood segment. It improves the prior candidate by 23.8 m but remains approximate because no second source publishes the booth coordinate.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/228.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Flowering%20Onions%20Minnesota%20State%20Fair"}
+      ]
+    },
+    "2340.2": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1711875, 44.9788125],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact Fresh French Fries Google panel identifies 1701 Judson Ave and its plus-code cell center is 26.1 m from the modeled Nelson-to-Underwood segment. It improves the prior candidate by 92.1 m but remains approximate because no second source exposes this stand's booth coordinate.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2340.2/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Fresh%20French%20Fries%20Minnesota%20State%20Fair"}
+      ]
+    },
+    "2649.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1703125, 44.9793125],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact Minnesota State Fair Craft Brewer's Guild Google panel identifies 1286 Underwood and places the candidate inside the Agriculture Horticulture Building named by the fair. It replaces the prior candidate 97.7 m away but remains approximate because the west-side booth coordinate lacks a second coordinate publisher.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2649.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Minnesota%20Craft%20Brewers%20Guild%20Minnesota%20State%20Fair"}
+      ]
+    },
+    "2764.2": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1685625, 44.9780625],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact El Taco Torro Google panel places its plus-code cell 1.8 m from the International Bazaar footprint named by the fair and replaces the conflicting source candidate 170.2 m away. It remains approximate until the shared Midtown Global Market east-wall booth is confirmed on site.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2764.2/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=El%20Taco%20Torro%20Minnesota%20State%20Fair"}
+      ]
+    },
+    "3008.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1694537, 44.9809635],
+      "tolerance_m": 20,
+      "verified_on": "2026-08-29",
+      "method": "An exact Oven Fresh Brownies Google place pin supplies a replacement candidate 28.7 m from the modeled Dan Patch/Cooper intersection. The original source point stays quarantined because it conflicted with a peer at the same corner; the Google candidate remains withheld until a second booth-level coordinate or on-site observation resolves the corner offset.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3008.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_pin", "url": "https://www.google.com/maps/place/Oven+Fresh+Brownies/data=!4m7!3m6!1s0x52b32b51e643946f:0xd06652d0d4a2f95e!8m2!3d44.9809635!4d-93.1694537"}
+      ]
+    },
+    "11704.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1703125, 44.9803125],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact Granny's Apples + Lemonade Google panel places its plus-code cell inside the Food Building named by the fair and replaces the conflicting source candidate 77.4 m away. It remains approximate because the precise west-wall booth position lacks a second coordinate publisher.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/11704.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Granny%27s%20Apples%20%2B%20Lemonade%20Minnesota%20State%20Fair"}
+      ]
+    },
+    "3247.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.1719236, 44.9786289],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact Sausage by Cynthia Google place pin is 4.4 m from the fair's written Judson segment and replaces the conflicting source candidate 125.5 m away. It remains approximate until another coordinate publisher or a dated field observation confirms the booth edge.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3247.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_pin", "url": "https://www.google.com/maps/place/Sausage+by+Cynthia/data=!4m7!3m6!1s0x52b32b005979bc99:0xc0fb2db6611c34e8!8m2!3d44.9786289!4d-93.1719236"}
+      ]
+    },
+    "9531.1": {
+      "status": "approximate",
+      "confidence": "medium",
+      "coordinates": [-93.170135, 44.9801902],
+      "tolerance_m": 15,
+      "verified_on": "2026-08-29",
+      "method": "The exact Saturday Dumpling Co Google place pin is inside the Food Building named by the fair and replaces the conflicting source candidate 141.5 m away. It remains approximate because a second source does not expose the precise east-wall booth coordinate.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/9531.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_pin", "url": "https://www.google.com/maps/place/Saturday+Dumpling+Co/data=!4m7!3m6!1s0x52b32b0043fd295b:0x7fd33c9c06af4720!8m2!3d44.9801902!4d-93.170135"}
       ]
     },
     "3645.1": {
