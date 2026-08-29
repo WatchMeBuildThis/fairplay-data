@@ -1,0 +1,13 @@
+{
+  "release_gate": "pass",
+  "baseline_prompt_count": 160,
+  "approved_addition_count": 40,
+  "candidate_prompt_count": 200,
+  "candidate_unique_prompt_count": 200,
+  "maximum_prompt_length": 25,
+  "shipping_minimum_prompt_count": 40,
+  "display_target_maximum_length": 26,
+  "existing_prompt_order_preserved": true,
+  "overlong_prompts": [],
+  "errors": []
+}
