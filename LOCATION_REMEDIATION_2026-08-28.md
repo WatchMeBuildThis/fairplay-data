@@ -67,6 +67,9 @@ remain present.
 | 10877.1 | Midway Mens Club | -93.1702901, 44.9816890 | Fair directions + operator location + Google place/address |
 | 3398.1 | Summer Lakes Boat House | -93.1707496, 44.9840099 | Fair directions + operator location + Google place/address |
 | 3790.1 | The Hideaway Speakeasy | -93.1738435, 44.9812464 | Fair directions + operator location + Google place/address |
+| 12663.1 | dodopop | -93.1689113, 44.9814170 | Fair directions + operator fair page + exact Google fairgrounds place pin |
+| 2437.1 | Green Mill | -93.1688826, 44.9841057 | Fair directions + exact Green Mill State Fair Pizza Truck place pin |
+| 2582.1 | Java Jive | -93.1750625, 44.9806875 | Fair directions + exact 1805 W Dan Patch address and plus code |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -94,14 +97,23 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 - 6135.1 About a Foot Long Hot Dog
 - 11505.1 Chocolate Strawberry Cup
 
+## Fifty-record verification batch 01
+
+The first 50 unverified medium-priority records were reviewed on 2026-08-29.
+Three exact, independently supported booth positions were corrected; 47 were
+left unverified because the available results were generic, duplicated,
+off-site, building-level, or otherwise not record-specific. The complete
+record-by-record decision trail is in
+`audit/vendor-verification-batch-2026-08-29-50-01.csv`.
+
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 55 verified and compass-eligible
+- 58 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 209 present but not independently verified and compass-ineligible
-- 85 medium-priority street-corridor heuristic leads remain; these are review
+- 206 present but not independently verified and compass-ineligible
+- 81 street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 

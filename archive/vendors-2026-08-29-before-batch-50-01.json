@@ -10063,8 +10063,8 @@
     ],
     "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
     "coordinates": [
-      -93.1689113,
-      44.981417
+      "-93.170119228127",
+      "44.982393602691"
     ],
     "popupHtml": "<b>dodopop</b>\n\t\t<br>Northeast corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
@@ -10092,8 +10092,8 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "225.1",
@@ -15690,8 +15690,8 @@
     ],
     "booth_location": "East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park",
     "coordinates": [
-      -93.1688826,
-      44.9841057
+      "-93.167815325",
+      "44.984935836282"
     ],
     "popupHtml": "<b>Green Mill</b>\n\t\t<br>East side of Cooper St. between Randall & Wright avenues, at Family Fair at Baldwin Park\n",
     "categories": [
@@ -15745,8 +15745,8 @@
         "$1 off one slice of Green Mill pizza (Regularly $5)"
       ]
     },
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2447.1",
@@ -18345,8 +18345,8 @@
     ],
     "booth_location": "South side of West Dan Patch Ave. between Liggett & Chambers streets",
     "coordinates": [
-      -93.1750625,
-      44.9806875
+      "-93.173462025",
+      "44.981376986843"
     ],
     "popupHtml": "<b>Java Jive</b>\n\t\t<br>South side of West Dan Patch Ave. between Liggett & Chambers streets\n",
     "categories": [
@@ -18368,8 +18368,8 @@
       "Apple Pay"
     ],
     "hours": "Open 7 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "239.1",
