@@ -53,6 +53,14 @@ remain present.
 | 3404.1 | Root Beer Hut | -93.1736472, 44.9800207 | Fair directions + Google place/address |
 | 3276.1 | Shanghai Henri's | -93.1693112, 44.9784212 | Fair directions + Google place pin |
 | 3792.1 | Tiny Tim Donuts | -93.1737502, 44.9800518 | Fair directions + Google place pin |
+| 1952.1 | Big Fat Bacon | -93.1708786, 44.9809673 | Fair directions + operator site + Google place/address |
+| 10347.1 | Greater Tater | -93.1756477, 44.9792492 | Fair directions + operator location + Google place/address |
+| 3217.1 | RC's BBQ | -93.1748973, 44.9811008 | Fair directions + operator profile + Google place/address |
+| 5754.1 | Rick's Pizza | -93.1682909, 44.9814558 | Fair directions + Google place/address |
+| 11056.1 | Roon's Savories | -93.1752848, 44.9781329 | Fair directions + operator location + Google place/address |
+| 3239.1 | The Sandwich Stop | -93.1733813, 44.9789745 | Fair directions + Google place/address |
+| 9260.1 | The Strawberry Patch | -93.1756591, 44.9792484 | Fair directions + Google place/address |
+| 3983.1 | Sweet Martha's Cookie Jar (Carnes) | -93.1715896, 44.9797695 | Fair directions + operator site + Google place/address |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -83,11 +91,11 @@ booth pin. Their coordinates are intentionally withheld pending verification:
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 41 verified and compass-eligible
+- 49 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 223 present but not independently verified and compass-ineligible
-- 93 medium-priority street-corridor heuristic leads remain; these are review
+- 215 present but not independently verified and compass-ineligible
+- 88 medium-priority street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 

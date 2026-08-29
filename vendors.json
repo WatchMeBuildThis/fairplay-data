@@ -3765,8 +3765,8 @@
     "item_details": [],
     "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.171573995513",
-      "44.981519734656"
+      "-93.1708786",
+      "44.9809673"
     ],
     "popupHtml": "<b>Big Fat Bacon</b>\n\t\t<br>South side of Dan Patch Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -3808,8 +3808,8 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1968.1",
@@ -15585,8 +15585,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues, outside the Horse Barn",
     "coordinates": [
-      "-93.174356814744",
-      "44.979828821699"
+      "-93.1756477",
+      "44.9792492"
     ],
     "popupHtml": "<b>Greater Tater</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues, outside the Horse Barn\n",
     "categories": [
@@ -15633,8 +15633,8 @@
         "$3 off one order of Cheese Bomb Tater Kegs (Regularly $10)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2437.1",
@@ -31462,8 +31462,8 @@
     ],
     "booth_location": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
     "coordinates": [
-      "-93.174342947358",
-      "44.981958086046"
+      "-93.1748973",
+      "44.9811008"
     ],
     "popupHtml": "<b>RC's BBQ</b>\n\t\t<br>North side of West Dan Patch Ave. between Liggett & Chambers streets\n",
     "categories": [
@@ -31510,8 +31510,8 @@
         "$3 off one pulled chicken sandwich (Regularly $12)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3173.1",
@@ -31845,8 +31845,8 @@
     ],
     "booth_location": "West side of Cosgrove St. between Wright & Dan Patch avenues",
     "coordinates": [
-      "-93.1682697",
-      "44.9822351"
+      "-93.1682909",
+      "44.9814558"
     ],
     "popupHtml": "<b>Rick's Pizza</b>\n\t\t<br>West side of Cosgrove St. between Wright &amp; Dan Patch avenues\n",
     "categories": [
@@ -31879,8 +31879,8 @@
       "Vegetarian (pickle pizza; please confirm with vendor)"
     ],
     "map_ref": "2120-2759",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "5754.2",
@@ -32162,8 +32162,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.175461431285",
-      "44.979495664557"
+      "-93.1752848",
+      "44.9781329"
     ],
     "popupHtml": "<b>Roon's Savories</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -32181,8 +32181,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3404.1",
@@ -33943,8 +33943,8 @@
     ],
     "booth_location": "West side of Clough St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.172240829487",
-      "44.978746233322"
+      "-93.1733813",
+      "44.9789745"
     ],
     "popupHtml": "<b>The Sandwich Stop</b>\n\t\t<br>West side of Clough St. between Carnes & Judson avenues\n",
     "categories": [
@@ -34023,8 +34023,8 @@
         "$6 off deep-fried Monte Cristo sandwich (Reg. $14)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1288.1",
@@ -37076,8 +37076,8 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": [
-      "-93.174319916667",
-      "44.978623351579"
+      "-93.1756591",
+      "44.9792484"
     ],
     "popupHtml": "<b>The Strawberry Patch</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
@@ -37135,8 +37135,8 @@
         "$3 off one strawberry shortcake (Reg. $9) or buy two strawberry shortcakes for $12 OR $1 off one strawberry cheesecake or one chocolate-dipped cheesecake on-a-stick (Reg. $10)"
       ]
     },
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3394.1",
@@ -38218,8 +38218,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.170518503846",
-      "44.980706473942"
+      "-93.1715896",
+      "44.9797695"
     ],
     "popupHtml": "<b>Sweet Martha's Cookie Jar</b>\n\t\t<br>South side of Carnes Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -38250,8 +38250,8 @@
     "dietary": [
       "Vegetarian (cookies; please confirm with vendor)"
     ],
-    "coordinate_status": "unverified",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3981.1",
