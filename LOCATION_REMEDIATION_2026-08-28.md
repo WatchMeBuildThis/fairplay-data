@@ -12,6 +12,19 @@ to `null` so it cannot point users toward a disputed pin. Their original values
 remain in `quarantined_coordinates` and Git history. Written booth directions
 remain present.
 
+### Emergency map-pin withholding
+
+Because older builds and the current directory map may display any non-null
+coordinate, the fail-closed policy is also enforced in the feed itself. All
+202 unverified and two approximate candidates are preserved under
+`withheld_coordinates` but set to `coordinates: null`. Only the 62 reviewed,
+compass-eligible pins remain app-visible. All 278 vendors and their written
+directions remain available.
+
+The exact pre-mitigation feed is preserved at
+`archive/vendors-2026-08-28-before-withholding-unverified-pins.json`. See
+`EMERGENCY_PIN_SAFETY_2026-08-28.md` for impact, verification, and rollback.
+
 ## Independently verified corrections
 
 | ID | Vendor | Published coordinate (lon, lat) | Evidence |

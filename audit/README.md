@@ -9,6 +9,11 @@ python3 Scripts/audit_vendor_geography.py vendors.json \
   --baseline archive/vendors-2026-08-28-before-location-fix.json
 ```
 
+The baseline above is deliberately fixed. Do not replace it with the newest
+batch archive when regenerating the committed audit: a rolling baseline erases
+older coordinate moves from the review history. Batch archives are recovery
+points; the pre-location-fix snapshot is the forensic comparison baseline.
+
 Outputs:
 
 - `vendor-location-audit.json`: full machine-readable evidence/status report.
@@ -24,6 +29,32 @@ Policy:
 - CI fails on count drift, duplicate IDs, malformed/out-of-bounds coordinates, popup mismatches, and any newly missing coordinate. Source-missing and deliberately quarantined IDs are explicit exceptions and remain critical in the review report.
 
 Add reviewed evidence to `location_verifications.json`, rerun the audit, inspect the diff, and only then promote a coordinate change to the live feed.
+
+## Source refresh and identity gate
+
+The fair's numeric suffix is not a sufficient identity key. Before merging a
+new scrape, compare each source page using the tuple of visible vendor name,
+written directions, menu fingerprint, and source URL/id. Treat any id-to-name
+or id-to-location reassignment as a blocking identity-drift review. Preserve
+the app's stable id until bundled photos, favorites, and other id-keyed state
+have an explicit migration.
+
+For pages that publish multiple GeoJSON features, select a feature by visible
+name and written directions. Use the hidden feature id only as a lower-weight
+tie-breaker, and omit geometry when the best match is ambiguous. Never merge a
+fresh scrape directly over `vendors.json`; write a candidate copy and compare:
+
+- total count, unique ids, and added/removed ids;
+- id/name/directions identity tuples;
+- coordinate changes over 40 m;
+- popup/name/location agreement;
+- missing, malformed, duplicate, and out-of-bounds coordinates;
+- menu regressions, especially newly empty `items` arrays;
+- verified overrides and quarantined coordinates.
+
+After regenerating the audit with the fixed baseline, the committed JSON and
+CSV must have no diff. CI enforces this so a passing integrity check cannot
+coexist with stale or rolling-baseline review artifacts.
 
 ## Independent verification and safe apply
 
@@ -64,3 +95,21 @@ python3 Scripts/enrich_vendor_geography_status.py vendors.json \
 
 App versions that support these fields must use `compass_eligible`, not the
 mere presence of a coordinate, for compass and walking-directions features.
+
+## Emergency app-feed safety copy
+
+Older app builds and the current map view may still display any non-null
+`coordinates` value even when navigation is ineligible. Before every remaining
+candidate has booth-level evidence, publish a fail-closed copy that contains
+only verified coordinates:
+
+```bash
+python3 Scripts/prepare_safe_vendor_feed.py vendors.json \
+  --output audit/vendors-safe-candidate.json
+```
+
+The publisher never overwrites its input. It moves every unverified or
+approximate value to `withheld_coordinates`, sets the app-facing coordinate to
+`null`, and leaves the vendor, menu, written directions, and review candidate
+intact. The geography audit continues to analyze withheld candidates, but they
+cannot appear as app map pins or drive older navigation code.
