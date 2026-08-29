@@ -1,0 +1,22 @@
+{
+  "record_count": 278,
+  "coverage_counts": {
+    "evidence_ledger": 44,
+    "review_batch": 203,
+    "ledger_and_review_batch": 31
+  },
+  "coordinate_status_counts": {
+    "verified": 56,
+    "withheld": 211,
+    "missing": 11
+  },
+  "final_decision_counts": {
+    "publish_compass_pin": 56,
+    "publish_vendor_without_pin_preserve_candidate": 211,
+    "publish_vendor_without_pin": 11
+  },
+  "uncovered_ids": [],
+  "invalid_verified_ids": [],
+  "compass_leak_ids": [],
+  "complete": true
+}

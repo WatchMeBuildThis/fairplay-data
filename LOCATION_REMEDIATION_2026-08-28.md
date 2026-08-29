@@ -2,30 +2,37 @@
 
 ## Production decision
 
-Navigation now fails closed. A vendor may drive the compass and walking-
-directions action only when `compass_eligible` is `true`, which requires a
-reviewed coordinate supported by at least two publisher groups. Unverified
-coordinates remain visible on the directory map in compatible app versions.
+The review-branch candidate now fails closed. A vendor may drive the compass,
+map pin, or walking-directions action only when `compass_eligible` is `true`,
+which requires a reviewed coordinate supported by at least two publisher
+groups. Unverified candidates are preserved under `withheld_coordinates` and
+are not app-visible through `coordinates`.
 
-For the currently released app, 11 directly conflicting coordinates were set
-to `null` so it cannot point users toward a disputed pin. Their original values
-remain in `quarantined_coordinates` and Git history. Written booth directions
-remain present.
+Eleven directly conflicting source coordinates remain in
+`quarantined_coordinates` and Git history. One of those records, Oven Fresh
+Brownies, now also has a separate Google candidate under
+`withheld_coordinates`; it is still not navigation-eligible. Written booth
+directions remain present for every vendor.
 
 ### Emergency map-pin withholding
 
-Because older builds and the current directory map may display any non-null
-coordinate, the fail-closed policy is also enforced in the feed itself. All
-202 unverified and two approximate candidates are preserved under
-`withheld_coordinates` but set to `coordinates: null`. Only the 62 reviewed,
-compass-eligible pins remain app-visible. All 278 vendors and their written
-directions remain available.
+Because older builds may display any non-null coordinate, the fail-closed
+policy is enforced in the feed itself. The current candidate contains 56
+verified, compass-eligible pins, 211 withheld candidates, and 11 records with
+no replacement candidate. All 278 vendor/menu/direction records remain in the
+feed; pin absence must not be used by the app as a vendor-list filter.
 
 The exact pre-mitigation feed is preserved at
 `archive/vendors-2026-08-28-before-withholding-unverified-pins.json`. See
 `EMERGENCY_PIN_SAFETY_2026-08-28.md` for impact, verification, and rollback.
 
-## Independently verified corrections
+## Historical independently verified corrections
+
+This table records corrections made during the remediation. Some rows were
+later reopened by stricter all-record geometry checks, so the authoritative
+current status is `location_verifications.json` plus
+`audit/vendor-location-validation-register-2026-08-29.csv`, not this historical
+table alone.
 
 | ID | Vendor | Published coordinate (lon, lat) | Evidence |
 |---|---|---:|---|
@@ -129,16 +136,42 @@ corrected and 46 records remained unverified because no record-specific booth
 pin was available. Its decision trail is in
 `audit/vendor-verification-batch-2026-08-29-50-02.csv`.
 
+## Remaining 118-record public-map sweep
+
+The remaining 118 withheld or missing records not covered by the earlier
+batches were searched on 2026-08-29. Eight record-specific Google results
+reasonably improved preserved candidates while remaining compass-ineligible:
+
+- Flowering Onions: 23.8 m move
+- Fresh French Fries (`2340.2`): 92.1 m move
+- Minnesota Craft Brewers Guild: 97.7 m move
+- Midtown Global Market's El Taco Torro: 170.2 m move
+- Oven Fresh Brownies: replacement candidate added, 107.4 m from the quarantined source point
+- Sausage by Cynthia: 125.5 m move
+- Saturday Dumpling Co.: 141.5 m move
+- Granny's Apples + Lemonade: 77.4 m move
+
+Ball Park Cafe's manual correction was also corroborated within 5.1 m by the
+center of Google's exact place plus-code cell. It remains approximate because
+the Google and OpenStreetMap venue points disagree by more than the 10 m
+publication tolerance.
+
+The complete decision trail is
+`audit/vendor-verification-batch-2026-08-29-remaining-118.csv`. The combined
+register covers all 278 records with no uncovered IDs:
+`audit/vendor-location-validation-register-2026-08-29.csv`.
+
 ## Audit state after remediation
 
-- 278 total vendor records; 278 unique IDs
-- 62 verified and compass-eligible
-- 2 approximate and compass-ineligible
-- 12 missing/quarantined and compass-ineligible
-- 202 present but not independently verified and compass-ineligible
-- 83 street-corridor heuristic leads remain; these are review
+- 278 total vendor records; 278 unique IDs; zero uncovered review IDs
+- 56 verified and compass-eligible
+- 211 withheld candidates and compass-ineligible
+- 11 records without a replacement candidate and compass-ineligible
+- 19 approximate evidence-ledger entries (included in the withheld count)
+- 82 street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
-- No unquarantined high-priority peer-location conflicts remain
+- No verified coordinate conflicts by more than 30 m with the deterministic
+  written-location geometry gate
 
 This is not a claim that 100% of coordinates are correct. It is a controlled
 state in which proven corrections are published, directly conflicting pins are

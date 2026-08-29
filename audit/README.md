@@ -204,3 +204,45 @@ with reported accuracy of 10 m or better, a photo showing the booth and nearby
 street/building anchor, the intended public entrance for large buildings, and
 the observation time. Indoor vendors should publish an entrance or building
 zone rather than claim few-feet booth accuracy that GPS cannot support.
+
+## Public-map review batches and the all-record completion gate
+
+Record a completed public-map sweep in an explicit config. The config fixes
+the expected population, default failure reasons, record-specific exact or
+rejected results, displacement, and evidence URL. Generate a batch without
+editing coordinates:
+
+```bash
+python3 Scripts/build_public_map_review_batch.py \
+  --review-config audit/vendor-public-map-review-config-YYYY-MM-DD.json \
+  --output audit/vendor-verification-batch-YYYY-MM-DD.csv
+```
+
+Then combine the evidence ledger, every review batch, the feed status, and the
+written-location geometry screen into one 278-row register:
+
+```bash
+python3 Scripts/build_vendor_validation_register.py \
+  --geometry audit/vendor-written-location-geometry-YYYY-MM-DD.csv \
+  --output audit/vendor-location-validation-register-YYYY-MM-DD.csv \
+  --summary-output audit/vendor-location-validation-register-summary-YYYY-MM-DD.json \
+  --require-complete
+```
+
+`--require-complete` fails if any vendor lacks either an evidence-ledger
+decision or an explicit review-batch decision, if a verified row lacks a
+verified ledger entry, or if any non-verified row leaks into compass guidance.
+Completeness means every record has a documented decision; it does not mean
+every temporary booth has few-feet evidence.
+
+Release sequence:
+
+1. Preserve the pre-change feed in `archive/`.
+2. Update only record-specific candidates whose identity and written geometry
+   agree; keep one-source results withheld.
+3. Regenerate the geometry CSV/summary and the all-record register.
+4. Run the strict forensic audit and unit tests.
+5. Run `prepare_safe_vendor_feed.py`; it must report zero newly withheld rows
+   when the candidate already fails closed.
+6. Confirm all 278 vendor records still render when `coordinates` is null.
+7. Review the production diff and require an explicit merge decision.

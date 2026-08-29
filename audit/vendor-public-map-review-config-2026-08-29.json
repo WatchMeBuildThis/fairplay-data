@@ -1,0 +1,110 @@
+{
+  "reviewed_on": "2026-08-29",
+  "expected_count": 118,
+  "exclude_prior_batches": [
+    "audit/vendor-verification-batch-2026-08-29-remaining-118.csv"
+  ],
+  "eligible_coordinate_statuses": ["withheld", "missing"],
+  "query_pattern": "<vendor name> Minnesota State Fair",
+  "provider": "Google Maps",
+  "default_reasons": {
+    "consistent_with_written_location": "Public-map search did not expose a second record-specific booth coordinate; the geometry-consistent candidate stays withheld.",
+    "manual_review_15_to_30m": "Public-map search did not expose a second record-specific booth coordinate; the 15-30 m candidate stays withheld for field review.",
+    "manual_review_conflicting_constraints": "Public-map results did not resolve the conflicting street and landmark constraints; the candidate stays withheld.",
+    "reject_over_30m": "No record-specific public-map coordinate both matched the vendor identity and the fair's written location; the conflicting source candidate stays withheld.",
+    "unparsed": "Public-map search returned no booth-level coordinate that safely resolves this indoor, zone-only, or source-missing record.",
+    "default": "Public-map search did not provide enough record-specific evidence to publish a navigation pin."
+  },
+  "exceptions": {
+    "228.1": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.171675476923 44.978488860759",
+      "new_coordinates": "-93.1715625 44.9786875",
+      "delta_m": 23.8,
+      "reason": "Exact Flowering Onions panel and 1711 Judson address agree with the written segment; one coordinate publisher is insufficient for navigation.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=Flowering%20Onions%20Minnesota%20State%20Fair"
+    },
+    "2340.2": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.1721257136 44.978316157072",
+      "new_coordinates": "-93.1711875 44.9788125",
+      "delta_m": 92.1,
+      "reason": "Exact Fresh French Fries panel at 1701 Judson improves the candidate and is near the written segment; a second booth coordinate is still missing.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=Fresh%20French%20Fries%20Minnesota%20State%20Fair"
+    },
+    "2649.1": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.169644785256 44.980053087692",
+      "new_coordinates": "-93.1703125 44.9793125",
+      "delta_m": 97.7,
+      "reason": "Exact Craft Brewer's Guild panel moves the candidate into the Agriculture Horticulture Building; west-side booth precision remains unconfirmed.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=Minnesota%20Craft%20Brewers%20Guild%20Minnesota%20State%20Fair"
+    },
+    "2764.2": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.169702040007 44.979363825076",
+      "new_coordinates": "-93.1685625 44.9780625",
+      "delta_m": 170.2,
+      "reason": "Exact El Taco Torro panel moves the candidate to the International Bazaar; the shared east-wall booth still needs field confirmation.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=El%20Taco%20Torro%20Minnesota%20State%20Fair"
+    },
+    "3008.1": {
+      "outcome": "candidate_added_keep_withheld",
+      "old_coordinates": "quarantined -93.170647888462 44.981432429011",
+      "new_coordinates": "-93.1694537 44.9809635",
+      "delta_m": 107.4,
+      "reason": "Exact Oven Fresh Brownies pin supplies a candidate near the written corner; the original peer-conflicting point remains quarantined.",
+      "independent_url": "https://www.google.com/maps/place/Oven+Fresh+Brownies/data=!4m7!3m6!1s0x52b32b51e643946f:0xd06652d0d4a2f95e!8m2!3d44.9809635!4d-93.1694537"
+    },
+    "3247.1": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.17310056791 44.977866724026",
+      "new_coordinates": "-93.1719236 44.9786289",
+      "delta_m": 125.5,
+      "reason": "Exact Sausage by Cynthia pin is 4.4 m from the written Judson segment and replaces the conflicting source candidate.",
+      "independent_url": "https://www.google.com/maps/place/Sausage+by+Cynthia/data=!4m7!3m6!1s0x52b32b005979bc99:0xc0fb2db6611c34e8!8m2!3d44.9786289!4d-93.1719236"
+    },
+    "9531.1": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.168427871154 44.979787928835",
+      "new_coordinates": "-93.170135 44.9801902",
+      "delta_m": 141.5,
+      "reason": "Exact Saturday Dumpling Co pin moves the candidate into the Food Building; east-wall booth precision remains unconfirmed.",
+      "independent_url": "https://www.google.com/maps/place/Saturday+Dumpling+Co/data=!4m7!3m6!1s0x52b32b0043fd295b:0x7fd33c9c06af4720!8m2!3d44.9801902!4d-93.170135"
+    },
+    "11704.1": {
+      "outcome": "candidate_improved_keep_withheld",
+      "old_coordinates": "-93.171167395513 44.979968400415",
+      "new_coordinates": "-93.1703125 44.9803125",
+      "delta_m": 77.4,
+      "reason": "Exact Granny's Apples + Lemonade panel moves the candidate into the Food Building; west-wall booth precision remains unconfirmed.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=Granny%27s%20Apples%20%2B%20Lemonade%20Minnesota%20State%20Fair"
+    },
+    "3645.1": {
+      "outcome": "candidate_corroborated_keep_withheld",
+      "reason": "The current Mouth Trap candidate is 6.7 m from the exact Google plus-code cell center and inside the Food Building; a second booth coordinate is still absent.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=The%20Mouth%20Trap%20Minnesota%20State%20Fair"
+    },
+    "11206.1": {
+      "outcome": "rejected_conflicting_public_map_candidate",
+      "reason": "The exact Apple Fries result is 82.4 m from the preserved candidate and 33.5 m outside the modeled current segment; rejected as unsafe or stale.",
+      "independent_url": "https://www.google.com/maps/search/?api=1&query=Minnesota%27s%20Original%20Apple%20Fries%20Minnesota%20State%20Fair"
+    },
+    "2305.1": {"outcome": "rejected_conflicting_public_map_candidate", "reason": "The exact Fish & Chips plus-code cell is about 398 m outside the Food Building; rejected.", "independent_url": "https://www.google.com/maps/search/?api=1&query=Fish%20%26%20Chips%20Seafood%20Shoppe%20Minnesota%20State%20Fair"},
+    "2359.1": {"outcome": "rejected_conflicting_public_map_candidate", "reason": "The exact Funnel Cakes result is 65.8 m outside the Food Building; rejected as a different or stale stand.", "independent_url": "https://www.google.com/maps/search/?api=1&query=Funnel%20Cakes%20Minnesota%20State%20Fair"},
+    "13242.1": {"outcome": "rejected_conflicting_public_map_candidate", "reason": "The exact Iemochi result is about 383 m from the International Bazaar; rejected.", "independent_url": "https://www.google.com/maps/search/?api=1&query=Iemochi%20Japanese%20Confections%20Minnesota%20State%20Fair"},
+    "2604.1": {"outcome": "rejected_conflicting_public_map_candidate", "reason": "The exact Juanita's result remains 38.7 m from Nelson Street and conflicts with the required west-side location; rejected pending field review.", "independent_url": "https://www.google.com/maps/search/?api=1&query=Juanita%27s%20Fajitas%20Minnesota%20State%20Fair"},
+    "3759.1": {"outcome": "rejected_conflicting_public_map_candidate", "reason": "The exact Quesadilla Junction result is about 60 m outside the current Murphy-to-Lee segment; rejected as stale or mismatched.", "independent_url": "https://www.google.com/maps/search/?api=1&query=Quesadilla%20Junction%20Minnesota%20State%20Fair"},
+    "9613.1": {"outcome": "rejected_ambiguous_public_map_candidate", "reason": "The exact Two Rivers result is 156.2 m from the southeast West End candidate and does not resolve the venue section; preserved candidate stays withheld.", "independent_url": "https://www.google.com/maps/place/Two+Rivers+Kettle+Korn/data=!4m7!3m6!1s0x52b32b62ac52b9e9:0x3a2a35a336c83a45!8m2!3d44.9809174!4d-93.1763554"},
+    "1328.1": {"reason": "Search resolved the off-site Anchor Coffee House, not a fair booth; the fair candidate stays withheld."},
+    "10312.2": {"reason": "Search resolved the off-site El Burrito Mercado business, not its fair booth; the fair candidate stays withheld."},
+    "5836.1": {"reason": "Search resolved the off-site Herbivorous Butcher business, not its fair booth; the fair candidate stays withheld."},
+    "2764.1": {"reason": "Search resolved the off-site Irie Jamaican Express listing, not the shared fair booth; the fair candidate stays withheld."},
+    "2737.1": {"reason": "Search resolved the off-site Manny's Tortas business, not its fair booth; the fair candidate stays withheld."},
+    "1416.2": {"reason": "Search resolved the off-site Pryes brewery, not the West End fair pavilion; the fair candidate stays withheld."},
+    "5175.1": {"reason": "Search resolved the off-site Spinning Wylde business, not its Baldwin Park fair booth; the fair candidate stays withheld."},
+    "2079.1": {"reason": "Search resolved the already-verified Carnes Avenue Sweet Martha's stand, not this West Dan Patch record; the candidate stays withheld."},
+    "2340.1": {"reason": "Search resolved the 1701 Judson Fresh French Fries stand, not the separate Mighty Midway record; no safe candidate was assigned."},
+    "12916.1": {"outcome": "ambiguous_inside_shared_building", "reason": "Exact Sausage Sister result is 26.0 m from the current Food Building candidate; both fit the shared building and neither resolves the east-wall booth."}
+  }
+}

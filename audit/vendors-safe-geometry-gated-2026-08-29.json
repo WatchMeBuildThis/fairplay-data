@@ -11613,10 +11613,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.171675476923",
-      "44.978488860759"
+      "-93.1715625",
+      "44.9786875"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place/address evidence agrees with the written Judson segment and improves the candidate, but remains withheld pending a second booth-level coordinate."
   },
   {
     "id": "4752.1",
@@ -12645,10 +12645,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.1721257136",
-      "44.978316157072"
+      "-93.1711875",
+      "44.9788125"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place/address evidence improves the prior candidate and agrees with the written Judson segment, but remains withheld pending a second booth-level coordinate."
   },
   {
     "id": "2387.1",
@@ -15431,10 +15431,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.171167395513",
-      "44.979968400415"
+      "-93.1703125",
+      "44.9803125"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place evidence moves the candidate into the Food Building named by the fair, but remains withheld pending a second west-wall booth coordinate."
   },
   {
     "id": "2417.1",
@@ -23385,10 +23385,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.169702040007",
-      "44.979363825076"
+      "-93.1685625",
+      "44.9780625"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place evidence moves the candidate to the International Bazaar named by the fair, but remains withheld pending east-wall booth confirmation."
   },
   {
     "id": "2764.1",
@@ -24775,10 +24775,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.169644785256",
-      "44.980053087692"
+      "-93.1703125",
+      "44.9793125"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place/address evidence moves the candidate into the Agriculture Horticulture Building named by the fair, but remains withheld pending booth-level confirmation."
   },
   {
     "id": "2878.1",
@@ -27035,8 +27035,13 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "missing",
-    "compass_eligible": false
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_coordinates": [
+      "-93.1694537",
+      "44.9809635"
+    ],
+    "withheld_reason": "Exact Google place evidence supplies a candidate near the written Dan Patch/Cooper corner, but it remains withheld pending a second booth-level coordinate."
   },
   {
     "id": "6268.1",
@@ -34607,10 +34612,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.168427871154",
-      "44.979787928835"
+      "-93.170135",
+      "44.9801902"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place evidence moves the candidate into the Food Building named by the fair, but remains withheld pending a second booth-level coordinate."
   },
   {
     "id": "3247.1",
@@ -34790,10 +34795,10 @@
     "coordinate_status": "withheld",
     "compass_eligible": false,
     "withheld_coordinates": [
-      "-93.17310056791",
-      "44.977866724026"
+      "-93.1719236",
+      "44.9786289"
     ],
-    "withheld_reason": "Candidate coordinate is not independently verified for navigation; withheld from the app map pending review."
+    "withheld_reason": "Exact Google place evidence agrees with the written Judson segment and replaces the conflicting source candidate, but remains withheld pending a second booth-level coordinate."
   },
   {
     "id": "3249.1",
