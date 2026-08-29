@@ -1,5 +1,11 @@
 # Vendor Location Forensic Audit — 2026-08-28
 
+> Historical investigation snapshot. Its counts describe the initial forensic
+> pass, not the current live-feed safety state. See
+> `LOCATION_REMEDIATION_2026-08-28.md` and
+> `EMERGENCY_PIN_SAFETY_2026-08-28.md` for current totals and publication
+> policy.
+
 ## Status
 
 - Live feed: **278 vendors / 278 unique ids**

@@ -74,6 +74,13 @@ def parse_coordinate(value: Any) -> tuple[float, float] | None:
     return lon, lat
 
 
+def candidate_coordinate(record: dict[str, Any]) -> tuple[float, float] | None:
+    """Coordinate used for review, whether published or deliberately withheld."""
+    return parse_coordinate(record.get("coordinates")) or parse_coordinate(
+        record.get("withheld_coordinates")
+    )
+
+
 def haversine_m(a: tuple[float, float], b: tuple[float, float]) -> float:
     lon1, lat1 = map(math.radians, a)
     lon2, lat2 = map(math.radians, b)
@@ -165,7 +172,7 @@ def axis_meters(axis: str) -> float:
 def build_road_models(records: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     samples: dict[str, list[float]] = defaultdict(list)
     for record in records:
-        coord = parse_coordinate(record.get("coordinates"))
+        coord = candidate_coordinate(record)
         if not coord:
             continue
         lon, lat = coord
@@ -196,7 +203,7 @@ def build_road_models(records: list[dict[str, Any]]) -> dict[str, dict[str, Any]
 
 
 def street_corridor_issues(record: dict[str, Any], models: dict[str, dict[str, Any]]) -> list[Issue]:
-    coord = parse_coordinate(record.get("coordinates"))
+    coord = candidate_coordinate(record)
     if not coord:
         return []
     lon, lat = coord
@@ -222,7 +229,7 @@ def street_corridor_issues(record: dict[str, Any], models: dict[str, dict[str, A
 def duplicate_coordinate_issues(records: list[dict[str, Any]]) -> dict[str, list[Issue]]:
     groups: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for record in records:
-        coord = parse_coordinate(record.get("coordinates"))
+        coord = candidate_coordinate(record)
         if coord:
             groups[(f"{coord[0]:.7f}", f"{coord[1]:.7f}")].append(record)
 
@@ -252,7 +259,7 @@ def exact_location_issues(records: list[dict[str, Any]]) -> dict[str, list[Issue
 
     result: dict[str, list[Issue]] = defaultdict(list)
     for location, group in groups.items():
-        coords = [(record, parse_coordinate(record.get("coordinates"))) for record in group]
+        coords = [(record, candidate_coordinate(record)) for record in group]
         coords = [(record, coord) for record, coord in coords if coord]
         if len(coords) < 2:
             continue
@@ -294,11 +301,33 @@ def build_audit(
         vendor_id = str(record.get("id"))
         coord_value = record.get("coordinates")
         coord = parse_coordinate(coord_value)
+        withheld_value = record.get("withheld_coordinates")
+        withheld_coord = parse_coordinate(withheld_value)
+        review_coord = coord or withheld_coord
         issues: list[Issue] = []
 
         if vendor_id in duplicate_ids:
             issues.append(Issue("duplicate_vendor_id", "critical", "Vendor id occurs more than once"))
-        if coord_value is None:
+        if coord_value is None and withheld_value is not None:
+            if withheld_coord is None:
+                issues.append(Issue(
+                    "malformed_withheld_coordinate",
+                    "critical",
+                    "Withheld candidate is not a finite [longitude, latitude] pair",
+                ))
+            elif not in_fair_bounds(withheld_coord):
+                issues.append(Issue(
+                    "withheld_coordinate_outside_fair_bounds",
+                    "critical",
+                    "Withheld candidate is outside the configured fairgrounds envelope",
+                ))
+            else:
+                issues.append(Issue(
+                    "coordinate_withheld",
+                    "low",
+                    "Candidate is preserved for review but is not published to the app map",
+                ))
+        elif coord_value is None:
             issues.append(Issue("missing_coordinate", "critical", "No coordinate is published"))
         elif coord is None:
             issues.append(Issue("malformed_coordinate", "critical", "Coordinate is not a finite [longitude, latitude] pair"))
@@ -318,8 +347,8 @@ def build_audit(
 
         baseline_distance = None
         old_coord = parse_coordinate(baseline.get(vendor_id, {}).get("coordinates"))
-        if coord and old_coord:
-            baseline_distance = haversine_m(coord, old_coord)
+        if review_coord and old_coord:
+            baseline_distance = haversine_m(review_coord, old_coord)
             if baseline_distance > 40.0:
                 issues.append(
                     Issue(
@@ -341,8 +370,8 @@ def build_audit(
             evidence_groups = verification_groups(sources)
             claimed_status = str(verification.get("status") or "unverified")
             tolerance = float(verification.get("tolerance_m") or DEFAULT_VERIFIED_TOLERANCE_M)
-            if coord and target:
-                verification_distance = haversine_m(coord, target)
+            if review_coord and target:
+                verification_distance = haversine_m(review_coord, target)
             if claimed_status == "verified":
                 if len(evidence_groups) < 2:
                     issues.append(Issue("insufficient_independent_evidence", "high", "Verified status requires at least two publisher groups"))
@@ -368,7 +397,7 @@ def build_audit(
                 confidence = str(verification.get("confidence") or "medium")
 
         if coord is None:
-            status = "missing"
+            status = "withheld" if withheld_coord else "missing"
             confidence = "none"
         if any(issue.severity == "critical" for issue in issues) and status != "missing":
             status = "conflict"
@@ -398,6 +427,8 @@ def build_audit(
             "review_priority": priority,
             "issues": [issue_dict(issue) for issue in issues],
         }
+        if withheld_coord:
+            row["withheld_coordinates"] = list(withheld_coord)
         rows.append(row)
 
     rows.sort(key=lambda row: (-row["risk_score"], row["name"].lower(), row["id"]))
@@ -433,7 +464,14 @@ def integrity_failures(report: dict[str, Any], config: dict[str, Any]) -> list[t
         failures.append(("feed", "record_count_mismatch"))
     known_missing = {str(value) for value in config.get("known_missing_coordinate_ids", [])}
     known_missing.update(str(value) for value in config.get("quarantined_coordinate_ids", []))
-    always_fatal = {"duplicate_vendor_id", "malformed_coordinate", "outside_fair_bounds", "popup_record_mismatch"}
+    always_fatal = {
+        "duplicate_vendor_id",
+        "malformed_coordinate",
+        "outside_fair_bounds",
+        "malformed_withheld_coordinate",
+        "withheld_coordinate_outside_fair_bounds",
+        "popup_record_mismatch",
+    }
     for row in report["vendors"]:
         for issue in row["issues"]:
             if issue["code"] in always_fatal:
@@ -454,7 +492,7 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader()
         for row in rows:
-            coord = row.get("coordinates") or [None, None]
+            coord = row.get("coordinates") or row.get("withheld_coordinates") or [None, None]
             writer.writerow({
                 "review_priority": row["review_priority"],
                 "risk_score": row["risk_score"],

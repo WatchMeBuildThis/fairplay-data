@@ -30,6 +30,18 @@ class GeographyAuditTests(unittest.TestCase):
         self.assertFalse(row["compass_eligible"])
         self.assertIn("missing_coordinate", {issue["code"] for issue in row["issues"]})
 
+    def test_withheld_coordinate_remains_reviewable_but_not_compass_eligible(self):
+        record = vendor("1", "Withheld", "South side of Carnes", None)
+        record["withheld_coordinates"] = [-93.17, 44.98]
+        report = AUDIT.build_audit([record], [], {"vendors": {}})
+        row = report["vendors"][0]
+        self.assertEqual(row["coordinate_status"], "withheld")
+        self.assertEqual(row["withheld_coordinates"], [-93.17, 44.98])
+        self.assertFalse(row["compass_eligible"])
+        self.assertIn("coordinate_withheld", {issue["code"] for issue in row["issues"]})
+        self.assertNotIn("missing_coordinate", {issue["code"] for issue in row["issues"]})
+        self.assertEqual(AUDIT.integrity_failures(report, {}), [])
+
     def test_strict_mode_allows_only_explicitly_known_missing_ids(self):
         report = AUDIT.build_audit([vendor("known", "Missing", "Somewhere", None)], [], {"vendors": {}})
         self.assertEqual(AUDIT.integrity_failures(report, {"known_missing_coordinate_ids": ["known"]}), [])

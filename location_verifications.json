@@ -27,7 +27,7 @@
       "coordinates": [-93.1700734, 44.9803924],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
-      "method": "Reviewed permanent venue location against the written street segment and independent published venue coverage.",
+      "method": "Today's reviewed point replaces the fair GeoJSON candidate 121.1 m away. It agrees with the east-Underwood written segment and is within 22.3 m of the independently mapped permanent venue at 1312 Underwood St; on-site entrance GPS/photo remains recommended.",
       "sources": [
         {
           "publisher_group": "mnstatefair",
@@ -38,6 +38,11 @@
           "publisher_group": "startribune",
           "kind": "independent_venue_location",
           "url": "https://www.startribune.com/ball-park-cafe-a-family-restaurant/101733818"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_place_pin",
+          "url": "https://www.openstreetmap.org/node/7223510630"
         }
       ]
     },
