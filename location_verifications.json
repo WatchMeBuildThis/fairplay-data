@@ -819,6 +819,55 @@
         {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Java%20Jive%201805%20W%20Dan%20Patch%20Ave%20Falcon%20Heights"}
       ]
     },
+    "7388.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.16944, 44.9803502],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Afro Deli @ the Fair listing at the Food Building east wall agrees with the fair's current directions and the operator-linked place identity.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7388.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_address_and_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9803502,-93.16944"},
+        {"publisher_group": "afro_deli", "kind": "operator_website", "url": "https://www.afrodeli.com/"}
+      ]
+    },
+    "5146.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1708125, 44.9846875],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Baba's fairgrounds listing at 1500-1520 Underwood St and its 10-character plus-code center agree with the fair's east-Underwood, Murphy-to-Lee directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/5146.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Baba%27s%201500-1520%20Underwood%20St%20Falcon%20Heights"}
+      ]
+    },
+    "2067.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1690625, 44.9785625],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Charcoal Hut listing at 1646 Judson Ave and its 10-character plus-code center agree with the fair's east-Judson location beside the International Bazaar.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2067.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Charcoal%20Hut%201646%20Judson%20Ave%20Falcon%20Heights"}
+      ]
+    },
+    "3386.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.170747, 44.984002],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Strawberries n' Creme place pin agrees with the fair's west-Underwood at Wright directions and is distinct from The Strawberry Patch result.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3386.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/place/Strawberries+n%27+Creme/data=!4m7!3m6!1s0x52b32b68da5029c3:0x9610d93e9d592151!8m2!3d44.984002!4d-93.170747"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",

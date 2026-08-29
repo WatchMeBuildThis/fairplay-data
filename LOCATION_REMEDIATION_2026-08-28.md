@@ -70,6 +70,10 @@ remain present.
 | 12663.1 | dodopop | -93.1689113, 44.9814170 | Fair directions + operator fair page + exact Google fairgrounds place pin |
 | 2437.1 | Green Mill | -93.1688826, 44.9841057 | Fair directions + exact Green Mill State Fair Pizza Truck place pin |
 | 2582.1 | Java Jive | -93.1750625, 44.9806875 | Fair directions + exact 1805 W Dan Patch address and plus code |
+| 7388.1 | Afro Deli & Grill | -93.1694400, 44.9803502 | Fair directions + operator site + exact Food Building east-wall place pin |
+| 5146.1 | BABA'S | -93.1708125, 44.9846875 | Fair directions + exact 1500-1520 Underwood address and plus code |
+| 2067.1 | Charcoal Hut | -93.1690625, 44.9785625 | Fair directions + exact 1646 Judson address and plus code |
+| 3386.1 | Strawberries 'N Creme | -93.1707470, 44.9840020 | Fair directions + exact, distinct Google place pin |
 
 Mouth Trap Cheese Curds (`3645.1`) was restored at
 `-93.1699704, 44.9802432`. It remains **approximate** and compass-ineligible:
@@ -106,14 +110,20 @@ off-site, building-level, or otherwise not record-specific. The complete
 record-by-record decision trail is in
 `audit/vendor-verification-batch-2026-08-29-50-01.csv`.
 
+The second 50-record batch reviewed the remaining 34 unverified medium-priority
+records and the next 16 low-priority records. Four exact positions were
+corrected and 46 records remained unverified because no record-specific booth
+pin was available. Its decision trail is in
+`audit/vendor-verification-batch-2026-08-29-50-02.csv`.
+
 ## Audit state after remediation
 
 - 278 total vendor records; 278 unique IDs
-- 58 verified and compass-eligible
+- 62 verified and compass-eligible
 - 2 approximate and compass-ineligible
 - 12 missing/quarantined and compass-ineligible
-- 206 present but not independently verified and compass-ineligible
-- 81 street-corridor heuristic leads remain; these are review
+- 202 present but not independently verified and compass-ineligible
+- 83 street-corridor heuristic leads remain; these are review
   prompts, not proven errors and were not used to move pins
 - No unquarantined high-priority peer-location conflicts remain
 

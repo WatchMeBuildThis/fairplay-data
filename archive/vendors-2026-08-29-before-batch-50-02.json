@@ -678,8 +678,8 @@
     ],
     "booth_location": "In the Food Building, east wall",
     "coordinates": [
-      -93.16944,
-      44.9803502
+      "-93.169366342308",
+      "44.980484014388"
     ],
     "popupHtml": "<b>Afro Deli & Grill</b>\n\t\t<br>In the Food Building, east wall\n",
     "categories": [
@@ -722,8 +722,8 @@
         "$2 off one sambusa (Regularly $7) OR buy one sambusa, get one FREE"
       ]
     },
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "210.1",
@@ -2342,8 +2342,8 @@
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
     "coordinates": [
-      -93.1708125,
-      44.9846875
+      "-93.170261260507",
+      "44.986224484458"
     ],
     "popupHtml": "<b>BABA'S</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
     "categories": [
@@ -2395,8 +2395,8 @@
       "Vegan, Vegetarian (falafelicous, falafel drizzled with tahini; please confirm with vendor)",
       "Gluten-free (falafel drizzled with tahini; falafelicous, hummus bi lahme & al elotay bowls excluding pita puffs; please confirm with vendor)"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "616.1",
@@ -7371,8 +7371,8 @@
     ],
     "booth_location": "East side of Judson Ave. between Underwood & Cooper streets, next to the International Bazaar",
     "coordinates": [
-      -93.1690625,
-      44.9785625
+      "-93.167829660897",
+      "44.978123375073"
     ],
     "popupHtml": "<b>Charcoal Hut</b>\n\t\t<br>East side of Judson Ave. between Underwood & Cooper streets, next to the International Bazaar\n",
     "categories": [
@@ -7396,8 +7396,8 @@
     "notes": [
       "Cash only"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "2075.1",
@@ -36881,8 +36881,8 @@
     ],
     "booth_location": "West side of Underwood St. at Wright Ave.",
     "coordinates": [
-      -93.170747,
-      44.984002
+      "-93.172099068085",
+      "44.983812984987"
     ],
     "popupHtml": "<b>Strawberries 'N Creme</b>\n\t\t<br>West side of Underwood St. at Wright Ave.\n",
     "categories": [
@@ -36929,8 +36929,8 @@
         "$3 off one large strawberries & creme parfait (Regularly $12) OR buy one strawberry iced tea, get one FREE (Regularly $6)"
       ]
     },
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "unverified",
+    "compass_eligible": false
   },
   {
     "id": "9260.1",
