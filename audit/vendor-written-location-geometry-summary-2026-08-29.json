@@ -5,10 +5,11 @@
     "reject_above": 30.0
   },
   "location_check_counts": {
-    "manual_review_15_to_30m": 60,
-    "reject_over_30m": 151,
+    "manual_review_15_to_30m": 61,
+    "reject_over_30m": 145,
     "unparsed": 19,
-    "consistent_with_written_location": 48
+    "consistent_with_written_location": 49,
+    "manual_review_conflicting_constraints": 4
   },
   "anchor_kind_counts": {
     "street_corner": 45,
@@ -19,26 +20,24 @@
     "street_corridor": 15
   },
   "coordinate_status_counts": {
-    "verified": 65,
-    "withheld": 201,
+    "verified": 63,
+    "withheld": 203,
     "missing": 12
   },
   "verified_location_check_counts": {
-    "manual_review_15_to_30m": 35,
-    "consistent_with_written_location": 14,
-    "reject_over_30m": 15,
+    "manual_review_15_to_30m": 34,
+    "consistent_with_written_location": 15,
+    "reject_over_30m": 12,
+    "manual_review_conflicting_constraints": 1,
     "unparsed": 1
   },
   "verified_over_30m_ids": [
-    "5146.1",
     "616.1",
     "7099.1",
-    "2067.1",
     "2142.1",
     "12663.1",
     "4752.1",
     "3684.1",
-    "7741.1",
     "4847.1",
     "2878.1",
     "256.1",

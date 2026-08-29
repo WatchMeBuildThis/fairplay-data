@@ -2361,10 +2361,12 @@
       }
     ],
     "booth_location": "East side of Underwood St. between Murphy & Lee avenues",
-    "coordinates": [
-      -93.1708125,
-      44.9846875
+    "coordinates": null,
+    "withheld_coordinates": [
+      -93.170261260507,
+      44.986224484458
     ],
+    "withheld_reason": "Current fair GeoJSON candidate matches the moved Murphy-to-Lee segment, but no second current booth-level coordinate confirms it. The Google place pin is the former Lee-to-Randall location.",
     "popupHtml": "<b>BABA'S</b>\n\t\t<br>East side of Underwood St. between Murphy & Lee avenues\n",
     "categories": [
       {
@@ -2415,8 +2417,8 @@
       "Vegan, Vegetarian (falafelicous, falafel drizzled with tahini; please confirm with vendor)",
       "Gluten-free (falafel drizzled with tahini; falafelicous, hummus bi lahme & al elotay bowls excluding pita puffs; please confirm with vendor)"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false
   },
   {
     "id": "616.1",
@@ -18746,10 +18748,12 @@
       }
     ],
     "booth_location": "North side of Lee Ave. between Underwood & Cooper streets",
-    "coordinates": [
-      "-93.1701194",
-      "44.9867755"
+    "coordinates": null,
+    "withheld_coordinates": [
+      -93.169996031551,
+      44.985988409335
     ],
+    "withheld_reason": "Current fair GeoJSON candidate matches the Lee Avenue segment, but the new 2026 booth lacks a second independent booth-level coordinate. The Google place pin is 105.4 m outside the written segment.",
     "popupHtml": "<b>Jive Turkey BBQ</b>\n\t\t<br>North side of Lee Ave. between Underwood & Cooper streets\n",
     "categories": [
       {
@@ -18766,8 +18770,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false
   },
   {
     "id": "4847.1",

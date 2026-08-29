@@ -245,18 +245,33 @@ def road_intersection(roads: dict[str, list], left: str, right: str) -> tuple[tu
     return intersection, gap
 
 
-def named_feature(text: str, features_by_name: dict[str, list[dict]]) -> tuple[str, dict] | None:
+def nearest_feature(point: tuple[float, float] | None, features: list[dict]) -> dict:
+    if point is None or len(features) == 1:
+        return features[0]
+    return min(features, key=lambda feature: feature_distance(point, feature))
+
+
+def named_feature(
+    text: str,
+    features_by_name: dict[str, list[dict]],
+    point: tuple[float, float] | None = None,
+) -> tuple[str, dict] | None:
     normalized = normalize(text)
     for alias, canonical in sorted(NAMED_ALIASES.items(), key=lambda item: -len(item[0])):
         if normalize(alias) in normalized and canonical in features_by_name:
-            return canonical, features_by_name[canonical][0]
+            valid = [feature for feature in features_by_name[canonical] if is_named_place(feature)]
+            if valid:
+                return canonical, nearest_feature(point, valid)
 
     candidates = []
     text_tokens = set(normalized.split())
     for name, features in features_by_name.items():
+        valid = [feature for feature in features if is_named_place(feature)]
+        if not valid:
+            continue
         tokens = {token for token in normalize(name).split() if len(token) >= 3 and token != "the"}
         if len(tokens) >= 2 and tokens.issubset(text_tokens):
-            candidates.append((len(tokens), len(name), name, features[0]))
+            candidates.append((len(tokens), len(name), name, nearest_feature(point, valid)))
     if not candidates:
         return None
     _, _, name, feature = max(candidates)
@@ -306,10 +321,17 @@ def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[st
         value = None
         anchor_kind = "none"
         anchor = "No coordinate candidate"
+        named_value = None
+        named_anchor = ""
     else:
         streets = street_mentions(location, roads)
         normalized = normalize(location)
-        named = named_feature(location, features_by_name)
+        named = named_feature(location, features_by_name, point)
+        named_value = None
+        named_anchor = ""
+        if named:
+            named_anchor, named_geometry = named
+            named_value = feature_distance(point, named_geometry)
         value = None
         anchor_kind = "unparsed"
         anchor = ""
@@ -329,10 +351,9 @@ def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[st
                 anchor_kind = "street_segment"
                 anchor = f"{streets[0]} between {streets[1]} and {streets[2]}"
         elif named:
-            name, feature = named
-            value = feature_distance(point, feature)
+            value = named_value
             anchor_kind = "named_place_or_building"
-            anchor = name
+            anchor = named_anchor
         elif streets:
             geometries = roads.get(streets[0], [])
             if geometries:
@@ -341,11 +362,20 @@ def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[st
                 anchor = streets[0]
 
     check = classify(value)
+    if (
+        check == "reject_over_30m"
+        and anchor_kind in {"street_corner", "street_segment", "street_corridor"}
+        and named_value is not None
+        and named_value <= REJECT_M
+    ):
+        check = "manual_review_conflicting_constraints"
     coordinate_status = vendor.get("coordinate_status", "")
     if not point:
         publication_decision = "no_coordinate_candidate"
     elif coordinate_status == "verified" and check == "reject_over_30m":
         publication_decision = "reopen_verified_before_next_publish"
+    elif coordinate_status == "verified" and check == "manual_review_conflicting_constraints":
+        publication_decision = "retain_verified_with_landmark_exception_review"
     elif coordinate_status == "verified":
         publication_decision = "retain_verified"
     elif check == "reject_over_30m":
@@ -363,6 +393,14 @@ def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[st
         "anchor_kind": anchor_kind,
         "anchor": anchor,
         "constraint_distance_m": round(value, 1) if value is not None and math.isfinite(value) else "",
+        "secondary_named_anchor": named_anchor if anchor_kind != "named_place_or_building" else "",
+        "secondary_named_distance_m": (
+            round(named_value, 1)
+            if anchor_kind != "named_place_or_building"
+            and named_value is not None
+            and math.isfinite(named_value)
+            else ""
+        ),
         "location_check": check,
         "publication_decision": publication_decision,
     }
@@ -393,7 +431,7 @@ def main() -> int:
     rows = [check_vendor(vendor, roads, features_by_name) for vendor in vendors]
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

@@ -605,15 +605,16 @@
       ]
     },
     "7741.1": {
-      "status": "verified",
-      "confidence": "high",
-      "coordinates": [-93.1701194, 44.9867755],
+      "status": "approximate",
+      "confidence": "low",
+      "coordinates": [-93.169996031551, 44.985988409335],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact 1550 Underwood Street Jive Turkey place pin agrees with the fair's north-Lee, Underwood-to-Cooper directions.",
+      "method": "Reopened during the written-geometry gate. The Google listing at 1550 Underwood is 105.4 m outside the new vendor's north-Lee, Underwood-to-Cooper segment. The current fair GeoJSON candidate is 17.9 m from that segment and is preserved only as an approximate review candidate pending a second current coordinate or on-site GPS/photo.",
       "sources": [
-        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7741.1/"},
-        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9867755,-93.1701194"}
+        {"publisher_group": "mnstatefair", "kind": "official_directions_and_geojson_candidate", "url": "https://www.mnstatefair.org/vendor/7741.1/"},
+        {"publisher_group": "bring_me_the_news", "kind": "independent_current_written_location", "url": "https://bringmethenews.com/minnesota-lifestyle/what-to-eat-and-drink-in-different-areas-of-the-minnesota-state-fair-in-2026"},
+        {"publisher_group": "google_maps", "kind": "rejected_conflicting_place_pin", "url": "https://www.google.com/maps/place/Jive+Turkey+BBQ/@44.9867755,-93.1701194,17z"}
       ]
     },
     "2710.1": {
@@ -918,15 +919,16 @@
       ]
     },
     "5146.1": {
-      "status": "verified",
-      "confidence": "high",
-      "coordinates": [-93.1708125, 44.9846875],
+      "status": "approximate",
+      "confidence": "low",
+      "coordinates": [-93.170261260507, 44.986224484458],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Baba's fairgrounds listing at 1500-1520 Underwood St and its 10-character plus-code center agree with the fair's east-Underwood, Murphy-to-Lee directions.",
+      "method": "Reopened during the written-geometry gate. The Google listing at 1500-1520 Underwood is the former Lee-to-Randall booth location and is 130.0 m outside the current Murphy-to-Lee segment. The current fair GeoJSON candidate is 15.1 m from the moved segment and is preserved only as an approximate review candidate pending a second current coordinate or on-site GPS/photo.",
       "sources": [
-        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/5146.1/"},
-        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Baba%27s%201500-1520%20Underwood%20St%20Falcon%20Heights"}
+        {"publisher_group": "mnstatefair", "kind": "official_location_change_directions_and_geojson_candidate", "url": "https://www.mnstatefair.org/vendor/5146.1/"},
+        {"publisher_group": "google_maps", "kind": "rejected_stale_place_pin", "url": "https://www.google.com/maps/place/Baba%27s/@44.9846668,-93.1708123,17z"},
+        {"publisher_group": "fox_9", "kind": "independent_2025_former_location", "url": "https://www.fox9.com/news/minnesota-state-fair-new-foods-2025"}
       ]
     },
     "2067.1": {
@@ -935,10 +937,12 @@
       "coordinates": [-93.1690625, 44.9785625],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Charcoal Hut listing at 1646 Judson Ave and its 10-character plus-code center agree with the fair's east-Judson location beside the International Bazaar.",
+      "method": "Retained after P0 recheck. Google and the exact OSM Charcoal Hut building agree within 3.6 m; the feed point is within 3.1 m of OSM and 14.6 m from the nearest International Bazaar kiosk, matching the long-standing written landmark. The current fair GeoJSON point is rejected: it is 108.6 m from this corroborated place and at least 50 m from the Bazaar.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2067.1/"},
-        {"publisher_group": "google_maps", "kind": "independent_place_address_and_plus_code", "url": "https://www.google.com/maps/search/?api=1&query=Charcoal%20Hut%201646%20Judson%20Ave%20Falcon%20Heights"}
+        {"publisher_group": "google_maps", "kind": "independent_exact_place_pin", "url": "https://www.google.com/maps/place/Charcoal+Hut/@44.9785841,-93.1690476,17z"},
+        {"publisher_group": "openstreetmap", "kind": "independent_exact_named_building", "url": "https://www.openstreetmap.org/way/177770064"},
+        {"publisher_group": "access_press", "kind": "independent_written_landmark", "url": "https://accesspress.org/minnesota-state-fair-offers-accommodations/"}
       ]
     },
     "3386.1": {

@@ -122,6 +122,27 @@ class WrittenLocationGeometryTests(unittest.TestCase):
         self.assertEqual(row["anchor_kind"], "named_place_or_building")
         self.assertEqual(row["constraint_distance_m"], 0.0)
 
+    def test_nearby_named_landmark_prevents_false_rejection(self):
+        vendor = {
+            "id": "4",
+            "name": "Stand",
+            "coordinate_status": "verified",
+            "coordinates": [-93.1705, 44.97925],
+            "booth_location": (
+                "South side of Dan Patch Ave. between Nelson & Underwood streets, "
+                "next to the Food Building"
+            ),
+        }
+        row = check_vendor(vendor, self.roads, self.features)
+        self.assertEqual(row["anchor_kind"], "street_segment")
+        self.assertEqual(row["secondary_named_anchor"], "Food Building")
+        self.assertEqual(row["secondary_named_distance_m"], 0.0)
+        self.assertEqual(row["location_check"], "manual_review_conflicting_constraints")
+        self.assertEqual(
+            row["publication_decision"],
+            "retain_verified_with_landmark_exception_review",
+        )
+
     def test_road_is_not_a_named_place(self):
         self.assertFalse(
             is_named_place(

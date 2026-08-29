@@ -1,15 +1,5 @@
 [
   {
-    "id": "5146.1",
-    "name": "BABA'S",
-    "previous_status": "verified",
-    "reason": "geometry_conflict_over_30m",
-    "withheld_coordinates": [
-      -93.1708125,
-      44.9846875
-    ]
-  },
-  {
     "id": "616.1",
     "name": "Ball Park Cafe",
     "previous_status": "verified",
@@ -27,16 +17,6 @@
     "withheld_coordinates": [
       "-93.1749722",
       "44.9806423"
-    ]
-  },
-  {
-    "id": "2067.1",
-    "name": "Charcoal Hut",
-    "previous_status": "verified",
-    "reason": "geometry_conflict_over_30m",
-    "withheld_coordinates": [
-      -93.1690625,
-      44.9785625
     ]
   },
   {
@@ -77,16 +57,6 @@
     "withheld_coordinates": [
       "-93.1698412",
       "44.9814379"
-    ]
-  },
-  {
-    "id": "7741.1",
-    "name": "Jive Turkey BBQ",
-    "previous_status": "verified",
-    "reason": "geometry_conflict_over_30m",
-    "withheld_coordinates": [
-      "-93.1701194",
-      "44.9867755"
     ]
   },
   {

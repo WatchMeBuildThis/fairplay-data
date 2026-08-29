@@ -73,6 +73,14 @@ The fair website's directions, GeoJSON, map, `mapRef`, PDF, and app are a
 single publisher group. Repetition across those sources is not independent
 confirmation. A search result or geocoder result alone is not verification.
 
+Treat fair year and booth move as part of identity. A Google place with the
+right vendor name can still be stale: compare its address/pin with the current
+year's written segment and `Location Change` category. Preserve a stale result
+as rejected evidence, never as confirmation of the moved booth. Conversely,
+the fair's embedded GeoJSON can be wrong even when its visible directions are
+right; reject it when independent exact-place geometry and the named landmark
+agree elsewhere.
+
 Apply a reviewed batch to a separate copy:
 
 ```bash
@@ -174,6 +182,9 @@ Review policy:
 - More than 15 m through 30 m: manual review.
 - More than 30 m (about 98 ft): geometry conflict; keep an unverified candidate
   withheld and reopen any previously verified record.
+- When one written constraint conflicts but a second named landmark is within
+  30 m, classify the row as a documented-constraint review instead of silently
+  rejecting or retaining it. Verification still requires independent evidence.
 - Unparsed, indoor, multi-location, and zone-only descriptions require a named
   entrance/zone or a dated on-site GPS/photo observation.
 
