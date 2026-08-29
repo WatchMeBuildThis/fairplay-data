@@ -471,6 +471,138 @@
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800641,-93.170757"}
       ]
     },
+    "12335.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1692506, 44.9813316],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Carl's Gizmo place pin on Cooper Street agrees with the fair's south-Dan Patch, Underwood-to-Cooper directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/12335.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9813316,-93.1692506"}
+      ]
+    },
+    "7099.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1749722, 44.9806423],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Carousel BBQ place pin agrees with the fair's west-Chambers, West Dan Patch-to-Carnes directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7099.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9806423,-93.1749722"}
+      ]
+    },
+    "2084.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1693875, 44.9871474],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact CinnieSmiths fairgrounds place pin agrees with the fair's south-Murphy, Underwood-to-Cooper directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2084.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9871474,-93.1693875"}
+      ]
+    },
+    "4752.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1747099, 44.9800099],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Fluffy's place pin agrees with the fair's northwest Carnes/Chambers corner directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/4752.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800099,-93.1747099"}
+      ]
+    },
+    "7741.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1701194, 44.9867755],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact 1550 Underwood Street Jive Turkey place pin agrees with the fair's north-Lee, Underwood-to-Cooper directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7741.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9867755,-93.1701194"}
+      ]
+    },
+    "2710.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1689096, 44.9816333],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact 1350 Cooper Street Lunch Box place pin agrees with the fair's east-Cooper, Wright-to-Dan Patch directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2710.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9816333,-93.1689096"}
+      ]
+    },
+    "1548.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1716182, 44.9787774],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Minneapple Pie place pin agrees with the fair's south-Judson, Nelson-to-Underwood directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/1548.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9787774,-93.1716182"}
+      ]
+    },
+    "4072.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1708926, 44.9793878],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact 1271 Underwood Street Minnesota Wine Country place pin agrees with the fair's west-Underwood, Carnes-to-Judson directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/4072.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9793878,-93.1708926"}
+      ]
+    },
+    "3404.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1736472, 44.9800207],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact 1765 Carnes Avenue Root Beer Hut place pin agrees with the fair's north-Carnes, Chambers-to-Nelson directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3404.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800207,-93.1736472"}
+      ]
+    },
+    "3276.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1693112, 44.9784212],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Shanghai Henri's place pin agrees with the fair's north International Bazaar location.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3276.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9784212,-93.1693112"}
+      ]
+    },
+    "3792.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.1737502, 44.9800518],
+      "tolerance_m": 25,
+      "verified_on": "2026-08-29",
+      "method": "Exact Tiny Tim Donuts place pin agrees with the fair's north-Carnes, Chambers-to-Clough directions.",
+      "sources": [
+        {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3792.1/"},
+        {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800518,-93.1737502"}
+      ]
+    },
     "3645.1": {
       "status": "approximate",
       "confidence": "medium",
