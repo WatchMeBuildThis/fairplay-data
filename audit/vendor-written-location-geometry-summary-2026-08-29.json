@@ -1,0 +1,50 @@
+{
+  "record_count": 278,
+  "thresholds_m": {
+    "consistent_max": 15.0,
+    "reject_above": 30.0
+  },
+  "location_check_counts": {
+    "manual_review_15_to_30m": 60,
+    "reject_over_30m": 151,
+    "unparsed": 19,
+    "consistent_with_written_location": 48
+  },
+  "anchor_kind_counts": {
+    "street_corner": 45,
+    "street_segment": 120,
+    "none": 12,
+    "named_place_or_building": 79,
+    "unparsed": 7,
+    "street_corridor": 15
+  },
+  "coordinate_status_counts": {
+    "verified": 65,
+    "withheld": 201,
+    "missing": 12
+  },
+  "verified_location_check_counts": {
+    "manual_review_15_to_30m": 35,
+    "consistent_with_written_location": 14,
+    "reject_over_30m": 15,
+    "unparsed": 1
+  },
+  "verified_over_30m_ids": [
+    "5146.1",
+    "616.1",
+    "7099.1",
+    "2067.1",
+    "2142.1",
+    "12663.1",
+    "4752.1",
+    "3684.1",
+    "7741.1",
+    "4847.1",
+    "2878.1",
+    "256.1",
+    "3217.1",
+    "11056.1",
+    "3398.1"
+  ],
+  "policy": "Geometry conflicts reopen verification and prioritize review; they never verify or move a pin automatically."
+}

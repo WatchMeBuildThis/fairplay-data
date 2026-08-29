@@ -47,6 +47,15 @@ class PrepareSafeVendorFeedTests(unittest.TestCase):
         self.assertIsNone(result[0]["coordinates"])
         self.assertEqual(result[0]["withheld_coordinates"], [-93.172, 44.982])
 
+    def test_reopens_verified_coordinate_with_geometry_conflict(self):
+        source = [vendor("verified", "verified", True, [-93.17, 44.98])]
+        result, changes = SAFE_FEED.prepare_safe_feed(source, {"verified"})
+        self.assertIsNone(result[0]["coordinates"])
+        self.assertEqual(result[0]["withheld_coordinates"], [-93.17, 44.98])
+        self.assertEqual(result[0]["coordinate_status"], "withheld")
+        self.assertIn("more than 30 m", result[0]["withheld_reason"])
+        self.assertEqual(changes[0]["reason"], "geometry_conflict_over_30m")
+
     def test_leaves_already_missing_coordinate_missing(self):
         source = [vendor("missing", "missing", False, None)]
         result, changes = SAFE_FEED.prepare_safe_feed(source)

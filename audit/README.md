@@ -105,6 +105,7 @@ only verified coordinates:
 
 ```bash
 python3 Scripts/prepare_safe_vendor_feed.py vendors.json \
+  --geometry-audit audit/vendor-written-location-geometry-YYYY-MM-DD.csv \
   --output audit/vendors-safe-candidate.json
 ```
 
@@ -113,6 +114,11 @@ approximate value to `withheld_coordinates`, sets the app-facing coordinate to
 `null`, and leaves the vendor, menu, written directions, and review candidate
 intact. The geography audit continues to analyze withheld candidates, but they
 cannot appear as app map pins or drive older navigation code.
+
+Passing `--geometry-audit` additionally reopens and withholds any previously
+verified coordinate that conflicts by more than 30 m with the fair's written
+location. This is a conservative review copy, not proof that the prior point
+is wrong, and it must not replace the live feed without an app smoke test.
 
 ## Independent OpenStreetMap comparison
 
@@ -138,3 +144,47 @@ from one map is insufficient. Indoor, temporary, multi-location,
 large-footprint, or entrance-sensitive rows still require a dated on-site
 observation even when public maps agree. Record both the provider-to-provider
 distance and the old candidate displacement in the verification method.
+
+## Written-location geometry gate for all records
+
+A named-place comparison only covers vendors that public maps identify by
+name. Run the geometry gate as a second, all-record screen using a dated OSM
+export that includes named highways and full feature geometry:
+
+```bash
+python3 Scripts/check_written_location_geometry.py \
+  --vendors vendors.json \
+  --osm ../osm-fairgrounds-full-geometry-YYYY-MM-DD.json \
+  --output audit/vendor-written-location-geometry-YYYY-MM-DD.csv \
+  --summary-output audit/vendor-written-location-geometry-summary-YYYY-MM-DD.json
+```
+
+The checker converts the fair's written directions into one of these spatial
+constraints: a street corner, the stated part of a street between two cross
+streets, a named building/venue, or a street corridor. It measures the current
+or withheld candidate against that constraint. A road-centerline gap in OSM
+may be extrapolated by at most 100 m to recover a documented fairground grid
+intersection; this only constructs the constraint and never constructs a
+replacement vendor coordinate.
+
+Review policy:
+
+- 0-15 m: consistent with the written constraint, but not verified by that
+  fact alone.
+- More than 15 m through 30 m: manual review.
+- More than 30 m (about 98 ft): geometry conflict; keep an unverified candidate
+  withheld and reopen any previously verified record.
+- Unparsed, indoor, multi-location, and zone-only descriptions require a named
+  entrance/zone or a dated on-site GPS/photo observation.
+
+No row is promoted or moved automatically. Verification still requires exact
+vendor identity, agreement with the written constraint, and coordinates from
+at least two independent publisher groups within 10 m. Google Maps, a postal
+address, a plus code, or an OSM feature is only one group; exact-looking place
+results must be rejected when they land outside the fair's written segment.
+
+For the next fair-day field pass, capture the vendor id/name, phone GPS point
+with reported accuracy of 10 m or better, a photo showing the booth and nearby
+street/building anchor, the intended public entrance for large buildings, and
+the observation time. Indoor vendors should publish an entrance or building
+zone rather than claim few-feet booth accuracy that GPS cannot support.

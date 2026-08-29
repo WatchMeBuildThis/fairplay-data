@@ -1,0 +1,152 @@
+[
+  {
+    "id": "5146.1",
+    "name": "BABA'S",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      -93.1708125,
+      44.9846875
+    ]
+  },
+  {
+    "id": "616.1",
+    "name": "Ball Park Cafe",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1700734",
+      "44.9803924"
+    ]
+  },
+  {
+    "id": "7099.1",
+    "name": "Carousel BBQ",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1749722",
+      "44.9806423"
+    ]
+  },
+  {
+    "id": "2067.1",
+    "name": "Charcoal Hut",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      -93.1690625,
+      44.9785625
+    ]
+  },
+  {
+    "id": "2142.1",
+    "name": "Cream Puffs",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1760149",
+      "44.9805332"
+    ]
+  },
+  {
+    "id": "12663.1",
+    "name": "dodopop",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      -93.1689113,
+      44.981417
+    ]
+  },
+  {
+    "id": "4752.1",
+    "name": "Fluffy's Hand Cut Donuts",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1747099",
+      "44.9800099"
+    ]
+  },
+  {
+    "id": "3684.1",
+    "name": "Hamline Church Dining Hall",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1698412",
+      "44.9814379"
+    ]
+  },
+  {
+    "id": "7741.1",
+    "name": "Jive Turkey BBQ",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1701194",
+      "44.9867755"
+    ]
+  },
+  {
+    "id": "4847.1",
+    "name": "JJ Vescio's",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      -93.1738345,
+      44.9807007
+    ]
+  },
+  {
+    "id": "2878.1",
+    "name": "Minnesota Farmers Union Coffee Shop",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1685723",
+      "44.9814844"
+    ]
+  },
+  {
+    "id": "256.1",
+    "name": "O'Gara's at the Fair",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      -93.1684059,
+      44.9809198
+    ]
+  },
+  {
+    "id": "3217.1",
+    "name": "RC's BBQ",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1748973",
+      "44.9811008"
+    ]
+  },
+  {
+    "id": "11056.1",
+    "name": "Roon's Savories",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1752848",
+      "44.9781329"
+    ]
+  },
+  {
+    "id": "3398.1",
+    "name": "Summer Lakes Boat House",
+    "previous_status": "verified",
+    "reason": "geometry_conflict_over_30m",
+    "withheld_coordinates": [
+      "-93.1707496",
+      "44.9840099"
+    ]
+  }
+]

@@ -13,6 +13,7 @@ passes the geography audit and a human diff review.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import math
 from copy import deepcopy
@@ -24,6 +25,10 @@ FAIR_BOUNDS = (-93.19, -93.15, 44.96, 45.00)
 WITHHELD_REASON = (
     "Candidate coordinate is not independently verified for navigation; "
     "withheld from the app map pending review."
+)
+GEOMETRY_CONFLICT_REASON = (
+    "Previously verified coordinate conflicts by more than 30 m with the fair's "
+    "written location; withheld pending renewed independent verification."
 )
 
 
@@ -47,8 +52,10 @@ def in_fair_bounds(coordinate: tuple[float, float]) -> bool:
 
 def prepare_safe_feed(
     records: list[dict[str, Any]],
+    reopened_verified_ids: set[str] | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     result = deepcopy(records)
+    reopened_verified_ids = reopened_verified_ids or set()
     seen: set[str] = set()
     changes: list[dict[str, Any]] = []
 
@@ -63,7 +70,8 @@ def prepare_safe_feed(
         raw_coordinate = record.get("coordinates")
         coordinate = parse_coordinate(raw_coordinate)
 
-        if status == "verified" and eligible:
+        reopened = vendor_id in reopened_verified_ids
+        if status == "verified" and eligible and not reopened:
             if coordinate is None or not in_fair_bounds(coordinate):
                 raise ValueError(
                     f"{vendor_id}: verified navigation coordinate is malformed or outside fair bounds"
@@ -81,13 +89,14 @@ def prepare_safe_feed(
             )
 
         record["withheld_coordinates"] = raw_coordinate
-        record["withheld_reason"] = WITHHELD_REASON
+        record["withheld_reason"] = GEOMETRY_CONFLICT_REASON if reopened else WITHHELD_REASON
         record["coordinates"] = None
         record["coordinate_status"] = "withheld"
         changes.append({
             "id": vendor_id,
             "name": record.get("name") or "",
             "previous_status": status,
+            "reason": "geometry_conflict_over_30m" if reopened else "not_verified",
             "withheld_coordinates": raw_coordinate,
         })
 
@@ -100,6 +109,11 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--change-log", type=Path,
                         help="optional JSON file listing every withheld record")
+    parser.add_argument(
+        "--geometry-audit",
+        type=Path,
+        help="optional written-location CSV; verified rows over 30 m are reopened and withheld",
+    )
     args = parser.parse_args()
 
     if args.vendors.resolve() == args.output.resolve():
@@ -109,8 +123,23 @@ def main() -> int:
     if not isinstance(records, list):
         raise SystemExit("vendors input must contain a JSON array")
 
+    reopened_verified_ids: set[str] = set()
+    if args.geometry_audit:
+        with args.geometry_audit.open(newline="", encoding="utf-8") as handle:
+            audit_rows = list(csv.DictReader(handle))
+        feed_ids = {str(record.get("id") or "") for record in records}
+        audit_ids = {str(row.get("id") or "") for row in audit_rows}
+        if audit_ids != feed_ids:
+            raise SystemExit("geometry audit IDs do not exactly match the vendor feed")
+        reopened_verified_ids = {
+            str(row["id"])
+            for row in audit_rows
+            if row.get("coordinate_status") == "verified"
+            and row.get("location_check") == "reject_over_30m"
+        }
+
     try:
-        safe_records, changes = prepare_safe_feed(records)
+        safe_records, changes = prepare_safe_feed(records, reopened_verified_ids)
     except ValueError as error:
         raise SystemExit(str(error)) from error
 
@@ -132,6 +161,7 @@ def main() -> int:
             record.get("coordinates") is not None for record in safe_records
         ),
         "withheld_coordinate_count": len(changes),
+        "reopened_verified_count": len(reopened_verified_ids),
         "change_log": str(args.change_log) if args.change_log else None,
     }, indent=2))
     return 0
