@@ -18,10 +18,16 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
+try:
+    from Scripts.compare_vendor_osm import name_similarity, normalize_name
+except ModuleNotFoundError:  # Direct execution adds Scripts/, not the repo root.
+    from compare_vendor_osm import name_similarity, normalize_name
+
 
 EARTH_RADIUS_M = 6_371_008.8
 CONSISTENT_M = 15.0
 REJECT_M = 30.0
+IDENTITY_CORROBORATION_M = 10.0
 STREET_SUFFIXES = {"avenue", "street", "road", "place", "drive"}
 
 NAMED_ALIASES = {
@@ -304,6 +310,61 @@ def is_named_place(element: dict) -> bool:
     )
 
 
+def vendor_identity_match(
+    vendor: dict,
+    features_by_name: dict[str, list[dict]],
+    vendor_same_name_count: int,
+) -> dict:
+    """Find an advisory, identity-safe OSM venue match using full geometry."""
+
+    point = candidate_for(vendor)
+    if point is None:
+        return {}
+    matches = []
+    for name, features in features_by_name.items():
+        score = name_similarity(vendor.get("name", ""), name)
+        if score < 0.55:
+            continue
+        for feature in features:
+            separation = feature_distance(point, feature)
+            distance_score = max(0.0, 1.0 - separation / 400.0)
+            matches.append({
+                "feature": feature,
+                "name": name,
+                "name_score": score,
+                "distance_m": separation,
+                "rank_score": score * 0.85 + distance_score * 0.15,
+            })
+    if not matches:
+        return {"match_class": "no_named_place_match"}
+    matches.sort(key=lambda match: (-match["rank_score"], match["distance_m"], match["name"]))
+    best = matches[0]
+    exact_count = sum(
+        1
+        for match in matches
+        if match["name_score"] == 1.0 and match["distance_m"] <= 500
+    )
+    if vendor_same_name_count > 1 and best["name_score"] >= 0.82:
+        match_class = "ambiguous_vendor_identity"
+    elif exact_count > 1:
+        match_class = "ambiguous_exact_name"
+    elif best["name_score"] == 1.0 and best["distance_m"] <= 150:
+        match_class = "exact_named_place"
+    elif best["name_score"] >= 0.82 and best["distance_m"] <= 150:
+        match_class = "strong_named_place"
+    elif best["name_score"] >= 0.70 and best["distance_m"] <= 250:
+        match_class = "possible_named_place"
+    else:
+        match_class = "no_named_place_match"
+    feature = best["feature"]
+    return {
+        "match_class": match_class,
+        "osm_name": best["name"],
+        "candidate_to_osm_m": best["distance_m"],
+        "osm_url": f"https://www.openstreetmap.org/{feature['type']}/{feature['id']}",
+    }
+
+
 def classify(value: float | None) -> str:
     if value is None or not math.isfinite(value):
         return "unparsed"
@@ -314,9 +375,30 @@ def classify(value: float | None) -> str:
     return "reject_over_30m"
 
 
-def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[str, list[dict]]) -> dict:
+def check_vendor(
+    vendor: dict,
+    roads: dict[str, list],
+    features_by_name: dict[str, list[dict]],
+    identity_match: dict | None = None,
+) -> dict:
     point = candidate_for(vendor)
     location = vendor.get("booth_location") or vendor.get("directions") or ""
+    identity_anchor = ""
+    identity_match_class = ""
+    identity_distance = None
+    identity_url = ""
+    if identity_match:
+        identity_anchor = str(identity_match.get("osm_name") or "")
+        identity_match_class = str(identity_match.get("match_class") or "")
+        raw_identity_distance = identity_match.get("candidate_to_osm_m")
+        if raw_identity_distance not in (None, ""):
+            identity_distance = float(raw_identity_distance)
+        identity_url = str(identity_match.get("osm_url") or "")
+    identity_corroborates = (
+        identity_match_class in {"exact_named_place", "strong_named_place"}
+        and identity_distance is not None
+        and identity_distance <= IDENTITY_CORROBORATION_M
+    )
     if not point:
         value = None
         anchor_kind = "none"
@@ -365,8 +447,10 @@ def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[st
     if (
         check == "reject_over_30m"
         and anchor_kind in {"street_corner", "street_segment", "street_corridor"}
-        and named_value is not None
-        and named_value <= REJECT_M
+        and (
+            (named_value is not None and named_value <= REJECT_M)
+            or identity_corroborates
+        )
     ):
         check = "manual_review_conflicting_constraints"
     coordinate_status = vendor.get("coordinate_status", "")
@@ -401,6 +485,14 @@ def check_vendor(vendor: dict, roads: dict[str, list], features_by_name: dict[st
             and math.isfinite(named_value)
             else ""
         ),
+        "secondary_identity_anchor": identity_anchor,
+        "secondary_identity_match_class": identity_match_class,
+        "secondary_identity_distance_m": (
+            round(identity_distance, 1)
+            if identity_distance is not None and math.isfinite(identity_distance)
+            else ""
+        ),
+        "secondary_identity_url": identity_url,
         "location_check": check,
         "publication_decision": publication_decision,
     }
@@ -428,7 +520,25 @@ def main() -> int:
         enriched["_geometry"] = geometry_for(element)
         features_by_name.setdefault(name, []).append(enriched)
 
-    rows = [check_vendor(vendor, roads, features_by_name) for vendor in vendors]
+    vendor_name_counts = Counter(normalize_name(vendor.get("name", "")) for vendor in vendors)
+    identity_by_id = {
+        str(vendor.get("id") or ""): vendor_identity_match(
+            vendor,
+            features_by_name,
+            vendor_name_counts[normalize_name(vendor.get("name", ""))],
+        )
+        for vendor in vendors
+    }
+
+    rows = [
+        check_vendor(
+            vendor,
+            roads,
+            features_by_name,
+            identity_by_id.get(str(vendor.get("id") or "")),
+        )
+        for vendor in vendors
+    ]
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()), lineterminator="\n")
@@ -438,7 +548,11 @@ def main() -> int:
     if args.summary_output:
         summary = {
             "record_count": len(rows),
-            "thresholds_m": {"consistent_max": CONSISTENT_M, "reject_above": REJECT_M},
+            "thresholds_m": {
+                "consistent_max": CONSISTENT_M,
+                "reject_above": REJECT_M,
+                "independent_identity_corroboration_max": IDENTITY_CORROBORATION_M,
+            },
             "location_check_counts": dict(Counter(row["location_check"] for row in rows)),
             "anchor_kind_counts": dict(Counter(row["anchor_kind"] for row in rows)),
             "coordinate_status_counts": dict(Counter(row["coordinate_status"] for row in rows)),

@@ -102,12 +102,12 @@
       ]
     },
     "616.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1700734, 44.9803924],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
-      "method": "Today's reviewed point replaces the fair GeoJSON candidate 121.1 m away. It agrees with the east-Underwood written segment and is within 22.3 m of the independently mapped permanent venue at 1312 Underwood St; on-site entrance GPS/photo remains recommended.",
+      "method": "Reopened by the geometry gate. Today's reviewed point replaces the fair GeoJSON candidate 121.1 m away, but it remains 36.4 m from the modeled east-Underwood segment and 22.3 m from the independently mapped permanent venue. That exceeds the 10 m coordinate-agreement requirement, so it is preserved only as an approximate candidate pending entrance GPS/photo or a second booth-level coordinate.",
       "sources": [
         {
           "publisher_group": "mnstatefair",
@@ -315,12 +315,12 @@
       ]
     },
     "2142.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1760149, 44.9805332],
       "tolerance_m": 25,
       "verified_on": "2026-08-28",
-      "method": "Google place pin and 1826 W Dan Patch Ave address agree with the fair's southwest West Dan Patch/Liggett directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 55.1 m from the modeled West Dan Patch/Liggett corner and falls at an address shared with another mapped fairground building. No second booth-level coordinate agrees within 10 m, so the point is withheld pending on-site confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/2142.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9805332,-93.1760149"}
@@ -569,12 +569,12 @@
       ]
     },
     "7099.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1749722, 44.9806423],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Carousel BBQ place pin agrees with the fair's west-Chambers, West Dan Patch-to-Carnes directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 39.8 m from the modeled west-Chambers segment, the similarly named OSM Carousel feature is unrelated and 162.2 m away, and no second booth-level coordinate agrees within 10 m. Preserve as an approximate candidate pending field confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/7099.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9806423,-93.1749722"}
@@ -593,12 +593,12 @@
       ]
     },
     "4752.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1747099, 44.9800099],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Fluffy's place pin agrees with the fair's northwest Carnes/Chambers corner directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 32.7 m from the modeled northwest Carnes/Chambers corner and lacks a second booth-level coordinate within 10 m. Preserve as an approximate candidate pending field confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/4752.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9800099,-93.1747099"}
@@ -741,12 +741,12 @@
       ]
     },
     "11056.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1752848, 44.9781329],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Roon's Savories Liggett St fair place pin agrees with the current fair and operator's west-Liggett directions.",
+      "method": "Reopened by the geometry gate. The Google candidate is 48.8 m from the modeled west-Liggett, Carnes-to-Judson segment. The operator supplies written location support but no independent coordinate within 10 m, so the point is withheld pending field confirmation.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/11056.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9781329,-93.1752848"},
@@ -843,12 +843,12 @@
       ]
     },
     "3398.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1707496, 44.9840099],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact Summer Lakes Boat House Underwood St place pin agrees with the fair and operator's southwest Randall/Underwood location.",
+      "method": "Reopened by the geometry gate. The candidate is 46.7 m from the modeled southwest Randall/Underwood corner. This is also a new 2026 vendor and location change, while the operator supplies written location support but no second coordinate within 10 m; preserve the point only for field review.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/3398.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/search/?api=1&query=44.9840099,-93.1707496"},
@@ -869,12 +869,12 @@
       ]
     },
     "12663.1": {
-      "status": "verified",
-      "confidence": "high",
+      "status": "approximate",
+      "confidence": "low",
       "coordinates": [-93.1689113, 44.981417],
       "tolerance_m": 25,
       "verified_on": "2026-08-29",
-      "method": "Exact dodopop fairgrounds place pin agrees with the fair's northeast Dan Patch/Cooper directions and the operator's current Minnesota State Fair page; the off-site dodopop result was explicitly excluded.",
+      "method": "Reopened by the geometry gate. The fairgrounds Google candidate is 38.7 m from the modeled northeast Dan Patch/Cooper corner. The operator confirms fair participation but does not publish a second booth-level coordinate within 10 m, so the point is withheld pending field confirmation; the off-site dodopop result remains excluded.",
       "sources": [
         {"publisher_group": "mnstatefair", "kind": "official_directions", "url": "https://www.mnstatefair.org/vendor/12663.1/"},
         {"publisher_group": "google_maps", "kind": "independent_place_pin", "url": "https://www.google.com/maps/place/dodopop/data=!4m7!3m6!1s0x52b32b0079db2331:0x7d05a8f1b3b189e6!8m2!3d44.981417!4d-93.1689113"},

@@ -2804,6 +2804,10 @@
     ],
     "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues",
     "coordinates": null,
+    "withheld_coordinates": [
+      "-93.1700734",
+      "44.9803924"
+    ],
     "popupHtml": "<b>Ball Park Cafe</b>\n\t\t<br>East side of Underwood St. between Dan Patch & Carnes avenues\n",
     "categories": [
       {
@@ -2875,11 +2879,7 @@
     },
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1700734",
-      "44.9803924"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "6041.1",
@@ -6795,6 +6795,10 @@
     ],
     "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
     "coordinates": null,
+    "withheld_coordinates": [
+      "-93.1749722",
+      "44.9806423"
+    ],
     "popupHtml": "<b>Carousel BBQ</b>\n\t\t<br>West side of Chambers St. between West Dan Patch & Carnes avenues\n",
     "categories": [
       {
@@ -6827,11 +6831,7 @@
     ],
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1749722",
-      "44.9806423"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "2065.1",
@@ -8661,6 +8661,10 @@
     ],
     "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
     "coordinates": null,
+    "withheld_coordinates": [
+      "-93.1760149",
+      "44.9805332"
+    ],
     "popupHtml": "<b>Cream Puffs</b>\n\t\t<br>Southwest corner of West Dan Patch Ave. & Liggett St.\n",
     "categories": [
       {
@@ -8673,11 +8677,7 @@
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2142.1/featured.1695x953.jpg",
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1760149",
-      "44.9805332"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "2069.2",
@@ -10155,6 +10155,10 @@
     ],
     "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
     "coordinates": null,
+    "withheld_coordinates": [
+      -93.1689113,
+      44.981417
+    ],
     "popupHtml": "<b>dodopop</b>\n\t\t<br>Northeast corner of Dan Patch Ave. & Cooper St.\n",
     "categories": [
       {
@@ -10183,11 +10187,7 @@
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      -93.1689113,
-      44.981417
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "225.1",
@@ -11722,6 +11722,10 @@
     ],
     "booth_location": "On the northwest corner of Carnes Ave. & Chambers St.",
     "coordinates": null,
+    "withheld_coordinates": [
+      "-93.1747099",
+      "44.9800099"
+    ],
     "popupHtml": "<b>Fluffy's Hand Cut Donuts</b>\n\t\t<br>On the northwest corner of Carnes Ave. & Chambers St.\n",
     "categories": [
       {
@@ -11758,11 +11762,7 @@
     ],
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1747099",
-      "44.9800099"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "2332.1",
@@ -16304,7 +16304,10 @@
       }
     ],
     "booth_location": "North side of Dan Patch Ave. between Underwood & Cooper streets",
-    "coordinates": null,
+    "coordinates": [
+      "-93.1698412",
+      "44.9814379"
+    ],
     "popupHtml": "<b>Hamline Church Dining Hall</b>\n\t\t<br>North side of Dan Patch Ave. between Underwood & Cooper streets\n",
     "categories": [
       {
@@ -16370,13 +16373,8 @@
         "$4 off one grilled cheese meal (Regularly $8) OR $3 off one PBJ meal (Regularly $7)"
       ]
     },
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1698412",
-      "44.9814379"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3450.1",
@@ -18889,7 +18887,10 @@
       }
     ],
     "booth_location": "East of Chambers St., just south of the Grandstand",
-    "coordinates": null,
+    "coordinates": [
+      -93.1738345,
+      44.9807007
+    ],
     "popupHtml": "<b>JJ Vescio's</b>\n\t\t<br>East of Chambers St., just south of the Grandstand\n",
     "categories": [
       {
@@ -18900,13 +18901,8 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/4847.1/featured.1695x953.jpg",
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
-    "withheld_coordinates": [
-      -93.1738345,
-      44.9807007
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3695.1",
@@ -24944,7 +24940,10 @@
       }
     ],
     "booth_location": "North side of Dan Patch Ave. between Cooper & Cosgrove streets",
-    "coordinates": null,
+    "coordinates": [
+      "-93.1685723",
+      "44.9814844"
+    ],
     "popupHtml": "<b>Minnesota Farmers Union Coffee Shop</b>\n\t\t<br>North side of Dan Patch Ave. between Cooper & Cosgrove streets\n",
     "categories": [
       {
@@ -25008,13 +25007,8 @@
         "$1.75 off one 20 oz. Minnesota Farmers Union mocha frappé (Regularly $8)"
       ]
     },
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1685723",
-      "44.9814844"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2886.1",
@@ -26531,7 +26525,10 @@
       }
     ],
     "booth_location": "Southwest corner of Dan Patch Ave. & Cosgrove St.",
-    "coordinates": null,
+    "coordinates": [
+      -93.1684059,
+      44.9809198
+    ],
     "popupHtml": "<b>O'Gara's at the Fair</b>\n\t\t<br>Southwest corner of Dan Patch Ave. & Cosgrove St.\n",
     "categories": [
       {
@@ -26586,13 +26583,8 @@
         "$3 off one order of Reuben bites (Regularly $11)"
       ]
     },
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
-    "withheld_coordinates": [
-      -93.1684059,
-      44.9809198
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "2987.1",
@@ -31775,7 +31767,10 @@
       }
     ],
     "booth_location": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
-    "coordinates": null,
+    "coordinates": [
+      "-93.1748973",
+      "44.9811008"
+    ],
     "popupHtml": "<b>RC's BBQ</b>\n\t\t<br>North side of West Dan Patch Ave. between Liggett & Chambers streets\n",
     "categories": [
       {
@@ -31821,13 +31816,8 @@
         "$3 off one pulled chicken sandwich (Regularly $12)"
       ]
     },
-    "coordinate_status": "withheld",
-    "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1748973",
-      "44.9811008"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3173.1",
@@ -32486,6 +32476,10 @@
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
     "coordinates": null,
+    "withheld_coordinates": [
+      "-93.1752848",
+      "44.9781329"
+    ],
     "popupHtml": "<b>Roon's Savories</b>\n\t\t<br>West side of Liggett St. between Carnes & Judson avenues\n",
     "categories": [
       {
@@ -32504,11 +32498,7 @@
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1752848",
-      "44.9781329"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "3404.1",
@@ -38114,6 +38104,10 @@
     ],
     "booth_location": "Southwest corner of Randall Ave. & Underwood St.",
     "coordinates": null,
+    "withheld_coordinates": [
+      "-93.1707496",
+      "44.9840099"
+    ],
     "popupHtml": "<b>Summer Lakes Boat House</b>\n\t\t<br>Southwest corner of Randall Ave. & Underwood St.\n",
     "categories": [
       {
@@ -38199,11 +38193,7 @@
     ],
     "coordinate_status": "withheld",
     "compass_eligible": false,
-    "withheld_coordinates": [
-      "-93.1707496",
-      "44.9840099"
-    ],
-    "withheld_reason": "Previously verified coordinate conflicts by more than 30 m with the fair's written location; withheld pending renewed independent verification."
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "3276.2",

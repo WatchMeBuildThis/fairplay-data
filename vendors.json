@@ -2803,7 +2803,8 @@
       }
     ],
     "booth_location": "East side of Underwood St. between Dan Patch & Carnes avenues",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       "-93.1700734",
       "44.9803924"
     ],
@@ -2876,8 +2877,9 @@
         "$3 off one order of garlic fries (Regularly $11)"
       ]
     },
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "6041.1",
@@ -6792,7 +6794,8 @@
       }
     ],
     "booth_location": "West side of Chambers St. between West Dan Patch & Carnes avenues",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       "-93.1749722",
       "44.9806423"
     ],
@@ -6826,8 +6829,9 @@
     "dietary": [
       "Gluten-free (turkey legs, pork chops; please confirm with vendor)"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "2065.1",
@@ -8656,7 +8660,8 @@
       }
     ],
     "booth_location": "Southwest corner of West Dan Patch Ave. & Liggett St.",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       "-93.1760149",
       "44.9805332"
     ],
@@ -8670,8 +8675,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/2142.1/featured.1695x953.jpg",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "2069.2",
@@ -10148,7 +10154,8 @@
       }
     ],
     "booth_location": "Northeast corner of Dan Patch Ave. & Cooper St.",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       -93.1689113,
       44.981417
     ],
@@ -10178,8 +10185,9 @@
       "Apple Pay"
     ],
     "hours": "Open 9 a.m. to 10 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "225.1",
@@ -11713,7 +11721,8 @@
       }
     ],
     "booth_location": "On the northwest corner of Carnes Ave. & Chambers St.",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       "-93.1747099",
       "44.9800099"
     ],
@@ -11751,8 +11760,9 @@
     "notes": [
       "Breakfast (all day)"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "2332.1",
@@ -32480,7 +32490,8 @@
       }
     ],
     "booth_location": "West side of Liggett St. between Carnes & Judson avenues",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       "-93.1752848",
       "44.9781329"
     ],
@@ -32500,8 +32511,9 @@
       }
     ],
     "featured_image": "https://assets.mnstatefair.org/_core/img/database/vendors/default/food.1695x953.jpg",
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "3404.1",
@@ -38106,7 +38118,8 @@
       }
     ],
     "booth_location": "Southwest corner of Randall Ave. & Underwood St.",
-    "coordinates": [
+    "coordinates": null,
+    "withheld_coordinates": [
       "-93.1707496",
       "44.9840099"
     ],
@@ -38193,8 +38206,9 @@
     "notes": [
       "Value Item (hand-cut chips and dips)"
     ],
-    "coordinate_status": "verified",
-    "compass_eligible": true
+    "coordinate_status": "withheld",
+    "compass_eligible": false,
+    "withheld_reason": "Candidate conflicts by more than 30 m with the written location and lacks a second booth-level coordinate within 10 m; withheld pending on-site or independent confirmation."
   },
   {
     "id": "3276.2",

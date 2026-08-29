@@ -143,6 +143,55 @@ class WrittenLocationGeometryTests(unittest.TestCase):
             "retain_verified_with_landmark_exception_review",
         )
 
+    def test_exact_vendor_identity_prevents_road_model_false_rejection(self):
+        vendor = {
+            "id": "5",
+            "name": "Permanent Vendor",
+            "coordinate_status": "verified",
+            "coordinates": [-93.168, 44.980],
+            "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
+        }
+        identity_match = {
+            "match_class": "exact_named_place",
+            "osm_name": "Permanent Vendor",
+            "candidate_to_osm_m": 6.2,
+            "osm_url": "https://www.openstreetmap.org/way/5",
+        }
+        row = check_vendor(vendor, self.roads, self.features, identity_match)
+        self.assertEqual(row["secondary_identity_anchor"], "Permanent Vendor")
+        self.assertEqual(row["secondary_identity_distance_m"], 6.2)
+        self.assertEqual(row["location_check"], "manual_review_conflicting_constraints")
+        self.assertEqual(
+            row["publication_decision"],
+            "retain_verified_with_landmark_exception_review",
+        )
+
+    def test_possible_or_distant_identity_does_not_override_conflict(self):
+        vendor = {
+            "id": "6",
+            "name": "Temporary Vendor",
+            "coordinate_status": "verified",
+            "coordinates": [-93.168, 44.980],
+            "booth_location": "South side of Dan Patch Ave. between Nelson & Underwood streets",
+        }
+        possible_match = {
+            "match_class": "possible_named_place",
+            "osm_name": "Temporary Vendor Ride",
+            "candidate_to_osm_m": 4.0,
+            "osm_url": "https://www.openstreetmap.org/way/6",
+        }
+        row = check_vendor(vendor, self.roads, self.features, possible_match)
+        self.assertEqual(row["location_check"], "reject_over_30m")
+
+        distant_match = {
+            "match_class": "exact_named_place",
+            "osm_name": "Temporary Vendor",
+            "candidate_to_osm_m": 22.0,
+            "osm_url": "https://www.openstreetmap.org/way/7",
+        }
+        row = check_vendor(vendor, self.roads, self.features, distant_match)
+        self.assertEqual(row["location_check"], "reject_over_30m")
+
     def test_road_is_not_a_named_place(self):
         self.assertFalse(
             is_named_place(

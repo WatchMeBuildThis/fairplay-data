@@ -2,14 +2,15 @@
   "record_count": 278,
   "thresholds_m": {
     "consistent_max": 15.0,
-    "reject_above": 30.0
+    "reject_above": 30.0,
+    "independent_identity_corroboration_max": 10.0
   },
   "location_check_counts": {
     "manual_review_15_to_30m": 61,
-    "reject_over_30m": 145,
+    "reject_over_30m": 140,
     "unparsed": 19,
     "consistent_with_written_location": 49,
-    "manual_review_conflicting_constraints": 4
+    "manual_review_conflicting_constraints": 9
   },
   "anchor_kind_counts": {
     "street_corner": 45,
@@ -20,30 +21,16 @@
     "street_corridor": 15
   },
   "coordinate_status_counts": {
-    "verified": 63,
-    "withheld": 203,
+    "verified": 56,
+    "withheld": 210,
     "missing": 12
   },
   "verified_location_check_counts": {
     "manual_review_15_to_30m": 34,
     "consistent_with_written_location": 15,
-    "reject_over_30m": 12,
-    "manual_review_conflicting_constraints": 1,
+    "manual_review_conflicting_constraints": 6,
     "unparsed": 1
   },
-  "verified_over_30m_ids": [
-    "616.1",
-    "7099.1",
-    "2142.1",
-    "12663.1",
-    "4752.1",
-    "3684.1",
-    "4847.1",
-    "2878.1",
-    "256.1",
-    "3217.1",
-    "11056.1",
-    "3398.1"
-  ],
+  "verified_over_30m_ids": [],
   "policy": "Geometry conflicts reopen verification and prioritize review; they never verify or move a pin automatically."
 }

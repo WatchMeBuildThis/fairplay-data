@@ -185,6 +185,11 @@ Review policy:
 - When one written constraint conflicts but a second named landmark is within
   30 m, classify the row as a documented-constraint review instead of silently
   rejecting or retaining it. Verification still requires independent evidence.
+- When a unique exact or strong OpenStreetMap vendor identity is within 10 m
+  of an independently verified candidate, preserve it as a secondary identity
+  anchor. This can expose a simplified road-centerline false alarm, but it
+  cannot verify or move a pin and ambiguous or more distant identities do not
+  override the written-location conflict.
 - Unparsed, indoor, multi-location, and zone-only descriptions require a named
   entrance/zone or a dated on-site GPS/photo observation.
 
