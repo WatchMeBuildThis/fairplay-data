@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3077.1",
+    "name": "Poncho Dogs",
+    "booth_location": "South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building",
+    "source_checked_on": "2026-09-03",
+    "old_coordinates": [-93.1728234, 44.979217828],
+    "new_coordinates": [-93.17255507466263, 44.979786557559585],
+    "displacement_m": 66.7,
+    "displacement_ft": 218.7,
+    "official_app_location_id": "779976",
+    "official_app_derived_map_ref": "1468.72-1945.82",
+    "old_point_to_written_location_m": 73.9,
+    "new_point_to_written_location_m": 10.8,
+    "coordinate_status": "approximate",
+    "compass_eligible": false,
+    "method": "exact_vendor_id+official_rendered_pin+official_written_location_geometry",
+    "evidence": "The exact vendor ID links to one hidden official-app location. Its rendered pin is substantially closer to the specific Carnes Avenue corridor and DNR Building description than the prior approximation. It remains approximate because both sources belong to the State Fair publisher group."
+  },
+  {
+    "id": "3109.1",
+    "name": "Pronto Pups",
+    "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway",
+    "source_checked_on": "2026-09-03",
+    "old_coordinates": [-93.169612024359, 44.982657899418],
+    "new_coordinates": [-93.17025286199774, 44.98184694219409],
+    "displacement_m": 103.3,
+    "displacement_ft": 338.9,
+    "official_app_location_id": "779983",
+    "official_app_derived_map_ref": "2029.28-2378.98",
+    "old_point_to_written_location_m": 69.8,
+    "new_point_to_written_location_m": 20.5,
+    "coordinate_status": "approximate",
+    "compass_eligible": false,
+    "method": "exact_vendor_id+official_rendered_pin+official_written_location_geometry",
+    "evidence": "The exact vendor ID links to one hidden official-app location. Its rendered pin is substantially closer to the specific Underwood Street corridor outside Kidway than the prior approximation. It remains approximate because both sources belong to the State Fair publisher group."
+  }
+]

@@ -5140,8 +5140,8 @@
     ],
     "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1710891914",
-      "44.9811663029"
+      "-93.17136",
+      "44.98129"
     ],
     "popupHtml": "<b>Bridge N' Barrel Root Beer</b>\n\t\t<br>North side of Dan Patch Ave. between Nelson &amp; Underwood streets\n",
     "categories": [
@@ -5165,8 +5165,8 @@
       ]
     },
     "map_ref": "1893-2198",
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "1996.1",
@@ -6873,8 +6873,8 @@
     ],
     "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
     "coordinates": [
-      "-93.1721767286",
-      "44.9785426146"
+      "-93.17179",
+      "44.97857"
     ],
     "popupHtml": "<b>Chan's Chicken On A Stick</b>\n\t\t<br>South side of Judson Ave. between Nelson & Underwood streets\n",
     "categories": [
@@ -6928,8 +6928,8 @@
     "notes": [
       "Value Item (egg rolls)"
     ],
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "9238.1",
@@ -28762,8 +28762,8 @@
     ],
     "booth_location": "South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building",
     "coordinates": [
-      "-93.1728234",
-      "44.979217828"
+      "-93.17255507466263",
+      "44.979786557559585"
     ],
     "popupHtml": "<b>Poncho Dogs</b>\n\t\t<br>South side of Carnes Ave. between Clough & Nelson streets, in front of the DNR Building\n",
     "categories": [
@@ -29587,8 +29587,8 @@
     ],
     "booth_location": "East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway",
     "coordinates": [
-      "-93.169612024359",
-      "44.982657899418"
+      "-93.17025286199774",
+      "44.98184694219409"
     ],
     "popupHtml": "<b>Pronto Pups</b>\n\t\t<br>East side of Underwood St. between Wright & Dan Patch avenues, outside Kidway\n",
     "categories": [

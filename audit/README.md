@@ -65,6 +65,52 @@ python3 Scripts/enrich_vendor_geography_status.py vendors.json \
 App versions that support these fields must use `compass_eligible`, not the
 mere presence of a coordinate, for compass and walking-directions features.
 
+## Official rendered-pin comparison
+
+The official vendor pages contain both a GeoJSON Point and a `mapRef`. The
+State Fair's current map JavaScript gives `mapRef` precedence, interpreting it
+as a y-x pixel reference on the 2026 map and converting the user's GPS position
+into that same map space. Therefore the GeoJSON Point is not necessarily the
+pin a visitor sees in the official finder.
+
+Build a cached, advisory comparison against the officially rendered pins:
+
+```bash
+python3 Scripts/audit_official_map_refs.py vendors.json \
+  --cache-dir audit/cache/official-vendor-pages-2026 \
+  --output audit/official-map-ref-comparison-2026.csv
+```
+
+The script selects only a feature whose `properties.id` exactly matches the
+vendor ID. It never edits `vendors.json`; review high-distance rows alongside
+the written directions and independent evidence before changing a live pin.
+The fair website, official map, GeoJSON, `mapRef`, PDF, and official app remain
+one publisher group and do not independently verify one another.
+
+The Grandstand-powered official app also exposes a much more efficient bulk
+source. Its master manifest points to versioned vendor and location snapshots;
+the 2026 Food group links all 278 records to exact `mnstatefair.org` vendor IDs.
+Grandstand's `left2`/`top2` percentages normalize to the same positions as the
+website's `mapRef`, avoiding hundreds of rate-limited detail-page requests.
+
+Fetch the current manifest-selected snapshots and compare them with:
+
+```bash
+python3 Scripts/audit_official_app_snapshot.py vendors.json \
+  --manifest-url \
+  --cache-dir audit/cache/official-app-2026 \
+  --output audit/official-app-pin-comparison-2026.csv \
+  --summary-output audit/official-app-pin-summary-2026.json
+```
+
+For a fully offline/reproducible rerun, replace `--manifest-url` and
+`--cache-dir` with `--official-vendors` and `--official-locations` paths to the
+cached versioned snapshots.
+
+Treat this as the preferred official bulk candidate source. Preserve field or
+independently verified overrides, and never replace all live coordinates from
+the official snapshot without reviewing the ranked conflicts.
+
 ## Current App Store client and complete-pin release gate
 
 The currently released client does not yet enforce `compass_eligible`. Every

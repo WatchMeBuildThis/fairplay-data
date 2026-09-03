@@ -17,13 +17,21 @@ class CompleteLivePinReleaseTests(unittest.TestCase):
             changes = temporary / "changes.json"
             summary = temporary / "summary.json"
             live = ROOT / "archive/vendors-2026-08-29-before-complete-pin-repair.json"
+            historical_verifications = temporary / "location-verifications-2026-08-29.json"
+            verification_config = json.loads((ROOT / "location_verifications.json").read_text())
+            verification_config["vendors"] = {
+                vendor_id: verification
+                for vendor_id, verification in verification_config["vendors"].items()
+                if str(verification.get("verified_on") or "") <= "2026-08-29"
+            }
+            historical_verifications.write_text(json.dumps(verification_config))
             subprocess.run(
                 [
                     sys.executable,
                     str(ROOT / "Scripts/build_complete_live_pin_feed.py"),
                     "--source", str(live),
                     "--publish-base", str(live),
-                    "--verifications", str(ROOT / "location_verifications.json"),
+                    "--verifications", str(historical_verifications),
                     "--geometry", str(ROOT / "audit/vendor-written-location-geometry-source-2026-08-29.csv"),
                     "--osm", str(ROOT / "audit/osm-fairgrounds-full-geometry-2026-08-28.json"),
                     "--bundled-fallback", str(ROOT / "audit/vendor-bundled-zone-fallbacks-2026-08-29.json"),

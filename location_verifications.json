@@ -1089,6 +1089,48 @@
           "url": "https://www.google.com/maps/search/?api=1&query=44.9781951,-93.1745529"
         }
       ]
+    },
+    "5733.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.17136, 44.98129],
+      "tolerance_m": 15,
+      "verified_on": "2026-09-03",
+      "method": "A dated on-site field observation identified the specific Bridge N' Barrel Root Beer booth on the north side of Dan Patch Avenue between Nelson and Underwood and recorded 44.98129 N, 93.17136 W in Apple Maps at 5:29 p.m. The field point is 12.4 m (40.8 ft) from the exact-ID pin rendered by the official fair app and agrees with the fair's written location. It replaces the published approximate point 25.4 m (83.2 ft) away. The scraper's original source coordinate belonged to vendor 5733.2 because that feature appeared first in the page's GeoJSON array; it was 255.8 m (839.1 ft) from the field observation.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions_and_exact_id_map_feature",
+          "url": "https://www.mnstatefair.org/vendor/5733.1/"
+        },
+        {
+          "publisher_group": "on_site_field_observer",
+          "kind": "dated_gps_and_app_distance_screenshots",
+          "observed_at": "2026-09-03T17:29:00-05:00",
+          "coordinate_display": "44.98129 N, 93.17136 W"
+        }
+      ]
+    },
+    "2065.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.17179, 44.97857],
+      "tolerance_m": 15,
+      "verified_on": "2026-09-03",
+      "method": "A dated on-site field observation identified Chan's Chicken On A Stick on the south side of Judson Avenue between Nelson and Underwood and recorded 44.97857 N, 93.17179 W in Apple Maps at 6:06 p.m. The observation replaces the published street-segment approximation 30.6 m (100.3 ft) to the west. The exact-ID GeoJSON Point on the vendor page is 104.5 m (343.0 ft) from the field point, but the hidden pin actually rendered by the official fair app is only 13.0 m (42.7 ft) away and agrees with the written Judson Avenue location.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions_conflicting_geojson_and_consistent_rendered_pin",
+          "url": "https://www.mnstatefair.org/vendor/2065.1/"
+        },
+        {
+          "publisher_group": "on_site_field_observer",
+          "kind": "dated_gps_and_app_distance_screenshots",
+          "observed_at": "2026-09-03T18:06:00-05:00",
+          "coordinate_display": "44.97857 N, 93.17179 W"
+        }
+      ]
     }
   }
 }

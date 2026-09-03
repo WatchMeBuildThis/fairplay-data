@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5733.1",
+    "name": "Bridge N' Barrel Root Beer",
+    "booth_location": "North side of Dan Patch Ave. between Nelson & Underwood streets",
+    "observed_on": "2026-09-03",
+    "old_coordinates": [-93.1710891914, 44.9811663029],
+    "new_coordinates": [-93.17136, 44.98129],
+    "displacement_m": 25.4,
+    "displacement_ft": 83.2,
+    "current_official_exact_id_geojson_coordinates": [-93.17121365, 44.981330460432],
+    "current_official_rendered_pin_coordinates": [-93.17121276168957, 44.98133105791853],
+    "current_official_rendered_pin_to_field_m": 12.4,
+    "current_official_rendered_pin_to_field_ft": 40.8,
+    "scraper_first_feature_id": "5733.2",
+    "scraper_first_feature_coordinates": [-93.171669247436, 44.97900038123],
+    "scraper_first_feature_to_field_m": 255.8,
+    "scraper_first_feature_to_field_ft": 839.1,
+    "method": "on_site_field_gps+official_written_location+current_official_exact_id_rendered_pin",
+    "evidence": "On-site Apple Maps coordinate and FairPlay distance screenshots at 5:29 p.m.; field observer identified this specific north-Dan-Patch record. The official page GeoJSON contains 5733.2 first and 5733.1 second, explaining the original coordinate misassignment."
+  },
+  {
+    "id": "2065.1",
+    "name": "Chan's Chicken On A Stick",
+    "booth_location": "South side of Judson Ave. between Nelson & Underwood streets",
+    "observed_on": "2026-09-03",
+    "old_coordinates": [-93.1721767286, 44.9785426146],
+    "new_coordinates": [-93.17179, 44.97857],
+    "displacement_m": 30.6,
+    "displacement_ft": 100.3,
+    "app_displayed_distance_ft": 140,
+    "apple_maps_marked_location_distance_ft": 30,
+    "current_official_exact_id_geojson_coordinates": [-93.172807362179, 44.979175037267],
+    "current_official_exact_id_geojson_to_field_m": 104.5,
+    "current_official_exact_id_geojson_to_field_ft": 343.0,
+    "current_official_rendered_pin_coordinates": [-93.17181950203603, 44.97845475172585],
+    "current_official_rendered_pin_to_field_m": 13.0,
+    "current_official_rendered_pin_to_field_ft": 42.7,
+    "method": "on_site_field_gps+official_written_location; replaces written_street_segment_projection",
+    "evidence": "On-site Apple Maps coordinate and FairPlay distance screenshots at 6:06 p.m.; the public exact-ID GeoJSON Point conflicts with the field point and written Judson Avenue location, while the hidden pin rendered by the official fair app agrees within 13.0 m."
+  }
+]
