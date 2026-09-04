@@ -19577,8 +19577,8 @@
     ],
     "booth_location": "East side of Cosgrove St. between the Fine Arts Center & 4-H Building",
     "coordinates": [
-      "-93.16738162",
-      "44.98408535"
+      "-93.16781710843611",
+      "44.98377317121804"
     ],
     "popupHtml": "<b>Kiwanis Malts</b>\n\t\t<br>East side of Cosgrove St. between the Fine Arts Center & 4-H Building\n",
     "categories": [
@@ -19599,8 +19599,8 @@
       "cash"
     ],
     "hours": "Open 9 a.m. to 9 p.m. (8 p.m. Labor Day)",
-    "coordinate_status": "approximate",
-    "compass_eligible": false
+    "coordinate_status": "verified",
+    "compass_eligible": true
   },
   {
     "id": "3699.1",

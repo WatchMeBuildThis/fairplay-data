@@ -34,5 +34,25 @@
     "compass_eligible": false,
     "method": "exact_vendor_id+official_rendered_pin+official_written_location_geometry",
     "evidence": "The exact vendor ID links to one hidden official-app location. Its rendered pin is substantially closer to the specific Underwood Street corridor outside Kidway than the prior approximation. It remains approximate because both sources belong to the State Fair publisher group."
+  },
+  {
+    "id": "11408.1",
+    "name": "Kiwanis Malts",
+    "booth_location": "East side of Cosgrove St. between the Fine Arts Center & 4-H Building",
+    "source_checked_on": "2026-09-03",
+    "old_coordinates": [-93.16738162, 44.98408535],
+    "new_coordinates": [-93.16781710843611, 44.98377317121804],
+    "displacement_m": 48.8,
+    "displacement_ft": 160.0,
+    "official_app_location_id": "780410",
+    "official_app_derived_map_ref": "2520.76-2811.46",
+    "openstreetmap_way_id": "773881582",
+    "old_point_to_named_structure_m": 33.6,
+    "new_point_to_named_structure_m": 6.7,
+    "new_point_to_written_location_m": 14.1,
+    "coordinate_status": "verified",
+    "compass_eligible": true,
+    "method": "exact_vendor_id+official_rendered_pin+independent_named_permanent_structure+written_location_geometry",
+    "evidence": "The exact-ID official pin lands within 6.7 m of the independently mapped Kiwanis Malts permanent structure at 1434 Cosgrove Street. A separate 2026 fairgrounds concession map also identifies Kiwanis Malts as a permanent stand. The replacement agrees with the official Cosgrove/Fine Arts/4-H description and moves the pin 48.8 m from the prior Fine Arts-area approximation."
   }
 ]

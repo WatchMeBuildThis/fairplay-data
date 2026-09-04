@@ -1131,6 +1131,33 @@
           "coordinate_display": "44.97857 N, 93.17179 W"
         }
       ]
+    },
+    "11408.1": {
+      "status": "verified",
+      "confidence": "high",
+      "coordinates": [-93.16781710843611, 44.98377317121804],
+      "tolerance_m": 15,
+      "verified_on": "2026-09-03",
+      "method": "The exact-ID pin rendered by the 2026 official fair app is 6.7 m from the independently mapped OpenStreetMap footprint for the permanent Kiwanis Malts structure at 1434 Cosgrove Street. It also agrees with the fair's description placing the booth on the east side of Cosgrove between the Fine Arts Center and 4-H Building. The prior point was 48.8 m (160.0 ft) away from the rendered pin and 33.6 m from the named permanent structure.",
+      "sources": [
+        {
+          "publisher_group": "mnstatefair",
+          "kind": "official_directions_and_exact_id_rendered_pin",
+          "url": "https://www.mnstatefair.org/vendor/11408.1/",
+          "official_app_location_id": "780410"
+        },
+        {
+          "publisher_group": "openstreetmap",
+          "kind": "independent_named_permanent_structure",
+          "url": "https://www.openstreetmap.org/way/773881582",
+          "address": "1434 Cosgrove Street, Falcon Heights, MN 55113"
+        },
+        {
+          "publisher_group": "minnesota_street_rod_association",
+          "kind": "independent_2026_fairgrounds_concession_map_permanent_stand",
+          "url": "https://msrabacktothe50s.com/wp-content/uploads/2026/06/2026-msra-btt50s-concessions.pdf"
+        }
+      ]
     }
   }
 }
